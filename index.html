@@ -1,12 +1,17 @@
 ---
-title: FOO
+title: Dokumentacja Weles3
 ---
-<html>
-    <head>
-        <title>{{ page.title }}</title>
-    </head>
-    <body>
-        Foo
-        ala ma kota
-    </body>
-</html>
+<ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}    
+  </ul>
+
+  {% for c in site.categories %}
+  <div>
+      {{ c[0] }}
+  </div>
+  {% endfor %}    
+

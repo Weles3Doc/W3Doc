@@ -1,1 +1,12 @@
-title: Test
+title: Dokumentacja Weles3
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+theme: null
+permalink: none
+  
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
