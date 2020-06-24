@@ -7,4 +7,6 @@ sdfasdf
 - asdf asdf
 - asdfasdfsadf
 
+Ala makota!!
+
 ![dodawanie administratora](dodawanie-administratora.gif)
