@@ -6,7 +6,7 @@
         {
             "label": "Serve",
             "type": "shell",
-            "command": "bundle exec jekyll serve",
+            "command": "bundle exec jekyll serve --config _config-devel.yml",
             "isBackground": true,
             "problemMatcher": [],
             "group": {
