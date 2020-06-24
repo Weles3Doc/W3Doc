@@ -10,4 +10,3 @@ defaults:
       path: ""
     values:
       layout: default
-      prefix: /W3Doc

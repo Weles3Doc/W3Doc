@@ -1,0 +1,3 @@
+- [Instalacja](https://github.com/Weles3Doc/W3Doc/wiki/Instalacja)
+- [Praca](https://github.com/Weles3Doc/W3Doc/wiki/Praca)
+- [Strona](https://weles3doc.github.io/W3Doc/)
