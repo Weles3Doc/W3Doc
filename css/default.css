@@ -39,3 +39,7 @@
 .doc-logo {
     height: 1em;
 }
+
+.doc-content * {
+    max-width: 100%;
+}
