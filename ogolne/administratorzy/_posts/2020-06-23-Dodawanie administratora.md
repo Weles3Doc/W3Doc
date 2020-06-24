@@ -7,4 +7,5 @@ sdfasdf
 - asdf asdf
 - asdfasdfsadf
 
+
 ![dodawanie administratora](dodawanie-administratora.gif)
