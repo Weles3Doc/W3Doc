@@ -22,11 +22,11 @@ Opcja ta jest dostępna w każdej z zakładek systemu. Po przełączeniu w tryb 
 
 Aby zakończyć pracę w trybie testowym, wystarczy zamknąć kartę przeglądarki, w której znajduje się baza testowa.
 
-## Uwagi:
+### Uwagi:
 
-Zmian wprowadzonych w bazie testowej nie przenosimy do bazy głównej (produkcyjnej).
-Aby móc skorzystać z bazy testowej należy uprzednio choć raz kiedykolwiek wykonać jej kopię.
-Baza testowa nie aktualizuje się samodzielnie. Aby móc przeprowadzać testy na aktualnym stanie bazy głównej należy ponownie wykonać jej kopię.
-Na Państwa dyspozycję możemy tymczasowo zablokować wykonywanie kopii bazy testowej. Dzięki temu możliwe będzie przeprowadzenie złożonych testów bez ryzyka nadpisania Państwa bazy przez innych administratorów.
-Baza testowa jest w pełni funkcjonalna jak baza główna (za wyjątkiem: wysyłek / forum / ustawień uprawnień).
-W trybie testowym bazy system wyświetla w lewym, górnym rogu czerwoną etykietę WERSJA TESTOWA.
+- Zmian wprowadzonych w bazie testowej nie przenosimy do bazy głównej (produkcyjnej).
+- Aby móc skorzystać z bazy testowej należy uprzednio choć raz kiedykolwiek wykonać jej kopię.
+- Baza testowa nie aktualizuje się samodzielnie. Aby móc przeprowadzać testy na aktualnym stanie bazy głównej należy ponownie wykonać jej kopię.
+- Na Państwa dyspozycję możemy tymczasowo zablokować wykonywanie kopii bazy testowej. Dzięki temu możliwe będzie przeprowadzenie złożonych testów bez ryzyka nadpisania Państwa bazy przez innych administratorów.
+- Baza testowa jest w pełni funkcjonalna jak baza główna (z wyjątkiem: wysyłek / forum / ustawień uprawnień).
+- W trybie testowym bazy system wyświetla w lewym, górnym rogu czerwoną etykietę WERSJA TESTOWA.
