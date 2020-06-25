@@ -43,3 +43,9 @@
 .doc-content * {
     max-width: 100%;
 }
+
+#search_result {
+    border-radius: .25em;
+    box-shadow: 0.2em 0.2em 0.4em lightgrey;
+    border: 1px solid gray;
+}
