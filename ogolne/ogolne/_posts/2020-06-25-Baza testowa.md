@@ -16,7 +16,7 @@ W celu przełączenia się w tryb testowy należy przejść do:
 
 Opcja ta jest dostępna w każdej z zakładek systemu. Po przełączeniu w tryb testowy system otworzy nową zakładkę. Przebywanie w trybie testowym jest oznaczone czerwoną etykietą WERSJA TESTOWA.
 
-![Dodawanie użytkownika](przelaczenie-test.gif)
+![Przejście do wersji testowej](przelaczenie-test.gif)
 
 # Zakończenie pracy w trybie testowym bazy
 
