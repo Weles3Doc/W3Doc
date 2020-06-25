@@ -20,9 +20,11 @@ layout: null
             ,
         {%- endif -%}
     "{{ c[0] }}": {
+        {%- assign topn = false -%}
         {%- for n in site.data.cat -%}
             {%- if n[0] == c[0] -%}
-                "n": "{{ n[1] }}",
+                {%- assign topn = true -%}
+        "n": "{{ n[1] }}"
             {% endif %}
         {%- endfor -%}
         {%- assign innerstart = true -%}
@@ -38,14 +40,19 @@ layout: null
             {%- if isinner -%}
                 {%- if innerstart -%}
                     {%- assign innerstart = false -%}
-                "i": {
+                    {%- if topn -%}
+                    ,
+                    {%- endif -%}
+        "i": {
                 {%- else -%}
                     ,
                 {%- endif -%}
             "{{ ci[0] }}": {
+                {%- assign innern = false -%}
                 {%- for n in site.data.cat -%}
                     {%- if n[0] == ci[0] -%}
-                "n": "{{ n[1] }}",
+                        {%- assign innern = true -%}   
+                "n": "{{ n[1] }}"
                     {% endif %}
                 {%- endfor -%}
     
@@ -54,11 +61,14 @@ layout: null
                     {%- if pi.categories[0] == c[0] and pi.categories[1] == ci[0] -%}
                         {%- if liststart -%}
                             {%- assign liststart = false -%}
+                            {%- if innern -%}
+                            ,
+                            {%- endif -%}
                 "i": [
                         {%- else -%}
                             ,
                         {%- endif -%}
-                            {
+                    {
                         "t": "{{ pi.title }}",
                         "u": "{{ pi.url}}"                        
                     }
@@ -66,14 +76,14 @@ layout: null
                     {%- unless liststart -%}
                 ]
                     {%- endunless -%}
-                {%- endfor -%}    
+                {%- endfor -%} 
+            }  
         
-                }
-                {%- unless innerstart -%}
-                }
-                {%- endunless -%}
             {%- endif -%}
         {%- endfor -%}
+        {%- unless innerstart -%}
+        }
+        {%- endunless -%}
 
     }
     {%- endif -%}

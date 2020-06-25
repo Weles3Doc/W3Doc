@@ -24,11 +24,15 @@
             </a>
     
             <form class="form-inline mb-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Szukaj">
+                <input class="form-control mr-sm-2" type="search" placeholder="Szukaj" id="search" disabled>
             </form>    
         </nav>
     
         <div class="container">
+            <div class="row">
+                <div class="col-12 mb-2 d-none" id="search_result">
+                </div>
+            </div>
             <div class="row">
                 <div class="col-12 doc-content">
                     {{ content }}
@@ -37,5 +41,6 @@
         </div>
         <script src="{{ site.baseurl }}/js/jquery.js"></script>
         <script src="{{ site.baseurl }}/js/bootstrap.js"></script>    
+        <script src="{{ site.baseurl }}/js/search.js"></script>
     </body>
 </html>
