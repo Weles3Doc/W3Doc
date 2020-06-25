@@ -1,0 +1,82 @@
+---
+layout: null
+---
+{
+
+{%- assign topstart = true -%}
+{%- for c in site.categories -%}
+    {%- assign istop = false -%}
+    {%- for p in c[1] -%}
+        {%- if p.categories[0] == c[0] -%}
+            {%- assign istop = true -%}
+            {%- break -%}
+        {%- endif -%}
+    {%- endfor -%}    
+
+    {%- if istop -%}
+        {%- if topstart -%}
+            {%- assign topstart = true -%}
+        {%- else -%}
+            ,
+        {%- endif -%}
+    "{{ c[0] }}": {
+        {%- for n in site.data.cat -%}
+            {%- if n[0] == c[0] -%}
+                "n": "{{ n[1] }}",
+            {% endif %}
+        {%- endfor -%}
+        {%- assign innerstart = true -%}
+        {%- for ci in site.categories -%}
+            {%- assign isinner = false -%}
+            {%- for pi in ci[1] -%}
+                {%- if pi.categories[0] == c[0] and pi.categories[1] == ci[0] -%}
+                    {%- assign isinner = true -%}
+                    {%- break -%}
+                {%- endif -%}
+            {%- endfor -%}    
+        
+            {%- if isinner -%}
+                {%- if innerstart -%}
+                    {%- assign innerstart = false -%}
+                "i": {
+                {%- else -%}
+                    ,
+                {%- endif -%}
+            "{{ ci[0] }}": {
+                {%- for n in site.data.cat -%}
+                    {%- if n[0] == ci[0] -%}
+                "n": "{{ n[1] }}",
+                    {% endif %}
+                {%- endfor -%}
+    
+                {%- assign liststart = true -%}
+                {%- for pi in ci[1] -%}
+                    {%- if pi.categories[0] == c[0] and pi.categories[1] == ci[0] -%}
+                        {%- if liststart -%}
+                            {%- assign liststart = false -%}
+                "i": [
+                        {%- else -%}
+                            ,
+                        {%- endif -%}
+                            {
+                        "t": "{{ pi.title }}",
+                        "u": "{{ pi.url}}"                        
+                    }
+                    {%- endif -%}
+                    {%- unless liststart -%}
+                ]
+                    {%- endunless -%}
+                {%- endfor -%}    
+        
+                }
+                {%- unless innerstart -%}
+                }
+                {%- endunless -%}
+            {%- endif -%}
+        {%- endfor -%}
+
+    }
+    {%- endif -%}
+{%- endfor -%}
+
+}
