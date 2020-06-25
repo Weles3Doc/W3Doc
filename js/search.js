@@ -55,7 +55,7 @@ if (sel && res) {
                 for (var m = 0; m < matches.length; m++) {
                     var del = document.createElement("div");
                     var ael = document.createElement("a");
-                    ael.href = matches[m].u;
+                    ael.href = "{{ site.baseurl }}" + matches[m].u;
                     for (var i = 0; i < 3; i++) {
                         var ptr = 0;
                         if (i) {
