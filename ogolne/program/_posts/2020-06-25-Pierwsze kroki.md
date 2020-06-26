@@ -20,8 +20,8 @@ Dostęp do systemu przez przeglądarkę ma także właściciel lokalu, bez potrz
 
 Z programu generujemy dokumenty w formacie PDF dobrze. Jeśli na komputerze, na którym pracujemy, jest zainstalowana przeglądarka plików PDF. Wśród popularnych i polecanych programów możemy wymienić:
 
-- Adobe Reader
-- Foxit Reader
+- [Adobe Reader](https://get.adobe.com/pl/reader/)
+- [Foxit Reader](https://www.foxitsoftware.com/pdf-reader/)
 
 ![Otwieranie programu](pierwszekroki3.gif)
 
@@ -29,8 +29,8 @@ Z programu generujemy dokumenty w formacie PDF dobrze. Jeśli na komputerze, na 
 
 Z programu można także pobrać dokumenty i zestawienia tabelaryczne w formacie CSV, które następnie można otworzyć w programie do arkuszy i poddać dalszej obróbce. Wśród popularnych i polecanych pakietów biurowych możemy wymienić:
 
-- LibreOffice (darmowy)
-- Microsoft Office
+- [LibreOffice (darmowy)](https://pl.libreoffice.org/)
+- [Microsoft Office](https://www.office.com/)
 
 ![Otwieranie programu](pierwszekroki4.gif)
 
