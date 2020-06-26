@@ -1,9 +1,9 @@
 # Wydruk zaliczki
 
-Aby utworzyć wydruk zaksięgowanej zaliczki wraz z wykazem do zapłaty, tekstem oraz stanem rozrachunków, należy:
+Aby utworzyć wydruk zaksięgowanej zaliczki wraz z wykazem do zapłaty, tekstem oraz stanem rozrachunków, należy przejść do:
 
-- Przejść do okna wydruków np. zakładka Administracja->menu Funkcje.
-- Wybrać żądanego właściciela.
+- Zakładka Administracja > menu Funkcje > Wydruki.
+- Wybrać wszystkich lub pożądanego właściciela.
 - Wybrać naliczenie, któremu generujemy wydruk.
 - Dodać wydruk Dokument.
 - Dodać wydruk Tekst (wraz ze wpisaniem treści).
