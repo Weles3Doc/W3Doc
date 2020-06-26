@@ -6,8 +6,7 @@ System WELES 3 jest aplikacją internetową, co oznacza, że nie ma potrzeby ins
 - [Google Chrome](https://www.google.com/intl/pl_pl/chrome/)
 - [Microsoft Edge](https://www.microsoft.com/pl-pl/edge)
 
-![Otwieranie programu](pierwszekrotki1.gif)
-
+![Otwieranie programu](pierwszekroki1.gif)
 
 # Urządzenia mobilne
 
