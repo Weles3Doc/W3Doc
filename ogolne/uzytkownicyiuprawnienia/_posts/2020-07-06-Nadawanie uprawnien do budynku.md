@@ -1,0 +1,2 @@
+# Nadawanie uprawnień do budynku
+
