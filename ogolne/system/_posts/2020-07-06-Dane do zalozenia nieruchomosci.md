@@ -22,4 +22,4 @@ W arkuszu warto, jest też odpowiedzieć na pytania:
 - Od jakiej daty będą robione księgowania w systemie?
 - Od jakiej daty będą rozliczane liczniki? (WAŻNE)
 
-Jako podstawę mogą Państwo wykorzystać [Arkusz z przykładowymi danymi.](https://docs.google.com/spreadsheets/d/13BpnUOk8q11rsomCo8Ljx_FuZHZszdB0mu4cmAG6_lg)
+Jako podstawę mogą Państwo wykorzystać [»arkusz z przykładowymi danymi.«](https://docs.google.com/spreadsheets/d/13BpnUOk8q11rsomCo8Ljx_FuZHZszdB0mu4cmAG6_lg)
