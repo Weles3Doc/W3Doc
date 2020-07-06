@@ -25,7 +25,7 @@ Etykiety dodajemy raz, są dostępne we wszystkich nieruchomościach.
 ![Zgłoszenia](zgloszenia2.gif)
 
 
-### Reakcja na zgłoszenie od właściciela. 
+### Reakcja na zgłoszenie od właściciela
 
 Jeśli otrzymamy nowe zgłoszenie to tytuł zakładki Zgłoszenia, zostanie pogrubiony i pojawi się w nim liczba nowych zgłoszeń. Aby odpowiedzieć na zgłoszenie, przechodzimy do:
 
@@ -49,7 +49,7 @@ Przechodzimy do przycisku Podgląd — sprawdzamy stan zgłoszenia. Powinno się
 
 ![Zgłoszenia](zgloszenia3.gif)
 
-### Dodanie zgłoszenia przez administratora. 
+### Dodanie zgłoszenia przez administratora
 
 Może się zdarzyć, że administracja otrzyma telefon od właściciela z usterką, wtedy zgłoszenie trzeba wprowadzić samodzielnie i przydzielić osoby odpowiedzialne za realizację zadania. Aby to zrobić, należy przejść do:
 
@@ -72,7 +72,7 @@ Przechodzimy do przycisku Podgląd — sprawdzamy stan zgłoszenia. Powinno się
 
 ![Zgłoszenia](zgloszenia4.gif)
 
-### Zakończenie zgłoszenia. 
+### Zakończenie zgłoszenia
 
 Po wykonaniu zadania można poinformować o tym uczestników i przenieść zgłoszenie do zadań zrealizowanych lub archiwum. Aby to zrobić, należy przejść do:
 
