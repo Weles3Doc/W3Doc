@@ -38,4 +38,4 @@ W polu Materiał można pobrać plik, klikając na ikonkę obok nazwy.
 ### Uwagi:
 
 - Maksymalny rozmiar załącznika to 25 MB.
-- Typ pliku — prosimy używać P D F lub DOC.
+- Typ pliku — prosimy używać pd f lub DOC.
