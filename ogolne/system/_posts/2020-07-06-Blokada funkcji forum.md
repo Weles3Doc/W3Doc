@@ -1,6 +1,6 @@
-# Dane adresowe wspólnoty
+# Blokada funkcji forum
 
-W celu edycji danych adresowych budynku należy przejść do:
+Właścicielom można zablokować funkcję forum w podglądzie internetowym, aby to zrobić należny przejść do:
 
 - Zakładka Zasoby > menu Zasoby > Edytuj zasoby.
 - Pole Wspólnota > wybrać pożądaną nieruchomość.
@@ -11,12 +11,9 @@ W celu edycji danych adresowych budynku należy przejść do:
 - Pole NIP > wpisać NIP, ew. pozostawić bez zmian.
 - Pole Informacje > wpisać dowolny tekst, może pozostać puste.
 - Pole Data > pozostawiamy bez zmian.
-- Pole Opcje > pozostawiamy bez zmian.
+- Pole Opcje > zaznaczamy dodatkową opcję **Blokada funkcji forum**.
 - Klikamy: Zapisz.
 
-![Dane budynku](danebudynku.gif)
+Od tego momentu właściciele nie widzą forum. Dostęp można w każdej chwili przywrócić, wykonując powyższe czynności jeszcze raz.
 
-### Uwagi:
-
-- Nazwa budynku musi być unikalna.
-- W adresie budynku można dodać dane administracji — będą się drukowały na każdym dokumencie.
+![Blokada forum](blokadaforum.gif)
