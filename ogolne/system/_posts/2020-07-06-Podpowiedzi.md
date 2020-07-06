@@ -9,4 +9,4 @@ Narzędzie odpowiedzi służy do definiowania tekstu dla niektórych pól w okna
 - Kliknąć: Dodaj.
 - Wpisać hasło i zatwierdzić.
 
-![Podpowiedzi](podpowiedzi.gif)
+![Podpowiedzi](podpowiedzi1.gif)
