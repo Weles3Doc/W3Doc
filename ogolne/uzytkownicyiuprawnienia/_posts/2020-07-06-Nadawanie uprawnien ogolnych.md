@@ -12,6 +12,6 @@ Aby nadać lub odebrać użytkownikowi uprawnienia ogólne, należy przejść do
 - Wpisujemy hasło.
 - Klikamy: Zapisz.
 
-Uprawnienia są zmieniane natychmiastowo. Użytkownik na swoim urządzeniu musi odświeżyć program przez menu funkcje > Odśwież. (Lub Ctrl + F 5)
+Uprawnienia są zmieniane natychmiastowo. Użytkownik na swoim urządzeniu musi odświeżyć program przez menu Funkcje > Odśwież. (Lub Ctrl + F 5)
 
 ![Uprawnienia ogólne](uprawnieniaogolne.gif)
