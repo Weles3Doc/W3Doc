@@ -18,9 +18,9 @@ Nie zamykamy okna, trzeba jeszcze nadać uprawnienia do budynku.
 - W otwartym oknie przechodzimy do zakładki Uprawnienia.
 - Klikamy: Edycja.
 - Pole Administratorzy > wybieramy nowo dodane konto członka zarządu. (można wybrać kilka).
-- Pole Wspólnota > wybieramy budynek, do której wybrany użytkownik ma mieć podgląd
+- Pole Wspólnota > wybieramy budynek, do której wybrany użytkownik ma mieć podgląd.
 - Pole Dostęp > wybieramy **Dostępny**.
-- Pole Uprawnienia > **nie nadajemy żadnych uprawnień (WAŻNE!)**
+- Pole Uprawnienia > **nie nadajemy żadnych uprawnień (WAŻNE!).**
 - Wpisujemy hasło.
 - Klikamy: Zapisz.
 
