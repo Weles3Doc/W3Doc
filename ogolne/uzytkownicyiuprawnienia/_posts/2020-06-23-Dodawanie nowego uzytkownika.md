@@ -9,7 +9,7 @@ Dodanie nowego użytkownika systemu rozpoczynamy od przejścia do:
 - Pole Hasło > podajemy hasło tymczasowe dla użytkownika.
 - Pole Uprawnienia > przypisujemy użytkownikowi dostęp do funkcji systemu.
 - Wpisujemy hasło.
-- Klikamy: Utwórz.
+- Klikamy: Zapisz.
 
 Po dodaniu nowego użytkownika trzeba jeszcze dodać uprawnienia do poszczególnych budynków w systemie.
 
