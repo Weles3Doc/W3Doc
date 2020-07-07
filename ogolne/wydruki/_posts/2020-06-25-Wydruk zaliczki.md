@@ -12,3 +12,7 @@ Aby utworzyć wydruk zaksięgowanej zaliczki wraz z wykazem do zapłaty, tekstem
 - Kliknąć przycisk Podgląd do wydruku, aby otrzymać wydruk.
 
 ![Wydruk zaliczki](wydrukzaliczki.gif)
+
+[Poniżej przykład](zaliczka.pdf)
+
+![Wydruk zaliczki](zaliczka1.png)
