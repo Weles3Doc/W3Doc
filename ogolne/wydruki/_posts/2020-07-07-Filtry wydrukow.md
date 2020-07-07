@@ -51,7 +51,6 @@ Filtr ten pozwala wygenerować wydruki tylko dla tych osób, dla których zostan
 
 ![Filtry wydruków](filtr5.png)
 
-
 Tworząc dokument, można uzależnić wydruk od tego, czy inne wydruki mają do przedstawienia jakiekolwiek informacje. Ustawiamy to za pomocą ikon wskazanych po lewej:
 
 - (i) - domyślny — oznacza wydruk główny, wydrukuje się zawsze, jeśli warunki ustawione w opcjach wydruku zostaną spełnione dla właściciela.
