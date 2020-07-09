@@ -1,4 +1,4 @@
-# Wysyłka e-mail - przypisanie konta do nieruchomości
+# Wysyłka e-mail — przypisanie konta
 
 Po dodaniu konta pocztowego trzeba je przypisać do nieruchomości. Aby to zrobić, należy przejść do:
 

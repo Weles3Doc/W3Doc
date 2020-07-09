@@ -1,4 +1,4 @@
-# Dodanie konta do wysyłki Envelo
+# Wysyłka Envelo — dodanie konta
 
 Program Weles daje możliwość integracji z Envelo (Internetową platformą Poczty Polskiej do wysyłki listów). Przekierowany dokument do Envelo zostanie wydrukowany, zakopertowany i wysłany pod wskazany adres bez Państwa udziału. Pierwszym krokiem jest dodanie konta w systemie. Gdy otrzymamy dane dostępowe od Envelo, można wprowadzić je do systemu wg poniższej procedury:
 
