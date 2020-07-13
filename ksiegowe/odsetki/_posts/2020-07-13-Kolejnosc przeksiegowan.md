@@ -2,7 +2,7 @@
 
 Przed przystąpieniem do przeksięgowań trzeba określić kolejność pokrywania kont rozrachunkowych. Aby to zrobić, należy przejść do:
 
-- ZakładkaDekrety > menu Elementy > Kolejność przeksięgowań podkont.
+- Zakładka Dekrety > menu Elementy > Kolejność przeksięgowań podkont.
 - Pole Podkonto > wybieramy konto rozrachunkowe właścicieli.
 - Pole LP > nadajemy mu cyfrę, która określa kolejność pokrywania podkonta podczas przeksięgowań. Im mniejszy numer, tym większy priorytet uzyskuje podkonto.
 - Klikamy: Dodaj.
