@@ -15,7 +15,7 @@ Po uruchomieniu usługi, płatność od strony podglądu właściciela wygląda 
   - Dowolna — aby określić kwotę do wpłaty samodzielnie.
 - Właściciel deklaruje, że zapoznał się z regulaminem płatności i akceptuje go.
 - Klika: Zapłać przez dotpay.
-- Właściciel zostanie przekierowany na stronę dotpay.pl.
+- Właściciel zostanie przekierowany na stronę dotpay.
 - Sprawdza Odbiorcę płatności, Opis i Kwotę.
 - Następnie wybiera dogodną metodę płatności i postępuje zgodnie z dalszymi instrukcjami na stronie Dotpay.
 
