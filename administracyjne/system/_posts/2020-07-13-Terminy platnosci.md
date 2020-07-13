@@ -1,1 +1,1 @@
-asdasda
+# Terminy płatności
