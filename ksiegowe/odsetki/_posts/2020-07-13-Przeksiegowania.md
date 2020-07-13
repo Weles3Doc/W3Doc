@@ -6,7 +6,7 @@ W przypadku gdy rozrachunki z właścicielami są prowadzone na więcej niż jed
 - Pole Typ > wybrać:
   - Wg zakresu dat > jeśli przeksięgowania mają być zrobione na przestrzeni konkretnego okresu.
   - Bieżące > analiza kartoteki ma zajść od ustawionej daty. Nie definiujemy tutaj daty końcowej, datą końcową jest data ostatniego możliwego przeksięgowania. Dokument PK utworzy się z datą ostatniego przeksięgowania. Może on zawierać operacje z różnych miesięcy.
-- W polu Sposób wybrać: (pole aktywne tylko dla pola Typ > Wg zakresu dat)
+- W polu Sposób > wybrać: (pole aktywne tylko dla pola Typ > Wg zakresu dat)
   - Pełna analiza historii kartoteki > system zrobi przeksięgowania dla każdej daty, w której jest możliwość przeksięgowania kwoty z konta A na B.
   - Przeksięgowanie bieżącego salda > System nie analizuje kartoteki właściciela, robione jest przeksięgowanie salda na dzień poprzedzający dzień ustawiony w polu Data.
 - Pola Od dnia oraz Na dzień > zależnie od wcześniejszych ustawień, definiujemy okres lub dzień przeksięgowania. 
