@@ -16,4 +16,4 @@ Podczas księgowania należności nie określamy bezpośrednio terminu płatnoś
 
 Przykład z animacji poniżej, poprawiamy dni z 14 na 9, dzięki temu docelowy termin płatności zaliczek lipcowych będzie na dziesiątego dnia miesiąca . (bazowy termin płatności na 2012-07-01 + 9 dni )
 
-![Terminy platnosci](TP.gif)
+![Terminy platnosci](tp.gif)
