@@ -18,4 +18,4 @@ Aby wykonać wykup lokalu z datą 2012-01-22 należy:
 - Wpisać swoje hasło logowania i kliknąć Zatwierdź
 - Jeżeli okno się zamknie oznacza to, że zmiana została przyjęta przez system
 
-![Zmiana wlasiciela](zmianawlasciciela.gif)
+![Zmiana wlasciciela](zmianawlasciciela.gif)
