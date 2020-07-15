@@ -1,6 +1,7 @@
 ---
 layout: null
 ---
+
 {
 
 {%- assign topstart = true -%}
@@ -15,7 +16,7 @@ layout: null
 
     {%- if istop -%}
         {%- if topstart -%}
-            {%- assign topstart = true -%}
+            {%- assign topstart = false -%}
         {%- else -%}
             ,
         {%- endif -%}
@@ -25,7 +26,7 @@ layout: null
             {%- if n[0] == c[0] -%}
                 {%- assign topn = true -%}
         "n": "{{ n[1] }}"
-            {% endif %}
+            {%- endif -%}
         {%- endfor -%}
         {%- assign innerstart = true -%}
         {%- for ci in site.categories -%}
@@ -53,7 +54,7 @@ layout: null
                     {%- if n[0] == ci[0] -%}
                         {%- assign innern = true -%}   
                 "n": "{{ n[1] }}"
-                    {% endif %}
+                    {%- endif -%}
                 {%- endfor -%}
     
                 {%- assign liststart = true -%}
@@ -68,23 +69,18 @@ layout: null
                         {%- else -%}
                             ,
                         {%- endif -%}
-                    {
-                        "t": "{{ pi.title }}",
-                        "u": "{{ pi.url}}"                        
-                    }
+                    { "t": "{{ pi.title }}",  "u": "{{ pi.url}}" }
                     {%- endif -%}
-                    {%- unless liststart -%}
-                ]
-                    {%- endunless -%}
                 {%- endfor -%} 
-            }  
-        
+                {%- unless liststart -%}
+                ]
+                {%- endunless -%}
+            }
             {%- endif -%}
         {%- endfor -%}
         {%- unless innerstart -%}
         }
         {%- endunless -%}
-
     }
     {%- endif -%}
 {%- endfor -%}
