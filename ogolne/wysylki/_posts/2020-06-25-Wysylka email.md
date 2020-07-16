@@ -1,3 +1,6 @@
+---
+title: Wysyłka e-mail
+---
 # Wysyłka e-mail
 
 Wysyłanie wiadomości e-mail zaczynamy zawsze od stworzenia dokumentu. Robimy to tak jak w przypadku zwyczajnych dokumentów:
