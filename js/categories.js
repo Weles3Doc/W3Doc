@@ -50,7 +50,7 @@
                                                         cat2.push(
                                                             e("li", "", {}, function() {
                                                                 return [
-                                                                    e("a", "", { "href": postsData[i][1][j][1][k][1] }, function() {
+                                                                    e("a", "", { "href": baseUrl + postsData[i][1][j][1][k][1] }, function() {
                                                                         return [
                                                                             t(postsData[i][1][j][1][k][0])
                                                                         ]
