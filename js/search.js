@@ -1,11 +1,8 @@
----
-    layout: null
----
 var sel = document.getElementById("search");
 var res = document.getElementById("search_result");
 if (sel && res) {
     var rq = new XMLHttpRequest()
-    rq.open("GET", "{{ site.baseurl }}/posts.json", true);
+    rq.open("GET", baseUrl + "/posts.json", true);
     rq.addEventListener("readystatechange", function () {
         if (rq.readyState != XMLHttpRequest.DONE) return;
         var sdata = JSON.parse(rq.responseText)
@@ -55,8 +52,9 @@ if (sel && res) {
                 for (var m = 0; m < matches.length; m++) {
                     var del = document.createElement("div");
                     var ael = document.createElement("a");
-                    ael.href = "{{ site.baseurl }}" + matches[m].u;
+                    ael.href = baseUrl + matches[m].u;
                     for (var i = 0; i < 3; i++) {
+                        if (matches[m].ta[i] == undefined) continue;
                         var ptr = 0;
                         if (i) {
                             var sep = document.createElement("span")
