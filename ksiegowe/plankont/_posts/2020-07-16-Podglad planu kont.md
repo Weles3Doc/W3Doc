@@ -3,8 +3,8 @@
 Aby sprawdzić ogólny plan kont, należy przejść do:
 
 - Zakładka Zasoby.
-- Zaznaczyć najwyższy element struktury (czyli Weles 3 FK).
-- Zakładka Konta FK.
+- Zaznaczyć najwyższy element struktury (czyli Weles 3 F K).
+- Zakładka Konta F K.
 
 Plan kont jest wspólny dla wszystkich budynków w systemie. Można klikać na znak + celem rozwinięcia kolejnych analityk konta. Po prawej stronie wyświetlą się budynki, w których są księgowania na wybranym koncie.
 

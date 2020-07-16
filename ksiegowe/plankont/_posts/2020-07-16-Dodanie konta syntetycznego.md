@@ -6,9 +6,9 @@ Aby dodać konto syntetyczne, należy przejść do:
 - Pole Numer > podać trzycyfrowy numer konta.
 - Pole Nazwa > podać nazwę konta.
 - Pole Analityka > podać analitykę konta. Analityka to określenie poziomów kont wraz z dostępną ilością na każdym z nich. Dla przykładu:
-  - Gdy podajemy 2, to analityka wygląda: SSS-aa
-  - Gdy podajemy 22, to analityka wygląda: SSS-aa-bb
-  - Gdy podajemy 123, to analityka wygląda: SSS-a-bb-ccc
+  - Gdy podajemy 2, to analityka wygląda: SSS-aa.
+  - Gdy podajemy 22, to analityka wygląda: SSS-aa-bb.
+  - Gdy podajemy 123, to analityka wygląda: SSS-a-bb-ccc.
 - Pole Konto > podać rodzaj konta.
 - Pole Typ > podać typ konta.
 - Kliknąć: Dodaj.

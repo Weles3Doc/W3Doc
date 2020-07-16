@@ -1,6 +1,6 @@
 # Dodanie konta analitycznego
 
-Aby dodać konto FK, należy przejść do:
+Aby dodać konto analityczne, należy przejść do:
 
 - Zakładka Zasoby > menu Plan kont > Edytuj konta.
 - Pole Konto nadrzędne > wybrać konto o **jedną analitykę wyższą** niż te, które chcemy teraz dodać.

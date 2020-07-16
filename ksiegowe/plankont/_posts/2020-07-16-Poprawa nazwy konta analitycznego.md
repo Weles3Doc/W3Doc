@@ -15,5 +15,5 @@ Nazwy kont zmienia się na zasadzie nadpisania. Zmianę nazwy konta analityczneg
 ### Uwagi:
 
 - Zmiana nazwy konta analitycznego obowiązywać będzie w całej bazie.
-- Nie ma możliwości zmiany nazwy konta tylko w obrębie jednej WM.
+- Nie ma możliwości zmiany nazwy konta tylko w obrębie jednego budynku.
 - Plan kont jest wspólny dla wszystkich budynków w systemie.
