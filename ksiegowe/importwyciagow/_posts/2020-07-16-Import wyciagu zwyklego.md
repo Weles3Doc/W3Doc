@@ -1,3 +1,6 @@
+---
+title: Import wyciągu zwykłego
+---
 # Import wyciągu zwykłego
 
 - Wyciągi zwykłe/elektroniczne importujemy poprzez: zakładka Zasoby -> menu Funkcje -> Importuj wyciąg elektroniczny
