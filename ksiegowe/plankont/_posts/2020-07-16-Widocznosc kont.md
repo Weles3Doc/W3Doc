@@ -1,3 +1,6 @@
+---
+title: Widoczność kont
+---
 # Widoczność kont
 
 Za pomocą tej funkcji można ukryć wybrane konta w poszczególnych wspólnotach, ograniczy to ilość dostępnych kont podczas księgowania. Aby zmienić widoczność konta, należy przejść do:

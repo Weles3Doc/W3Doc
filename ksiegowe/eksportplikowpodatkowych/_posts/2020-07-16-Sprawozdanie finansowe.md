@@ -1,3 +1,6 @@
+---
+title: Sprawozdanie finansowe
+---
 # Sprawozdania finansowe
 
 Celem sporządzenia elektronicznego sprawozdania finansowego należy:

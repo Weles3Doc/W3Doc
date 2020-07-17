@@ -1,3 +1,6 @@
+---
+title: Sprawdzenie formatu pliku wyciągu bankowego
+---
 # Sprawdzanie formatu pliku wyciągu bankowego
 
 Aby sprawdzić poprawność formatu pliku do importu, należy przejść w zakładkę Zasoby i następnie wybrać jedną funkcji, w zależności co sprawdzamy:

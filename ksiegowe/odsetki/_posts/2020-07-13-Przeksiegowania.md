@@ -1,3 +1,6 @@
+---
+title: Przeksięgowania
+---
 # Przeksięgowania
 
 W przypadku gdy rozrachunki z właścicielami są prowadzone na więcej niż jednym podkoncie i jednocześnie właściciele wpłacają czynsz jednym przelewem, zachodzi potrzeba podzielenia wpłaty na różne konta rozrachunkowe. Aby wykonać przeksięgowania, należy przejść do:

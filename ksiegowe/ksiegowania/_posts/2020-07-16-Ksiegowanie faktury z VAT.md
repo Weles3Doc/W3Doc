@@ -1,3 +1,6 @@
+---
+title: Księgowanie faktury z VAT
+---
 # Księgowanie faktury z VAT
 
 Aby zaksięgować faktury kosztowe z VAT, należy przejść do:

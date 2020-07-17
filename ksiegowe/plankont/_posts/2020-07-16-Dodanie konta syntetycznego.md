@@ -1,4 +1,7 @@
-3 Dodanie konta syntetycznego
+---
+title: Dodanie konta syntetycznego
+---
+# Dodanie konta syntetycznego
 
 Aby dodać konto syntetyczne, należy przejść do:
 

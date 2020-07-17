@@ -1,3 +1,6 @@
+---
+title: Ustawienie stóp odsetkowych
+---
 # Ustawienie stóp odsetkowych
 
 Przed naliczeniem i zaksięgowaniem odsetek należy zdefiniować wysokość stopy odsetkowej, aby to zrobić, należy przejść do:

@@ -1,3 +1,6 @@
+---
+title: Kolejność przeksięgowań
+---
 # Kolejność przeksięgowań
 
 Przed przystąpieniem do przeksięgowań trzeba określić kolejność pokrywania kont rozrachunkowych. Aby to zrobić, należy przejść do:

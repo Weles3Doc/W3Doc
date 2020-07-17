@@ -1,3 +1,6 @@
+---
+title: Utworzenie płatności masowych
+---
 # Utworzenie płatności masowych
 
 Do uruchomienia usługi płatności masowych w systemie Weles3, konieczne jest podpisanie odpowiedniej umowy z bankiem. Na załączniku do umowy powinna znajdować się informacja na temat struktury numeracji rachunków wirtualnych. Po otrzymaniu takiej informacji wygenerujemy indywidualne numery kont bankowych właścicielom. 

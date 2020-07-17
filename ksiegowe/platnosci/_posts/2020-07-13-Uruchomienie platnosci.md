@@ -1,3 +1,6 @@
+---
+title: Uruchomienie płatności
+---
 # Uruchomienie płatności
 
 Aby uruchomić płatności przez podgląd właściciela, należy w pierwszej kolejności wykonać kilka czynności. Prosimy też zapoznać się z regulaminem usługi dostępnym [>TUTAJ<](https://docs.google.com/document/d/1PemdnnfQCmwqsxqHocUK33E_WHUoHukVCt7pBFn85fE/).

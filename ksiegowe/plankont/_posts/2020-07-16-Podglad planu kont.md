@@ -1,3 +1,6 @@
+---
+title: Podgląd planu kont
+---
 # Podgląd planu kont
 
 Aby sprawdzić ogólny plan kont, należy przejść do:

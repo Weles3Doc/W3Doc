@@ -1,6 +1,9 @@
+---
+title: Edycja przypisania konta wpłacającego
+---
 # Edycja przypisania konta wpłacającego
 
-Przy importach wyciągów elektronicznych zwykłych, system Weles3 sczytuje z kolejno wczytywanych plików, źródłowe konta bankowe wpłacających i tworzy z nich tzw. tablicę przypisań. W tablicy, są również widoczne Tytuły wpłat, ale tylko z pierwszych, rozpoznanych transakcji. Są one pomocne w identyfikacji wpłacającego.
+Przy importach wyciągów elektronicznych zwykłych, system Weles3 sczytuje z kolejno wczytywanych plików, źródłowe konta bankowe wpłacających i tworzy z nich tzw. tablicę przypisań. W tablicy są również widoczne Tytuły wpłat, ale tylko z pierwszych, rozpoznanych transakcji. Są one pomocne w identyfikacji wpłacającego.
 
  Tworzona jest odrębna tablica dla każdego, zdefiniowanego rachunku WM.
 

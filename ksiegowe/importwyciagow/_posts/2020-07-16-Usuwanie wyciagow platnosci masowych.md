@@ -1,6 +1,9 @@
+---
+title: Usuwanie wyciągów płatności masowych
+---
 # Usuwanie wyciągów płatności masowych
 
-Zaimportowane pliki masowe eWB, można usuwać z tego samego menu, z którego dokonuje się ich importów:
+Zaimportowane pliki masowe e-WB, można usuwać z tego samego menu, z którego dokonuje się ich importów:
 
 - Zakładka Zasoby > menu Funkcje > Importuj płatności masowe.
 

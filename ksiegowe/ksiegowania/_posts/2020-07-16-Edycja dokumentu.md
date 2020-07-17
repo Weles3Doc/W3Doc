@@ -1,3 +1,6 @@
+---
+title: Edycja dokumentu
+---
 # Edycja dokumentu
 
 Aby edytować dokument, należy przejść do:

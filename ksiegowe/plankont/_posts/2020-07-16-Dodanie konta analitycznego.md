@@ -1,3 +1,6 @@
+---
+title: Dodanie konta analitycznego
+---
 # Dodanie konta analitycznego
 
 Aby dodać konto analityczne, należy przejść do:
