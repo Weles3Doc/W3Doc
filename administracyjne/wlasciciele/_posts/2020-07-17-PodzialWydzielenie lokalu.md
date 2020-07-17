@@ -46,3 +46,7 @@ Na przykładzie, na którym działamy, z lokalu M05 wydzielamy lokal M06 od 1 li
 - Po wykonaniu zmian sprawdzamy naliczenia dla obu lokali:
 
 ![Podział lokalu5](podziallokalu5.gif)
+
+### Uwagi:
+- Instrukcja opisuje wydzielenie lokalu od daty bieżącej (w miesiącu gdzie nie są zaksięgowane naliczenia).
+- Wydzielenie lokalu od daty wstecznej robimy podobnie jak w instrukcji: Wykup wstecz lokalu.
