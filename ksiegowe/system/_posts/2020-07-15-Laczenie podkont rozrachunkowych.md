@@ -1,3 +1,6 @@
+---
+title: Łączenie podkont rozrachunkowych
+---
 # Łączenie podkont rozrachunkowych
 
 Gdy zachodzi konieczność zmiany wstecz sposobu księgowanie właścicieli (w okresie zaksięgowanych zaliczek), z paru podkont na jedno, wystarczy skorzystać z dwóch narzędzi. Pierwsze z nich to Konta należności i tam każdej z grup należności ustawiamy te samo podkonto: 

@@ -1,3 +1,6 @@
+---
+title: Podgląd konta w osobnym oknie
+---
 # Podgląd konta w osobnym oknie
 
 System umożliwia podgląd wybranego konta w odrębnym, pełnym oknie przeglądarki, aby wywołać osobne okno, należy przejść do:

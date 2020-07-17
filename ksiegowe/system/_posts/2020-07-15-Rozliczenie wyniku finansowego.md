@@ -1,3 +1,6 @@
+---
+title: Rozliczenie wyniku finansowego
+---
 # Rozliczenie wyniku finansowego
 
 Właściciele po zakończeniu roku finansowego mogą podjąć uchwałę o rozliczeniu wyniku finansowego. Takie rozliczenie można łatwo wykonać w systemie. Pierwszym etapem jest dodanie konta syntetycznego: 820 Rozliczenie wyniku finansowego, w tym celu przechodzimy do:

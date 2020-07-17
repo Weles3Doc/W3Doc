@@ -1,3 +1,6 @@
+---
+title: Zamykanie miesiąca
+---
 # Zamykanie miesiąca
 
 Przed zaksięgowaniem odsetek lub zamknięciem roku, konieczne jest zamknięcie miesięcy FK, aby to zrobić, należy przejść do:
