@@ -1,3 +1,6 @@
+---
+title: Naliczenie i księgowanie odsetek
+---
 # Naliczenie i księgowanie odsetek
 
 Aby naliczyć i zaksięgować odsetki, należy przejść do:

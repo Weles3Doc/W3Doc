@@ -1,3 +1,6 @@
+---
+title: Dodanie konta przychodów na odsetki
+---
 # Dodanie konta przychodów na odsetki
 
 Pierwszym krokiem przed naliczeniem odsetek jest dodanie konta przychów, na którym system będzie księgował je automatycznie. Aby to zrobić, należy przejść do:

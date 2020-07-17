@@ -1,3 +1,6 @@
+---
+title: Wydruki odsetkowe
+---
 # Wydruki odsetkowe
 
 Przy sprawdzaniu i przedstawianiu właścicielom, za co zostały naliczone odsetki, warto skorzystać z niżej opisanych wydruków, powiązanych z odsetkami. W tym celu przechodzimy do:

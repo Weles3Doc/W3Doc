@@ -1,3 +1,6 @@
+---
+title: Ustawienie konta 131 jako rachunek bankowy
+---
 # Ustawienie konta 131 jako rachunek bankowy
 
 Aby dla istniejącego już konta ustawić typ Rachunek bankowy, należy:

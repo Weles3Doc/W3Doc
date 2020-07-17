@@ -1,3 +1,6 @@
+---
+title: Poprawa nazwy konta analitycznego
+---
 # Poprawa nazwy konta analitycznego
 
 Nazwy kont zmienia się na zasadzie nadpisania. Zmianę nazwy konta analitycznego dokonuje się poprzez:
