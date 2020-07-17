@@ -1,3 +1,6 @@
+---
+title: Cofnięcie zmiany właściciela
+---
 # Cofnięcie zmiany właściciela
 
 Aby cofnąć zmianę właściciela należy:
