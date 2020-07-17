@@ -1,5 +1,5 @@
 ---
-title: Wysyłka e-mail - dodanie konta
+title: Wysyłka e-mail — dodanie konta
 ---
 # Wysyłka e-mail — dodanie konta
 
