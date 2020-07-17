@@ -1,4 +1,7 @@
-# Wysyłka SMS — wysyłka windykacyjna
+---
+title: Wysyłka SMS — windykacja
+---
+# Wysyłka SMS — windykacja
 
 Aby wysłać właścicielom SMS z informacją o saldzie lub wzywającego do zapłaty, należy przejść do:
 

@@ -1,3 +1,6 @@
+---
+title: Zgłoszenia
+---
 # Zgłoszenia
 
 Funkcja obsługi zgłoszeń w systemie WELES jest prostym — często przydatnym — interfejsem do obsługi różnorakich zgłoszeń (np. usterek) dodanych przez właścicieli. Za pomocą Zgłoszeń można też prowadzić przydzielanie zadań administratorom, księgowym i innym członkom zespołu. Funkcja ta jest dostępna z dwóch poziomów:

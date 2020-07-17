@@ -1,3 +1,6 @@
+---
+title: Blokada funkcji forum
+---
 # Blokada funkcji forum
 
 Właścicielom można zablokować funkcję forum w podglądzie internetowym, aby to zrobić należny przejść do:

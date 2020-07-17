@@ -1,3 +1,6 @@
+---
+title: Style wydruków
+---
 # Style wydruków
 
 Narzędzie Style wydruków umożliwia wybranie czcionek, ich rodzajów, kolorów oraz w pewnym zakresie formatowaniu tekstu, jaki pojawia się na wydrukach. Aby dodać lub edytować jakiś styl, należy kolejno:

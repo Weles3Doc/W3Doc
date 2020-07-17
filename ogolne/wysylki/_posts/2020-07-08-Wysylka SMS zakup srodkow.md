@@ -1,3 +1,6 @@
+---
+title: Wysyłka SMS — zakup środków
+---
 # Wysyłka SMS — zakup środków
 
 Funkcja wysyłki SMS jest prowadzona bezpośrednio z programu Weles — nie jest wymagane podpisywanie dodatkowej umowy z operatorem sieci komórkowej. Usługa wysyłki SMS jest dodatkowo płatna. Aby wykupić pakiet SMS, należy przejść do:

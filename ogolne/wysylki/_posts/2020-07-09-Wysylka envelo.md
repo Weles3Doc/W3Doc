@@ -1,3 +1,6 @@
+---
+title: Wysyłka Envelo
+---
 # Wysyłka Envelo
 
 Aby przygotować wysyłkę Envelo, należy wpierw utworzyć wydruk i przekierować go do wysyłki, a następnie ustawić jej parametry. Czyli kolejno przejść do:

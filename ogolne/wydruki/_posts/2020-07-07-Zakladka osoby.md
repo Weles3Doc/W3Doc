@@ -1,3 +1,6 @@
+---
+title: Zakładka Osoby
+---
 # Zakładka Osoby
 
 Zakładka Osoby podobnie jak Dokumenty służy do przygotowywania wydruków naliczeń, ale również tych niezaksięgowanych. Wydruki z tej zakładki nie są opatrzone numerem dokumentu. Niektóre podobne elementy posiadają też bardziej rozbudowane opcje dla przygotowywania zaawansowanych zestawień. Aby wygenerować wydruk dla wybranej osoby, klikamy dwukrotnie lewym przyciskiem myszy na jego pozycję lub zaznaczamy go klawiszem spacji na klawiaturze komputera (przy właścicielu, pokaże się zielony znaczek).

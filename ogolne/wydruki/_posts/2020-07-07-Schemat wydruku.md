@@ -1,3 +1,6 @@
+---
+title: Schemat wydruku
+---
 # Schemat wydruku
 
 Aby po części zautomatyzować i ułatwić wystawianie wydruków, system ma funkcję schematów wydruków. Dzięki temu, w oknie Wydruki można zapisać kolejność wydruków, ich treść i ustawione opcje, w przyszłości przywołać schemat dwoma kliknięciami. Aby zdefiniować schemat, przechodzimy do:

@@ -1,3 +1,6 @@
+---
+title: Wydruk zaliczki
+---
 # Wydruk zaliczki
 
 Aby utworzyć wydruk zaksięgowanej zaliczki wraz z wykazem do zapłaty, tekstem oraz stanem rozrachunków, należy przejść do:

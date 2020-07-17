@@ -1,3 +1,6 @@
+---
+title: Wezwanie do zapłaty
+---
 # Wezwanie do zapłaty
 
 Aby utworzyć wydruk Wezwanie do zapłaty, należy:

@@ -1,3 +1,6 @@
+---
+title: Dane adresowe wspólnoty
+---
 # Dane adresowe wspólnoty
 
 W celu edycji danych adresowych budynku należy przejść do:

@@ -1,3 +1,6 @@
+---
+title: Wysyłka Envelo — przypisanie konta
+---
 # Wysyłka Envelo — przypisanie konta
 
 Aby przypisać konto Envelo do nieruchomości, należy przejść do:

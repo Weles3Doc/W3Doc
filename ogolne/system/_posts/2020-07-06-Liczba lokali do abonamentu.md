@@ -1,3 +1,6 @@
+---
+title: Liczba lokali do abonamentu
+---
 # Liczba lokali do abonamentu
 
 Aby sprawdzić, jaka jest aktualna liczba lokali wliczająca się do comiesięcznego abonamentu za program, należy przejść do:

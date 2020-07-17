@@ -1,3 +1,6 @@
+---
+title: Zakładka Dokumenty
+---
 # Zakładka Dokumenty
 
 Zakładka Dokumenty służy do przygotowywania wydruku zaksięgowanych i ponumerowanych dokumentów obciążeniowych dla wybranych elementów — zaczynamy ich wyboru z lewej kolumny — w tej karcie są to Właściciele (WSZYSCY lub indywidualnie). Aby wygenerować wydruk dla wybranej osoby, klikamy dwukrotnie lewym przyciskiem myszy na jego pozycję lub zaznaczamy go klawiszem spacji na klawiaturze komputera (przy właścicielu, pokaże się zielony znaczek). Właściciele mogą być też podzieleni na typy, co widać na obrazku.

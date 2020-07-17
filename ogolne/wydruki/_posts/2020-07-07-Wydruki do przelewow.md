@@ -1,3 +1,6 @@
+---
+title: Wydruki przelewów
+---
 # Wydruki do przelewów
 
 System Weles daje możliwość wygenerowania gotowych blankietów dla Właścicieli. Blankiety uzupełnione będą danymi Właściciela, budynku oraz nr rachunku bankowego wspólnoty. Ważne, ww. dane muszą być wprowadzone w systemie, inaczej nie będą wyświetlane na wydrukach. W celu wygenerowania gotowych blankietów do wpłat należy przejść do: 

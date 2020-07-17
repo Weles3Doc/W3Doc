@@ -1,3 +1,6 @@
+---
+title: Bezpieczeństwo danych osobowych
+---
 # Bezpieczeństwo danych osobowych
 
 W związku z wykorzystywaniem przez Państwa naszego oprogramowania do wspomagania zarządzania nieruchomościami przetwarzane są przez nas Państwa dane osobowe. Poniżej prezentujemy odpowiedzi na pytania związane z bezpieczeństwem Państwa danych.

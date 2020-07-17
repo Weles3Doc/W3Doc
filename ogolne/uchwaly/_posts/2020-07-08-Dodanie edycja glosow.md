@@ -1,3 +1,6 @@
+---
+title: Dodanie/edycja głosów
+---
 # Dodanie/edycja głosów
 
 System umożliwia ręczne dodanie lub edycję głosów do uchwały, które na przykład zostały zebrane w formie tradycyjnego głosowania. Aby to zrobić, należy przejść do:

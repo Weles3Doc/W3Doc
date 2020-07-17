@@ -1,3 +1,6 @@
+---
+title: Zakończenie/ustalenie wyniku
+---
 # Zakończenie/ustalenie wyniku
 
 Aby ustalić wynik i zakończyć głosowanie nad uchwałą, należy przejść do:

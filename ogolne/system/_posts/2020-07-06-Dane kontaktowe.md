@@ -1,3 +1,6 @@
+---
+title: Dane kontaktowe
+---
 # Dane kontaktowe administratora/zarządcy
 
 Funkcja służy do zapisania w programie danych kontaktowych Administratora/Zarządcy nieruchomości. Dzięki temu właściciel będzie mógł w bardzo prosty sposób podejrzeć w podglądzie kartoteki dane kontaktowe — wysłać e-mail, odwiedzić stronę WWW, zadzwonić na telefon GSM itp. W oknie określone są również dane kontaktowe dla WELES — tzw. autoryzacja numerów telefonów oraz adresów e-mail. Dane te wymagają potwierdzenia za pomocą specjalnego kodu. Służą do kontaktu bezpośredniego (wysyłania faktur drogą elektroniczną za abonament programu oraz kontaktów w sprawach pilnych związanych z korzystaniem z programu). Wskazane jest, aby dane kontaktowe były ustawione jedynie dla osób decyzyjnych. Funkcja ułatwi również generowanie indywidualnej strony logowania dla właścicieli lokali — można tutaj określić adres strony na Facebook i adres grafiki z logo firmy. W przypadku zainteresowania indywidualną stroną logowania prosimy o kontakt za pomocą e-mail z działem wsparcia WELES. W celu wprowadzenia danych kontaktowych należy przejść do:

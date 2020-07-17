@@ -1,3 +1,6 @@
+---
+title: Wysyłka e-mail — dodanie konta
+---
 # Wysyłka e-mail — dodanie konta
 
 Pierwszym krokiem przed rozpoczęciem wysyłania wiadomości e-mail jest dodanie konta pocztowego do systemu. W tym celu należy:
