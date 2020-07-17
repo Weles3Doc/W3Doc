@@ -22,7 +22,7 @@ Przechodzimy do definiowania właściwej wysyłki, przechodzimy do:
 - Pole `Podgląd wydruku` > można sprawdzić załącznik.
 - Pole `Treść maila` > uzupełniamy zawartość wiadomości.
 - Pole `Hasło` > wpisujemy hasło do programu.
-- Klikamy:`Zapisz`.
+- Klikamy: `Zapisz`.
 - Następnie: `Roześlij`.
 
 W oknie powinien pojawić się napis: `Wysyłka za X godzin Y minut`, w tym momencie można już zamknąć okno.
