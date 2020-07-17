@@ -48,6 +48,10 @@
     font-weight: bold;
 }
 
+.icon-lg {
+    font-size: 1.5em;
+}
+
 #search_result {
     border-radius: .25em;
     box-shadow: 0.2em 0.2em 0.4em lightgrey;

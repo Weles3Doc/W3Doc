@@ -17,6 +17,7 @@
         {% seo %}
         <script src="{{ site.baseurl }}/js/vars.js"></script>
         <script src="{{ site.baseurl }}/js/posts.js"></script>
+        <script src="https://kit.fontawesome.com/59c136fc78.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <nav class="navbar navbar-light bg-white mb-2" id="navbar">
@@ -25,7 +26,12 @@
             </a>
     
             <form class="form-inline mb-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Szukaj" id="search" disabled>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <i class="fad fa-search input-group-text icon-lg"></i>
+                    </div>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Szukaj" id="search" disabled>
+                </div>
             </form>    
         </nav>
     
