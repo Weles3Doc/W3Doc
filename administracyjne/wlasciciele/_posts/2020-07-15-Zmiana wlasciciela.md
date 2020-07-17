@@ -1,18 +1,24 @@
-# Dodanie lokalu do istniejącego właściciela
+---
+title: Zmiana właściciela
+---
+# Zmiana właściciela
 
-Aby dodać lokal do istniejącego właściciela należy przejść do zakładki: "Administracja"->menu: "Zasoby"->"Edytuj właścicieli"
+Aby wykonać wykup lokalu z datą 2012-01-22 należy:
 
-W nowym oknie należy:
+- Przejść do zakładki Zasoby Administracja i wejść w menu "Zasoby/Edytuj właścicieli"
+- Wybrać żądany lokal
+- Podać datę wykupu
+- Wybrać operację "Nowy właściciel"
+- W przypadku jednego właściciela wybrać Właściciel główny
+- Wskazać strukturę gdzie znaleźć ma się lokal po wykupie
+- Wybrać typ wystawianego dokumentu
+- Wybrać typ właściciela
+- Podać imię oraz nazwisko
+- Podać peny adres
+- Gdy adres jest nietypowy to wybrać "Nie sprawdzaj struktury", w przeciwnym wypadku pozostawić domyślne ustawienie
+- Podać potencjalne inne informacje dotyczące nowego właściciela
+- Kliknąć "Dodaj" aby pozycja dodała się do listy
+- Wpisać swoje hasło logowania i kliknąć Zatwierdź
+- Jeżeli okno się zamknie oznacza to, że zmiana została przyjęta przez system
 
-- w polu "Lokal" wybrać lokal który chcemy przypisać,
-- w polu "Data" wprowadzić datę wykupu przez istniejącego właściciela,
-- w polu "Operacja" należy wybrać: "Istniejący właściciel",
-- w polach "Struktura" oraz "Dokument" zaznaczamy odpowiednio w jakiej strukturze ma znaleźć się lokal oraz jaki ma być wstawiany w nim rodzaj dokumentu,
-- w polu "Właściciel" wybieramy właściciela do którego chcemy dodać lokal,
-- kliknąć [Dodaj], aby pozycja dodała się do listy,
-- wpisać własne hasło w polu "Hasło (F12)", po czym kliknąć [Zatwierdź].
-
-
-Po wprowadzeniu zmian system powinien zamknąć okno narzędzia.
-
-![Dodanie wlasciciela](dodanielokaludoistniejacegowlasciciela.gif)
+![Zmiana właściciela](zmianawlascicielasciciela.gif)
