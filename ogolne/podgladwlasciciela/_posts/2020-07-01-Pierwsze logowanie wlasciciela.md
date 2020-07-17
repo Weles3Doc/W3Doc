@@ -1,3 +1,6 @@
+---
+title: Pierwsze logowanie właściciela
+---
 # Pierwsze logowanie właściciela
 
 Właściciel po potrzymaniu danych logowania może się zalogować do swojej kartoteki internetowej. Przy pierwszym logowaniu system wymusi zmianę hasła z tymczasowego na własne, aby się zalogować, należy:
