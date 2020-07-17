@@ -1,3 +1,6 @@
+---
+title: Wydruki powiązane z uchwałami
+---
 # Wydruki powiązane z uchwałami
 
 ### Głosowanie uchwały

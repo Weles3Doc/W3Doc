@@ -1,4 +1,7 @@
-## Oddanie głosu przez właściciela
+---
+title: Oddanie głosu przez właściciela
+---
+# Oddanie głosu przez właściciela
 
 Poniższa instrukcja przedstawia sposób, w jaki właściciel oddaje swój głos na uchwałę w podglądzie internetowym:
 

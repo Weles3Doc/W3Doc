@@ -1,3 +1,6 @@
+---
+title: Dodanie uchwały
+---
 # Dodanie uchwały
 
 Rozpoczęcie procesu głosowania nad uchwałą należy zacząć od dodania pliku uchwały do systemu, aby to zrobić trzeba przejść do:

@@ -1,3 +1,6 @@
+---
+title: Ustawienie głosowania
+---
 # Ustawienie głosowania
 
 Po dodaniu pliku uchwały można ustawić parametry głosowania, aby to zrobić, należy:
