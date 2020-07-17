@@ -1,3 +1,6 @@
+---
+title: Skróty klawiszowe
+---
 # Skróty klawiszowe
 
 Do poruszania się i sterowania aplikacją internetową WELES 3 używamy zarówno myszki — narzędzia obecnie najczęściej używanego do współpracy z interfejsem graficznym — jak również klawiatury. Szczególnie przydaje się ona do wprowadzania danych oraz pozwala na szybszą i sprawniejszą pracę osobom już wprawionym. Interfejs programu jest tak skonstruowany, że większość czynności, które można wykonać myszką, daje się również przeprowadzić za pomocą klawiatury, a z czasem metoda ta staje się szybsza i pewniejsza. Obsługa myszy jest dość intuicyjna, a ponadto niektóre funkcjonalności są dostępne tylko z poziomu klawiatury. Dlatego właśnie ten sposób obsługi jest preferowany i zostanie w tym rozdziale szerzej omówiony.

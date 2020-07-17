@@ -1,3 +1,6 @@
+---
+title: Dostęp dla właściciela
+---
 # Dostęp dla właściciela
 
 Aby właściciel miał dostęp do swojego podglądu internetowego, konieczne jest wygenerowanie loginu oraz nadanie tymczasowego hasła. W tym celu: 

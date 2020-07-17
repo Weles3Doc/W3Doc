@@ -1,3 +1,6 @@
+---
+title: Podgląd kartoteki właściciela
+---
 # Podgląd kartoteki właściciela
 
 System pozwala na podgląd kartoteki właściciela przez administratora, aby to zrobić, należy:

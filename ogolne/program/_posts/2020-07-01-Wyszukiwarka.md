@@ -1,3 +1,6 @@
+---
+title: Wyszukiwarka
+---
 # Wyszukiwarka
 
 Aby otworzyć Wyszukiwarkę, należy wcisnąć klawisz tyldy ~ lub slash /. 
