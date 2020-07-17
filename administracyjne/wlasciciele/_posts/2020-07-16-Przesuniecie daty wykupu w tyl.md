@@ -1,3 +1,6 @@
+---
+title: Przesunięcie daty wykupu w tył
+---
 # Przesunięcie daty wykupu w tył
 
 Aby przesunąć datę zmiany właściciela na wcześniejszą należy:
