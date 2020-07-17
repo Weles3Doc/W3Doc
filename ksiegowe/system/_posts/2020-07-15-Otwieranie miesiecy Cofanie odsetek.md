@@ -1,3 +1,6 @@
+---
+title: Otwieranie miesięcy Cofanie odsetek
+---
 # Otwieranie miesięcy FK i cofanie odsetek
 
 Aby otworzyć zamknięty miesiąc FK lub cofnąć odsetki należy przejść do:

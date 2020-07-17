@@ -1,3 +1,6 @@
+---
+title: Dodanie kontrahenta
+---
 # Dodanie kontrahenta
 
 Aby dodać nowego kontrahenta, należy przejść do:

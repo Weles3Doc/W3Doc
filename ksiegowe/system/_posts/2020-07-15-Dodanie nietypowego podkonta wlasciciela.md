@@ -1,3 +1,6 @@
+---
+title: Dodanie nietypowego podkonta 201
+---
 # Dodanie nietypowego podkonta właściciela
 
 Zdarza się, że we wspólnocie właściciele muszą mieć dodatkowe podkonto rozrachunkowe, na którym będą prowadzone rozrachunki inne niż z bieżących opłat za lokal. W poniższej instrukcji opiszemy dodanie podkonta 201-....-x Pozostałe, na którym można prowadzić rozrachunki z tytułu dorobionych kluczy lub pilotów. Aby zdefiniować nowe podkonto w systemie, należy przejść do:
