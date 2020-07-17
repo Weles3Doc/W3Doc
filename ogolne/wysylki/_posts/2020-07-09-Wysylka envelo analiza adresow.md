@@ -1,3 +1,6 @@
+---
+title: Wysyłka Envelo — analiza adresów
+---
 # Wysyłka Envelo — analiza adresów
 
 Do poprawnej wysyłki listów potrzebny nam jest pełen adres korespondencyjny właściciela lokalu. Układ powinien wyglądać następująco:

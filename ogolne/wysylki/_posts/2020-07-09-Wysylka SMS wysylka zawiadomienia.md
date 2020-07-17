@@ -1,3 +1,6 @@
+---
+title: Wysyłka SMS — wysyłka informacji/ogłoszenia
+---
 # Wysyłka SMS — wysyłka informacji/ogłoszenia
 
 Aby wysłać właścicielom prostego SMS z informacją lub ogłoszeniem, należy przejść do:
