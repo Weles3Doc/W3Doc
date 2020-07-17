@@ -1,3 +1,6 @@
+---
+title: Podgląd dla członka zarządu
+---
 # Podgląd dla człona zarządu
 
 Aby nadać członkowi Zarządu dostęp bierny — tylko do podglądu, bez możliwości zmian należy dodać nowe konto użytkownika oraz nadać uprawnienia do konkretnego budynku. W tym celu przechodzimy do:

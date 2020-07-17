@@ -1,3 +1,6 @@
+---
+title: Resetowanie hasła użytkownika
+---
 # Resetowanie hasła użytkownika
 
 Aby zresetować hasło dostępu użytkownikowi, należy przejść do:
