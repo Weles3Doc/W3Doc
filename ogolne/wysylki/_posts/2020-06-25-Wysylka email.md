@@ -5,26 +5,27 @@ title: Wysyłka e-mail
 
 Wysyłanie wiadomości e-mail zaczynamy zawsze od stworzenia dokumentu. Robimy to tak jak w przypadku zwyczajnych dokumentów:
 
-- Zakładka Administracja > Menu Funkcje > Wydruki.
-- W nowo otwartym oknie tworzymy dokument do rozesłania właścicielom.
+- Zakładka `Administracja` > Menu `Funkcje` > `Wydruki`.
+- Okno `Wydruki` > tworzymy dokument do rozesłania właścicielom.
 - Gdy dokument będzie już gotowy, przekierowujemy go do wysyłki.
-- Menu funkcje > Wyślij do wysyłki e-mail.
+- Menu `Funkcje` > `Wyślij do wysyłki e-mail`.
 - Zamykamy okno wydruków.
 
 Przechodzimy do definiowania właściwej wysyłki, przechodzimy do:
 
-- Zakładka Zasoby > menu Funkcje > Wysyłka e-mail.
-- W nowo otwartym oknie, po lewej stronie klikamy na wysyłkę NOWY.
+- Zakładka `Zasoby` > menu `Funkcje` > `Wysyłka e-mail`.
+- W lewej stronie okna klikamy na wysyłkę `NOWY`.
 - W środkowej części okna wyświetlą się parametry wydruku oraz lista właścicieli, dla których został on stworzony.
-- W prawej części okna, w polu Brak ustawiamy E-mail.
-- W polu Nazwa wysyłki wpisujemy nazwę wysyłki, będzie to jednocześnie tytuł maila.
-- W polu Podgląd wydruku można sprawdzić załącznik.
-- W polu Treść maila uzupełniamy zawartość wiadomości.
-- W polu hasło wpisujemy swoje hasło do programu.
-- Klikamy na Zapisz.
-- A następnie Roześlij.
+- W prawej części okna:
+- Pole `Brak` > `E-mail`.
+- Pole `Nazwa wysyłki`> wpisujemy nazwę wysyłki, będzie to jednocześnie tytuł maila.
+- Pole `Podgląd wydruku` > można sprawdzić załącznik.
+- Pole `Treść maila` > uzupełniamy zawartość wiadomości.
+- Pole `Hasło` > wpisujemy hasło do programu.
+- Klikamy:`Zapisz`.
+- Następnie: `Roześlij`.
 
-W oknie powinien pojawić się napis: Wysyłka za X godzin Y minut, w tym momencie można już zamknąć okno.
+W oknie powinien pojawić się napis: `Wysyłka za X godzin Y minut`, w tym momencie można już zamknąć okno.
 
 ![Wysyłka e-mail](wysylkaemail.gif)
 
