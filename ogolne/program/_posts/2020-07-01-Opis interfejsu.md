@@ -1,3 +1,6 @@
+---
+title: Opis interfejsu
+---
 # Opis interfejsu
 
 W poniższej instrukcji opiszemy Państwu interfejs programu Weles. Po krotce omówimy znaczenie i funkcje elementów. Na poniższym obrazku przedstawiamy nazewnictwo części systemu, którym się posługujemy. Nazewnictwo te stosujemy we wszystkich tematach pomocy, dlatego sugerujemy zapamiętać nazwy miejsc i funkcji w systemie.
