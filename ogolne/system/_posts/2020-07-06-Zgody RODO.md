@@ -1,3 +1,6 @@
+---
+title: Zgody RODO
+---
 # Zgody RODO
 
 Po dodaniu wspólnoty do systemu wymagane jest potwierdzenie posiadania zgody RODO na powierzenie danych osobowych do przetwarzania w programie, aby to zrobić, należy przejść do:

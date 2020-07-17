@@ -1,3 +1,6 @@
+---
+title: Materiały informacyjne
+---
 # Materiały informacyjne
 
 W systemie możemy umieszczać dokumenty, które będą dostępne dla właścicieli. Rozróżniamy dwa miejsca, w których możemy dodać pliki:

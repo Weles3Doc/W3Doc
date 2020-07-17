@@ -1,3 +1,6 @@
+---
+title: Podpowiedzi
+---
 # Podpowiedzi
 
 Narzędzie odpowiedzi służy do definiowania tekstu dla niektórych pól w oknach dialogowych aplikacji, np. często powtarzającej się frazy lub tekstu dla wielu pozycji. Np. w Lokalizacji licznika jest to pole Lokalizacja, a w polu Pozycja w dokumencie jest to pole Treść. Podczas pracy z programem podpowiedzi wybieramy (jeżeli są dostępne dla danego pola) naciśnięciem klawisza Alt i odpowiedniego numeru podpowiedzi — np. Alt + 1, aby wybrać pierwszą podpowiedź. Aby dodać podpowiedź, należy kolejno przejść do:

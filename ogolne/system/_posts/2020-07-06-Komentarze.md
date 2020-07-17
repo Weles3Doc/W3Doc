@@ -1,3 +1,6 @@
+---
+title: Komentarze
+---
 # Komentarze
 
 Funkcja komentarzy służy do umieszczania krótkich notatek do wielu elementów w programie. Można je dodać wszędzie tam, gdzie widać ikonkę komentarza. W celu dodania komentarza należy kolejno:

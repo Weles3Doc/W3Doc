@@ -1,3 +1,6 @@
+---
+title: Indywidualna strona logowania
+---
 # Indywidualna strona logowania
 
 Istnieje możliwość spersonalizowania strony logowania: https://e-adm.pl/. Na stronie można ustawić dwa elementy:

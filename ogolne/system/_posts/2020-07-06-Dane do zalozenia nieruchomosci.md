@@ -1,3 +1,6 @@
+---
+title: Dane do założenia nieruchomości
+---
 # Dane do założenia nieruchomości
 
 Aby proces zakładania nieruchomości przebiegł jak najszybciej oraz bezbłędnie, najlepiej jest nam dostarczyć arkusz z danymi w którym:

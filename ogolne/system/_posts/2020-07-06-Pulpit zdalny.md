@@ -1,3 +1,6 @@
+---
+title: Pulpit zdalny
+---
 # Pulpit zdalny
 
 Pulpit zdalny jest to funkcja pozwalająca na uzyskanie dostępu do naszego komputera/pulpitu. Osoba uprawniona (posiadająca odpowiedni kod dostępu — PIN) będzie mogła kontrolować udostępniony komputer — np. rozwiązać problem, z którym sami nie możemy sobie poradzić.

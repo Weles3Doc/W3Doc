@@ -1,3 +1,6 @@
+---
+title: Baza testowa
+---
 # Wykonanie kopii testowej
 
 Baza testowa służy do sprawdzania rozwiązań w bezpieczny sposób na kopii rzeczywistych danych, aby wykonać świeżą kopię bazy testowej, należy przejść do:
