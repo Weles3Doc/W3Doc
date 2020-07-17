@@ -1,3 +1,6 @@
+---
+title: Księgowanie wyciągu bankowego
+---
 # Księgowanie wyciągu bankowego
 
 Aby zaksięgować wpłaty właścicieli, należy przejść do:

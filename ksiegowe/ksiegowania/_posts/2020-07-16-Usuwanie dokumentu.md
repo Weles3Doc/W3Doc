@@ -1,3 +1,6 @@
+---
+title: Usuwanie dokumentu
+---
 # Usuwanie dokumentu
 
 Usuwać można tylko puste dokumenty (takie, z których usunięte zostały wszystkie pozycje):

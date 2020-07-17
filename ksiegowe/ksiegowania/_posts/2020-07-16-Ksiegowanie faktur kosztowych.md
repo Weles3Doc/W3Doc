@@ -1,3 +1,6 @@
+---
+title: Księgowanie faktur kosztowych
+---
 # Księgowanie faktur kosztowych
 
 Aby zaksięgować faktury kosztowe, należy przejść do:

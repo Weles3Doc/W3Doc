@@ -1,3 +1,6 @@
+---
+title: Księgowanie wynikowe
+---
 # Księgowania wynikowe
 
 Jedną z ostatnich czynności przed zamknięciem roku księgowego jest zrobienie księgowań wynikowych. Aby je wykonać, należy przejść do:
