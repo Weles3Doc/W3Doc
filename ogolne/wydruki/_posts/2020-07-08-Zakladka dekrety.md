@@ -1,3 +1,6 @@
+---
+title: Zakładka Dekrety
+---
 # Zakładka Dekrety
 
 Za pomocą zakładki Dekrety możemy przygotować wydruk wszystkich dokonanych księgowań w zakładce Dekrety. Dokumenty będą posegregowane chronologicznie wg miesięcy i w odpowiednio zgrupowanie w typy. Po prawej stronie okna wydruków znajduje się (zawsze jako pierwsza od góry) ramka ustawień wspólnych dla przygotowywanego wydruku — w tym przypadku to Dekrety. Funkcja posiada pięć pól do wyboru parametrów wydruku:

@@ -1,3 +1,6 @@
+---
+title: Treści na wydruku
+---
 # Treści na wydruku
 
 Narzędzie Treści na wydruku służy do utworzenie gotowych treści na wydruku Tekst.  Narzędzie dostępne jest z poziomu zakładki Zasoby oraz Administracja:

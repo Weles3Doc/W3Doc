@@ -1,3 +1,6 @@
+---
+title: Wydruk rozliczenia liczników
+---
 # Wydruk rozliczenia liczników
 
 Jednym z ważniejszych wydruków generowanych z programu w ciągu roku jest rozliczenie liczników. Dokument generujemy zawsze po sprawdzeniu i zaksięgowaniu rozliczenia. Aby to zrobić, należy przejść do:

@@ -1,3 +1,6 @@
+---
+title: Grafiki na wydrukach
+---
 # Grafiki na wydrukach
 
 Program pozwana na umieszczenie plików graficznych na systemowych wydrukach. Dzięki temu wydrukom można nadać profesjonalny wygląd — dodając nagłówek lub dodać skan pieczątki, lub podpisu na końcu dokumentu. Wszystko zaczyna się od stworzenia grafiki/skanu do umieszczenia w programie. W przypadku:

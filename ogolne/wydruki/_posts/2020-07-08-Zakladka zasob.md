@@ -1,4 +1,7 @@
-# Zakładka Zasób.
+---
+title: Zakładka Zasób
+---
+# Zakładka Zasób
 
 W zakładce Zasób, możemy przygotowywać wydruki sprawozdawcze, pomocnicze oraz zbiorcze raporty dla całej wspólnoty. Po prawej stronie okna wydruków znajduje się (zawsze jako pierwsza od góry) ramka ustawień wspólnych dla przygotowywanego wydruku — w tym przypadku to Wspólnoty. Jest tu dostępna tylko pozycja Data na wydruku.
 

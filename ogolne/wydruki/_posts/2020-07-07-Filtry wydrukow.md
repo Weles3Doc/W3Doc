@@ -1,3 +1,6 @@
+---
+title: Filtry wydruków
+---
 # Filtry wydruków
 
 System pozwala na ustawienie prostych filtrów w wydrukach dokumentów. Mamy tutaj możliwość: wykluczenia byłych właścicieli, wygenerowania zawiadomienia dla właścicieli, u których zmieniły się wartości obciążeń względem konkretnego miesiąca, czy też utworzyć dokument tylko dla właścicieli, którzy nie mają wprowadzonych adresów e-mail (przydatne, gdy części właścicieli wysyłamy zawiadomienia przez e-mail, a pozostałym tradycyjne papierowe). Funkcje filtrów są tylko opcją, a nie samodzielnym wydrukiem — mogą być użyte tylko w połączeniu z jakimś innym wydrukiem/wydrukami (np. Dokument + Wykaz do zapłaty).
