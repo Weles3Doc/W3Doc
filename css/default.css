@@ -47,8 +47,22 @@
 .doc-sel {
     font-weight: bold;
 }
+
 #search_result {
     border-radius: .25em;
     box-shadow: 0.2em 0.2em 0.4em lightgrey;
     border: 1px solid gray;
+}
+
+#posts > div > div {
+    border: 1px solid var(--wls-base-dark);
+    border-radius: var(--wls-border-radius);
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+#posts > div > div > div:first-child {
+    text-align: center;
+    border-bottom: 1px solid var(--wls-base-dark);
+    margin-bottom: 1em;
 }
