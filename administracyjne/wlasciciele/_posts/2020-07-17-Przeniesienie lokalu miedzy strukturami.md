@@ -1,3 +1,6 @@
+---
+title: Przeniesienie lokalu między strukturami
+---
 # Przeniesienie lokalu między strukturami
 
 Przeniesienie lokalu do innej struktury wykonuje się poprzez jego wykup. Można to zrobić tylko z bieżącą lub przyszłą datą. Aby to zrobić należy skorzystać z narzędzia Edytuj właścicieli i kolejno:
