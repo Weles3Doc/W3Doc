@@ -1,3 +1,6 @@
+---
+title: Dodawanie współwłaścicieli
+---
 # Dodawanie współwłaścicieli
 
 Wykup lokalu przez współwłaścicieli odbywa się poprzez zakładkę: "Administracja" -> menu: "Zasoby" -> "Edytuj właścicieli"
