@@ -1,3 +1,6 @@
+---
+title: Dodanie lokalu do istniejącego właściciela
+---
 # Dodanie lokalu do istniejącego właściciela
 
 Aby dodać lokal do istniejącego właściciela należy przejść do zakładki: "Administracja"->menu:"Zasoby"-> "Edytuj właścicieli"
