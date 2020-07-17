@@ -50,6 +50,6 @@ Kolejnym etapem jest dodanie odbiorcy do pożytku. Przechodzimy do:
 
 Pożytek w tym momencie powinien się pojawić w zakładce Administracja w polu Struktura.
 
-![Dodanie pożytku3](dodaniepozytuku3.gif)
+![Dodanie pożytku3](dodaniepozytku3.gif)
 
 Po wykonaniu wyżej wymienionych czynności prosimy o przysłanie maila do obsługi technicznej Weles. W mailu prosimy podać jakie opłaty powinien mieć pożytek. Opisać sposób naliczania opłaty, ilość i stawkę, można też załączyć skan wystawionego wcześniej dokumentu.
