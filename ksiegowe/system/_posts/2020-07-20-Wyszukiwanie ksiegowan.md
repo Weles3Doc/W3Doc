@@ -1,5 +1,5 @@
 ---
-title: Wyszukiwanie ksiegowań
+title: Wyszukiwanie księgowań
 ---
 # Wyszukiwanie księgowań
 
