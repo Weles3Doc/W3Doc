@@ -14,7 +14,7 @@ Przed cofnięciem stawki indywidualnej trzeba tę stawkę zlokalizować. W tym c
 Wyświetli się okno, w którym będą pokazane zmiany stawki na różnych lokalach, w bieżącym roku. Gdy znamy już datę zmiany stawki i poprzednią jej wartość przechodzimy do:
 
 - Menu `Zasoby` > `Edytuj stawki`.
-- Pole `Lokal` > interesujący nas lokal ze stawką indywidualną.
+- Pole `Lokal` > wybieramy interesujący nas lokal ze stawką indywidualną.
 - Pole `Stawka` > wybrać żądaną stawkę.
 - Pole `Data` > wprowadzić datę, zazwyczaj stawkę ogólną przywracamy do daty bieżącej.
 - Pole `Wartość` > **pole pozostawiamy puste**.
