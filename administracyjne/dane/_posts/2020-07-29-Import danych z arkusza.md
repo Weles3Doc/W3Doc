@@ -12,6 +12,8 @@ M02 | 2021-06-01 | 43,12 | 1 |
 M03 | 2021-06-01 | 76,14 | 4 |
 M04 | 2021-06-01 | 61,89 | 3 |
 
+---
+
 Gdzie w kolumnach podajemy:
 
 - `MIE` > numer lokalu z systemu, musi być taki sam.
@@ -40,6 +42,8 @@ M01 | 2021-06-01 | 35,23 | 2 | 1 | 1 |
 M02 | 2021-06-01 | 43,12 | 1 | 1 | 1 |
 M03 | 2021-06-01 | 76,14 | 4 | 1 | 1 |
 M04 | 2021-06-01 | 61,89 | 3 | 1 | 1 |
+
+---
 
 ![Import danych wstecz](importdanychwstecz.gif)
 
