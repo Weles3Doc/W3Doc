@@ -70,3 +70,16 @@
     border-bottom: 1px solid var(--wls-base-dark);
     margin-bottom: 1em;
 }
+
+.doc-area {
+    padding-left: 1em;
+}
+.doc-area > div {
+    padding-top: .25em;
+    padding-bottom: .25em;
+    white-space: nowrap;
+}
+
+.doc-text {
+    font-size: large;
+}
