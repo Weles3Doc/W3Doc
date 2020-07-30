@@ -20,5 +20,7 @@ Przed dodaniem odczytów trzeba określić termin rozliczeń liczników. Aby dod
 
 ### Uwagi:
 
+- Jeśli przed przejściem do opisywanej funkcji zaznaczymy pożądany licznik, to podpowie się on automatycznie w nowym oknie.
 - Odczyty na koniec okresu rozliczeniowego dodajemy dzień po, czyli np. jeśli mamy odczyty na 30 czerwca to w systemie dodajemy je z datą 2020-**07-01**. Podobnie, odczyty na 31 grudnia dodajemy z datą 2021-**01-01**.
 - Odczyty na dzień wykupu dodajemy z datą wykupu wprowadzoną w systemie. Musi być taka sama. Przeciwnym wypadku system przeliczy zużycie właściciela proporcjonalnie do czasu posiadania lokalu.
+- Aby usunąć odczyt, trzeba dodać odczyt poprzedni jeszcze raz.
