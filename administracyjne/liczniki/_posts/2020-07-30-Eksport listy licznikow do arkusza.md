@@ -13,7 +13,7 @@ Z systemu można wygenerować arkusz z danymi liczników, który jest bardzo pom
 - Pole `Bez typów właścicieli` > pozostawiamy bez zmian lub wybieramy pozycje.
 - Pole `Sortowanie` > pozostawiamy bez zmian lub wybieramy pozycje.
 - Pole `Format` > `CSV (;) - Excel`.
-- Klikamy: Podgląd wydruku.
+- Klikamy: `Podgląd wydruku`.
 
 Pobieramy plik i otwieramy go w arkuszu kalkulacyjnym. Znajdują się w nim następujące kolumny:
 
