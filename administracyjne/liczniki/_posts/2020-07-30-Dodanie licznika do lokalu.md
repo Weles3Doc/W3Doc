@@ -15,7 +15,7 @@ Aby dodać nowy licznik do lokalu, należy przejść do:
 - Pole `Data legalizacji` > ustawić datę przyszłej legalizacji.
 - Pole `Odczyt` > wpisać odczyt na datę założenia.
 - Pole `Prognoza` > wpisać prognozę, może pozostać pusta.
-- Pole `Lokalizacja` > wpisać lokalizacje, test, może pozostać puste.
+- Pole `Lokalizacja` > wpisać lokalizacje, może pozostać puste.
 - Pole `Usuwanie` > `Pozostaw`.
 - Klikamy: `Dodaj`.
 - Jeśli trzeba, dodajemy kolejne liczniki.
