@@ -1,7 +1,7 @@
 ---
-title: Dodanie nowej danej do systemu
+title: Dodanie danej do systemu
 ---
-# Dodanie nowej danej do systemu
+# Dodanie danej do systemu
 
 Aby wprowadzić nową daną, należy przejść do:
 
