@@ -1,9 +1,9 @@
 ---
-title: Dodanie nowej stawki do systemu
+title: Dodanie stawki do systemu
 ---
-# Dodanie nowej stawki do systemu
+# Dodanie stawki do systemu
 
-Aby wprowadzić nową daną, należy przejść do:
+Aby wprowadzić nową stawkę, należy przejść do:
 
 - Zakładka `Zasoby` > menu `Elementy` > `Nazwy stawek`.
 
