@@ -2,39 +2,42 @@
 title: Wykup lokalu wstecz 
 ---
 # Wykup lokalu wstecz
-Procedura wykupu lokalu wstecz potrzebna jest w sytuacji gdy przykładowo w połowie roku otrzymujemy informację o zmianie właściciela lokalu, która nastąpiła na jego początku (np. w Lutym). Z reguły w tym momencie mamy już zaksięgowane zaliczki lub/i częściowo również minione miesiące FK oraz porozsyłane dokumenty do właścicieli. W tym rozdziale została przedstawiona procedura, która ma za zadanie rozwiązać problem związany z zaistniałą sytuacją w możliwie najlepszy sposób. Umożliwia ona korektę niezgodności za okres, który nie został jeszcze rozliczony przez rozliczenie kosztów.
 
-Procedurę tą wykonujemy TYLKO I WYŁĄCZNIE jeśli mamy zaksięgowane już dokumenty naliczeniowe/rozliczeniowe (zaliczki/korekty) w miesiącu, w którym nastąpiła zmiana właściciela !!!
+Procedura wykupu lokalu wstecz potrzebna jest w sytuacji, gdy przykładowo w połowie roku otrzymujemy informację o zmianie właściciela lokalu, która nastąpiła na jego początku (np. w Lutym). Z reguły w tym momencie mamy już zaksięgowane zaliczki lub częściowo również minione miesiące oraz porozsyłane dokumenty do właścicieli. W tym rozdziale została przedstawiona procedura, która ma za zadanie rozwiązać problem związany z zaistniałą sytuacją w możliwie najlepszy sposób. Umożliwia ona korektę niezgodności za okres, który nie został jeszcze rozliczony przez rozliczenie kosztów.
 
-Jeśli nie mamy jeszcze zaksięgowanych naliczeń na miesiąc w którym nastąpiła zmiana właściciela to robimy ZWYKŁY WYKUP. Procedura zwykłego wykupu została opisana TUTAJ
+Procedurę tą wykonujemy TYLKO I WYŁĄCZNIE, jeśli mamy zaksięgowane już dokumenty naliczeniowe (zaliczki/korekty) w miesiącu, w którym nastąpiła zmiana właściciela !!!
+
+Jeśli nie mamy jeszcze zaksięgowanych naliczeń na miesiąc, w którym nastąpiła zmiana właściciela, to robimy ZWYKŁY WYKUP. Procedura zwykłego wykupu została opisana TUTAJ.
 
 W przedstawionej tutaj procedurze zakładamy (przykładowo), że mamy zaksięgowane należności do Lutego 2012 włącznie, a sprzedaż lokalu nastąpiła w 2012-02-01.
 
 ### Dodanie nowego mieszkania
-Zakładamy, że zmiana właściciela dotyczy lokalu M04, więc rozpoczynamy od stworzenia/dodania "nowego" mieszkania - M04N. Procedura wygląda następująco:
-Wybieramy nieruchomość,  oraz przechodzimy do modułu Administracja.
 
-![Wykup wstecz1](wykupwstecz1.png)
+Zakładamy, że zmiana właściciela dotyczy lokalu M04, więc rozpoczynamy od stworzenia/dodania nowego mieszkania - M04N. Procedura wygląda następująco:
 
-Z menu Zasoby wybieramy pozycję Dodaj mieszkanie - skrót klawiszowy ZM
+- Wybieramy nieruchomość oraz przechodzimy do modułu Administracja.
 
-![Wykup wstecz2](wykupwstecz2.png)
+![Wykup wstecz](wykupwstecz1.png)
 
-Otworzy się okno dialogowe edycji lokali. W polu Lokal wybieram NOWY LOKAL
+- Z menu Zasoby wybieramy pozycję Dodaj mieszkanie — skrót klawiszowy ZM.
 
-![Wykup wstecz3](wykupwstecz3.png)
+![Wykup wstecz](wykupwstecz2.png)
 
-Dodajemy nazwę lokalu - w tym wypadku M04N (nazwa musi być unikalna - nie może być dwóch lokali o takich samych nazwach!). Pole Informacje służy do dodawania różnych informacji do lokalu - możemy je pominąć.
+- Otworzy się okno dialogowe edycji lokali. W polu Lokal wybieram NOWY LOKAL.
 
-![Wykup wstecz4](wykupwstecz4.png)
+![Wykup wstecz](wykupwstecz3.png)
 
-Klikamy na przycisk Dodaj, aby dodać wprowadzany lokal do listy pozycji.
+- Dodajemy nazwę lokalu — w tym wypadku M04N (nazwa musi być unikalna — nie może być dwóch lokali o takich samych nazwach!). Pole Informacje służy do dodawania różnych informacji do lokalu — możemy je pominąć.
 
-![Wykup wstecz5](wykupwstecz5.png)
+![Wykup wstecz](wykupwstecz4.png)
 
-Przechodzimy do pola Hasło(F12), wprowadzamy je i klikamy na przycisk Zatwierdź aby zapisać zmiany w systemie. Nowe mieszkanie nie będzie jeszcze widoczne w widoku struktury (lewej strony), bo nie ma przypisanego właściciela.
+- Klikamy na przycisk Dodaj, aby dodać wprowadzany lokal do listy pozycji.
 
-![Wykup wstecz6](wykupwstecz6.png)
+![Wykup wstecz](wykupwstecz5.png)
+
+- Przechodzimy do pola Hasło wprowadzamy je i klikamy na przycisk Zatwierdź, aby zapisać zmiany w systemie. Nowe mieszkanie nie będzie jeszcze widoczne w widoku struktury (lewej strony), bo nie ma przypisanego właściciela.
+
+![Wykup wstecz](wykupwstecz6.png)
 
 ### Dodanie właściciela
 
