@@ -5,14 +5,14 @@ title: Dodanie nowego użytkownika
 
 Dodanie nowego użytkownika systemu rozpoczynamy od przejścia do:
 
-- Zakładka Zasoby > menu Funkcje > Administratorzy.
-- W nowo otwartym oknie klikamy na przycisk Nowy.
-- Pole Administratorzy > wpisujemy nazwę, zazwyczaj podajemy imię i nazwisko.
-- Pole Końcówka > wpisujemy krótką frazę, która doda się do loginu użytkownika. (patrz uwagi)
-- Pole Hasło > podajemy hasło tymczasowe dla użytkownika.
-- Pole Uprawnienia > przypisujemy użytkownikowi dostęp do funkcji systemu.
-- Wpisujemy hasło.
-- Klikamy: Zapisz.
+- Zakładka `Zasoby` > menu `Funkcje` > `Administratorzy`.
+- Kliknąć: `Nowy`.
+- Pole `Administratorzy` > wpisujemy nazwę, zazwyczaj podajemy imię i nazwisko.
+- Pole `Końcówka` > wpisujemy krótką frazę, która doda się do loginu użytkownika. (patrz uwagi)
+- Pole `Hasło` > podajemy hasło tymczasowe dla nowego użytkownika.
+- Pole `Uprawnienia` > przypisujemy użytkownikowi dostęp do funkcji systemu.
+- Pole `Hasło` > wpisujemy własne hasło.
+- Klikamy: `Zapisz`.
 
 Po dodaniu nowego użytkownika trzeba jeszcze dodać uprawnienia do poszczególnych budynków w systemie.
 
