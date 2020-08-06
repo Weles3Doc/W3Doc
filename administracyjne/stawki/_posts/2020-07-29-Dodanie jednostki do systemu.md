@@ -3,7 +3,7 @@ title: Dodanie jednostki do systemu
 ---
 # Dodanie jednostki do systemu
 
-Omawiana funkcja zajduje się w:
+Omawiana funkcja znajduje się w:
 
 - Zakładka `Zasoby` > menu `Elementy` > `Jednostki`.
 
@@ -13,8 +13,8 @@ Aby dodać jednostkę, która będzie używana w mianie stawki, należy:
 
 - Pole `ID` > wpisujemy unikalny numer jednostki.
 - Pole `Nazwa` > wpisujemy jednostkę.
-- Klikamy: `Dodaj`.
-- Klikamy: `Zatwierdź`.
+- Kliknąć: `Dodaj`.
+- Kliknąć: `Zatwierdź`.
 
 ![Dodanie jednostki](dodaniejednostki.gif)
 
