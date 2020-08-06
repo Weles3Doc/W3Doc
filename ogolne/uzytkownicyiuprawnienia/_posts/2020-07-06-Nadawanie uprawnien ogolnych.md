@@ -1,6 +1,7 @@
 ---
 title: Nadawanie uprawnień ogólnych
 ---
+
 # Nadawanie uprawnień ogólnych
 
 Aby nadać lub odebrać użytkownikowi uprawnienia ogólne, należy przejść do:
