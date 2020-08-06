@@ -10,12 +10,11 @@ Omawiana funkcja znajduje się w :
 
 ![Grupy liczników1](grupylicznikow1.gif)
 
-- Pole `ID` > wpisujemy unikalny numer grupy.
-- Pole `Nazwa` > wpisujemy nazwę grupy.
-- Klikamy: `Dodaj`.
-- Klikamy: `Zatwierdź`.
-
-Poniżej podajemy typowe grupy liczników.
+Aby dodać nową grupę liczników, należy kolejno:
+- W polu `ID` > wpisać unikalny numer grupy.
+- W polu `Nazwa` > wpisać nazwę grupy.
+- Kliknąć: `Dodaj`.
+- Kliknąć: `Zatwierdź`.
 
 ![Grupy liczników2](grupylicznikow2.gif)
 
