@@ -9,17 +9,19 @@ Aby uruchomić płatności przez podgląd właściciela, należy w pierwszej kol
 
 Pierwszą ważną czynnością jest nadanie uprawnień do określania kont bankowych, które znajdą zastosowanie w płatnościach przez kartotekę internetową. Uprawnienia sugerujemy nadawać jednej lub dwóm osobom, które będą odpowiedzialne za dodawanie kont i dbanie o ich poprawność. Ma to krytyczne znaczenie dla bezpieczeństwa płatności właścicieli. Aby nadać uprawnienia, przechodzimy do:
 
-- Zakładka Zasoby > Menu funkcje > Administratorzy
-- Z dolnej części okna wybieramy administratora i klikamy na ikonkę lupy po prawej stronie wiersza.
-- Pozycja powinna się wczytać do górnej części okna.
-- Pole Administrator i hasło > nie zmieniamy.
-- Pole uprawnienia > zaznaczamy pozycję > Konta płatności.
-- Klikamy: Dodaj.
-- Wpisujemy hasło i zatwierdzamy.
+- Zakładka `Zasoby` > menu `Funkcje` > `Administratorzy`.
+- Z listy użytkowników wybieramy administratora.
+- Klikamy: `Edycja`.
+- Pole `Administratorzy` > pomijamy.
+- Pole `Końcówka` > pomijamy.
+- Pole `Hasło` > pomijamy
+- Pole `Uprawnienia` > zaznaczamy pozycję `Płatności`.
+- Pole `Hasło` > wpisujemy swoje hasło.
+- Klikamy: `Zapisz`.
 
 ![Płatności](platnosci1.gif)
 
-### Dodanie NIPu wspólnoty
+### Dodanie NIP-u wspólnoty
 
 Do uruchomienia płatności, konieczne jest dodanie NIPu wspólnoty, aby to zrobić, należy przejść do:
 
