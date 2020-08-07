@@ -14,7 +14,7 @@ Pierwszą ważną czynnością jest nadanie uprawnień do określania kont banko
 - Klikamy: `Edycja`.
 - Pole `Administratorzy` > pomijamy.
 - Pole `Końcówka` > pomijamy.
-- Pole `Hasło` > pomijamy
+- Pole `Hasło` > pomijamy.
 - Pole `Uprawnienia` > zaznaczamy pozycję `Płatności`.
 - Pole `Hasło` > wpisujemy swoje hasło.
 - Klikamy: `Zapisz`.
@@ -23,15 +23,19 @@ Pierwszą ważną czynnością jest nadanie uprawnień do określania kont banko
 
 ### Dodanie NIP-u wspólnoty
 
-Do uruchomienia płatności, konieczne jest dodanie NIPu wspólnoty, aby to zrobić, należy przejść do:
+Do uruchomienia płatności, konieczne jest dodanie NIP-u wspólnoty, aby to zrobić, należy przejść do:
 
-- Zakładka Zasoby > Menu zasoby > Edytuj zasoby.
-- Z dolnej części okna wybieramy budynek i klikamy na ikonkę lupy po prawej stronie wiersza.
-- Pozycja powinna się wczytać do górnej części okna.
-- Pole NIP > uzupełniamy NIPem wspólnoty.
-- Pozostałe pola pozostawiamy bez zmian lub ewentualnie uzupełniamy poprawnymi informacjami.
-- Klikamy: Dodaj.
-- Wpisujemy hasło i zatwierdzamy.
+- Zakładka `Zasoby` > menu `Zasoby` > `Edytuj zasoby`.
+- Z listy budynków wybieramy wspólnotę.
+- Klikamy: `Edycja`.
+- Pole `Wspólnota` > pomijamy.
+- Pole `Adres` > pomijamy.
+- Pole `Miejscowość` > pomijamy.
+- Pole `NIP` > uzupełniamy NIP-em wspólnoty.
+- Pole `Informacje` > pomijamy.
+- Pole `Data` > pomijamy.
+- Pole `Opcje` > pomijamy.
+- Klikamy: `Zapisz`.
 
 Jeśli NIP jest już dodany, to sprawdzamy jego poprawność.
 
