@@ -69,7 +69,7 @@ Ostatecznie potwierdzamy konta do wpłat i akceptujemy regulamin. Aby to zrobić
 - Pole `Adres` >powinno być uzupełnione, sprawdzamy je.
 - Pole `Konta bankowe` > powinno być uzupełnione, sprawdzamy je.
 - Pole `Dozwolone` > wpisujemy numer konta bankowego lub maskę kont płatności masowych:
-  - Numer konta bankowego — wpisujemy wtedy, gdy WM nie ma płatności masowych.  Jeśli rachunki są dwa (lub więcej) to każdy wpisujemy w nowej linii.
+  - Numer konta bankowego wpisujemy wtedy, gdy WM nie ma płatności masowych.  Jeśli rachunki są dwa (lub więcej) to każdy wpisujemy w nowej linii.
   - Jeśli WM ma płatności masowe, to wpisujemy maskę kont wirtualnych, czyli stałą, niezmienną część rachunku wirtualnego. Sumę kontrolną zastępujemy znakiem podkreślenia `__`.
 
     >Przykład maski: `__102012341234___________`
