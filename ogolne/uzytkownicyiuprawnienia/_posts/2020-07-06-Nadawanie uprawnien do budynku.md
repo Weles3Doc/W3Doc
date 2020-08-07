@@ -1,6 +1,7 @@
 ---
 title: Nadawanie uprawnień do budynku
 ---
+
 # Nadawanie uprawnień do budynku
 
 Aby nadać użytkownikowi uprawnienia do konkretnej nieruchomości, należy przejść do:
