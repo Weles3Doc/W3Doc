@@ -1,18 +1,24 @@
 ---
 title: Dodanie grupy liczników do systemu
 ---
+
 # Dodanie grupy liczników do systemu
 
-Zazwyczaj grupy liczników są od razu zdefiniowane w systemie, więc nie ma potrzeby ich dodawania. Są one wspólne dla wszystkich budynków w systemie. Grupy liczników agregują typy liczników. To właśnie im ustawiamy terminy rozliczeń. Aby dodać nową grupę liczników, należy przejść do:
+Zazwyczaj grupy liczników są od razu zdefiniowane w systemie, więc nie ma potrzeby ich dodawania. Są one wspólne dla wszystkich budynków w systemie. Grupy liczników agregują typy liczników. To właśnie im ustawiamy terminy rozliczeń. Omawiana funkcja znajduje się w:
 
-- Zakładka `Zasoby` > menu `Elementy` > `Grupy liczników`.
-- Pole `ID` > wpisujemy unikalny numer grupy.
-- Pole `Nazwa` > wpisujemy nazwę grupy.
-- Klikamy: `Dodaj`.
-- Klikamy: `Zatwierdź`.
+- Zakładka `Zasób` > menu `Elementy` > `Grupy liczników`.
+
+![Grupy liczników](grupylicznikow1.gif)
+
+Aby dodać nową grupę liczników, należy kolejno:
+
+- Pole `ID` > wpisać unikalny numer grupy.
+- Pole `Nazwa` > wpisać nazwę grupy.
+- Kliknąć: `Dodaj`.
+- Kliknąć: `Zatwierdź`.
+
+![Grupy liczników](grupylicznikow2.gif)
 
 Poniżej podajemy typowe grupy liczników.
 
-![Typowe grupy liczników](typowegrupylicnzikow.png)
-
-![Grupy liczników](grupylicznikow.gif)
+![Częste grupy liczników](czestegrupylicznikow.png)
