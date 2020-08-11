@@ -1,11 +1,11 @@
 # Dodanie numerów kont bankowych
 
-Aby dodać numery kont bankowych, należy:
+Aby dodać numery kont bankowych, które będą wyświetlane na wydrukach właścicieli, należy przejść do:
 
-- W Zakładce Administracja przejść do Menu elementy > Konta bankowe.
-- W polu Podkonto wybrać podkonto rozrachunkowe właściciela, z którym ma być skojarzony numer rachunku.
-- W polu Konto Bankowe wpisać numer rachunku.
-- Kliknąć Dodaj.
+- Zakładka `Administracja` > menu `Elementy` > Konta `bankowe`.
+- Pole `Podkonto` > wybrać podkonto rozrachunkowe właściciela, z którym ma być skojarzony numer rachunku.
+- Pole `Konto Bankowe` > wpisać numer rachunku.
+- Kliknąć: `Dodaj`.
 - Jeśli trzeba uzupełnić numery dla innych podkont.
 - Wpisać hasło i zatwierdzić.
 
