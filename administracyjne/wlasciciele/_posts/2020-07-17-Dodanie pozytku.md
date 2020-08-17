@@ -26,7 +26,7 @@ Następnym krokiem jest dodanie lokalu na pożytek:
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj mieszkania`.
 - Klikamy: `Nowy`.
-- Pole `Nazwa` > wpisujemy numer lokalu. Dla pożytków zazwyczaj numer ustalamy na P01, P02, P03,....itd.
+- Pole `Nazwa` > wpisujemy numer lokalu. Dla pożytków zazwyczaj numer ustalamy na P01, P02, P03,...itd.
 - Pole `Informacje` > wpisać np. Pożytek.
 - Kliknąć: `Utwórz`.
 
