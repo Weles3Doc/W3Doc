@@ -1,55 +1,78 @@
 ---
 title: Dodanie pożytku
 ---
+
 # Dodanie pożytku
 
-Bardzo często wspólnota ma możliwość osiągania dodatkowego przychodu, na przykład za reklamę. Aby wystawić dokument odbiorcy należy:
+Bardzo często wspólnota ma możliwość osiągania dodatkowego przychodu, na przykład za reklamę. Aby móc wystawić dokument odbiorcy należy wykonać kilka prostych czynności.
 
-- Przejść do Menu zasoby > Edytuj struktury. (Jeśli struktura na pożytki jest już dodana to ten krok pomijamy)
-- Z pola Struktura wybrać najwyższy element (całą WM).
-- W polu Nazwa wpisać POŻYTKI.
-- Kliknąć Dodaj.
-- Wpisać hasło i zatwierdzić.
+#### Dodanie struktury POŻYTKI
 
-Nowa struktura nie będzie od razu widoczna, pokarze się jeśli będzie do niej przydzielony lokal. 
+Pożytki zazwyczaj dodajemy pod osobną strukturą po to, aby się wyróżniały od innych lokali. Jeśli struktura na pożytki jest już dodana, to ten krok pomijamy.
 
-![Dodanie pożytku1](dodaniepozytku1.gif)
+- Zakładka `Administracja` > menu `Zasoby` > `Edytuj struktury`.
+- Klikamy: `Nowy`.
+- Pole `Struktura` nadrzędna > wybrać najwyższy element (całą WM).
+- Pole `Nazwa` > wpisać POŻYTKI.
+- Kliknąć: `Utwórz`.
+
+Nowa struktura nie będzie od razu widoczna, pokarze się, jeśli będzie do niej przydzielony lokal z odbiorcą. 
+
+![Dodanie pożytku](dodaniepozytku1.gif)
+
+#### Dodanie lokalu P0xx
 
 Następnym krokiem jest dodanie lokalu na pożytek:
 
-- Przechodzimy do Menu Zasoby > Edytuj mieszkania
-- Z pola Lokal wybieramy: NOWY LOKAL
-- W polu Nazwa wpisujemy numer lokalu. Dla pożytków zazwyczaj numer ustalamy na P01, P02, P03,  ....itd.
-- Pole Informacja może pozostać puste, można tu też wpisać opis pożytku.
-- Klikamy Dodaj.
-- Wpisać hasło i zatwierdzić.
+- Zakładka `Administracja` > menu `Zasoby` > `Edytuj mieszkania`.
+- Klikamy: `Nowy`.
+- Pole `Nazwa` > wpisujemy numer lokalu. Dla pożytków zazwyczaj numer ustalamy na P01, P02, P03,....itd.
+- Pole `Informacje` > wpisać np. Pożytek.
+- Kliknąć: `Utwórz`.
 
-![Dodanie pożytku2](dodaniepozytku2.gif)
+Nowy lokal nie pokarze się od razu, trzeba do niego przydzielić odbiorcę.
+
+![Dodanie pożytku](dodaniepozytku2.gif)
+
+
+#### Dodanie odbiorcy do lokalu P0xx
 
 Kolejnym etapem jest dodanie odbiorcy do pożytku. Przechodzimy do:
 
-- Menu zasoby > Edytuj włascicieli.
-- Z pola Lokal wybieramy wcześniej dodany lokal.
-- W polu Data ustawiamy datę od której pożytek ma być dodany. Zazwyczaj dodajemy go od pierwszego dnia miesiąca - aby opłata była za cały miesiąc.
-- W polu Operacja wybieramy:
-  - Istniejący właściciel - jeśli pożytek ma być podłączony pod istniejącą już kartotekę (konto FK).
-  - Nowy właściciel - jeśli pożytek ma być dodany na nowej kartotece/rozrachunkach/nowym koncie 201.
-- Pole Udziałowcy > Właściciel główny - pozostawiamy bez zmian.
-- Pole Struktura > wybieramy strukturę POŻYTKI.  (Ważne!)
-- Pole Dokument - jeśli pożytkowi ma być wystawione:
-  - Zwyczajny wydruk opłat to wybieramy: Zawiadomienie.
-  - Jeśli wspólnota jest vatowcem to wybieramy: Faktura VAT.
-  - Jeśli ma być wystawiona Faktura bez VAT (dawniej Rachunek) lub Nota obciążeniowa to wybieramy: Rachunek.
-- Pole Typ > jeśli mamy dedykowany typ własciciela na pożytki to go wybieramy - jeśli nie pozostawiamy Ogólne.
-- W polu Imię i Nazwisko wpisujemy krótką nazwę odbiorcy.
-- W polu Adres - wpisujemy wszystkie dane odbiorcy (będą wyświetlane na wydruku).
-- W polu Weryfikacja adresu wybieramy Nie sprawdzaj struktury.
-- W polu Informacja wpisujemy dodatkowe informacje - pole może pozostać puste.
-- Klikamy Dodaj.
-- Wpisujemy hasło i zatwierdzamy.
+- Zakładki `Administracja` > menu `Zasoby` > `Edytuj właścicieli`.
+- Pole `Lokal` > wybrać lokal P0xx.
+- Pole `Data` > podać datę, zazwyczaj pierwszy dzień miesiąca, od którego mają być wystawiane dokumenty.
+- Pole `Operacja` > wybrać `Nowy właściciel`.
+- Pole `Udziałowcy` > `Właściciel główny`.
+- Pole `Struktura` > wybrać strukturę POŻYTKI (**Ważne!!**).
+- Pole `Dokument` > wybrać jeden z dokumentów:
+  - `Zawiadomienie` > zwyczajny dokument z opłatami.
+  - `Faktura VAT` > wybieramy tylko, gdy chcemy wystawić wszystkie pozycje opłat na FV.
+  - `Rachunek` > wybieramy wtedy, gdy chcemy wystawić opłaty na Rachunku lub na Fakturze uproszczonej.
+- Pole `Typ` > określamy typ kartoteki, wypieramy jedną z dostępnych, ew. pozostawiamy `Ogólne`.
+- Pole `Nazwa` > wpisujemy Imię i nazwisko lub nazwę odbiorcy.
+- Pole `Adres` > podajemy pełen adres.
+- Pole `Weryfikacja adresu` > `Nie sprawdzaj struktury`.
+- Pole `Informacje` > podajemy ew. dodatkowe informacje.
+- Klikamy: `Dodaj`.
+- Klikamy: `Zatwierdź`.
 
-Pożytek w tym momencie powinien się pojawić w zakładce Administracja w polu Struktura.
+Pożytek w tym momencie powinien się pojawić w zakładce `Administracja` w polu `Struktura`.
 
-![Dodanie pożytku3](dodaniepozytku3.gif)
+![Dodanie pożytku](dodaniepozytku3.gif)
 
-Po wykonaniu wyżej wymienionych czynności prosimy o przysłanie maila do obsługi technicznej Weles. W mailu prosimy podać jakie opłaty powinien mieć pożytek. Opisać sposób naliczania opłaty, ilość i stawkę, można też załączyć skan wystawionego wcześniej dokumentu.
+#### Opłata
+
+Po wykonaniu wyżej wymienionych czynności prosimy o przysłanie maila do obsługi technicznej Weles. W mailu prosimy podać odpowiedzi na pytania:
+
+- Jakie opłaty powinien mieć pożytek?
+- Od kiedy?
+- Opisać sposób naliczania opłaty.
+- Podać ilość.
+- Poda stawkę.
+- Można też załączyć skan wystawionego wcześniej dokumentu.
+- W jakiej grupie należności ma myc opłata?
+- Na jakim koncie podkoncie 201 odbiory ma się księgować opłata? MiE czy FR?
+- Na jakim koncie przychodów ma się księgować opłata?
+- Z jaką częstotliwością będzie wystawiany dokument?
+- Podać typ VAT opłaty.
