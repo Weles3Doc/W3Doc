@@ -34,7 +34,6 @@ Nowy lokal nie pokarze się od razu, trzeba do niego przydzielić odbiorcę.
 
 ![Dodanie pożytku](dodaniepozytku2.gif)
 
-
 #### Dodanie odbiorcy do lokalu P0xx
 
 Kolejnym etapem jest dodanie odbiorcy do pożytku. Przechodzimy do:
