@@ -1,28 +1,35 @@
 ---
 title: Przesunięcie daty wykupu w przód
 ---
+
 # Przesunięcie daty wykupu w przód
 
-Aby przesunąć datę zmiany właściciela na późniejszą należy:
+Aby przesunąć datę zmiany właściciela na późniejszą, należy przejść do:
 
-- W zakładce Administracja klikamy na starego właściciela lokalu.
-- Sprawdzamy datę zmiany właściciela.
-- Przechodzimy do Menu zasoby > Edytuj właścicieli.
-- Z pola Lokal wybieramy lokal.
-- W polu Data ustawiamy obecnie ustawioną datę wykupu lokalu (błędną datę).
-- Pole Operacja > Istniejący właściciel.
-- Pole Udziałowcy > Właściciel główny.
-- W polu Polu Struktura wybieramy strukturę pod którą ma się znaleźć lokal.
-- W polu Dokument ustawiamy typ wystawianego dokumentu.
-- W polu Właściciel ustawiamy starego właściciela lokalu.
-- Klikamy Dodaj.
-- Powracamy do pola Data, ustawiamy nową, poprawną datę wykupu.
-- Pole Operacja > Istniejący właściciel.
-- Następne pola ustawiamy według uznania.
-- W polu Właściciel ustawiamy nowego właściciela.
-- Klikamy Dodaj.
-- Wpisujemy hasło i zatwierdzamy.
+- Zakładki `Administracja` > Pole `Struktura`.
+- Odszukujemy lokal na liście, sprawdzamy strukturę, typ dokumentu i obecną datę wykupu, która jest do poprawy.
+- Menu `Zasoby` > `Edytuj właścicieli`.
+- Pole `Lokal` > wybrać lokal.
+- Pole `Data` > podać obecną datę wykupu.
+- Pole `Operacja` > `Istniejący właściciel`.
+- Pole `Udziałowcy` > `Właściciel główny`.
+- Pole `Struktura` > wybrać strukturę, pod którą ma się podłączyć lokal (**Ważne!!**).
+- Pole `Dokument` > wybrać jeden z dokumentów, który był przydzielony właścicielowi.
+- Pole `Właściciel` > wybieramy **byłego** właściciela lokalu.
+- Klikamy: `Dodaj`.
 
-Instrukcję stosujemy tylko dla miesięcy za które nie są jeszcze zaksięgowane zaliczki.
+Dodajemy drugą pozycję, tym razem nowego właściciela od poprawnej daty:
+
+- Pole `Lokal` > wybrać ten sam lokal.
+- Pole `Data` > podać nową, późniejszą datę wykupu.
+- Pole `Operacja` > `Istniejący właściciel`.
+- Pole `Udziałowcy` > `Właściciel główny`.
+- Pole `Struktura` > wybrać strukturę, pod którą ma się podłączyć lokal (**Ważne!!**).
+- Pole `Dokument` > wybrać jeden z dokumentów, który był przydzielony właścicielowi.
+- Pole `Właściciel` > wybieramy **nowego** właściciela lokalu.
+- Klikamy: `Dodaj`.
+- Klikamy: `Zatwierdź`.
+
+Instrukcję stosujemy tylko dla miesięcy, za które nie są jeszcze zaksięgowane zaliczki.
 
 ![Przesunięcie daty wykupu w przód](przesunieciedatywykupuwprzod.gif)
