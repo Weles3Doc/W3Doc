@@ -16,6 +16,8 @@ Niniejsza instrukcja opisuje sytuację, w której właściciel sprzedaje tylko c
 
 Nowy lokal nie pokarze się od razu, trzeba do niego przydzielić odbiorcę.
 
+![Podział lokalu](podziallokalu0.gif)
+
 #### Dodanie właściciela wydzielonego lokalu
 
 - Zakładki `Administracja` > menu `Zasoby` > `Edytuj właścicieli`.
@@ -51,13 +53,13 @@ Schemat działania jest następujący:
 - Na pierwotnym lokalu, dane **pomniejszamy** od daty wydzielenia.
 - Na nowym lokalu, dane **dodajemy** od daty wydzielenia.
 
-Na przykładzie, na którym działamy, z lokalu M05 wydzielamy lokal M06 od 1 lipca. Lokal M05 ma powierzchnię 89,10. Wydzielony lokal będzie miał powierzchnię 37,5, więc nową powierzchnią lokalu M05 będzie 51,60. W oknie edycji danych dodajemy dwie pozycje z wartością nowej powierzchni od daty podziału. Podobnie postępujemy z innymi danymi lokalu, jak na przykład: Udział, Powierzchnia komórki, Liczba osób. (jeśli są dodane i jest taka potrzeba).
+Na przykładzie, na którym działamy, z lokalu M01 wydzielamy lokal M01b od 1 sierpnia. Lokal M01 ma powierzchnię 67,50. Wydzielony lokal będzie miał powierzchnię 25, więc nową powierzchnią lokalu M01 będzie 42,5. W oknie edycji danych dodajemy dwie pozycje z wartością nowej powierzchni od daty podziału, na oba lokale. Podobnie postępujemy z innymi danymi lokalu, jak na przykład: Udział, Powierzchnia komórki, Liczba osób. (jeśli są dodane i jest taka potrzeba).
 
 ![Podział lokalu](podziallokalu2.gif)
 
 #### Edycja liczników
 
-Następnie można przystąpić do przeniesienia liczników. Analogicznie do danych, składa się to z dwóch czynności:
+Następnie można przystąpić do przeniesienia liczników, oczywiście, jeśli są takie, które zmieniły lokalizację. Analogicznie do danych, składa się to z dwóch czynności:
 
 - Na pierwotnym lokalu, **zamknięcie** przenoszonych liczników.
 - Na nowym lokalu, **dodanie** nowych liczników.
