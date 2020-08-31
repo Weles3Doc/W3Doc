@@ -12,7 +12,7 @@ Pożytki zazwyczaj dodajemy pod osobną strukturą po to, aby się wyróżniały
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj struktury`.
 - Klikamy: `Nowy`.
-- Pole `Struktura` nadrzędna > wybrać najwyższy element (całą WM).
+- Pole `Struktura nadrzędna` > wybrać najwyższy element (całą WM).
 - Pole `Nazwa` > wpisać POŻYTKI.
 - Kliknąć: `Utwórz`.
 
