@@ -52,6 +52,7 @@ Księgując dokumenty VATowe system pozwoli zaklasyfikować je do grup:
 - Środki trwałe (dla zakupu na poczet środków trwałych)
 - Proporcja VAT (dla faktur zakupu rozliczanych proporcją)
 - Metoda kasowa (dla faktur zakupu z metoda kasową)
+- GTU_12 dla sprzedaży związanej z tą grupą towarową
 
 Można nie wskazać żadnej oraz wskazać wiele grup na raz.
 System będzie odpowiednio klasyfikował te pozycje w pliku JPK_V7
@@ -65,6 +66,15 @@ Do wypełnienia deklaracji niezbędne jest podanie danych podatkowych:
 - Zaliczka (miesięcznie/kwartalnie)
 - Mail (JPK_V7 wymaga podania adresu e-mail)
   
+# Kategorie naliczeń
+
+Przy wprowadzaniu nazw algorytmów można obecnie podać dodatkowe typy:
+- Podzielona płatność
+- GTU_12
+
+Podczas księgowania system oznaczy odpowiednio pozycje księgowe jeżeli
+będą zawierały obciążenia związane z danymi algorytmami.
+
 # Korekty związane z par. 89a ustawy o VAT
 
 Par. 89a ust. 1 ustawy o VAT pozwala pomniejszyć __podstawę opdatkowania oraz podatek należny__ z tytułu faktury z tytułu dostawy towarów lub świadczenia usług na terytorium kraju w przypadku
