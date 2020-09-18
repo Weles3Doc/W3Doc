@@ -1,5 +1,5 @@
 ---
-posts: Dane firm i komunikaty na stronie logowania
+title: Dane firm i komunikaty na stronie logowania
 ---
 
 # Dane firm i komunikaty na stronie logowania
