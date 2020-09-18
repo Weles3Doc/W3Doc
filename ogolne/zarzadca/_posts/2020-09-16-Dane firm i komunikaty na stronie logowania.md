@@ -59,7 +59,7 @@ Za pomocą komunikatów można poinformować właścicieli o istotnych zmianach,
 - Pole `Zawartość` > wpisujemy krótką treść komunikatu.
 - Pole `Link` > wklejamy link do zewnętrznej strony z informacjami.
 - Klikając: `Sprawdź podany adres WWW` > można sprawdzić, czy przekierowanie na stronę działa.
-- Pole `Zasób` > ustalamy, w których zasobach ma się komunikaty wyświetlić.
+- Pole `Zasób` > ustalamy, w których zasobach ma się komunikat wyświetlić.
     - `We wszystkich` > wyświetli się we wszystkich zasobach przypisanych do danej firmy.
     - `We wszystkich oprócz wskazanych` > w następnym polu wykluczamy zasoby.
     - `Tylko we wskazanych` > w następnym polu wskazujemy konkretne budynki, w których ma się on wyświetlić.
