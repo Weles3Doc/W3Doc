@@ -31,7 +31,7 @@ W ten sam sposób można edytować dane już istniejącej firmy, zaznaczamy ją 
 
 #### Przypisanie firm do zasobów
 
-Po stworzeniu firm trzeba wskazać systemowi, która firma zajmuje się konkretnym budynkiem. Jeśli to Państwo są zarządcami/administratorami wszystkich budynków/zasobów, to wybór jest prosty, przypisujemy jedną firmę do każdego zasobu. Natomiast jeśli działają Państwo na zlecenia firm zewnętrznych, to oczywiście do każdego zasoby można przypisać osobną firmę.
+Po stworzeniu firm trzeba wskazać systemowi, która firma zajmuje się konkretnym budynkiem. Jeśli to Państwo są zarządcami/administratorami wszystkich budynków/zasobów, to wybór jest prosty, przypisujemy jedną firmę do każdego zasobu. Natomiast jeśli działają Państwo na zlecenia firm zewnętrznych, to oczywiście do każdego zasobu można przypisać osobną firmę.
 
 - Zakładka `Zasoby` > menu `Elementy` > `Firmy`.
 - Zakładka `Przypisanie firm do zasobów`.
