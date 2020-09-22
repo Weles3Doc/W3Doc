@@ -85,20 +85,20 @@ JPK_V7 wymaga odrębnego pokazania tego typu korekt.
 Aby zrealizować korektę wynikającą z par. 89a ust. 1 ustawy o VAT należy w systemie wykonać
 księgowanie:
 - osobno dla każdej stawki VAT
-  - __Konto odbiorcy__ Wn
-    - ```ujemna``` kwota burtto
-    - stawka VAT
-    - ```ujemna``` wartość VAT
-    - __opcja Korekta__: ```Korekta podstawy i VAT art. 89a ust. 1, 4```
+  - __Konto odbiorcy__ ```Wn```
+    - __Wartość__: ```ujemna``` kwota burtto
+    - __St. VAT__: stawka VAT
+    - __VAT__: ```ujemna``` wartość VAT
+    - __Korekta__: ```Korekta podstawy i VAT art. 89a ust. 1, 4```
 - łącznie
-  - __Konto odbiorcy__ Wn
-    - ```dodatnia``` sumaryczna kwota brutto
-    - stawka VAT ```ND```
-    - __bez opcji Korekta__
-  - __Konto rozrachunkowe korekt VAT 89a__ Ma
-    - ```dodatnia``` sumaryczna kwota VAT
-    - stawka VAT ```ND```
-    - __bez opcji Korekta__
+  - __Konto odbiorcy__ ```Wn```
+    - __Wartość__: ```dodatnia``` sumaryczna kwota brutto
+    - __St. VAT__: ```ND```
+    - __Korekta__: ```Nie korekta```
+  - __Konto rozrachunkowe korekt VAT 89a__ ```Wn```
+    - __Wartość__: ```uejmna``` sumaryczna kwota VAT
+    - __St. VAT__: ```ND```
+    - __Korekta__: ```Nie korekta```
 
 Par. 89a ust 4 ustawy o VAT wymaga powiększenia __podstawy opdatkowania oraz podatku należnego__
 w przypadku gdy po złożeniu deklaracji podatkowej, w której dokonano korekty, o której mowa w
@@ -108,7 +108,7 @@ JPK_V7 wymaga odrębnego pokazania tego typu korekt.
 
 Aby zrealizować korektę wynikającą z par. 89a ust. 4 ustawy o VAT należy w systemie wykonać
 analogiczne księgowanie ale z przeciwnymi wartościami (wartości ujemne zamieniamy na dodatnie,
-a dodatnie na ujemne)
+a dodatnie na ujemne).
 
 # Korekty związane z par. 89b ustawy o VAT
  
@@ -122,18 +122,32 @@ JPK_V7 wymaga odrębnego pokazania tego typu korekt.
 Aby zrealizować korektę wynikającą z par. 89a ust. 1 ustawy o VAT należy w systemie wykonać
 księgowanie:
 - osobno dla każdej stawki VAT
-  - __Konto dostawcy__ Ma
-    - ```zerowa``` kwota burtto
-    - stawka VAT
-    - ```ujemna``` wartość korekty VAT
-    - __opcja Korekta__: ```Korekta VAT art. 89b ust. 1, 4```
+  - __Konto dostawcy__ ```Ma```
+    - __Wartość__: ```ujemna``` wartość korekty VAT
+    - __St. VAT__: stawka VAT
+    - __VAT__: ```ujemna``` wartość korekty VAT
+    - __Korekta__: ```Korekta VAT art. 89b ust. 1, 4```
 - łącznie
-  - __Konto rozrachunkowe korekt VAT 89b__ Wn
-    - ```dodatnia``` sumaryczna kwota VAT
-    - stawka VAT ```ND```
-    - __bez opcji Korekta__
+  - __Konto odbiorcy__ ```Ma```
+    - __Wartość__: ```dodatnia``` sumaryczna kwota korekty VAT
+    - __St. VAT__: ```ND```
+    - __Korekta__: ```Nie korekta```
+  - __Konto rozrachunkowe korekt VAT 89b__ ```Ma```
+    - __Wartość__: ```ujemna``` sumaryczna kwota korekty VAT
+    - __St. VAT__: ```ND```
+    - __Korekta__: ```Nie korekta```
 
-### Korekty związane z par. 91 (oraz par. 90a - 90c) ustawy o VAT
+Par. 89b ust 4 ustawy o VAT daje możliwość powiększenia __podatku należnego__
+w przypadku uregulowania należności po dokonaniu korekty, o której mowa
+w ust. 1.
+
+JPK_V7 wymaga odrębnego pokazania tego typu korekt.
+
+Aby zrealizować korektę wynikającą z par. 89b ust. 4 ustawy o VAT należy w systemie wykonać
+analogiczne księgowanie ale z przeciwnymi wartościami (wartości ujemne zamieniamy na dodatnie,
+a dodatnie na ujemne)
+
+# Korekty związane z par. 91 (oraz par. 90a - 90c) ustawy o VAT
 
 Par. 91 ustawy o VAT wymaga rozliczenia współczynnika proporcji VAT za ubiegły rok
 w deklaracji składanej za pierwszy okres rozliczeniowy roku następującego po roku podatkowym,
@@ -144,11 +158,13 @@ towarów i usług.
 
 Aby zrealizować korektę wynikającą z par. 91 ustawy o VAT należy w systemie wykonać księgowanie:
 - osobno dla każdej stawki VAT
-  - __Konto rozrachunkowe korekt VAT 89b__ Wn
-    - kwota korekty VAT (```dodatnia``` lub ```ujemna```)
-    - stawka VAT 
-    - __kwota VAT równa wartości pozycji__
-    - __opcja Korekta__: ```Korekta VAT art. 90a-90c oraz art. 91```
+  - __Konto rozrachunkowe korekt VAT 91__ ```Ma```
+    - __Wartość__: kwota korekty VAT (```dodatnia``` lub ```ujemna```)
+    - __St. VAT__: stawka VAT 
+    - __VAT__: kwota korekty VAT (```dodatnia``` lub ```ujemna```)
+    - __Korekta__: ```Korekta VAT art. 90a-90c oraz art. 91```
+
+W przypadku korygowania faktur zaliczanych do środków trwałych trzeba zaznaczyć opcję ```Środki trwałe``` w polu __Typy__.
 
 # Księgowanie deklaracji VAT
 
