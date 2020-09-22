@@ -13,7 +13,7 @@ Pamiętaj, że usługa brokera jest nieodpłatna dla klienta i nie wpływa na wy
 Chcemy być aktywnym partnerem, dlatego zaprosiliśmy do współpracy **[Brokera IBC](http://ibcmanager.pl/)**. Broker IBC ma bardzo duże doświadczenie, pomoże dobrze określić zakres i wybrać najlepszą ofertę na ubezpieczenie wspólnot. Nie bez znaczenia jest fakt, że broker na swoją działalność ma polisę ubezpieczeniową opiewającą na prawie 2 000 000 EUR.
 
 **Z naszej strony dokładamy coś od siebie.**
-- Jeśli skorzystają Państwo z usług IBC, oferujemy zniżkę na system **Zniżka z Weles**.
+- Jeśli skorzystają Państwo z usług IBC, oferujemy zniżkę na system: **Zniżka z Weles**.
 - Po szczegóły programu Zniżka z Weles zapraszamy do **[regulaminu](https://drive.google.com/file/d/15aTzkyP-yiNy7cDwKrP69NFDW_q_t1En/view)**.
 - Pobierz **[pełnomocnictwo](https://drive.google.com/file/d/1kb0MZ-corCN3WZT4cdlrgffx12UW_5A3/view)** dla IBC, dobrze ubezpiecz swoje wspólnoty i odbierz zniżkę już dzisiaj!
 
@@ -29,3 +29,5 @@ Pierwszym krokiem w nawiązaniu współpracy jest podanie kilku informacji na te
 - Klikamy: `Zapisz`.
 
 Po podaniu tych danych system przypomni o zbliżającym się końcu okresu ubezpieczenia.
+
+![Dodanie polisy](ubezpieczenia1.gif)
