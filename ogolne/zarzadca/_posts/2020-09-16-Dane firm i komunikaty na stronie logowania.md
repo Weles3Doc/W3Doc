@@ -1,5 +1,5 @@
 ---
-posts: Dane firm i komunikaty na stronie logowania
+title: Dane firm i komunikaty na stronie logowania
 ---
 
 # Dane firm i komunikaty na stronie logowania
@@ -31,7 +31,7 @@ W ten sam sposób można edytować dane już istniejącej firmy, zaznaczamy ją 
 
 #### Przypisanie firm do zasobów
 
-Po stworzeniu firm trzeba wskazać systemowi, która firma zajmuje się konkretnym budynkiem. Jeśli to Państwo są zarządcami/administratorami wszystkich budynków/zasobów, to wybór jest prosty, przypisujemy jedną firmę do każdego zasobu. Natomiast jeśli działają Państwo na zlecenia firm zewnętrznych, to oczywiście do każdego zasoby można przypisać osobną firmę.
+Po stworzeniu firm trzeba wskazać systemowi, która firma zajmuje się konkretnym budynkiem. Jeśli to Państwo są zarządcami/administratorami wszystkich budynków/zasobów, to wybór jest prosty, przypisujemy jedną firmę do każdego zasobu. Natomiast jeśli działają Państwo na zlecenia firm zewnętrznych, to oczywiście do każdego zasobu można przypisać osobną firmę.
 
 - Zakładka `Zasoby` > menu `Elementy` > `Firmy`.
 - Zakładka `Przypisanie firm do zasobów`.
@@ -59,7 +59,7 @@ Za pomocą komunikatów można poinformować właścicieli o istotnych zmianach,
 - Pole `Zawartość` > wpisujemy krótką treść komunikatu.
 - Pole `Link` > wklejamy link do zewnętrznej strony z informacjami.
 - Klikając: `Sprawdź podany adres WWW` > można sprawdzić, czy przekierowanie na stronę działa.
-- Pole `Zasób` > ustalamy, w których zasobach ma się komunikaty wyświetlić.
+- Pole `Zasób` > ustalamy, w których zasobach ma się komunikat wyświetlić.
     - `We wszystkich` > wyświetli się we wszystkich zasobach przypisanych do danej firmy.
     - `We wszystkich oprócz wskazanych` > w następnym polu wykluczamy zasoby.
     - `Tylko we wskazanych` > w następnym polu wskazujemy konkretne budynki, w których ma się on wyświetlić.
