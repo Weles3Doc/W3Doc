@@ -1,6 +1,7 @@
 ---
 title: Usunięcie prognozy licznika
 ---
+
 # Usunięcie prognozy licznika
 
 Aby usunąć prognozę licznika, należy przejść do:
@@ -16,7 +17,7 @@ Jeśli na liczniku nie będzie już prognozy, to zaliczka może być (ale nie mu
 
 ![Usunięcie prognozy](usuniecieprognozy.gif)
 
-### Uwagi:
+#### Uwagi:
 
 - Jeśli przed przejściem do opisywanej funkcji zaznaczymy pożądany licznik, to podpowie się on automatycznie w nowym oknie.
 - Jeśli prognoza ma obowiązywać przez cały miesiąc, to dodajemy ją od pierwszego dnia miesiąca.
