@@ -1,6 +1,7 @@
 ---
 title: Usunięcie odczytu licznika
 ---
+
 # Usunięcie odczytu licznika
 
 Aby usunąć odczyt licznika, trzeba dodać odczyt wcześniejszy niż ten, który trzeba usunąć. Aby to zrobić, należy przejść do:
