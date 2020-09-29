@@ -1,6 +1,7 @@
 ---
 title: Cofanie zmiany danej
 ---
+
 # Cofanie zmiany danej
 
 Przed cofnięciem zmiany danej trzeba tę zmianę zlokalizować. W tym celu przechodzimy do:
@@ -21,6 +22,6 @@ Wyświetli się okno, w którym będą pokazane zmiany danej na różnych lokala
 - Kliknąć: `Dodaj`.
 - Kliknąć: `Zapisz`.
 
-System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić dane do większej ilości lokali, w tym celu powtarzamy powyższe czynności dla wybranych lokali.
+System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić dane do większej ilości lokali, w tym celu powtarzamy powyższe czynności dla wybranych lokali. Jeśli zmiana danej zostanie wprowadzona w miesiącu, za który są już zaksięgowane zaliczki, to może się naliczyć korekta.
 
 ![Cofanie zmiany danej](cofaniezmianydanej.gif)
