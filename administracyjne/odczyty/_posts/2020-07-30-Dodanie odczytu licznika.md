@@ -1,6 +1,7 @@
 ---
 title: Dodanie odczytu licznika
 ---
+
 # Dodanie odczytu licznika
 
 Przed dodaniem odczytów trzeba określić termin rozliczeń liczników. Aby dodać odczyt licznika, należy przejść do:
@@ -24,3 +25,4 @@ Przed dodaniem odczytów trzeba określić termin rozliczeń liczników. Aby dod
 - Odczyty na koniec okresu rozliczeniowego dodajemy dzień po, czyli np. jeśli mamy odczyty na 30 czerwca to w systemie dodajemy je z datą 2020-**07-01**. Podobnie, odczyty na 31 grudnia dodajemy z datą 2021-**01-01**.
 - Odczyty na dzień wykupu dodajemy z datą wykupu wprowadzoną w systemie. Musi być taka sama. Przeciwnym wypadku system przeliczy zużycie właściciela proporcjonalnie do czasu posiadania lokalu.
 - Aby usunąć odczyt, trzeba dodać odczyt poprzedni jeszcze raz.
+- Można dodać pustą wartość odczytu, pole `Wartość` = puste, nic nie wpisujemy. Dla systemu będzie to znak, aby nie rozliczać zaliczek w tym lokalu, lokal staje się ryczałtowy, mimo że ma dodany licznik.
