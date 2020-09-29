@@ -1,6 +1,7 @@
 ---
 title: Wyliczenie prognoz liczników
 ---
+
 # Wyliczenie prognoz liczników
 
 W system umożliwia automatyczne wyliczenie nowych prognoz na podstawie zużyć liczników, aby to zrobić, należy przejść do:
@@ -31,7 +32,7 @@ Po zamknięciu okna, prognozy powinny być od razu widoczne. Można ew. odświe�
 
 ![Wyliczenie prognoz](wyliczenieprognoz.gif)
 
-### Uwagi:
+#### Uwagi:
 
 - Wyliczonych prognozy nie można dodawać od daty wstecznej.
 - Wartości prognoz można wyeksportować za pomocą wydruku: menu `Funkcje` > `Wydruki` > `Zasób` > `Lista odczytywania liczników` > pole `Typ` > `Lista importu`. Ostatnia, obecna prognoza licznika jest w kolumnie OB_PROG.
