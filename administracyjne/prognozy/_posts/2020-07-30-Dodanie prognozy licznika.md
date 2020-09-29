@@ -1,6 +1,7 @@
 ---
 title: Dodanie prognozy licznika
 ---
+
 # Dodanie prognozy licznika
 
 Aby dodać prognozę licznika, należy przejść do:
@@ -14,7 +15,7 @@ Aby dodać prognozę licznika, należy przejść do:
 
 ![Dodanie prognozy](dodanieprognozy.gif)
 
-### Uwagi:
+#### Uwagi:
 
 - Jeśli przed przejściem do opisywanej funkcji zaznaczymy pożądany licznik, to podpowie się on automatycznie w nowym oknie.
 - Jeśli prognoza ma obowiązywać przez cały miesiąc, to dodajemy ją od pierwszego dnia miesiąca.
