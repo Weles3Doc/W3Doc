@@ -1,18 +1,12 @@
 ---
 title: Import danych z arkusza
 ---
+
 # Import danych z arkusza
 
 Do systemu można wprowadzić dane hurtowo, za pomocą tabelki z odpowiednimi kolumnami. Tabelka do importu danych powinna zawierać co najmniej trzy kolumny. Poniżej przykładowa tabelka, którą tworzymy w arkuszu kalkulacyjnym:
 
-MIE | DATA | Dxx | Dyy |
---- | ---- | --- | --- |
-M01 | 2021-06-01 | 35,23 | 2 |
-M02 | 2021-06-01 | 43,12 | 1 |
-M03 | 2021-06-01 | 76,14 | 4 |
-M04 | 2021-06-01 | 61,89 | 3 |
-
----
+![Przykładowa tabelka](przykladimp1.png)
 
 Gdzie w kolumnach podajemy:
 
@@ -36,18 +30,13 @@ Powyższy import działa dla miesięcy, za które **nie są jeszcze zaksięgowan
 
 Przykład tabelki i przykład importu:
 
-MIE | DATA | Dxx | Dyy | DWxx | DWyy |
---- | ---- | --- | --- | ---- | ---- |
-M01 | 2021-06-01 | 35,23 | 2 | 1 | 1 |
-M02 | 2021-06-01 | 43,12 | 1 | 1 | 1 |
-M03 | 2021-06-01 | 76,14 | 4 | 1 | 1 |
-M04 | 2021-06-01 | 61,89 | 3 | 1 | 1 |
+![Przykładowa tabelka](przykladimp1.png)
 
 ---
 
 ![Import danych wstecz](importdanychwstecz.gif)
 
-### Uwagi:
+#### Uwagi:
 
 - Przy imporcie udziałów prosimy w arkuszu używać funkcji zaokr, zaokrąglić wartość danej do maksymalnie sześciu miejsc po przecinku. W przeciwnym wypadku udział może się nie równać 1 lub 100 procent.
 - W kolumnie Dxx wartość danej może pozostać nieuzupełniona (pusta komórka), wtedy nie zostanie ona zaimportowana lub zmieniona.
