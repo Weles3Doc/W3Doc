@@ -1,14 +1,12 @@
 ---
 title: Dodanie danej do lokalu
 ---
+
 # Dodanie danej do lokalu
 
-Aby wprowadzić wartość danej w lokalu, należy przejść do:
+Aby wprowadzić daną do lokalu, należy przejść do:
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj dane`.
-
-W nowym oknie należy:
-
 - Pole `Lokal` > wybrać interesujący nas lokal,
 - Pole `Dana` > wybrać żądaną daną,
 - Pole `Data` > wprowadzić datę, od kiedy ma obowiązywać wartość danej,
