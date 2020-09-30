@@ -1,21 +1,21 @@
 ---
 title: Poprawa nazwy konta analitycznego
 ---
+
 # Poprawa nazwy konta analitycznego
 
-Nazwy kont zmienia się na zasadzie nadpisania. Zmianę nazwy konta analitycznego dokonuje się poprzez:
+Zmianę nazwy konta analitycznego dokonuje się poprzez:
 
-- Zakładka Zasoby > menu Plan kont > Edytuj konta.
-- Pole Konto nadrzędne > wybrać konto o **jedną analitykę wyższą** niż te, które chcemy poprawić.
-- Pole Numer > podać numer konta, które chcemy poprawić.
-- Pole Nazwa > podać nową nazwę konta.
-- Pole Usuwanie > Pozostaw.
-- Kliknąć: Dodaj.
-- Wpisać hasło i zatwierdzić.
+- Zakładka `Zasoby` > menu `Plan kont` > `Plan kont`.
+- Na liście po lewej stronie wybieramy konto do poprawy.
+- Kliknąć: `Edycja`.
+- Pole `Numer` > wskazuje numer edytowanego konta.
+- Pole `Nazwa` > podać nową nazwę konta.
+- Kliknąć: `Zapisz`.
 
 ![Poprawa nazwy konta analitycznego](poprawanazwyanalit.gif)
 
-### Uwagi:
+#### Uwagi:
 
 - Zmiana nazwy konta analitycznego obowiązywać będzie w całej bazie.
 - Nie ma możliwości zmiany nazwy konta tylko w obrębie jednego budynku.
