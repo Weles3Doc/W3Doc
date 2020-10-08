@@ -1,3 +1,7 @@
+---
+title: Dodanie numerów kont bankowych
+---
+
 # Dodanie numerów kont bankowych
 
 Aby dodać numery kont bankowych, które będą wyświetlane na wydrukach właścicieli, należy przejść do:
@@ -6,9 +10,8 @@ Aby dodać numery kont bankowych, które będą wyświetlane na wydrukach właś
 - Pole `Podkonto` > wybrać podkonto rozrachunkowe właściciela, z którym ma być skojarzony numer rachunku.
 - Pole `Konto Bankowe` > wpisać numer rachunku.
 - Kliknąć: `Dodaj`.
-- Jeśli trzeba uzupełnić numery dla innych podkont.
-- Wpisać hasło i zatwierdzić.
+- Kliknąć: `Zatwierdź`.
 
-Numery rachunków będą wyświetlane na wydrukach dla właścicieli po dodaniu wydruku: Wykaz do zapłaty.
+Numery rachunków będą wyświetlane na wydrukach dla właścicieli po dodaniu wydruku: `Wykaz do zapłaty`. W przypadku gdy na nieruchomości są uruchomione płatności masowe, to numer konta zdefiniowany w tym oknie będzie zastąpiony numerem indywidualnym na wydruku. Natomiast jeśli właściciel nie ma nadanego numeru indywidualnego, to na wydruku wyświetli się numer rachunku podany w tym oknie. 
 
 ![Konta bankowe](kontabankowe.gif)
