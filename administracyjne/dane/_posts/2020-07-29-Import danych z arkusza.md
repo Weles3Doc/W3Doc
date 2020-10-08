@@ -30,7 +30,7 @@ Powyższy import działa dla miesięcy, za które **nie są jeszcze zaksięgowan
 
 Przykład tabelki i przykład importu:
 
-![Przykładowa tabelka](przykladimp1.png)
+![Przykładowa tabelka](przykladimp2.png)
 
 ---
 
