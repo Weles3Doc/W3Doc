@@ -15,13 +15,13 @@ Wymiana liczników polega na zamknięciu starych i otwarciu nowych oraz ewentual
 - Pole `Format` > `CSV (;) - Excel`.
 - Klikamy: `Podgląd wydruku`.
 
-Pobieramy plik i otwieramy go w arkuszu kalkulacyjnym, wybierając odpowiednie kodowanie znaków i separator. Przykładowy [>>WYDRUK<<](listaodczytywanialicznikow.xls).
+Pobieramy plik i otwieramy go w arkuszu kalkulacyjnym, wybierając odpowiednie kodowanie znaków i separator. Przykładowy [>>ARKUSZ<<](listaodczytywanialicznikow.xls) kliknij, aby pobrać.
 
-![Wymiana liczników](wymlicznikow1.gif)
+![Wymiana liczników](listalicznikow.gif)
 
 ![Lista liczników](wymlistalicznikow.png)
 
-Pobrany arkusz formatujemy do postaci trzech oddzielnych tabelek, tak jak to jest pokazane na obrazku poniżej. Kolumny `MIE NR TYP OB_PROG` ułatwiają tworzenie tabelek do wymiany. Jeśli liczniki nie mają prognoz, to tabelkę do ich przenoszenia można pominąć. Przykładowy [>>ARKUSZ<<](tabelkidowymiany.xls).
+Pobrany arkusz formatujemy do postaci trzech oddzielnych tabelek, tak jak to jest pokazane na obrazku poniżej. Kolumny `MIE NR TYP OB_PROG` ułatwiają tworzenie tabelek do wymiany. Jeśli liczniki nie mają prognoz, to tabelkę do ich przenoszenia można pominąć. Przykładowy [>>ARKUSZ<<](tabelkidowymiany.xls) kliknij, aby pobrać.
 
 ![Przykładowe tabelki](tabelkiwymiany.png)
 
