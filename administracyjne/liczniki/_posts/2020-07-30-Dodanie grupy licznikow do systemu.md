@@ -12,8 +12,8 @@ Zazwyczaj grupy liczników są od razu zdefiniowane w systemie, więc nie ma pot
 - Kliknąć: `Dodaj`.
 - Kliknąć: `Zatwierdź`.
 
-![Grupy liczników](grupylicznikow.gif)
-
 Poniżej podajemy typowe grupy liczników.
 
 ![Częste grupy liczników](czestegrupylicznikow.png)
+
+![Grupy liczników](grupylicznikow.gif)
