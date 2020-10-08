@@ -18,7 +18,7 @@ Zdarza się, że w procesie zakładania budynku w systemie, numery liczników s�
 
 Pobieramy plik i otwieramy go w arkuszu kalkulacyjnym, wybierając odpowiednie kodowanie znaków i separator.
 
-![Poprawa numerów](poprawanumerow1.gif)
+![Poprawa numerów](listalicznikow.gif)
 
 Takie zestawienie formatujemy do postaci tabelki, w której znajduje się trzy kolumny:
 
