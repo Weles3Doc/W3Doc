@@ -1,6 +1,7 @@
 ---
 title: Hurtowa wymiana liczników
 ---
+
 # Hurtowa wymiana liczników
 
 Wymiana liczników polega na zamknięciu starych i otwarciu nowych oraz ewentualnym przeniesieniu. Czynność tą można sprawnie wykonać, tworząc odpowiednie tabelki w arkuszu kalkulacyjnym. Wymianę więc zaczynamy od pobrania z systemu arkusza z danymi obecnych liczników. Aby to zrobić, należy przejść do:

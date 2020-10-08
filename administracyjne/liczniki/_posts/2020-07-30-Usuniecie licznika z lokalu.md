@@ -1,6 +1,7 @@
 ---
 title: Usunięcie licznika z lokalu
 ---
+
 # Usunięcie licznika z lokalu
 
 Trwale usunięcie licznika jest możliwe tylko wtedy gdy licznik nie brał udziału w rozliczeniu oraz według jego prognozy nie zostały naliczone zaliczki. Aby usunąć licznik z lokalu, należy przejść do:
