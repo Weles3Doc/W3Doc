@@ -1,6 +1,7 @@
 ---
 title: Cofanie stawki indywidualnej
 ---
+
 # Cofanie stawki indywidualnej
 
 Przed cofnięciem stawki indywidualnej trzeba tę stawkę zlokalizować. W tym celu przechodzimy do:
@@ -22,6 +23,6 @@ Wyświetli się okno, w którym będą pokazane zmiany stawki na różnych lokal
 - Kliknąć: `Dodaj`.
 - Kliknąć: `Zapisz`.
 
-System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić stawki w większej ilości, w tym celu powtarzamy powyższe czynności dla wybranych stawek. Przykład na filmiku instruktażowym prezentuje stawkę indywidualną CO [m2] = 1,77 zł, nadaną indywidualnie na lokal L01 od daty bieżącej 2016-08-01, a następnie z niego usuniętą, poprzez nadanie mu pustej wartości stawki.
+System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić stawki w większej ilości, w tym celu powtarzamy powyższe czynności dla wybranych stawek. 
 
 ![Cofanie zmiany stawki](indstawka.gif)
