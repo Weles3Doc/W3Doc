@@ -1,6 +1,7 @@
 ---
 title: Eksport listy liczników do arkusza
 ---
+
 # Eksport listy liczników do arkusza
 
 Z systemu można wygenerować arkusz z danymi liczników, który jest bardzo pomocny przy imporcie odczytów oraz prognoz lub wprowadzaniu wymiany liczników. Aby to zrobić, należy przejść do:
