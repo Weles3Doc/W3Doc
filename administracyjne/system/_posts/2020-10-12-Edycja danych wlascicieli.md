@@ -9,7 +9,7 @@ System pozwala na gromadzenie i przechowywanie użytecznych danych teleadresowyc
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj dane właścicieli`.
 - Na liście z lewej strony okna zaznaczamy właściciela do edycji.
 - Klikamy: `Edycja`.
-- Pole `NIP` > jeśli właściciel/odbiorca jest firmą, to uzupełniamy NIP. Ewentualnie może pozostać puste.
+- Pole `NIP` > jeśli właściciel/odbiorca jest firmą, to uzupełniamy NIP. Ewentualnie pole może pozostać puste. Jeśli dla zasobu jest generowany plik JPK, to NIPy nie mogą pozostać puste, firmom obowiązkowo podajemy NIP, zwykłym właścicielom można wpisać wartość 9999999999.
 - Przycisk: `Pobierz z REGON` > gdy podaliśmy NIP to nazwę i adres można pobrać z bazy REGON.
 - Pole `Nazwa` > wpisujemy imiona i nazwiska właścicieli, nazwę firmy. Nazwa ta będzie wyświetlana w systemie w oknie `Wydruki` i przy nazwie konta 201 w zakładce `Konta FK` oraz na niektórych wydrukach zbiorczych. Zgodnie z zasadami języka polskiego jako pierwsze piszemy imię, potem nazwisko.
 - Pole `Klucz` > skrócona nazwa, dla właściciela może być to samo nazwisko, dla firmy krótka jej nazwa. Klucz jest wyświetlany w zakładce `Administracja` w polu `Struktura` przy numerze lokalu. Pojawia się na wybranych wydrukach, dodatkowo niektóre wydruki posiadają opcje segregowania po kluczu właściciela.
