@@ -4,11 +4,7 @@ title: Edycja struktur
 
 # Edycja struktur
 
-Struktury są elementami systemu, które agregują lokale. Zazwyczaj są one już założone podczas procesu zakładania budynku w systemie. Nie zakładamy struktur za bardzo rozdrobnionych lub za głębokich (np. głębszych niż 2 poziomy). Jeśli nie mamy określonego planu struktury i jednocześnie baza jest mała i prosta, to nie zakładamy struktur w budynku. Struktury edytujemy za pomocą:
-
-Zakładka `Administracja` > menu `Zasoby` > `Edytuj struktury`.
-
-Nazwy struktur zazwyczaj piszemy dużymi literami. Nazwa struktury musi być unikalna. Najpierw zakładamy struktury pierwszego poziomu, później drugiego. Struktura nie pojawi się od razu, muszą być do niej dodane lokale z właścicielami.
+Struktury są elementami systemu, które agregują lokale. Zazwyczaj są one już założone podczas procesu zakładania budynku w systemie. Nie zakładamy struktur za bardzo rozdrobnionych lub za głębokich (np. głębszych niż 2 poziomy). Jeśli nie mamy określonego planu struktury i jednocześnie baza jest mała i prosta, to nie zakładamy struktur w budynku. Nazwy struktur zazwyczaj piszemy dużymi literami. Nazwa struktury musi być unikalna. Najpierw zakładamy struktury pierwszego poziomu, później drugiego. Struktura nie pojawi się od razu, muszą być do niej dodane lokale z właścicielami.
 
 Najczęstsze proste podziały na struktury:
 
@@ -63,7 +59,7 @@ Można stosować wielopoziomowe mieszanki powyższych sposobów.
 Pod strukturą nie mogą się znajdować lokale, aby móc ją usunąć.
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj struktury`.
-- Zaznaczamy strukturę do edycji.
+- Zaznaczamy strukturę do usunięcia.
 - Klikamy: `Usuń`.
 
 ![Edycja struktur](edycjastrukturusuwanie.gif)
