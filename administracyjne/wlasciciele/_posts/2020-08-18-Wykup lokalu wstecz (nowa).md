@@ -93,30 +93,34 @@ Następnym krokiem jest zamknięcie liczników w lokalu, zakańczamy je z datą 
 
 #### 2.1 Dodanie nowego lokalu
 
+Przed dodaniem nowego właściciela, należy stworzyć lokal, aby to zrobić trzeba przejść do:
+
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj mieszkania`.
 - Klikamy: `Nowy`.
-- Pole `Nazwa` > wpisać numer mieszkania/lokalu/elementu.
+- Pole `Nazwa` > wpisać **normalny** numer lokalu taki jak miał stary właściciel.
 - Pole `Informacja` > podajemy dodatkowe informacje o lokalu, może też pozostać puste.
 - Kliknąć: `Utwórz`.
 
-(GIF)
+![Wykup wstecz dodanie nowego lokalu.](NwykupwsteczNowylok.gif)
 
 #### 2.2 Dodanie nowego właściciela
 
+Następnym krokiem jest dodanie nowego właściciela, po tej operacji powinien pojawić się w polu struktury. Przed przystąpieniem do czynności sprawdzamy, jaki dokument ma się wystawiać oraz pod jaką strukturą zlokalizować nowego właściciela. Aby dodać właściciela, należy przejść do:
+
 - Zakładki `Administracja` > menu `Zasoby` > `Edytuj właścicieli`.
-- Pole `Lokal` > wybrać lokal.
-- Pole `Data` > podać datę wykupu.
-- Pole `Operacja` > wybrać `Nowy właściciel`.
-- Pole `Udziałowcy` > `Właściciel główny` (patrz uwagi).
+- Pole `Lokal` > wybrać lokal, który został stworzony w punkcie 2.1.
+- Pole `Data` > ustawiamy **datę wykupu lokalu**.
+- Pole `Operacja` > wybrać `Nowy właściciel` (ew. `Istniejący właściciel`, gdy chcemy wykorzystać istniejącą kartotekę właściciela).
+- Pole `Udziałowcy` > `Właściciel główny`.
 - Pole `Struktura` > wybrać strukturę, pod którą ma się podłączyć lokal (**Ważne!!**).
-- Pole `Dokument` > wybrać jeden z dokumentów:
+- Pole `Dokument` > wybrać jeden z dokumentów (**Ważne!!**):
   - `Zawiadomienie` > zwyczajny dokument z opłatami.
   - `Faktura VAT` > wybieramy tylko, gdy chcemy wystawić wszystkie pozycje opłat na FV.
   - `Rachunek` > wybieramy wtedy, gdy chcemy wystawić opłaty na Rachunku lub na Fakturze uproszczonej.
 - Pole `Typ` > określamy typ kartoteki, wypieramy jedną z dostępnych, ew. pozostawiamy `Ogólne`.
 - Pole `Nazwa` > wpisujemy Imię i nazwisko lub nazwę odbiorcy.
 - Pole `Adres` > podajemy pełen adres.
-- Pole `Weryfikacja adresu` > `Sprawdzaj strukturę` (patrz uwagi).
+- Pole `Weryfikacja adresu` > `Nie sprawdzaj struktury`.
 - Pole `Informacje` > podajemy ew. dodatkowe informacje.
 - Klikamy: `Dodaj`.
 - Klikamy: `Zatwierdź`.
