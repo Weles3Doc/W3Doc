@@ -27,58 +27,69 @@ Następnie te dwa etapy można podzielić na:
   - 2.4 Wprowadzenie liczników.
   - 2.5 Dodanie prognoz licznikom.
 - 3.0 Należności/korekta:
-  - Naliczenie korekty.
-  - Sprawdzenie obciążeń.
-  - Zaksięgowanie.
+  - 3.1 Naliczenie korekty.
+  - 3.2 Sprawdzenie obciążeń.
+  - 3.3 Zaksięgowanie.
 - 4.0 Usunięcie starego właściciela z lokalu.
 
 Powyższe etapy zostaną dokładnie opisane poniżej.
 
 #### 1.1 Edycja numeru lokalu byłego właściciela
 
+Proces zaczynamy od zmiany numeru lokalu starego właściciela. Dodajemy literę S, ponieważ w nieruchomości nie może być dwóch lokali o takim samym numerze. Aby to zrobić, należy przejść do:
+
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj mieszkania`.
-- Zaznaczamy lokal do edycji.
+- Na liście po lewej stronie okna zaznaczamy **lokal byłego właściciela**.
 - Klikamy: `Edycja`.
-- Pole `Nazwa` > można wpisać nowy unikalny numer/nazwę.
+- Pole `Nazwa` > do numeru lokalu dodajemy literę S, będzie oznaczała starego właściciela.
 - Pole `Informacja` > podajemy dodatkowe informacje o lokalu, może też pozostać puste.
 - Kliknąć: `Zapisz`.
 
-(GIF)
+![Wykup wstecz edycja numeru lokalu.](NwykupwsteczEdycjalok.gif)
 
 #### 1.2 Wyzerowanie danych w lokalu byłego właściciela
 
+Następnym krokiem jest wyzerowanie danych w lokalu, zerujemy je od daty przekazania własności (aktu notarialnego). Przed przystąpieniem do czynności, sprawdzamy jakie dane należy wyzerować, w tym celu klikamy na lokal i następnie przycisk `Dane`. Aby je wyzerować, należy przejść do:
+
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj dane`.
-- Pole `Lokal` > wybrać interesujący nas lokal,
-- Pole `Dana` > wybrać żądaną daną,
-- Pole `Data` > wprowadzić datę, od kiedy ma obowiązywać wartość danej,
-- Pole `Wartość` > wprowadzamy wartość danej.
+- Pole `Lokal` > wybrać **lokal byłego właściciela**.
+- Pole `Dana` > wybrać żądaną daną.
+- Pole `Data` > wprowadzić **datę wykupu lokalu**.
+- Pole `Wartość` > wprowadzamy **wartość = 0**, zerujemy.
 - Kliknąć: `Dodaj`.
+- Czynności **powtarzamy** dla każdej danej, która jest dodana do lokalu.
 - Kliknąć: `Zapisz`.
 
-(GIF)
+![Wykup wstecz zerowanie danych lokalu.](NwykupwsteczEdycjadanychstr.gif)
 
 #### 1.3 Wyzerowanie prognoz na licznikach byłego właściciela
 
+Następnym krokiem jest wyzerowanie prognoz w lokalu, zerujemy je od daty przekazania własności (aktu notarialnego). Przed przystąpieniem do czynności, sprawdzamy jakie prognozy należy wyzerować, w tym celu klikamy na lokal i następnie przycisk `Liczniki`. Aby je wyzerować, należy przejść do:
+
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj prognozy`.
-- Pole `Licznik` > wybieramy licznik.
-- Pole `Data` > ustawiamy datę, od której ma obowiązywać prognoza.
-- Pole `Wartość` > wpisujemy prognozę.
+- Pole `Licznik` > wybieramy licznik **w lokalu byłego właściciela**.
+- Pole `Data` > ustawiamy **datę wykupu lokalu**.
+- Pole `Wartość` > wpisujemy **prognozę = 0**, zerujemy.
 - Klikamy: `Dodaj`.
+- Czynności **powtarzamy** dla każdego licznika, który jest dodany do lokalu.
 - Klikamy: `Zatwierdź`.
 
-(GIF)
+![Wykup wstecz zerowanie prognoz lokalu.](NwykupwsteczEdycjaprogstr.gif)
 
 #### 1.4 Zakończenie liczników u byłego właściciela
 
+Następnym krokiem jest zamknięcie liczników w lokalu, zakańczamy je z datą przekazania własności (aktu notarialnego). Wartość odczytu podajemy z protokołu przekazania lokalu. Aby zamknąć liczniki, należy przejść do:
+
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj odczyty`.
-- Pole `Licznik` > wybieramy licznik.
-- Pole `Data` > ustawiamy datę zamknięcia licznika, ostatniego odczytu.
-- Pole `Wartość` > wpisujemy odczytaną wartość ostatniego odczytu.
-- Pole `Typ odczytu` > zaznaczamy `Końcowy — demontaż licznika`.
+- Pole `Licznik` > wybieramy licznik **w lokalu byłego właściciela**.
+- Pole `Data` > ustawiamy **datę wykupu lokalu**.
+- Pole `Wartość` > wpisujemy wartość odczytu z protokołu przekazania.
+- Pole `Typ odczytu` > zaznaczamy `Końcowy — demontaż licznika`, powinien się pokazać haczyk przy prawidłowo zaznaczonej pozycji.
 - Klikamy: `Dodaj`.
+- Czynności **powtarzamy** dla każdego licznika, który jest dodany do lokalu.
 - Klikamy: `Zatwierdź`.
 
-(GIF)
+![Wykup wstecz zamknięcie liczników w lokalu.](NwykupwsteczZamkliczstr.gif)
 
 #### 2.1 Dodanie nowego lokalu
 
