@@ -1,6 +1,7 @@
 ---
-title: Płatność do strony właściciela
+title: Płatność od strony właściciela
 ---
+
 # Płatność od strony właściciela
 
 Po uruchomieniu usługi, płatność od strony podglądu właściciela wygląda następująco:

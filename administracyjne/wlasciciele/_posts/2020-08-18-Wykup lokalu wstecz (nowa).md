@@ -45,7 +45,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### 1.2 Wyzerowanie danych w lokalu byłego właściciela.
+#### 1.2 Wyzerowanie danych w lokalu byłego właściciela
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj dane`.
 - Pole `Lokal` > wybrać interesujący nas lokal,
@@ -57,7 +57,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### 1.3 Wyzerowanie prognoz na licznikach byłego właściciela.
+#### 1.3 Wyzerowanie prognoz na licznikach byłego właściciela
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj prognozy`.
 - Pole `Licznik` > wybieramy licznik.
@@ -68,7 +68,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### 1.4 Zakończenie liczników u byłego właściciela.
+#### 1.4 Zakończenie liczników u byłego właściciela
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj odczyty`.
 - Pole `Licznik` > wybieramy licznik.
@@ -80,7 +80,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### 2.1 Dodanie nowego lokalu.
+#### 2.1 Dodanie nowego lokalu
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj mieszkania`.
 - Klikamy: `Nowy`.
@@ -90,7 +90,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### 2.2 Dodanie nowego właściciela.
+#### 2.2 Dodanie nowego właściciela
 
 - Zakładki `Administracja` > menu `Zasoby` > `Edytuj właścicieli`.
 - Pole `Lokal` > wybrać lokal.
@@ -112,7 +112,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### 2.3 Dodanie danych.
+#### 2.3 Dodanie danych
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj dane`.
 - Pole `Lokal` > wybrać interesujący nas lokal,
@@ -124,7 +124,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### 2.4 Dodanie liczników.
+#### 2.4 Dodanie liczników
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj liczniki`.
 - Kliknąć: `Nowy`.
@@ -141,7 +141,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### 2.5 Dodanie prognoz.
+#### 2.5 Dodanie prognoz
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj prognozy`.
 - Pole `Licznik` > wybieramy licznik.
@@ -152,19 +152,19 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### 3.1 Naliczenia korekty.
+#### 3.1 Naliczenia korekty
 
 (OPIS)
 
 (GIF)
 
-#### 3.2 Sprawdzenie korekty.
+#### 3.2 Sprawdzenie korekty
 
 (OPIS)
 
 (GIF)
 
-#### 3.3 Księgowanie korekty.
+#### 3.3 Księgowanie korekty
 
 (OPIS)
 
