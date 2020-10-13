@@ -76,9 +76,11 @@ Do dodania liczników na nowym lokalu używamy:
 
 - Menu `Zasoby` > `Edytuj liczniki`.
 
-W polu Licznik wybieramy: Nowy licznik, pozostałe pola uzupełniamy danym liczników z lokalu pierwotnego.
+W polu `Licznik` wybieramy: `Nowy licznik`, pozostałe pola uzupełniamy danym liczników z lokalu pierwotnego.
 
 ![Podział lokalu](podziallokalu4.gif)
+
+#### Sprawdzenie naliczeń
 
 Po wykonaniu zmian sprawdzamy naliczenia dla obu lokali.
 
