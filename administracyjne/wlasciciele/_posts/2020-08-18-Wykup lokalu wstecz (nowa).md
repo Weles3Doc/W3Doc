@@ -8,32 +8,33 @@ title: Wykup lokalu wstecz (w przygotowaniu)
 
 Procedura wykupu lokalu wstecz potrzebna jest w sytuacji, gdy przykładowo w połowie roku otrzymujemy informację o zmianie właściciela lokalu, która nastąpiła na jego początku (np. w lutym). Z reguły w tym momencie mamy już zaksięgowane zaliczki oraz porozsyłane dokumenty do właścicieli. W tym rozdziale została przedstawiona procedura, która ma za zadanie rozwiązać problem związany z zaistniałą sytuacją w możliwie najlepszy sposób. Umożliwia ona korektę niezgodności za okres, który nie został jeszcze rozliczony przez rozliczenie kosztów. Procedurę tą wykonujemy **tylko i wyłącznie, jeśli mamy zaksięgowane już dokumenty zaliczki/korekty w miesiącu, w którym nastąpiła zmiana właściciela**. Jeśli nie mamy jeszcze zaksięgowanych naliczeń za miesiąc, w którym nastąpiła zmiana właściciela, to robimy Zwykły wykup.
 
-Wykup lokalu składa się z dwóch zasadniczych czynności:
+Wykup wstecz lokalu składa się z dwóch zasadniczych czynności:
 
 - Doprowadzenie do zwrotu (korekty) naliczonych należności staremu właścicielowi.
 - Dodanie nowego lokalu i właściciela od daty wykupu, naliczenie należności (korekty) za lokal.
 
 Następnie te dwa etapy można podzielić na:
 
-- Były właściciel:
-    - Edycja numeru lokalu.
-    - Wyzerowanie danych w lokalu.
-    - Wyzerowanie prognoz licznikom.
-    - Dodanie odczytów końcowych licznikom w lokalu.
-- Nowy właściciel:
-    - Dodanie nowego lokalu.
-    - Dodanie nowego właściciela.
-    - Dodanie danych.
-    - Wprowadzenie liczników.
-    - Dodanie prognoz licznikom.
-- Naliczenie korekty.
-- Sprawdzenie obciążeń.
-- Zaksięgowanie.
-- Usunięcie starego właściciela z lokalu.
+- 1.0 Były właściciel:
+  - 1.1 Edycja numeru lokalu.
+  - 1.2 Wyzerowanie danych w lokalu.
+  - 1.3 Wyzerowanie prognoz licznikom.
+  - 1.4 Dodanie odczytów końcowych licznikom w lokalu.
+- 2.0 Nowy właściciel:
+  - 2.1 Dodanie nowego lokalu.
+  - 2.2 Dodanie nowego właściciela.
+  - 2.3 Dodanie danych.
+  - 2.4 Wprowadzenie liczników.
+  - 2.5 Dodanie prognoz licznikom.
+- 3.0 Należności/korekta:
+  - Naliczenie korekty.
+  - Sprawdzenie obciążeń.
+  - Zaksięgowanie.
+- 4.0 Usunięcie starego właściciela z lokalu.
 
 Powyższe etapy zostaną dokładnie opisane poniżej.
 
-#### Edycja numeru lokalu byłego właściciela
+#### 1.1 Edycja numeru lokalu byłego właściciela
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj mieszkania`.
 - Zaznaczamy lokal do edycji.
@@ -44,7 +45,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### Wyzerowanie danych w lokalu byłego właściciela.
+#### 1.2 Wyzerowanie danych w lokalu byłego właściciela.
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj dane`.
 - Pole `Lokal` > wybrać interesujący nas lokal,
@@ -56,7 +57,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### Wyzerowanie prognoz na licznikach byłego właściciela.
+#### 1.3 Wyzerowanie prognoz na licznikach byłego właściciela.
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj prognozy`.
 - Pole `Licznik` > wybieramy licznik.
@@ -67,7 +68,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### Zakończenie liczników u byłego właściciela.
+#### 1.4 Zakończenie liczników u byłego właściciela.
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj odczyty`.
 - Pole `Licznik` > wybieramy licznik.
@@ -79,7 +80,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### Dodanie nowego lokalu.
+#### 2.1 Dodanie nowego lokalu.
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj mieszkania`.
 - Klikamy: `Nowy`.
@@ -89,7 +90,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### Dodanie nowego właściciela.
+#### 2.2 Dodanie nowego właściciela.
 
 - Zakładki `Administracja` > menu `Zasoby` > `Edytuj właścicieli`.
 - Pole `Lokal` > wybrać lokal.
@@ -111,7 +112,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### Dodanie danych.
+#### 2.3 Dodanie danych.
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj dane`.
 - Pole `Lokal` > wybrać interesujący nas lokal,
@@ -123,7 +124,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### Dodanie liczników.
+#### 2.4 Dodanie liczników.
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj liczniki`.
 - Kliknąć: `Nowy`.
@@ -140,7 +141,7 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### Dodanie prognoz.
+#### 2.5 Dodanie prognoz.
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj prognozy`.
 - Pole `Licznik` > wybieramy licznik.
@@ -151,25 +152,25 @@ Powyższe etapy zostaną dokładnie opisane poniżej.
 
 (GIF)
 
-#### Naliczenia korekty.
+#### 3.1 Naliczenia korekty.
 
 (OPIS)
 
 (GIF)
 
-#### Sprawdzenie korekty.
+#### 3.2 Sprawdzenie korekty.
 
 (OPIS)
 
 (GIF)
 
-#### Księgowanie korekty.
+#### 3.3 Księgowanie korekty.
 
 (OPIS)
 
 (GIF)
 
-#### Usunięcie starego właściciela z lokalu
+#### 4.0 Usunięcie starego właściciela z lokalu
 
 (OPIS)
 
