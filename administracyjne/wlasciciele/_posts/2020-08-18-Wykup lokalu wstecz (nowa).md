@@ -1,5 +1,5 @@
 ---
-title: Wykup lokalu wstecz (w przygotowaniu)
+title: Wykup lokalu wstecz
 ---
 
 # Wykup lokalu wstecz
