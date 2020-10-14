@@ -125,36 +125,42 @@ Następnym krokiem jest dodanie nowego właściciela, po tej operacji powinien p
 - Klikamy: `Dodaj`.
 - Klikamy: `Zatwierdź`.
 
-(GIF)
+![Wykup wstecz dodanie nowego właściciela.](NwykupwsteczNowywlas.gif)
 
 #### 2.3 Dodanie danych
 
+Następnym krokiem jest dodanie danych do nowego lokalu, uzupełniamy je od daty przekazania własności (aktu notarialnego). Przed przystąpieniem do czynności, sprawdzamy jakie dane należy przenieść, w tym celu klikamy na lokal i następnie przycisk `Dane`. Aby dodać dane, należy przejść do:
+
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj dane`.
-- Pole `Lokal` > wybrać interesujący nas lokal,
-- Pole `Dana` > wybrać żądaną daną,
-- Pole `Data` > wprowadzić datę, od kiedy ma obowiązywać wartość danej,
-- Pole `Wartość` > wprowadzamy wartość danej.
+- Pole `Lokal` > wybrać **lokal nowego właściciela**.
+- Pole `Dana` > wybrać żądaną daną.
+- Pole `Data` > wprowadzić **datę wykupu lokalu**.
+- Pole `Wartość` > wprowadzamy wartość danej taka jak była w starym lokalu, bo zazwyczaj dane takie jak powierzchnie, udziały i ilości się nie zmieniają, wyjątkiem są ew. normy lub zmiana liczby osób.
 - Kliknąć: `Dodaj`.
+- Czynności **powtarzamy** dla każdej danej, która jest dodana do lokalu.
 - Kliknąć: `Zapisz`.
 
-(GIF)
+![Wykup wstecz dodanie danych nowego właściciela.](NwykupwsteczNowywdanelok.gif)
 
 #### 2.4 Dodanie liczników
 
+Następnym krokiem jest dodanie liczników w nowym lokalu, tworzymy je z datą przekazania własności (aktu notarialnego), numery i typy podajemy takie jak były u starego właściciela. Wartość odczytu podajemy z protokołu przekazania lokalu. Aby dodać liczniki, należy przejść do:
+
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj liczniki`.
 - Kliknąć: `Nowy`.
-- Pole `Lokal` > wybrać pożądany lokal.
+- Pole `Lokal` > wybrać **lokal nowego właściciela**.
 - Pole `Grupa liczników` > wybrać grupę liczników.
 - Pole `Typ licznika` > wybrać typ licznika.
 - Pole `Numer` > wpisać numer, maksymalnie 12 znaków, bez zer przodujących.
-- Pole `Data założenia` > ustawić datę założenia licznika w lokalu.
+- Pole `Data założenia` > wprowadzić **datę wykupu lokalu**.
 - Pole `Data legalizacji` > ustawić datę przyszłej legalizacji.
-- Pole `Odczyt` > wpisać odczyt na datę założenia.
+- Pole `Odczyt` > wpisujemy wartość odczytu z protokołu przekazania.
 - Pole `Prognoza` > wpisać prognozę, może pozostać pusta.
 - Pole `Lokalizacja` > wpisać lokalizacje, może pozostać puste.
 - Klikamy: `Utwórz`.
+- Czynności **powtarzamy** dla każdego aktywnego licznika, który był w lokalu starego właściciela.
 
-(GIF)
+![Wykup wstecz dodanie liczników nowego właściciela.](NwykupwsteczNowydodlicz.gif)
 
 #### 2.5 Dodanie prognoz
 
