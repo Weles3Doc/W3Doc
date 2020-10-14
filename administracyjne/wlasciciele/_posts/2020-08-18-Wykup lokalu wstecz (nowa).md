@@ -240,7 +240,7 @@ Gdy wszystko jest już zaakceptowane, pozostaje tylko usunięcie starego właśc
 - Klikamy: `Dodaj`.
 - Klikamy: `Zatwierdź`.
 
-W ikonce mieszkania starego właściciela pojawi się łańcuszek, zostanie określona też data końcowa. Stary właściciel zniknie z pola struktury po zamknięciu roku, w którym był przeporpawdzony wykup.
+W ikonce mieszkania starego właściciela pojawi się łańcuszek, zostanie określona też data końcowa. Stary właściciel zniknie z pola struktury po zamknięciu roku, w którym był przeprowadzony wykup.
 
 ![Wykup wstecz księgowanie korekty.](NwykupwsteczUsustrwlas.gif)
 
