@@ -64,14 +64,14 @@ Następnym krokiem jest wyzerowanie danych w lokalu, zerujemy je od daty przekaz
 
 #### 1.3 Wyzerowanie prognoz na licznikach byłego właściciela
 
-Następnym krokiem jest wyzerowanie prognoz w lokalu, zerujemy je od daty przekazania własności (aktu notarialnego). Przed przystąpieniem do czynności, sprawdzamy jakie prognozy należy wyzerować, w tym celu klikamy na lokal i następnie przycisk `Liczniki`. Aby je wyzerować, należy przejść do:
+Następnym krokiem jest wyzerowanie prognoz w lokalu, zerujemy je od daty przekazania własności (aktu notarialnego). Przed przystąpieniem do czynności, sprawdzamy jakie prognozy należy wyzerować, w tym celu klikamy na lokal i następnie przycisk `Liczniki`. Prosimy zapamiętać wartości prognoz na poszczególnych licznikach. Jeśli licznik nie ma prognozy, to nie trzeba jej zerować. Aby wyzerować prognozy, należy przejść do:
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj prognozy`.
 - Pole `Licznik` > wybieramy licznik **w lokalu byłego właściciela**.
 - Pole `Data` > ustawiamy **datę wykupu lokalu**.
 - Pole `Wartość` > wpisujemy **prognozę = 0**, zerujemy.
 - Klikamy: `Dodaj`.
-- Czynności **powtarzamy** dla każdego licznika, który jest dodany do lokalu.
+- Czynności **powtarzamy** dla każdego aktywnego licznika, który jest dodany do lokalu.
 - Klikamy: `Zatwierdź`.
 
 ![Wykup wstecz zerowanie prognoz lokalu.](NwykupwsteczEdycjaprogstr.gif)
@@ -135,7 +135,7 @@ Następnym krokiem jest dodanie danych do nowego lokalu, uzupełniamy je od daty
 - Pole `Lokal` > wybrać **lokal nowego właściciela**.
 - Pole `Dana` > wybrać żądaną daną.
 - Pole `Data` > wprowadzić **datę wykupu lokalu**.
-- Pole `Wartość` > wprowadzamy wartość danej taka jak była w starym lokalu, bo zazwyczaj dane takie jak powierzchnie, udziały i ilości się nie zmieniają, wyjątkiem są ew. normy lub zmiana liczby osób.
+- Pole `Wartość` > wprowadzamy wartość danej taka jak była w starym lokalu, zazwyczaj dane takie jak powierzchnie, udziały i ilości się nie zmieniają, wyjątkiem są ew. normy lub zmiana liczby osób.
 - Kliknąć: `Dodaj`.
 - Czynności **powtarzamy** dla każdej danej, która jest dodana do lokalu.
 - Kliknąć: `Zapisz`.
@@ -164,14 +164,17 @@ Następnym krokiem jest dodanie liczników w nowym lokalu, tworzymy je z datą p
 
 #### 2.5 Dodanie prognoz
 
+Następnym krokiem jest dodanie prognoz w lokalu nowego właściciela, dodajemy je od daty przekazania własności (aktu notarialnego). Przed przystąpieniem do czynności, sprawdzamy jakie prognozy należy dodać, w tym celu klikamy na lokal i następnie przycisk `Liczniki`. Aby je dodać, należy przejść do:
+
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj prognozy`.
-- Pole `Licznik` > wybieramy licznik.
-- Pole `Data` > ustawiamy datę, od której ma obowiązywać prognoza.
+- Pole `Licznik` > wybieramy licznik **w lokalu nowego właściciela**.
+- Pole `Data` > ustawiamy **datę wykupu lokalu**.
 - Pole `Wartość` > wpisujemy prognozę.
 - Klikamy: `Dodaj`.
+- Czynności **powtarzamy** dla każdego aktywnego licznika w lokalu, który powinien posiadać prognozę.
 - Klikamy: `Zatwierdź`.
 
-(GIF)
+![Wykup wstecz dodanie prognoz nowego właściciela.](NwykupwsteczNowydodprog.gif)
 
 #### 3.1 Naliczenia korekty
 
