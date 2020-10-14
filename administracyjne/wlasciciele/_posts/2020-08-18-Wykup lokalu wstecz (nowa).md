@@ -4,8 +4,6 @@ title: Wykup lokalu wstecz (w przygotowaniu)
 
 # Wykup lokalu wstecz
 
-# **Nowa instrukcja — w przygotowaniu.**
-
 Procedura wykupu lokalu wstecz potrzebna jest w sytuacji, gdy przykładowo w połowie roku otrzymujemy informację o zmianie właściciela lokalu, która nastąpiła na jego początku (np. w lutym). Z reguły w tym momencie mamy już zaksięgowane zaliczki oraz porozsyłane dokumenty do właścicieli. W tym rozdziale została przedstawiona procedura, która ma za zadanie rozwiązać problem związany z zaistniałą sytuacją w możliwie najlepszy sposób. Umożliwia ona korektę niezgodności za okres, który nie został jeszcze rozliczony przez rozliczenie kosztów. Procedurę tą wykonujemy **tylko i wyłącznie, jeśli mamy zaksięgowane już dokumenty zaliczki/korekty w miesiącu, w którym nastąpiła zmiana właściciela**. Jeśli nie mamy jeszcze zaksięgowanych naliczeń za miesiąc, w którym nastąpiła zmiana właściciela, to robimy Zwykły wykup.
 
 Wykup wstecz lokalu składa się z dwóch zasadniczych czynności:
@@ -178,13 +176,23 @@ Następnym krokiem jest dodanie prognoz w lokalu nowego właściciela, dodajemy 
 
 #### 3.1 Naliczenia korekty
 
-(OPIS)
+Po sporządzeniu powyższych korekt trzeba naliczyć korektę wykupu wstecz. Aby to zrobić, należy przejść do:
 
-(GIF)
+- Zakładka `Administracja` > przycisk `Naliczenia` > `K. bieżąca`.
+- Pole `Struktura` > klikamy na cały budynek.
+- Menu `Obciążenia` > `Nalicz korekty`.
+
+Pierwszym objawem poprawnej korekty może być to, że wychodzi na **zero**. Będzie tak tylko wtedy, gdy stary i nowy właściciel mają te same wartości danych, prognoz i odczytów, co daje te same naliczenia. Jeśli nie wychodzi na zero, to prosimy sprawdzić składniki korekty, które są niezerowe i czy są poprawne.
+
+![Wykup wstecz naliczenie korekty.](NwykupwsteczNaliczkor.gif)
 
 #### 3.2 Sprawdzenie korekty
 
-(OPIS)
+Sprawdzanie danych lokali > przycisk `Dane`:
+
+- Klikamy na **cały** budynek. Sprawdzamy, czy dane, które powinny być nie zmienne są stałe. Przykładem jest powierzchnie, udziały i ilości lokali/MP/garaży.
+
+
 
 (GIF)
 
