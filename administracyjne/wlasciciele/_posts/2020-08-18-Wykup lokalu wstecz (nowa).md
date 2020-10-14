@@ -231,7 +231,7 @@ Po zaksięgowaniu można rozpocząć drukowanie dokumentów dla właścicieli.
 
 #### 4.0 Usunięcie starego właściciela z lokalu
 
-Gdy wszystko jest już zaakceptowane, pozostaje tylko usunięcie starego właściciela z lokalu, dzięki temu nie będzie już pobierana opałata abonamentowa za system za ten lokal. Aby to wykonać, należy przejść do:
+Gdy wszystko jest już zaakceptowane, pozostaje tylko usunięcie starego właściciela z lokalu, dzięki temu nie będzie już pobierana opłata abonamentowa za system za ten lokal. Aby to wykonać, należy przejść do:
 
  Zakładki `Administracja` > menu `Zasoby` > `Edytuj właścicieli`.
 - Pole `Lokal` > wybrać lokal, który został opisany w punkcie 1.1, lokal z S-ką.
