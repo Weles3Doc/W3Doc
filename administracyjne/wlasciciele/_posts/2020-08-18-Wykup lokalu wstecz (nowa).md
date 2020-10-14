@@ -43,6 +43,8 @@ Proces zaczynamy od zmiany numeru lokalu starego właściciela. Dodajemy literę
 - Pole `Informacja` > podajemy dodatkowe informacje o lokalu, może też pozostać puste.
 - Kliknąć: `Zapisz`.
 
+Jeśli system nie akceptuje zmian po kliknięciu `Zapisz`, to w polu `Nazwa` dopisujemy kolejną literkę S, być może lokal zmienił kolejny raz właściciela.
+
 ![Wykup wstecz edycja numeru lokalu.](NwykupwsteczEdycjalok.gif)
 
 #### 1.2 Wyzerowanie danych w lokalu byłego właściciela
@@ -111,9 +113,9 @@ Następnym krokiem jest dodanie nowego właściciela, po tej operacji powinien p
 - Pole `Operacja` > wybrać `Nowy właściciel` (ew. `Istniejący właściciel`, gdy chcemy wykorzystać istniejącą kartotekę właściciela).
 - Pole `Udziałowcy` > `Właściciel główny`.
 - Pole `Struktura` > wybrać strukturę, pod którą ma się podłączyć lokal (**Ważne!!**).
-- Pole `Dokument` > wybrać jeden z dokumentów (**Ważne!!**):
+- Pole `Dokument` > wybrać jeden z dokumentów (**Ważne!!**).
   - `Zawiadomienie` > zwyczajny dokument z opłatami.
-  - `Faktura VAT` > wybieramy tylko, gdy chcemy wystawić wszystkie pozycje opłat na FV.
+  - `Faktura VAT` > wybieramy tylko, gdy chcemy wystawić wszystkie pozycje opłat na Fakturze VAT.
   - `Rachunek` > wybieramy wtedy, gdy chcemy wystawić opłaty na Rachunku lub na Fakturze uproszczonej.
 - Pole `Typ` > określamy typ kartoteki, wypieramy jedną z dostępnych, ew. pozostawiamy `Ogólne`.
 - Pole `Nazwa` > wpisujemy Imię i nazwisko lub nazwę odbiorcy.
@@ -188,24 +190,60 @@ Pierwszym objawem poprawnej korekty może być to, że wychodzi na **zero**. Bę
 
 #### 3.2 Sprawdzenie korekty
 
-Sprawdzanie danych lokali > przycisk `Dane`:
+Sprawdzanie danych lokali > przycisk `Dane`.
 
-- Klikamy na **cały** budynek. Sprawdzamy, czy dane, które powinny być nie zmienne są stałe. Przykładem jest powierzchnie, udziały i ilości lokali/MP/garaży.
+- Klikamy na **cały** budynek. Sprawdzamy, czy dane, które powinny być nie zmienne, mają stałą wartość. Przykładem są powierzchnie, udziały i ilości lokali/MP/garaży. Wartości, które mogą się zmieniać to zazwyczaj dane, które mają wpływ na opłaty za media.
+- Będąc na całym budynku, można zaznaczyć daną > menu `Widok` > `Struktura danych w lokalach`. Za pomocą tej funkcji można sprawdzić dokładniej zmiany danych na lokalach.
+- Klikamy na lokal starego i nowego właściciela. Sprawdzamy, czy dane są wyzerowanie i dodane od poprawnych dat. Oraz czy mają poprawną wartość i czy zostały przeniesione wszystkie.
 
+Sprawdzenie liczników, odczytów i prognoz > przycisk `Liczniki`.
 
+- Klikamy na starego właściciela. Rozwijamy liczniki i sprawdzamy, czy odczyty końcowe są podane z poprawną datą wykupu. Zwracamy też uwagę na wartość i datę prognoz liczników.
+- Klikamy na nowego właściciela. Rozwijamy liczniki i sprawdzamy, czy liczniki są dodane z poprawną datą wykupu. Zwracamy też uwagę na wartość i datę prognoz liczników.
 
-(GIF)
+Sprawdzenie korekty > przycisk `Naliczenia`:
+
+- Klikamy na **cały** budynek > przycisk `Naliczenia` >` K.bieżąca`.
+- Sprawdzamy, czy w korekcie pojawiają się wszystkie składniki opłat, które naliczały się do tej pory i mają zostać skorygowane.
+- Zaznaczyć pozycję opłaty > menu `Widok` > `Struktura naliczeń w lokalach`. Za pomocą tej funkcji można sprawdzić dokładniej zmiany naliczeń w lokalach.
+- Sprawdzamy wartość korekt na poszczególnych lokalach.
+- Sprawdzamy przyszłe naliczenia dla lokali, stary właściciel nie powinien mieć naliczeń.
+- Prosimy też sprawdzić, czy w korekcie bieżącej nie nalicza się korekta/rozliczenia dla innych lokali.
+
+![Wykup wstecz sprawdzenie korekty.](NwykupwsteczSPRkor.gif)
 
 #### 3.3 Księgowanie korekty
 
-(OPIS)
+Po upewnieniu się, że zmiany i naliczenia są prawidłowe, można przejść do księgowania korekty, w tym celu, należy przejść do:
 
-(GIF)
+- Zakładka `Administracja` > menu `Funkcje` > `Księguj należności`.
+- Pole `Księgowanie` > `Korekty`.
+- Pole `Data` > ustawiamy miesiąc księgowania, powinien się podpowiedzieć.
+- Pole `Data księgowania` > ustawiamy datę księgowania, domyślnie ostatni dzień miesiąca, można zmienić na późniejszą.
+- Pole `Bazowy termin płatności` > ustawiamy bazowy termin płatności (sprawdź instrukcje odnośnie do Terminów płatności).
+- Pole `Termin płatności zwrotów` > `Data`.
+- Pole `Opis` > wpisujemy opis korekty.
+- Wpisujemy hasło i zatwierdzamy.
+
+Po zaksięgowaniu można rozpocząć drukowanie dokumentów dla właścicieli.
+
+![Wykup wstecz księgowanie korekty.](NwykupwsteczKsiegkor.gif)
 
 #### 4.0 Usunięcie starego właściciela z lokalu
 
-(OPIS)
+Gdy wszystko jest już zaakceptowane, pozostaje tylko usunięcie starego właściciela z lokalu, dzięki temu nie będzie już pobierana opałata abonamentowa za system za ten lokal. Aby to wykonać, należy przejść do:
 
-(GIF)
+ Zakładki `Administracja` > menu `Zasoby` > `Edytuj właścicieli`.
+- Pole `Lokal` > wybrać lokal, który został opisany w punkcie 1.1, lokal z S-ką.
+- Pole `Data` > ustawiamy **datę bieżącą**, powinna się podpowiedzieć.
+- Pole `Operacja` > wybrać `Usuń właściciela`.
+- Klikamy: `Dodaj`.
+- Klikamy: `Zatwierdź`.
 
-## FIN
+W ikonce mieszkania starego właściciela pojawi się łańcuszek, zostanie określona też data końcowa. Stary właściciel zniknie z pola struktury po zamknięciu roku, w którym był przeporpawdzony wykup.
+
+![Wykup wstecz Księowanie korekty.](NwykupwsteczUsustrwlas.gif)
+
+#### Uwagi:
+
+- abc
