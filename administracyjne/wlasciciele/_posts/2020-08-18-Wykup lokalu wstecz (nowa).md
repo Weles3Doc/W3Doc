@@ -190,13 +190,13 @@ Pierwszym objawem poprawnej korekty może być to, że wychodzi na **zero**. Bę
 
 #### 3.2 Sprawdzenie korekty
 
-Sprawdzanie danych lokali > przycisk `Dane`.
+Sprawdzanie danych lokali > przycisk `Dane`:
 
 - Klikamy na **cały** budynek. Sprawdzamy, czy dane, które powinny być nie zmienne, mają stałą wartość. Przykładem są powierzchnie, udziały i ilości lokali/MP/garaży. Wartości, które mogą się zmieniać to zazwyczaj dane, które mają wpływ na opłaty za media.
 - Będąc na całym budynku, można zaznaczyć daną > menu `Widok` > `Struktura danych w lokalach`. Za pomocą tej funkcji można sprawdzić dokładniej zmiany danych na lokalach.
 - Klikamy na lokal starego i nowego właściciela. Sprawdzamy, czy dane są wyzerowanie i dodane od poprawnych dat. Oraz czy mają poprawną wartość i czy zostały przeniesione wszystkie.
 
-Sprawdzenie liczników, odczytów i prognoz > przycisk `Liczniki`.
+Sprawdzenie liczników, odczytów i prognoz > przycisk `Liczniki`:
 
 - Klikamy na starego właściciela. Rozwijamy liczniki i sprawdzamy, czy odczyty końcowe są podane z poprawną datą wykupu. Zwracamy też uwagę na wartość i datę prognoz liczników.
 - Klikamy na nowego właściciela. Rozwijamy liczniki i sprawdzamy, czy liczniki są dodane z poprawną datą wykupu. Zwracamy też uwagę na wartość i datę prognoz liczników.
