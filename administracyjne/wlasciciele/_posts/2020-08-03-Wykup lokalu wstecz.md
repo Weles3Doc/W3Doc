@@ -1,5 +1,5 @@
 ---
-title: Wykup lokalu wstecz 
+title: Wykup lokalu wstecz (stara inst.)
 ---
 # Wykup lokalu wstecz
 
