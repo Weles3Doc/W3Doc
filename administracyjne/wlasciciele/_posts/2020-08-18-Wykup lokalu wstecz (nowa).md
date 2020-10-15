@@ -246,4 +246,15 @@ W ikonce mieszkania starego właściciela pojawi się łańcuszek, zostanie okre
 
 #### Uwagi:
 
-- abc
+- Jeśli wprowadzają Państwo wykup wstecz w okresie, który został już rozliczony z liczników, to edycję odczytów liczników trzeba przeprowadzić za pomocą menu `Zasoby` > `Edytuj odczyty wstecz`. 
+  - Licznikom starego właściciela uzupełniamy odczyty: 
+    - Na datę wykupu — wartość z protokołu.
+    - Na koniec okresu rozliczenia — taki sam jak z dnia wykupu/protokołu.
+    - Każdy następny odczyt (jeśli są) — taki sam.
+  - Licznikom nowego właściciela uzupełniamy odczyty:
+    - Na datę wykupu — wartość z protokołu.
+    - Na koniec okresu rozliczenia — podajemy rzeczywistą wartość.
+    - Każdy następny odczyt (jeśli są) — podajemy rzeczywistą wartość.
+- Jeśli wprowadzają Państwo wykup wstecz w okresie, który został już rozliczony z kosztów systemowym rozliczeniem, to korekta dla rozliczonych składników nie zrobi się, trzeba ją wyliczyć i zaksięgować samodzielnie.
+- [STARA DOKUMENTACJA](https://docs.google.com/document/d/1HjDB2cFsXHuG7PKYw63DF-l3ZR2yQbhxA3feWgYS99g)
+- Zmian stawek na lokalach zazwyczaj nie wykonujemy, wyzerowanie danych i prognoz powinno spowodować korektę. Niemniej jednak należy sprawdzić, czy któryś ze składników naliczeń nie zależy od samej stawki i ew. wykonać zmiany.
