@@ -1,44 +1,56 @@
 ---
 title: Materiały informacyjne
 ---
+
 # Materiały informacyjne
 
-W systemie możemy umieszczać dokumenty, które będą dostępne dla właścicieli. Rozróżniamy dwa miejsca, w których możemy dodać pliki:
+W systemie można umieszczać dokumenty, które będą dostępne dla właścicieli w podglądzie internetowym. Rozróżniamy dwa miejsca, w których możemy dodać pliki:
 
-- Zakładka **Zasoby** > Menu funkcje > Materiały informacyjne — dokument będzie dostępny **we wszystkich** nieruchomościach.
-- Zakładka **Administracja** > Menu funkcje > Materiały informacyjne — dokument będzie dostępny tylko **w wybranej** nieruchomości.
+- Zakładka `Zasoby` > menu `Funkcje` > `Materiały informacyjne` — dokument będzie dostępny **we wszystkich** nieruchomościach.
+- Zakładka `Administracja` > menu `Funkcje` > `Materiały informacyjne` — dokument będzie dostępny tylko **w wybranej** nieruchomości.
+
+#### Dodanie pliku
 
 Dokumenty te są dostępne do wglądu/pobrania dla wszystkich właścicieli, aby dodać materiał, należy przejść do:
 
-- Zakładka Zasoby lub Administracja > Menu funkcje > Materiały informacyjne.
-- Pole Plik > wybieramy dokument do importu.
-- Pole Opis > opisujemy dokument, zalecamy dodawanie daty w opisie jako pierwszej.
-- Wpisujemy hasło i zatwierdzamy.
+- Zakładka `Administracja` > menu `Funkcje` > `Materiały informacyjne`.
+- Kliknąć: `Nowy`.
+- Pole `Opis` > wpisujemy nazwę pliku, która będzie widoczna w systemie. Sugerujemy nazwę zaczynać od daty np. `2020-12 - Protokół walnego zgromadzenia`.
+- Pole `Plik` > wybieramy dokument do importu.
+- Pole `Nazwa pliku` > uzupełni się automatycznie.
+- Kliknąć: `Utwórz`.
 
 ![Dodanie pliku](materialy1.gif)
 
+#### Podgląd pliku
 
 Właściciel zobaczy dodany plik w swojej kartotece internetowej w zakładce Materiały i Uchwały. Może go pobrać na urządzenie, klikając na jego nazwę.
 
-
 ![Podgląd pliku](materialy2.gif)
 
+#### Edycja nazwy pliku
 
-Po dodaniu pliku można zmienić jego opis lub całkowicie go usunąć, w tym celu przechodzimy do:
+Po dodaniu pliku można zmienić jego opis, w tym celu przechodzimy do:
 
-- Zakładka Zasoby lub Administracja > Menu funkcje > Materiały informacyjne.
-- Zakładka Edycja.
-- Pole Materiał > wybieramy dokument.
-- Pole Opis > wpisujemy nową nazwę lub pozostawiamy bez zmian.
-- Pole Usuwanie > Wybieramy: Pozostaw lub Usuń — jeśli chcemy usunąć plik.
-- Klikamy: Dodaj.
-- Wpisujemy hasło i zatwierdzamy.
-
-W polu Materiał można pobrać plik, klikając na ikonkę obok nazwy.
+- Zakładka `Administracja` > menu `Funkcje` > `Materiały informacyjne`.
+- Na liście materiałów zaznaczamy plik do edycji.
+- Kliknąć: `Edycja`.
+- Pole `Opis` > wpisujemy nową nazwę pliku.
+- Pole `Plik` > wybieramy dokument do importu (można go podmienić).
+- Pole `Nazwa pliku` > uzupełni się automatycznie.
+- Kliknąć: `Zapisz`.
 
 ![Zmiana pliku](materialy3.gif)
 
-### Uwagi:
+#### Usunięcie pliku
+
+Materiały informacyjne można dowolnie usuwać.
+
+- Zakładka `Administracja` > menu `Funkcje` > `Materiały informacyjne`.
+- Na liście materiałów zaznaczamy plik do usunięcia.
+- Kliknąć: `Usuń`.
+
+#### Uwagi:
 
 - Maksymalny rozmiar załącznika to 25 MB.
-- Typ pliku — prosimy używać pd f lub DOC.
+- Typ pliku — prosimy używać PDF lub DOC.
