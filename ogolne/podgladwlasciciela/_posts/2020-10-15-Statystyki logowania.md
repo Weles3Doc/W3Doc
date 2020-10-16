@@ -22,4 +22,4 @@ Prawa strona prezentuje ilość i metody logowań do podglądu internetowego w c
 - Pomarańczowy > przy użyciu konta Google i Facebook.
 - Zielony > przy użyciu pinu.
 
-![Statystyki logowania właścicieli](StatLogWlas.gif)
+![Statystyki logowania właścicieli](statlogwlas.gif)
