@@ -1,12 +1,13 @@
 ---
 title: Dodanie odczytu wstecz
 ---
+
 # Dodanie odczytu wstecz
 
 Funkcja służy do korygowania odczytów w okresie, za który zostało już zaksięgowane rozliczenie liczników. Aby dodać lub skorygować odczyt w okresie już rozliczonym, należy przejść do:
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj odczyty wstecz`.
-- Pole `Licznik` > wybieramy licznik.
+- Na liście z lewej strony okna wybieramy licznik do edycji.
 - Pole `Data` > wpisujemy datę dodawanego lub korygowanego odczytu.
 - Pole `Wartość` > wpisujemy wartość odczytu.
 - Klikamy: `Dodaj`.
