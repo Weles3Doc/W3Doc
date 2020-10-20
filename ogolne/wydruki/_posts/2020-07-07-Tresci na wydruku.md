@@ -12,9 +12,9 @@ Narzędzie `Treść na wydruku` służy do utworzenie gotowych treści, które b
 Aby dodać podpowiedź treści, należy przejść do:
 
 - Zakładka `Zasoby` lub `Administracja` > menu `Funkcje` > `Treść na wydruku`.
-- W polu `ID` > podać numer treści.
-- W polu `Tytuł` > podać nazwę wprowadzanej treści, będzie to jednocześnie tytuł wydruku `Tekst`.
-- W polu `Treść` > wprowadzić żądany tekst.
+- Pole `ID` > podać numer treści.
+- Pole `Tytuł` > podać nazwę wprowadzanej treści, będzie to jednocześnie tytuł wydruku `Tekst`.
+- Pole `Zawartość` > wprowadzić żądany tekst.
 - Kliknąć: `Dodaj`.
 - Kliknąć: `Zatwierdź`.
 
