@@ -1,20 +1,23 @@
 ---
-title: Treści na wydruku
+title: Treść na wydruku
 ---
-# Treści na wydruku
 
-Narzędzie Treści na wydruku służy do utworzenie gotowych treści na wydruku Tekst.  Narzędzie dostępne jest z poziomu zakładki Zasoby oraz Administracja:
--  Dodając treści z poziomu zakładki Zasoby, będą one dostępne w każdym budynku.
-- Dodając je z poziomu zakładki Administracja, tylko w wybranym budynku.
+# Treść na wydruku
 
-Aby dodać treść, należy kolejno:
+Narzędzie `Treść na wydruku` służy do utworzenie gotowych treści, które będą się podpowiadały dla wydruku `Tekst`. Rozróżniamy dwa miejsca, w których możemy dodać podpowiedzi tekstowe:
 
-- Przejść do zakładki Zasoby lub Administracja.
-- Z menu Funkcje wybrać Treść na wydruku.
-- W polu ID podać numer treści.
-- W polu Tytuł podać nazwę wprowadzanej treści,
-- W polu Treść wprowadzić żądany tekst.
-- Kliknąć: Dodaj.
-- Wpisać hasło i zatwierdzić.
+- Zakładka `Zasoby` > menu `Funkcje` > `Treść na wydruku` — podpowiedzi będą dostępne **we wszystkich** nieruchomościach.
+- Zakładka `Administracja` > menu `Funkcje` > `Treść na wydruku` — podpowiedzi będą dostępne tylko **w wybranej** nieruchomości.
+
+Aby dodać podpowiedź treści, należy przejść do:
+
+- Zakładka `Zasoby` lub `Administracja` > menu `Funkcje` > `Treść na wydruku`.
+- W polu `ID` > podać numer treści.
+- W polu `Tytuł` > podać nazwę wprowadzanej treści, będzie to jednocześnie tytuł wydruku `Tekst`.
+- W polu `Treść` > wprowadzić żądany tekst.
+- Kliknąć: `Dodaj`.
+- Kliknąć: `Zatwierdź`.
+
+Formatowanie wprowadzonego tekstu nie jest możliwe, jedyną dodatkową opcją jest dodanie dwa razy Enter, powoduje to dodanie nowego akapitu.
 
 ![Treści na wydruku](trescinawydruku.gif)
