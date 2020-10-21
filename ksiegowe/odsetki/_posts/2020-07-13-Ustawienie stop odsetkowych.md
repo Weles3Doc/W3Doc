@@ -1,5 +1,5 @@
 ---
-title: Ustawienie stóp odsetkowych
+title: 2. Ustawienie stóp odsetkowych
 ---
 
 # Ustawienie stóp odsetkowych
