@@ -12,7 +12,7 @@ Aby właściciel miał dostęp do swojego podglądu internetowego, konieczne jes
   - `Wybranym, którzy nie zmienili hasła` > hasło zostanie zmienione osobom, które nie zmieniły hasła tymczasowego.
   - `Wybranym bez hasła` > hasło zostanie nadane osobom, które nie mają jeszcze nadanego odstępu.
 - Pole `Właściciele` > niezależnie od wybranej opcji w poprzednim polu, zaznaczamy właściciela lub też większą liczbę użytkowników.
-- Pole `Hasło` > wpisujemy hasło tymczasowe, którego właściciel będzie musiał użyć podczas pierwszego logowania. Można je wygenerować automatycznie, klikając `Generuj`. Wpisane hasło tymczasowe prosimy zapamiętać.
+- Pole `Hasło` > wpisujemy hasło tymczasowe, którego właściciel będzie musiał użyć podczas pierwszego logowania. Można je wygenerować automatycznie, klikając `Generuj`. **Wpisane hasło tymczasowe prosimy zapamiętać**.
 - Klikamy: `Zapisz`.
 
 ![Nadanie hasła właścicielowi](nadanie-hasla-wlasc.gif)
@@ -23,7 +23,7 @@ Wygenerowany login oraz hasło należy przekazać właścicielowi. Do tego celu 
 - Zakładka `Osoby`.
 - Lista Właścicieli > wybieramy osobę lub większą liczbę osób, do których będzie adresowany wydruk.
 - Dodajemy wydruk `Dane logowania` > pokarze on tabelkę z adresem strony logowania i loginem właściciela.
-- Dodajemy wydruk `Tekst` > w tytule podajemy hasło pierwszego logowania a w treści dodatkowe uwagi/informacje.
+- Dodajemy wydruk `Tekst` > **w tytule podajemy hasło pierwszego logowania** a w treści dodatkowe uwagi/informacje.
 - Klikamy: `Podgląd wydruku` > aby system wygenerował wydruk.
 
 Wydruki te można też dołączyć do wydruku zaliczki z systemu.
