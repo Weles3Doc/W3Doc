@@ -1,17 +1,14 @@
 ---
 title: Edycja kontrahentów
 ---
+
 # Edycja kontrahentów
-
-Omawiana funkcja znajduje się w:
-- Zakładka `Zasoby` > menu `Zasoby` > `Edytuj Kontrahentów`.
-
-![Edycja kontrahentów](edycjakontahentow1.gif)
 
 #### Dodanie nowego kontrahenta
 
 Aby dodać nowego kontrahenta, należy wykonać następujące czynności:
 
+- Zakładka `Zasoby` > menu `Zasoby` > `Edytuj Kontrahentów`.
 - Kliknąć: `Nowy`.
 - Pole `NIP` > podajemy NIP.
 - Jeśli podamy NIP i klikniemy: `Pobierz z REGON`, system odszuka kontrahenta i uzupełni pola `Kontrahent` oraz `Adres`.
@@ -29,6 +26,7 @@ Jeżeli okno się zamknie, oznacza to, że nowy kontrahent został dodany. Kontr
 
 Aby edytować kontrahenta, należy wykonać następujące czynności:
 
+- Zakładka `Zasoby` > menu `Zasoby` > `Edytuj Kontrahentów`.
 - Wybrać kontrahenta z listy.
 - Kliknąć: `Edycja`.
 - Pole `NIP` > jeśli trzeba, poprawiamy NIP.
@@ -47,6 +45,7 @@ Okno się zamknie, nowe dane powinny być od razu widoczne.
 
 Kontrahent nie może posiadać księgowań na swoim koncie 202, aby móc go usunąć. Usuwanie jest bardzo proste, należy wykonać następujące czynności:
 
+- Zakładka `Zasoby` > menu `Zasoby` > `Edytuj Kontrahentów`.
 - Wybrać kontrahenta z listy.
 - Kliknąć: `Usuń`.
 
