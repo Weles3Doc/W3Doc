@@ -16,7 +16,7 @@ Natomiast jeśli wspólnota ma nadany indywidualny numer konta i jest on inny ni
 
 - Zakładka `Administracja` > menu `Elementy` > `Konta kontrahentów`.
 
-Sposób dodania konta jest opisany w instrukcjach: **Edycja kontrahentów** i **Konta bankowe kontrahentów**.
+Sposób dodania konta jest opisany w instrukcji: **Konta bankowe kontrahentów**.
 
 #### Rachunki bankowe
 
