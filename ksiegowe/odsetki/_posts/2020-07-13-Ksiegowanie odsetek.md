@@ -1,5 +1,5 @@
 ---
-title: 3. Księgowanie odsetek
+title: 4. Księgowanie odsetek
 ---
 
 # Księgowanie odsetek
