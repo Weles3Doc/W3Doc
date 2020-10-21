@@ -1,33 +1,24 @@
-# Eksportuj zapłaty elektroniczne
+---
+title: Eksport zapłat elektronicznych
+---
+
+# Eksport zapłat elektronicznych
 
 Funkcja służy do generowania plików z poleceniem zapłaty np. za faktury kosztowe kontrahentów. Taki plik należy później zaimportować do systemu bankowego celem wykonania przelewów. Poniżej opisano kroki, jakie trzeba wykonać, aby móc korzystać z tej funkcji w programie.
 
-### Konta bankowe kontrahentów
+#### Konta bankowe kontrahentów
 
-Chcąc wykonać przelew, konieczne jest określenie numerów kont bankowych kontrahentów (bez nich, bank nie będzie mógł przyjąć zlecenia — nie będzie wiedział, na jaki nr rachunku ma przelać środki). Możemy to zrobić w dwojaki sposób:
-- Globalnie, dla wszystkich nieruchomości w systemie (np. gdy mamy do czynienia z firmą, która operuje tylko jednym rachunkiem bankowym dla wszystkich swoich klientów).
-- Będąc w zakładce Zasoby, wybieramy menu Zasoby i Edytuj kontrahentów.
+Przed przystąpieniem do eksportu konieczne jest uzupełnienie numeru kont bankowych kontrahentów. W tym celu należy przejść do:
 
-![Zapłaty elektroniczne](zaplaty1.png)
+- Zakładka `Zasoby` > menu `Zasoby` > `Edytuj Kontrahentów` — podany tutaj numer konta będzie obowiązywał we wszystkich nieruchomościach.
 
-- W nowym oknie dialogowym możemy przypisać numer rachunku wybranemu kontrahentowi.
+Natomiast jeśli wspólnota ma nadany indywidualny numer konta i jest on inny niż ogólny, to uzupełniamy go w:
 
-![Zapłaty elektroniczne](zaplaty2.png)
+- Zakładka `Administracja` > menu `Elementy` > `Konta kontrahentów`.
 
-- Indywidualnie, na poziomie określonej nieruchomości (np. gdy mamy do czynienia z firmą, która używa płatności masowych dla swoich klientów i każda nieruchomość/wspólnota ma swój indywidualny, inny numer rachunku bankowego do wpłat)
-- Z drzewa struktury wybieramy nieruchomość i przechodzimy do zakładki Administracja.
+Sposób dodania konta jest opisany w instrukcjach: **Edycja kontrahentów** i **Konta bankowe kontrahentów**.
 
-![Zapłaty elektroniczne](zaplaty3.png)
-
-Z menu Elementy wybieramy Konta kontrahentów.
-
-![Zapłaty elektroniczne](zaplaty4.png)
-
-W nowym oknie dialogowym możemy przypisać indywidualny numer konkretnemu kontrahentowi.
-
-![Zapłaty elektroniczne](zaplaty5.png)
-
-### Rachunki bankowe
+#### Rachunki bankowe
 
 Kolejnym niezbędnym krokiem jest określenie Numeru konta bankowego nieruchomości, z którego wykonywane są transakcje (wpłaty/wypłaty) - jest to wspólne ustawienie dla Eksportu zapłat elektronicznych oraz dla Importu wyciągów elektronicznych.
 
@@ -71,7 +62,7 @@ Kolejnym niezbędnym krokiem jest określenie Numeru konta bankowego nieruchomo�
 
 ![Zapłaty elektroniczne](zaplaty15.png)
 
-### Zapłaty
+#### Eksport zapłat
 
 W zakładce Zapłaty wskazujemy, dla których kontrahentów program ma wygenerować plik z zapłatami elektronicznymi. System wyświetla tutaj TYLKO kontrahentów, dla których zostały wcześniej wprowadzone numery rachunków bankowych do wpłat! Z zakładki Zasoby wybieramy menu Funkcje i Eksportuj zapłaty elektroniczne.
 
