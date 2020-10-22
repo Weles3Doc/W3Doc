@@ -16,98 +16,61 @@ Natomiast jeśli wspólnota ma nadany indywidualny numer konta i jest on inny ni
 
 - Zakładka `Administracja` > menu `Elementy` > `Konta kontrahentów`.
 
-Sposób dodania konta jest opisany w instrukcji: **Konta bankowe kontrahentów**.
+Wyżej wymienione sposoby są dokładniej opisane w instrukcji: **Konta bankowe kontrahentów**.
 
-#### Rachunki bankowe
+#### Uruchomienie eksportu zapłat
 
-Kolejnym niezbędnym krokiem jest określenie Numeru konta bankowego nieruchomości, z którego wykonywane są transakcje (wpłaty/wypłaty) - jest to wspólne ustawienie dla Eksportu zapłat elektronicznych oraz dla Importu wyciągów elektronicznych.
+Kolejnym niezbędnym krokiem jest określenie kilku parametrów konta bankowego nieruchomości, z którego wykonywane są transakcje (wpłaty/wypłaty) - są to wspólne ustawienie dla `Eksportu zapłat elektronicznych` oraz dla `Importu wyciągów elektronicznych`.
 
-- Będąc w zakładce Zasoby, wybieramy menu Funkcje i Eksportuj zapłaty elektroniczne.
+- Zakładka `Zasoby` > menu `Funkcje` > `Eksportuj zapłaty elektroniczne`.
+- Zakładka `Rachunki bankowe`.
+- Pole `Zasób` > wybieramy budynek.
+- Pole `Konto` > wybieramy konto księgowe rachunku bankowego.
+- Pole `Pozycje nierozpoznane Ma (Odsetki)` > Wskazujemy Konto pozycji nierozpoznanych. W programie plik z płatnościami zawiera np. prowizje bankowe, wpłaty w kasie w banku/poczcie itp. — są to pozycje, których nie da się przypisać do konkretnego konta (właściciela/kontrahenta itp.). Wpłaty takie domyślnie będą trafiały na wskazane tutaj konto.
+- Pole `Pozycje nierozpoznane Wn (Prowizje)` > Wskazujemy Konto pozycji nierozpoznanych. W programie plik z płatnościami zawiera np. prowizje bankowe, wpłaty w kasie w banku/poczcie itp. — są to pozycje, których nie da się przypisać do konkretnego konta (właściciela/kontrahenta itp.). Wpłaty takie domyślnie będą trafiały na wskazane tutaj konto.
+- Pole `Bank` > Wskazujemy Bank, z którym mamy podpisaną umowę — system wygeneruje wtedy plik w odpowiednim formacie (tak, żeby można było go bez problemu zaimportować do systemu bankowego). W przypadku, gdyby na liście brakowało Państwa banku, prosimy o kontakt mailowy z danymi kontaktowymi do opiekuna — postaramy się jak najszybciej zaktualizować listę, o ile będzie taka możliwość.
+- Pole `Numer` > wprowadzamy Numer rachunku bankowego. Cyfry mogą być oddzielone spacją lub wprowadzone ciągiem (bez odstępów).
+- Klikamy: `Dodaj`.
+- Jeśli trzeba, można dodać pozycje dla innych budynków.
+- Wpisujemy hasło i zatwierdzamy.
 
-![Zapłaty elektroniczne](zaplaty6.png)
-
-- Po chwili otworzy się nowe okno dialogowe. Przechodzimy do zakładki Rachunki bankowe.
-
-![Zapłaty elektroniczne](zaplaty7.png)
-
-- Wybieramy Zasób (nieruchomość), dla której będziemy przypisywać numer konta bankowego.
-
-![Zapłaty elektroniczne](zaplaty8.png)
-
-- Wskazujemy Konto, na które księgowane są obroty — system pokaże tutaj wszystkie analityki konta określonego w zakładce Zasoby, menu Plan kont -> Konta syntetyczne z typem Rachunek bankowy.
-
-![Zapłaty elektroniczne](zaplaty9.png)
-
-- Wskazujemy Konto pozycji nierozpoznanych. W programie plik z płatnościami zawiera np. prowizje bankowe, wpłaty w kasie w banku/poczcie itp. — są to pozycje, których nie da się przypisać do konkretnego konta (właściciela/kontrahenta itp.). Wpłaty takie domyślnie będą trafiały na wskazane tutaj konto z planu kont.
-
-![Zapłaty elektroniczne](zaplaty10.png)
-
-- Wskazujemy Bank, z którym mamy podpisaną umowę — system wygeneruje wtedy plik w odpowiednim formacie kodowania (tak, żeby można było go bez problemu zaimportować do systemu bankowego). W przypadku, gdyby na liście brakowało Państwa banku, prosimy o kontakt mailowy z danymi kontaktowymi do opiekuna — postaramy się jak najszybciej zaktualizować listę, o ile będzie taka możliwość.
-
-![Zapłaty elektroniczne](zaplaty11.png)
-
-- Wprowadzamy Numer rachunku bankowego. Cyfry mogą być oddzielone spacją lub wprowadzone ciągiem (bez odstępów).
-
-![Zapłaty elektroniczne](zaplaty12.png)
-
-- Klikamy: Dodaj.
-
-![Zapłaty elektroniczne](zaplaty13.png)
-
-- Możemy od razu uzupełnić dane dla pozostałych nieruchomości.
-
-![Zapłaty elektroniczne](zaplaty14.png)
-
-- Całość zatwierdzamy Hasłem.
-
-![Zapłaty elektroniczne](zaplaty15.png)
+![Eksport zapłat ustawienia początkowe](eksportzaplat1.gif)
 
 #### Eksport zapłat
 
-W zakładce Zapłaty wskazujemy, dla których kontrahentów program ma wygenerować plik z zapłatami elektronicznymi. System wyświetla tutaj TYLKO kontrahentów, dla których zostały wcześniej wprowadzone numery rachunków bankowych do wpłat! Z zakładki Zasoby wybieramy menu Funkcje i Eksportuj zapłaty elektroniczne.
+Aby pobrać plik z zapłatami, należy przejść do:
 
-![Zapłaty elektroniczne](zaplaty16.png)
+- Zakładka `Zasoby` > menu `Funkcje` > `Eksportuj zapłaty elektroniczne`.
+- Zakładka `Zapłaty`.
+- Pole `Rachunek` > wybieramy wspólnotę/rachunek, z którego mają wyjść zapłaty.
+- Pole `Dni przed TP` > określamy ilość dni, w których przeciągu upływa termin płatności pozycji kosztowej, które podpowiedzą się do eksportu. Jeżeli wskażemy np. 7 dni, to system wygeneruje listę płatności do zrealizowania, którym w przeciągu 7 dni od bieżącej daty upływa termin płatności (ew. zaległe/przeterminowane płatności również zostaną pokazane).
+- Pole `Minimalny TP` > minimalna data zlecenia przelewu zapłaty. Domyślnie jest to data bieżąca + 1 dzień.
+- Klikamy: `Pobierz nieopłacone` > do dolnej części okna powinny się dodać pozycje z zapłatami. Na przycisk ten klikamy **jednokrotnie**, każde kliknięcie powoduje dodanie kolejnych, prosimy mieć to na uwadze, aby nie zlecić zapłaty dwa razy za tą samą pozycję.
 
-Po chwili otworzy się nowe okno dialogowe. Mam tutaj dwie możliwości: 
-- Automat — możemy wygenerować z systemu listę nieopłaconych faktur na podstawie terminu ich płatności (system na podstawie zaksięgowanych faktur kosztowych wygeneruje listę przelewów do zrealizowania).
+Pozycje zapłat można samodzielnie edytować lub dodawać/usuwać. Aby usunąć zbędną pozycję, klikamy na symbol niebieskiego kluczyka po prawej stronie pozycji. Aby edytować, klikamy na symbol lupy. Natomiast dodawanie ręcznie nowej pozycji rozpoczynamy od przejścia do:
 
-- Wybieramy Rachunek/nieruchomość, dla której będziemy generować listę.
+- Pole `Rachunek` > wybieramy wspólnotę/rachunek, z którego mają wyjść zapłaty.
+- Pole `Kontrahent` > wybieramy pożądanego dostawcę.
+- Pole `Dowód` > wpisujemy tytuł przelewu lub numer faktury.
+- Pole `Wartość` > podajemy kwotę przelewu.
+- Pole `Termin zapłaty` > podajemy dzień, w którym ma zostać zlecony przelew.
+- Klikamy: `Dodaj`.
 
-![Zapłaty elektroniczne](zaplaty17.png)
+Gdy w oknie eksportu pozostaną pożądane pozycje, można pobrać plik z zapłatami, należy:
 
-- Określamy ilość Dni przed TP (terminem płatności). Jeżeli wskażemy np. 7 dni, to system wygeneruje listę płatności do zrealizowania, którym w przeciągu 7 dni od bieżącej daty upływa termin płatności (ew. zaległe/przeterminowane płatności również zostaną pokazane).
+- Kliknąć: `Zatwierdź`.
 
-![Zapłaty elektroniczne](zaplaty18.png)
+Plik należy zapisać na dysku. Następnie trzeba go zaimportować do systemu bankowego.
 
-- Klikamy: Pobierz nieopłacone — system powinien wygenerować listę przelewów w oknie poniżej.
+![Eksport zapłat](eksportzaplat2.gif)
 
-![Zapłaty elektroniczne](zaplaty19.png)
+#### Podgląd faktur do zapłaty
 
-- Każdy z przelewów możemy oczywiście edytować/poprawić klikając na niebieski znak klucza przy pozycji.
+W systemie można podejrzeć faktury, którym zbliża się termin płatności. Aby to zrobić, należy przejść do:
 
-![Zapłaty elektroniczne](zaplaty20.png)
+- Zakładka `Zasoby` > menu `Funkcje` > `Eksportuj zapłaty elektroniczne`.
+- Zakładka `Nadchodzące faktury`.
 
-- Ręcznie — możemy ręcznie wskazać kontrahenta, dodać tytuł przelewu oraz kwotę.
-- Wybieramy Rachunek/nieruchomość, dla której będziemy dodawać pozycje.
+W oknie zostaną wyświetleni kontrahenci oraz ich faktury, pogrupowane na dni wg. terminu płatności.
 
-![Zapłaty elektroniczne](zaplaty21.png)
-
-- Wskazujemy Kontrahenta (widoczni są TYLKO z wprowadzonym numerem konta bankowego).
-
-![Zapłaty elektroniczne](zaplaty22.png)
-
-- Wprowadzamy Dowód, czyli np. numer opłacanej faktury.
-
-![Zapłaty elektroniczne](zaplaty23.png)
-
-- Określamy Wartość przelewu.
-
-![Zapłaty elektroniczne](zaplaty24.png)
-
-- Klikamy: Dodaj.
-
-![Zapłaty elektroniczne](zaplaty25.png)
-
-- Okno Zatwierdzamy — program pobierze listę przelewów w formie pliku, który należy zaimportować do systemu bankowego (w zależności od banku będą to różne formaty — system sam o to zadba). 
-
-![Zapłaty elektroniczne](zaplaty26.png)
+![Eksport zapłat podgląd](eksportzaplat3.gif)
