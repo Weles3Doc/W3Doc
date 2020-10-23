@@ -20,7 +20,7 @@ Wyżej wymienione sposoby są dokładniej opisane w instrukcji: **Konta bankowe 
 
 #### Uruchomienie eksportu zapłat
 
-Kolejnym niezbędnym krokiem jest określenie kilku parametrów konta bankowego nieruchomości, z którego wykonywane są transakcje (wpłaty/wypłaty) - są to wspólne ustawienie dla `Eksportu zapłat elektronicznych` oraz dla `Importu wyciągów elektronicznych`.
+Kolejnym niezbędnym krokiem jest określenie kilku parametrów konta bankowego nieruchomości, z którego wykonywane są transakcje (wpłaty/wypłaty) - są to wspólne ustawienia dla `Eksportu zapłat elektronicznych` oraz `Importu wyciągów elektronicznych`.
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Eksportuj zapłaty elektroniczne`.
 - Zakładka `Rachunki bankowe`.
