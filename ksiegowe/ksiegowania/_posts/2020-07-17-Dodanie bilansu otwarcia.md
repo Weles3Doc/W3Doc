@@ -80,8 +80,8 @@ Gdzie:
 Dodatkowo zamiast nagłówka (wrażenia) `BO` można użyć:
 - `BO` > importowane pozycje podmieniają już istniejące salda w BO.
 - `BOO` > importowane pozycje podmieniają już istniejące salda w BO-ODS.
-- `BO=` > 
-- `BOO=` > 
+- `BO=` > usuwa wszystkie dotychczasowe pozycje w BO właściceli przed importem.
+- `BOO=` > usuwa wszystkie dotychczasowe pozycje w BO-ODS właściceli przed importem.
 - `BO+` > importowane pozycje są dodawane jako kolejne do BO (nie zastępuje istniejących).
 - `BOO+` > importowane pozycje są dodawane jako kolejne do BO-ODS (nie zastępuje istniejących).
 
