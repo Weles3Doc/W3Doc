@@ -51,7 +51,7 @@ Opis tabelek:
   - `DATA` > data bieżąca, nie data wymiany. Data bieżąca to **pierwszy dzień miesiąca, za który nie są jeszcze zaksięgowane naliczenia** w systemie, bardzo ważne.
   - `PROG` > wartość prognozy. W pierwszym arkuszu to kolumna `OB_PROG` zachowujemy ją. Jeśli licznik nie ma prognozy, to wpisujemy słowo `PUSTY`.
 
-Tak przygotowaną tabelki zaznaczamy pojedynczo w arkuszu, wraz z tytułami kolumn. Kopiujemy. Wklejamy do:
+Tak przygotowane tabelki zaznaczamy pojedynczo w arkuszu, wraz z tytułami kolumn. Kopiujemy. Wklejamy do:
 
 - Menu `Funkcje` > `Import danych` > Pole `Dane`.
 - Następnie wpisujemy hasło i zatwierdzamy. 
