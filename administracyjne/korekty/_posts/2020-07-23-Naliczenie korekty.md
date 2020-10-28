@@ -1,22 +1,25 @@
 ---
-title: Naliczenie korekty
+title: 2. Naliczenie korekty
 ---
+
 # Naliczenie korekty
 
-Korekta bieżąca dostępna jest do naliczenia po wprowadzeniu wstecznych zmian w wartościach danych, stawek lub odczytów. Aby naliczyć korektę należy:
- - Zakładka Administracja > kliknąć na najwyższą strukturę na drzewku (nazwę nieruchomości).
-- Przycisk Naliczenia > kliknąć na korektę bieżącą (K. bieżąca - fioletowa pozycja).
-- Menu Obciążenia > Nalicz korekty. (ew. można wybrać inne naliczanie: Nalicz korekty RL lub Nalicz korekty RL+RK).
+Jeśli zmiana wsteczna jednego ze składników naliczeń/opłat spowoduje zmianę jej wysokości, to system automatycznie to wykryje i stworzy korektę opłaty. Korekty bieżące są dostępne i widoczne tylko dla administratorów, właściciele ich nie widzą. Aby zobaczyć naliczone korekty opłat, należy przejść do: 
 
-Po naliczeniu korekty system zaprezentuje tabelkę. W jej kolumnach pokaże nam odpowiednio:
+- Zakładka `Administracja` > przycisk `Naliczenia` > `K. bieżąca — fioletowa pozycja.
+- Pole `Struktura` > zaznaczyć cały budynek.
+- Menu `Obciążenia` > `Nalicz korekty`.
 
-- Nazwa / ID - nazwa oraz nr ID algorytmu dla którego system naliczył korektę.
-- Ilość - to suma korygowanych danych w okresie za których jest robiona korekta.
-- JM - jednostka miary.
-- Stawka - wartość stawki w oparciu o którą system naliczył korektę.
-- Wartość - różnica między wartościami z kolumn: "Ma być Wartość" a "Było Wartość"
-- Ma być Wartość - zaktualizowana obciążenie za dany składnik w korygowanym okresie.
-- Było Wartość - zaksięgowana dotychczas kwota za dany składnik naliczeń - tzw. Wcześniejsze obciążenia - suma zaliczek lub/i korekt lub/i rozliczeń na które wprowadzona korekta ma wpływ.
+System zaprezentuje tabelkę. W jej kolumnach pokaże nam odpowiednio:
+
+- `Nazwa` > nazwa korygowanej pozycji.
+- `ID` > ID algorytmu.
+- `Ilość` > Skumulowana, prawidłowa ilość po korekcie.
+- `JM` > jednostka miary prezentowanej wartości w kolumnie Ilość.
+- `Stawka` > wartość stawki użyta do obliczenia nowe obciążenia lokalu.
+- `Wartość` > różnica między wartościami z kolumn: `Ma być Wartość` a `Było Wartość`.
+- `Ma być Wartość` > skorygowane, nowe obciążenie za dany składnik w korygowanym okresie, które równa się: `Ilość` * `Stawka`.
+- `Było Wartość` > zaksięgowana dotychczas kwota za dany składnik naliczeń — tzw. Wcześniejsze obciążenia — suma zaliczek lub/i korekt lub/i rozliczeń, na które wprowadzona korekta ma wpływ.
 
 ![Naliczeniekorekty1](naliczeniekorekty1.gif)
 
