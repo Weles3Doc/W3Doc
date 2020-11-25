@@ -37,4 +37,4 @@ Prawa strona prezentuje dokładne ustawienia dla wybranego budynku.
 
     Powyższe opcje trzeba zaakceptować, klikając przycisk `Zapisz`.
 
-![Statystyki logowania właścicieli](statlogwlas.gif)
+![Statystyki logowania właścicieli](statlogwlas1.gif)
