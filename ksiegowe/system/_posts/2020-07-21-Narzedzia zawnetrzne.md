@@ -4,7 +4,7 @@ title: Narzędzia zewnętrzne
 
 # Narzędzia zewnętrzne
 
-Instrukcja w przebudowie.
+Instrukcja w przebudowie, elementy tej dokumentacji są sukcesywnie przenoszone do dedykowanych stron funkcji.
 
 #### Zamieszczanie plików 
 
