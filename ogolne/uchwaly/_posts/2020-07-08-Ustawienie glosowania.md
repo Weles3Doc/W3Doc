@@ -22,7 +22,5 @@ Od tego momentu właściciele mogą głosować w kartotece internetowej.
 
 ### Uwagi:
 
-- Prosimy sprawdzić poprawność danych przed ustawieniem głosowania w zakładce Administracja > Dane.
-- Dane wybrane w polu Algorytm, są przeliczane na udział.
-- Jeśli udział ma być co do wartości równy danej, to ta dana musi mieć wartość sumaryczną 1.
+
 - W polu Usuwanie można usunąć uchwałę wraz z oddanymi głosami.

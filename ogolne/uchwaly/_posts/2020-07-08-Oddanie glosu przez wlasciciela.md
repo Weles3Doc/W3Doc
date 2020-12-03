@@ -1,5 +1,5 @@
 ---
-title: Oddanie głosu przez właściciela
+title: 2. Oddanie głosu przez właściciela
 ---
 
 # Oddanie głosu przez właściciela
