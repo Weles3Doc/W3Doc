@@ -28,11 +28,11 @@ Kolejnym niezbędnym krokiem jest określenie kilku parametrów konta bankowego 
 - Pole `Konto` > wybieramy konto księgowe rachunku bankowego.
 - Pole `Pozycje nierozpoznane Ma (Odsetki)` > Wskazujemy Konto pozycji nierozpoznanych. W programie plik z płatnościami zawiera np. prowizje bankowe, wpłaty w kasie w banku/poczcie itp. — są to pozycje, których nie da się przypisać do konkretnego konta (właściciela/kontrahenta itp.). Wpłaty takie domyślnie będą trafiały na wskazane tutaj konto.
 - Pole `Pozycje nierozpoznane Wn (Prowizje)` > Wskazujemy Konto pozycji nierozpoznanych. W programie plik z płatnościami zawiera np. prowizje bankowe, wpłaty w kasie w banku/poczcie itp. — są to pozycje, których nie da się przypisać do konkretnego konta (właściciela/kontrahenta itp.). Wpłaty takie domyślnie będą trafiały na wskazane tutaj konto.
-- Pole `Bank` > Wskazujemy Bank, z którym mamy podpisaną umowę — system wygeneruje wtedy plik w odpowiednim formacie (tak, żeby można było go bez problemu zaimportować do systemu bankowego). W przypadku, gdyby na liście brakowało Państwa banku, prosimy o kontakt mailowy z danymi kontaktowymi do opiekuna — postaramy się jak najszybciej zaktualizować listę, o ile będzie taka możliwość.
+- Pole `Bank` > Wskazujemy Bank, z którym mamy podpisaną umowę — system wygeneruje wtedy plik w odpowiednim formacie (tak, żeby można było go bez problemu zaimportować do systemu bankowego). W przypadku, gdyby na liście nie ma Państwa banku, prosimy o kontakt mailowy z danymi kontaktowymi do opiekuna — postaramy się jak najszybciej zaktualizować listę, o ile będzie taka możliwość.
 - Pole `Numer` > wprowadzamy Numer rachunku bankowego. Cyfry mogą być oddzielone spacją lub wprowadzone ciągiem (bez odstępów).
 - Klikamy: `Dodaj`.
 - Jeśli trzeba, można dodać pozycje dla innych budynków.
-- Wpisujemy hasło i zatwierdzamy.
+- Klikamy: `Zatwierdź`.
 
 ![Eksport zapłat ustawienia początkowe](eksportzaplat1.gif)
 
@@ -42,7 +42,6 @@ Aby pobrać plik z zapłatami, należy przejść do:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Eksportuj zapłaty elektroniczne`.
 - Zakładka `Zapłaty`.
-- Pole `Rachunek` > wybieramy wspólnotę/rachunek, z którego mają wyjść zapłaty.
 - Pole `Dni przed TP` > określamy ilość dni, w których przeciągu upływa termin płatności pozycji kosztowej, które podpowiedzą się do eksportu. Jeżeli wskażemy np. 7 dni, to system wygeneruje listę płatności do zrealizowania, którym w przeciągu 7 dni od bieżącej daty upływa termin płatności (ew. zaległe/przeterminowane płatności również zostaną pokazane).
 - Pole `Minimalny TP` > minimalna data zlecenia przelewu zapłaty. Domyślnie jest to data bieżąca + 1 dzień.
 - Klikamy: `Pobierz nieopłacone` > do dolnej części okna powinny się dodać pozycje z zapłatami. Na przycisk ten klikamy **jednokrotnie**, każde kliknięcie powoduje dodanie kolejnych, prosimy mieć to na uwadze, aby nie zlecić zapłaty dwa razy za tą samą pozycję.
