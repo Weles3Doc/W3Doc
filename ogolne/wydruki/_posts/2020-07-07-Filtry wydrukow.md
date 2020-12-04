@@ -13,10 +13,10 @@ System pozwala na ustawienie prostych filtrów w wydrukach dokumentów. Mamy tut
 
 Opcja ta pozwala na wskazanie właścicieli, którzy na dany dzień mają/nie mają lokalu. Jest przydatna, gdy chcemy wygenerować wydruk tylko dla aktualnych właścicieli lokali lub odwrotnie — gdy chcemy wysłać pismo tylko do byłych właścicieli (przykładowo o planowanym rozliczeniu kosztów, które będzie także ich dotyczyło). Funkcja posiada dwa pola wyboru:
 
-- Na dzień — określamy konkretną datę, z którą system ma sprawdzać stan posiadania lokalu.
-- Posiadanie — ustawiamy parametry filtrów:
-  - Posiada lokal — wydruk tylko dla posiadających lokal we wskazanym dniu.
-  - Nie posiada lokalu — wydruk tylko dla nieposiadających lokalu we wskazanym dniu.
+- `Na dzień` — określamy konkretną datę, z którą system ma sprawdzać stan posiadania lokalu.
+- `Posiadanie` — ustawiamy parametry filtrów:
+  - `Posiada lokal` — wydruk tylko dla posiadających lokal we wskazanym dniu.
+  - `Nie posiada lokalu` — wydruk tylko dla nieposiadających lokalu we wskazanym dniu.
 
 ### Dane kontaktowe
 
@@ -24,14 +24,14 @@ Opcja ta pozwala na wskazanie właścicieli, którzy na dany dzień mają/nie ma
 
 Dzięki temu filtrowi możemy wskazać tylko tych właścicieli, którzy posiadają określone dane kontaktowe, takie jak: adres e-mail, czy kontaktowy nr telefonu. Funkcja jest szczególnie przydatna, gdy nie wszyscy właściciele posiadają wprowadzone adresy e-mail do programu (część zawiadomień wysyłamy za pomocą poczty elektronicznej a pozostałe tradycyjnie papierowe). Funkcja ta posiada dwa pola wyboru:
 
-- Forma kontaktu — wybieramy rodzaj kontaktu, którego posiadanie system ma sprawdzać.
-  - Telefon — system sprawdza, czy właściciel ma wprowadzony jakikolwiek nr telefonu (stacjonarny lub komórkowy).
-  - Telefon komórkowy — system sprawdza, czy właściciel ma wprowadzony nr telefonu komórkowego.
-  - Telefon stacjonarny — system sprawdza, czy właściciel ma wprowadzony nr telefonu stacjonarnego.
-  - E-mail — system sprawdza, czy właściciel ma wprowadzony adres poczty elektronicznej.
-- Posiadanie — ustawiamy parametry filtrów:
-  - Posiada — wydruk tylko dla tych, którzy posiadają wskazaną formę kontaktu wprowadzoną do systemu.
-  - Nie posiada — wydruk tylko dla tych, którzy nie posiadają wskazanej formy kontaktu wprowadzonej do systemu.
+- `Forma kontaktu` — wybieramy rodzaj kontaktu, którego posiadanie system ma sprawdzać.
+  - `Telefon` — system sprawdza, czy właściciel ma wprowadzony jakikolwiek nr telefonu (stacjonarny lub komórkowy).
+  - `Telefon komórkowy` — system sprawdza, czy właściciel ma wprowadzony nr telefonu komórkowego.
+  - `Telefon stacjonarny` — system sprawdza, czy właściciel ma wprowadzony nr telefonu stacjonarnego.
+  - `E-mail` — system sprawdza, czy właściciel ma wprowadzony adres poczty elektronicznej.
+- `Posiadanie` — ustawiamy parametry filtrów:
+  - `Posiada` — wydruk tylko dla tych, którzy posiadają wskazaną formę kontaktu wprowadzoną do systemu.
+  - `Nie posiada` — wydruk tylko dla tych, którzy nie posiadają wskazanej formy kontaktu wprowadzonej do systemu.
 
 ### Zmiany naliczeń
 
@@ -39,10 +39,10 @@ Dzięki temu filtrowi możemy wskazać tylko tych właścicieli, którzy posiada
 
 Filtr ten pozwala wygenerować zawiadomienia tylko dla tych właścicieli, którym zmieniły się wartości zaliczek, w porównaniu do innego, wskazanego przez nas obciążenia. Funkcja ta jest szczególnie przydatna, gdy zawiadomień o zaliczkach nie przekazujemy właścicielom w sposób cykliczny, ale incydentalny — przykładowo, gdy zaliczki ulegają zmianie tylko niektórym właścicielom i tylko dla nich chcemy przygotować wydruk. Funkcja posiada dwa pola wyboru:
 
-- Miesiąc — wskazujemy konkretne naliczenie, do którego system ma przyrównać bieżące, aktualnie drukowane obciążenia.
-- Zmiana — ustawiamy parametry filtrów:
-  - Zmiana naliczeń — wydruk tylko wtedy, gdy nastąpiła zmiana w naliczeniach w porównaniu do wskazanego wyżej miesiąca/naliczenia.
-  - Brak zmiany — wydruk tylko wtedy, gdy obciążenia nie uległy zmianie w porównaniu do wskazanego wyżej miesiąca/naliczenia.
+- `Miesiąc` — wskazujemy konkretne naliczenie, do którego system ma przyrównać bieżące, aktualnie drukowane obciążenia.
+- `Zmiana` — ustawiamy parametry filtrów:
+  - `Zmiana naliczeń` — wydruk tylko wtedy, gdy nastąpiła zmiana w naliczeniach w porównaniu do wskazanego wyżej miesiąca/naliczenia.
+  - `Brak zmiany` — wydruk tylko wtedy, gdy obciążenia nie uległy zmianie w porównaniu do wskazanego wyżej miesiąca/naliczenia.
 
 ### Dane
 
@@ -58,4 +58,5 @@ Tworząc dokument, można uzależnić wydruk od tego, czy inne wydruki mają do 
 
 - (i) - domyślny — oznacza wydruk główny, wydrukuje się zawsze, jeśli warunki ustawione w opcjach wydruku zostaną spełnione dla właściciela.
 - (?) - oznacza wydruk zależny — wydrukuje się tylko wtedy, jeżeli chociaż jeden z wydruków głównych pokarze informacje.
+
 Filtr ten ma za zadanie ograniczenie generowania niepełnych dokumentów, na przykład takich gdzie na wydruku uzyskujemy sam tekst, bez tabelki z opłatami. Szczególnie pomaga na pominięcie byłych właścicieli przy drukowaniu zawiadomień o opłatach.
