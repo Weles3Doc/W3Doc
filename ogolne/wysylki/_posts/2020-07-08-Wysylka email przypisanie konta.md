@@ -1,5 +1,5 @@
 ---
-title: 2. Wysyłka e-mail — przypisanie konta
+title: 2. Wysyłka e-mail - przypisanie konta
 ---
 
 # Wysyłka e-mail — przypisanie konta

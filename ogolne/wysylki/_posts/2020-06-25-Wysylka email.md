@@ -1,7 +1,8 @@
 ---
-title: Wysyłka e-mail
+title: 3. Wysyłka e-mail - wysyłka dokumentu
 ---
-# Wysyłka e-mail
+
+# Wysyłka e-mail — wysyłka dokumentu
 
 Wysyłanie wiadomości e-mail zaczynamy zawsze od stworzenia dokumentu. Robimy to tak jak w przypadku zwyczajnych dokumentów:
 
@@ -25,14 +26,6 @@ Przechodzimy do definiowania właściwej wysyłki, przechodzimy do:
 - Klikamy: `Zapisz`.
 - Następnie: `Roześlij`.
 
-W oknie powinien pojawić się napis: `Wysyłka za X godzin Y minut`, w tym momencie można już zamknąć okno.
+W oknie powinien pojawić się napis: `Wysyłka za X godzin Y minut`, w tym momencie można już zamknąć okno. Każdy z właścicieli otrzyma tylko swój załącznik. Wydruk do wysyłki tworzony jest w momencie faktycznej wysyłki, a nie w momencie jej definiowania. Jeżeli w międzyczasie dokonamy zmian w systemie, które wpłyną na wydruk, to może on ulec zmianie. W oknie `Wysyłka e-mail` można wstrzymać lub usunąć wysyłkę, uzupełniając hasło i klikając na przyciski `Wstrzymaj` lub `Usuń`. Można wysłać do siebie przykładowy e-mail, uzupełniając pole `Adres e-mail` i klikając `Wyślij przykład`. Wysyłka zajdzie tylko dla właścicieli, którzy mają uzupełniony poprawnie adres e-mail w menu `Zasoby` > `Edytuj dane właścicieli` > Pole `Kontakty e-mail`. Jeśli właściciel ma nie brać udziału w wysyłce, to jego adres należy usunąć z pola `Kontakty e-mail` i wpisać w pole `Informacja`. Do wysyłki z programu nie można podpiąć zewnętrznych załączników.
 
 ![Wysyłka e-mail](wysylkaemail.gif)
-
-### Uwagi
-
-- Wydruk do wysyłki tworzony jest w momencie faktycznej wysyłki, a nie w momencie jej definiowania. Jeżeli w międzyczasie dokonamy zmian w systemie, które wpłyną na wydruk, to może on ulec zmianie.
-- W oknie Wysyłka e-mail można wstrzymać lub usunąć wysyłkę, uzupełniając hasło i klikając na przyciski Wstrzymaj lub Usuń.
-- W oknie Wysyłka e-mail, po kliknięciu Zapisz, można wysłać do siebie przykładowy e-mail, uzupełniając pole Adres e-mail i klikając Wyślij przykład.
-- Wysyłka zajdzie tylko dla właścicieli, którzy mają uzupełniony poprawnie adres e-mail w menu Zasoby > Edytuj dane właścicieli > Pole Kontakty e-mail. Jeśli właściciel ma nie brać udziału w wysyłce, to jego adres należy usunąć z pola Kontakty e-mail i wpisać w pole Informacja.
-- Do wysyłki e-mail z programu nie można podpiąć zewnętrznych załączników.
