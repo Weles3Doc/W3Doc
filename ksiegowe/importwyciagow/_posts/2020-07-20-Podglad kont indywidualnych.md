@@ -1,6 +1,7 @@
 ---
-title: Podgląd indywidualnych kont bankowych
+title: 4. Podgląd kont indywidualnych
 ---
+
 # Podgląd indywidualnych kont bankowych
 
 Po otrzymaniu informacji o wygenerowanych numerach kont bankowych możemy sporządzić ich zestawienie. Poniżej, została opisana procedura uzyskania takiego dokumentu.

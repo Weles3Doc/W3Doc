@@ -1,6 +1,7 @@
 ---
-title: Import wyciągu płatności masowych
+title: 2. Import wyciągu płatności masowych
 ---
+
 # Import wyciągu płatności masowych.
 
 - Wyciągi masowe importujemy poprzez: zakładka Zasoby -> menu Funkcje -> Importuj płatności masowe
