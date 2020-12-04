@@ -1,6 +1,7 @@
 ---
 title: Grafiki na wydrukach
 ---
+
 # Grafiki na wydrukach
 
 Program pozwana na umieszczenie plików graficznych na systemowych wydrukach. Dzięki temu wydrukom można nadać profesjonalny wygląd — dodając nagłówek lub dodać skan pieczątki, lub podpisu na końcu dokumentu. Wszystko zaczyna się od stworzenia grafiki/skanu do umieszczenia w programie. W przypadku:
@@ -13,60 +14,73 @@ Program pozwana na umieszczenie plików graficznych na systemowych wydrukach. Dz
 - Podczas skanowania, w opcjach ustawiamy obszar skanowania jak najbardziej dopasowany do rozmiaru pieczątki/podpisu.
 - Importujemy plik do systemu, DPI ustawiamy takie same jak użyte podczas skanowania.
 
-Proces skanowania przedstawiamy poniżej.
+#### Skanowanie
+
+Proces skanowania przedstawiamy poniżej. Prosimy zapamiętać DPI skanowanych obrazków.
 
 ![Skanowanie podpisu](skanowanie.gif)
 
+#### Dodanie obrazu do systemu
+
 Po stworzeniu lub zeskanowaniu obrazu trzeba dodać go do systemu. Aby zaimportować plik, należy przejść do:
 
-- Menu funkcje > Wydruki.
-- W oknie wydruki > Menu funkcje > Obrazy dla wydruków.
-- Zakładka Dodawanie.
-- Pole Plik > wybieramy plik z dysku komputera.
-- Pole DPI > wpisujemy pożądane DPI.
-- Pole Opis > wpisujemy opis pliku.
-- Wpisujemy hasło i zatwierdzamy.
+- Menu `Funkcje` > `Wydruki`.
+- Menu `Funkcje` > `Obrazy dla wydruków`.
+- Zakładka `Dodawanie`.
+- Pole `Plik` > wybieramy plik z dysku komputera.
+- Pole `DPI` > wpisujemy pożądane DPI.
+- Pole `Opis` > wpisujemy opis pliku.
+- Wpisujemy `Hasło`.
+- Klikamy: `Zatwierdź`.
 
 Okno zamknie się, wczytana grafika jest od razu możliwa do użycia na wydrukach.
 
 ![Dodanie grafiki](dodanieobrazka.gif)
 
+#### Edycja obrazów
+
 Jeśli importowaliśmy plik, który ma być użyty jako nagłówek, to trzeba ustawić ten parametr w systemie. Aby to zrobić, należy przejść do:
 
-- Menu funkcje > Wydruki.
-- W oknie wydruki > Menu funkcje > Obrazy dla wydruków.
-- Zakładka Edycja.
-- Pole Obraz > wybieramy plik z listy.
-- Pole Nazwa > pozostawiamy bez zmian lub ew. zmieniamy na inne.
-- Pole DPI > pozostawiamy bez zmian lub ew. zmieniamy na inne.
-- Pole Użyj jako nagłówka > wybieramy Użyj.
-- Pole Nagłówek dla > ustawiamy Weles 3 F K, jeśli ma być dostępny w każdym budynku.
-- Klikamy: Dodaj.
-- Wpisujemy hasło i zatwierdzamy.
+- Menu `Funkcje` > `Wydruki`.
+- Menu `Funkcje` > `Obrazy dla wydruków`.
+- Zakładka `Edycja`.
+- Pole `Obraz` > wybieramy plik z listy.
+- Pole `Nazwa` > pozostawiamy bez zmian lub ew. zmieniamy na inne.
+- Pole `DPI` > pozostawiamy bez zmian lub ew. zmieniamy na inne.
+- Pole `Użyj jako nagłówka` > wybieramy `Użyj`.
+- Pole `Nagłówek dla` > ustawiamy `Weles 3 FK`, jeśli ma być dostępny w każdym budynku.
+- Wpisujemy `Hasło`.
+- Klikamy: `Zatwierdź`.
 
 Od tego momentu można używać nagłówka na wydrukach. Powyższe czynności na ogół wykonujemy tylko raz.
 
 ![Ustawienie nagłówka](ustawienienaglowka.gif)
 
+#### Użycie obrazów na wydrukach
+
 Aby użyć dodanej grafiki na wydrukach, należy przejść do:
 
-- Menu funkcje > Wydruki.
-- W polu Użyj, nagłówka można ustawić drukowanie się nagłówka strony.
+- Menu `Funkcje` > `Wydruki`.
+- Pole `Użyj nagłówka` > można ustawić drukowanie się nagłówka strony.
 - Skomponować wydruk.
-- Za dodanie skanu pieczątki lub podpisu, lub innej grafiki, odpowiada wydruk: Obraz.
-- Pole Obraz > ustawiamy odpowiedni plik.
-- Pole Pozycja > ustawiamy odległość, to pole jest zależne od pola Justowanie.
-- Pole DPI > ustawiamy DPI.
-- Pole Justowanie > ustawiamy justowanie.
-- Klikamy: Podgląd wydruku.
+- Za dodanie skanu pieczątki lub podpisu, lub innej grafiki, odpowiada wydruk: `Obraz`.
+- Pole `Obraz` > ustawiamy odpowiedni plik.
+- Pole `Pozycja` > ustawiamy odległość, to pole jest zależne od pola `Justowanie`.
+- Pole `DPI` > ustawiamy DPI.
+- Pole `Justowanie` > ustawiamy justowanie.
+- Klikamy: `Podgląd wydruku`.
 
 Aby nie powtarzać za każdym razem tych czynności, sugerujemy skorzystać ze Schematów wydruków.
 
 ![Użycie grafiki](uzyciegrafiki.gif)
 
+#### Przykładowy wydruk
+
+Poniżej przedstawiamy przykładowy wydruk z użytym nagłówkiem strony oraz skanem podpisu.
+
 ![Użycie grafiki](przykladgrafikipdf.png)
 
-### Uwagi:
+#### Uwagi:
 
 - W polu DPI określamy gęstość obrazka, czyli liczba punktów (kropek) obrazu przypadająca na cal. Szerokość obrazka na wydruku to 2.54 * szerokość pikseli / dpi [cm], czyli przykładowo obrazek o szerokości 2480 pikseli przy 300 dpi ma szerokość 21 cm na wydruku (szerokość formatu A4). Istnieją następujące zależności: im wyższa liczba dpi tym obrazek na wydruku jest lepszej jakości (słabiej widać kropki/rozmycie), ale też staje się mniejszy, jeśli natomiast zmniejszamy liczbę dpi, obrazek staje się większy, ale też bardziej stają się widoczne jego niedoskonałości (kropki — punkty/piksele). Najlepiej stosować obrazy o możliwie najwyższej (wysokiej) rozdzielczości pikseli i dopasować je do wydruku zwiększając liczbę DPI.
 
