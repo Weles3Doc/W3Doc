@@ -15,11 +15,6 @@ Rozpoczęcie procesu głosowania nad uchwałą należy zacząć od dodania pliku
 - Pole `Plik` > przeciągamy i upuszczamy plik PDF z treścią uchwały.
 - Klikamy: `Utwórz`.
 
+Prosimy sprawdzić poprawność danych przed ustawieniem głosowania w zakładce Administracja > Dane. Dane wybrane w polu Algorytm, są przeliczane na udział. Jeśli udział ma być co do wartości równy danej, to ta dana musi mieć wartość sumaryczną 1. Jeśli w polu `Sposób wprowadzania algorytmu` wybiorą Państwo `Rozszerzony`, to w polu `Algorytm rozszerzony` można wpisać ręcznie sposób liczenia udziału z danych, na przykład: `D1+D3`.
+
 ![Dodanie uchwały](dodanieuchwaly.gif)
-
-#### Uwagi:
-
-- Prosimy sprawdzić poprawność danych przed ustawieniem głosowania w zakładce Administracja > Dane.
-- Dane wybrane w polu Algorytm, są przeliczane na udział.
-- Jeśli udział ma być co do wartości równy danej, to ta dana musi mieć wartość sumaryczną 1.
-- Jeśli w polu `Sposób wprowadzania algorytmu` wybiorą Państwo `Rozszerzony`, to w polu `Algorytm rozszerzony` można wpisać ręcznie sposób liczenia udziału z danych, na przykład: `D1+D3`.
