@@ -20,6 +20,8 @@ Dokumenty te są dostępne do wglądu/pobrania dla wszystkich właścicieli, aby
 - Pole `Nazwa pliku` > uzupełni się automatycznie.
 - Kliknąć: `Utwórz`.
 
+Maksymalny rozmiar załącznika to 25 MB. Typ pliku — prosimy używać PDF lub DOC.
+
 ![Dodanie pliku](materialy1.gif)
 
 #### Podgląd pliku
@@ -49,8 +51,3 @@ Materiały informacyjne można dowolnie usuwać.
 - Zakładka `Administracja` > menu `Funkcje` > `Materiały informacyjne`.
 - Na liście materiałów zaznaczamy plik do usunięcia.
 - Kliknąć: `Usuń`.
-
-#### Uwagi:
-
-- Maksymalny rozmiar załącznika to 25 MB.
-- Typ pliku — prosimy używać PDF lub DOC.
