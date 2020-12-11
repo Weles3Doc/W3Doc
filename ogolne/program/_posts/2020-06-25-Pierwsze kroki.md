@@ -1,7 +1,10 @@
 ---
-title: 
+title: Pierwsze kroki
 ---
-# Komputer
+
+# Pierwsze kroki
+
+#### Komputer
  
 System WELES 3 jest aplikacją internetową, co oznacza, że nie ma potrzeby instalowania go lokalnie na komputerze. Do pracy z programem wystarczy komputer z dowolnym systemem operacyjnym (Windows, Linux, MacOS), dostępem do internetu i przeglądarką. Jeśli masz już przeglądarkę, upewnij się, że masz jej najnowszą wersję. Jeśli nie to zaktualizuj przeglądarkę. Aplikacja obsługuje przeglądarki:
 
@@ -11,15 +14,13 @@ System WELES 3 jest aplikacją internetową, co oznacza, że nie ma potrzeby ins
 
 ![Otwieranie programu](pierwszekroki1.gif)
 
-# Urządzenia mobilne
+#### Urządzenia mobilne
 
-Pracować na systemie można też na współczesnych telefonach i tabletach. Co prawda nie będzie to tak sprawne i produktywne jak na komputerze, ale w sytuacjach nagłych i kryzysowych oraz działania w terenie, będzie niezastąpione. Do tabletu można podpiąć klawiaturę i myszkę, za pomocą kabla USB, w ten sposób zmieniając go w mobilną stację roboczą.
-
-Dostęp do systemu przez przeglądarkę ma także właściciel lokalu, bez potrzeby pobierania specjalnej aplikacji, więcej na ten temat znajduje się w dedykowanej instrukcji.
+Pracować na systemie można też na współczesnych telefonach i tabletach. Co prawda nie będzie to tak sprawne i produktywne jak na komputerze, ale w sytuacjach nagłych i kryzysowych oraz działania w terenie, będzie niezastąpione. Do tabletu można podpiąć klawiaturę i myszkę, za pomocą kabla USB, w ten sposób zmieniając go w mobilną stację roboczą. Dostęp do systemu przez przeglądarkę ma także właściciel lokalu, bez potrzeby pobierania specjalnej aplikacji, więcej na ten temat znajduje się w dedykowanej instrukcji.
 
 ![Otwieranie programu](pierwszekroki2.gif)
 
-# Przeglądarka plików PDF
+#### Przeglądarka plików PDF
 
 Z programu generujemy dokumenty w formacie PDF dobrze. Jeśli na komputerze, na którym pracujemy, jest zainstalowana przeglądarka plików PDF. Wśród popularnych i polecanych programów możemy wymienić:
 
@@ -28,7 +29,7 @@ Z programu generujemy dokumenty w formacie PDF dobrze. Jeśli na komputerze, na 
 
 ![Otwieranie programu](pierwszekroki3.gif)
 
-# Arkusze kalkulacyjne
+#### Arkusze kalkulacyjne
 
 Z programu można także pobrać dokumenty i zestawienia tabelaryczne w formacie CSV, które następnie można otworzyć w programie do arkuszy i poddać dalszej obróbce. Wśród popularnych i polecanych pakietów biurowych możemy wymienić:
 
@@ -37,7 +38,7 @@ Z programu można także pobrać dokumenty i zestawienia tabelaryczne w formacie
 
 ![Otwieranie programu](pierwszekroki4.gif)
 
-# Bezpieczeństwo
+#### Bezpieczeństwo
 
 Podczas codziennej pracy z programem, zawsze mniej jako priorytet bezpieczeństwo danych, które przetwarzasz, poniżej podajemy kilka dobrych rad:
 
