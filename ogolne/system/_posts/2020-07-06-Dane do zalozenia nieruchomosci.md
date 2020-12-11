@@ -1,6 +1,7 @@
 ---
 title: Dane do założenia nieruchomości
 ---
+
 # Dane do założenia nieruchomości
 
 Aby proces zakładania nieruchomości przebiegł jak najszybciej oraz bezbłędnie, najlepiej jest nam dostarczyć arkusz z danymi w którym:
@@ -21,8 +22,9 @@ Aby proces zakładania nieruchomości przebiegł jak najszybciej oraz bezbłędn
 - Opis naliczeń oraz wartości stawek umieszczamy pod zestawieniem właścicieli.
 
 W arkuszu warto, jest też odpowiedzieć na pytania:
-- Czy rozrachunki z właścicielem będą prowadzone z podziałem na Media i eksploracja oraz Fundusz remontowy? Czy może będzie tylko jedno sumaryczne konto rozrachunkowe?
-- Od jakiej daty będą robione księgowania w systemie?
-- Od jakiej daty będą rozliczane liczniki? (WAŻNE)
 
-Jako podstawę mogą Państwo wykorzystać [»arkusz z przykładowymi danymi.«](https://docs.google.com/spreadsheets/d/13BpnUOk8q11rsomCo8Ljx_FuZHZszdB0mu4cmAG6_lg)
+- Czy rozrachunki z właścicielem będą prowadzone z podziałem na `Media i eksploracja` oraz `Fundusz remontowy`? Czy może będzie tylko jedno sumaryczne konto rozrachunkowe?
+- Od jakiej daty będą robione księgowania w systemie?
+- Od jakiej daty będą rozliczane liczniki? (**WAŻNE**)
+
+Jako podstawę mogą Państwo wykorzystać arkusz z przykładowymi danymi > **[POBIERZ](danenieruchomosci.xls)**.
