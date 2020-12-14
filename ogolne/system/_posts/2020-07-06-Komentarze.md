@@ -8,6 +8,7 @@ Funkcja komentarzy służy do umieszczania krótkich notatek do wielu elementów
 
 - Kliknąć, zaznaczyć element systemu.
 - Menu `komentarze` > `Komentarze`.
+- W środkowej części okna wybieramy element, dla którego trzeba dodać komentarz.
 - Pole `Klucz komentarza` > podać informację.
 - Kliknąć: `Opublikuj komentarz`.
 
