@@ -1,5 +1,5 @@
 ---
-title: Wysyłka SMS — zakup środków
+title: Wysyłka SMS - zakup środków
 ---
 
 # Wysyłka SMS — zakup środków
