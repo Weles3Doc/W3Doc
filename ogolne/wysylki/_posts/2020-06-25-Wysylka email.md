@@ -8,6 +8,7 @@ Wysyłanie wiadomości e-mail zaczynamy zawsze od stworzenia dokumentu. Robimy t
 
 - Zakładka `Administracja` > Menu `Funkcje` > `Wydruki`.
 - Okno `Wydruki` > tworzymy dokument do rozesłania właścicielom.
+- Na liście właścicieli można określić, do kogo trafi wysyłka. Można też skorzystać z filtrów wydruków.
 - Gdy dokument będzie już gotowy, przekierowujemy go do wysyłki.
 - Menu `Funkcje` > `Wyślij do wysyłki e-mail`.
 - Zamykamy okno wydruków.
