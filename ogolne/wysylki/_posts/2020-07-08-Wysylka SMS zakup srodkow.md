@@ -4,9 +4,14 @@ title: Wysyłka SMS - zakup środków
 
 # Wysyłka SMS — zakup środków
 
-Funkcja wysyłki SMS jest prowadzona bezpośrednio z programu Weles — nie jest wymagane podpisywanie dodatkowej umowy. Usługa wysyłki SMS jest dodatkowo płatna. Aby wykupić pakiet SMS, należy przejść do:
+Funkcja wysyłki SMS jest prowadzona bezpośrednio z programu Weles — nie jest wymagane podpisywanie dodatkowej umowy. Usługa wysyłki SMS jest dodatkowo płatna. Pakiet SMS można kupić na dwa sposoby:
 
-- Zakładka `Zasoby` > menu `Funkcj`e > `Wysyłka SMS`.
+- Zakładka `Zasoby` > menu `Funkcje` > `Wysyłka SMS` > pakiet wykupiony tutaj będzie możliwy do wykorzystania **we wszystkich** nieruchomościach w systemie.
+- Zakładka `Administracja` > menu `Funkcje` > `Wysyłka SMS` > pakiet wykupiony tutaj będzie możliwy do wykorzystania **tylko we wskazanej** nieruchomości.
+
+Aby wykupić pakiet SMS, należy przejść do:
+
+- Zakładka `Zasoby` lub `Administracja` > menu `Funkcje` > `Wysyłka SMS`.
 - Zakładka `Rozliczenie`.
 - Pole `Liczba kupowanych SMS` > wpisujemy liczbę kupowanych SMS.
 - Sprawdzić tabelkę z wartościami.
