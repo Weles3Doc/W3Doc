@@ -7,9 +7,9 @@ title: 1. Wysyłka e-mail - dodanie konta
 Pierwszym krokiem przed rozpoczęciem wysyłania wiadomości e-mail jest dodanie konta pocztowego do systemu. W tym celu należy:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Wysyłka e-mail`.
-- Zakładki `Konta pocztowe`.
-- Pole `Typ` > konta wybieramy e-mail.
-- Pole `Adres e-mail` podajemy adres mail, z którego będzie prowadzona wysyłka.
+- Zakładka `Konta pocztowe`.
+- Pole `Typ konta` > wybieramy `E-mail`.
+- Pole `Adres e-mail` > podajemy adres mail, z którego będzie prowadzona wysyłka.
 - Pole `Nazwa użytkownika` > podajemy login **do konta pocztowego**.
 - Pole `Hasło` > podajemy hasło **do konta pocztowego**.
 - Klikamy: `Dodaj`.
