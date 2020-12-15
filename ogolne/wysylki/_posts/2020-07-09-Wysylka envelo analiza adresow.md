@@ -11,7 +11,7 @@ Do poprawnej wysyłki listów potrzebny nam jest pełen adres korespondencyjny w
 ```
 Nazwa firmy
 Imię Nazwisko
-ul. Nr budynku/Lokalu
+ul. Ulica Nr budynku/Lokalu
 Kod pocztowy Miasto
 ```
 
@@ -20,7 +20,7 @@ A dokładniej:
 ```
 <Pierwsza linijka>
 <Druga linijka>
-ul._<Nazwa ulicy>_<nr budynku>
+ul._<Nazwa ulicy>_<nr budynku>/<nr lokalu>  (lub zamiast / można użyć m.)
 <Kod pocztowy>_<Miejscowość>
 ```
 
@@ -35,16 +35,17 @@ W tej zakładce mamy odpowiednio, zaczynając od lewej, nazwę właściciela, nu
 
 ![Analiza adresów](enveloadresy1.gif)
 
-#### Poprawienie adresu
+#### Poprawienie adresu właściciela
 
 Aby poprawić adres właściciela, należy przejść do:
 
-- Menu `Zasoby` > `Edytuj dane właścicieli`.
-- Pole `Właściciel` > wybrać właściciela.
+- Zakładka `Administracja` > menu `Zasoby` > `Edytuj dane właścicieli`.
+- Na liście z lewej strony okna zaznaczamy właściciela do edycji.
+- Klikamy: `Edycja`.
 - Pole `Adres` > poprawić na adres rozpoznawany przez system.
-- Pole `Weryfikacja adresu` > Sprawdzaj strukturę.
-- Kliknąć: `Dodaj`.
-- Wpisać hasło i zatwierdzić.
+- Pole `Weryfikacja adresu` > `Sprawdzaj strukturę`, opcja ta odpowiada za sprawdzanie adresu, pod kątem wysyłki przez Envelo.
+- Pozostałe pola nie są istotne, jeśli chodzi o wysyłkę dokumentów.
+- Klikamy: `Zapisz`.
 
 Jeśli okno się nie zamknęło i pojawił się błąd w pozycji, to oznacza, że system nie rozpoznał poprawnie adresu, adres trzeba jeszcze raz poprawić.
 
