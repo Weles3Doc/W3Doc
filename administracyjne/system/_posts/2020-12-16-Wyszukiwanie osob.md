@@ -4,7 +4,7 @@ title: Wyszukiwanie osób
 
 # Wyszukiwanie osób
 
-W systemie można wyszukiwać osoby we wszystkich nieruchomości w systemie. Wyszukiwanie można prowadzić po:
+W systemie można wyszukiwać osoby we wszystkich nieruchomościach w systemie. Wyszukiwanie można prowadzić po:
 
 - Nazwie właściciela.
 - Danych adresowych.
