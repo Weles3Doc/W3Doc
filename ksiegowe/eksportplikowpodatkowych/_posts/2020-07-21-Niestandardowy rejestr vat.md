@@ -1,7 +1,10 @@
 ---
 title: Niestandardowy rejestr VAT
 ---
+
 # Niestandardowy rejestr VAT
+
+##### Narzędzie 'Niestandardowy rejestr VAT' jest obecnie odradzane. Lepszym rozwiązaniem jest menu 'Obciążenia/Daty na rejestrze VAT' w zakładce 'Administracja'
 
 Funkcja ta pozwala na umieszczanie dokumentów kosztowych (rejestr zakupu) lub przychodowych (rejestr sprzedaży) pod inną datą w rejestrze VAT niż data księgowania, bądź data upływu terminu płatności — chodzi przykładowo o sytuacje, gdy mamy jakieś rozliczenie z VAT na koniec roku (data księgowania np. 2014-12-31) zwroty są domyślnie na pierwszy dzień miesiąca (2015-01-01), a dopłaty z reguły pod koniec lub wręcz po pierwszym kwartale 2015 (np. na 2015-04-01). Do tego jeszcze przypuśćmy, że całe rozliczenie przygotowywane jest w lutym 2015 - wg interpretacji niektórych US, w takiej sytuacji VAT powinien zostać wykazany w deklaracji w lutym 2015 i tak samo w rejestrze VAT. Funkcja ta pozwala na w miarę dowolne określenie daty, z jaką dokument bądź jego korekta mają się znaleźć w rejestrze (klawiszem spacji przełączamy z wartości domyślnej na możliwość ustawienia dowolnej daty).
 
