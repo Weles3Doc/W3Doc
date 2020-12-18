@@ -62,4 +62,4 @@ Pozwala ona na skopiowanie części cyfr z konta źródłowego do konta docelowe
 
     Czyi program skopiuje prawie cały numer konta, jako ostatnie dostawi `1` zamiast `z`.
 
-    `{0;11}` oznacza: zacznij kopiowanie po 0 cyfrze konta, skopiuj 11 kolejnych cyfry.
+    `{0;11}` oznacza: zacznij kopiowanie po 0 cyfrze konta, skopiuj 11 kolejnych cyfr.
