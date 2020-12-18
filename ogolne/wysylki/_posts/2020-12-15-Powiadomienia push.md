@@ -4,7 +4,7 @@ title: Powiadomienia Push
 
 # Powiadomienia Push
 
-Instrukcja w przygotowaniu.
+Powiadomienia Push pozwalają przekazać szybko krótką informację właścicielowi. Wiadomość ta wyświetli się na komputerze lub telefonie użytkownika. Mają postać niewielkich okienek przedstawiających krótki tekst, ikonę aplikacji Weles3 oraz odnośnik do strony Tomojdom.pl. Powiadomienia te otrzymuje każdy właściciel, który odwiedził stronę Tomojdom.pl i wyraził zgodę na ich otrzymywanie. Są one wyświetlane nawet po opuszczeniu strony, podczas normalnej pracy na komputerze/telefonie oraz jeśli był on wyłączony, zostaną pokazane przy uruchomieniu.
 
 #### Wysyłka powiadomień Push
 
