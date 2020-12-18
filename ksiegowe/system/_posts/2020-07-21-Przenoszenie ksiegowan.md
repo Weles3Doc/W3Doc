@@ -3,84 +3,63 @@ title: Przenoszenie księgowań
 ---
 # Przenoszenie księgowań
 
-Funkcja służy do przenoszenia księgowań pomiędzy kontami. Nie jest tworzony nowy dokument, nie pojawiają się też dodatkowe storna, w pozycjach są poprawiane tylko i wyłącznie konta wybrane w polach Konto Wn i Ma. Funkcja ta przenosi wszystkie wybrane pozycje i umieszcza je na koncie docelowym. Jeśli na docelowym koncie są już jakieś księgowania, to obroty tego konta zostaną powiększone o wartość przenoszonych pozycji. Trzeba koniecznie sprawdzić, czy takie przeksięgowanie jest poprawne merytorycznie (np. czy nie połączymy wyciągów bankowych z przychodami na jednym koncie). Późniejsza poprawa lub cofnięcie tego działania może okazać się poważnie utrudniona, lub wręcz niemożliwa do przeprowadzenia i wszystkie dokumenty, w których dokonano zmiany, trzeba będzie poprawić ręcznie! Za pomocą tej funkcji nie przenosimy przychodów z kont 700, które zaksięgował system. Przenosi się je za pomocą korekt naliczeń lub przez ich cofnięcie i zmianę algorytmów.
+Funkcja służy do przenoszenia księgowań pomiędzy kontami. Nie jest tworzony nowy dokument, nie pojawiają się też dodatkowe storna, w pozycjach dekretów są poprawiane tylko i wyłącznie konta Wn i Ma. Funkcja ta przenosi wybrane pozycje i umieszcza je na koncie docelowym. Jeśli na docelowym koncie są już jakieś księgowania, to obroty tego konta zostaną powiększone o wartość przenoszonych pozycji. Trzeba koniecznie sprawdzić, czy takie przeksięgowanie jest poprawne merytorycznie (np. czy nie połączymy wyciągów bankowych z przychodami na jednym koncie). Późniejsza poprawa lub cofnięcie tego działania może okazać się poważnie utrudniona, lub wręcz niemożliwa do przeprowadzenia i wszystkie dokumenty, w których dokonano zmiany, trzeba będzie poprawić ręcznie! Za pomocą tej funkcji nie przenosimy przychodów z kont 700, które zaksięgował system. Przenosi się je za pomocą korekt naliczeń lub przez ich cofnięcie i zmianę algorytmów.
 
-### Przeksięgowania
+Aby skorzystać z funkcji, należy przejść do:
 
-- Wybieramy wspólnotę i przechodzimy do zakładki Konta FK.
+- Zakładka `Konta FK` > menu `Funkcje` > `Przeksięgowania`.
+- Pole `Z konta` > ustawiamy **konto źródłowe**.
+- Pole `Analityka 2 3 4 5` > w tych polach podajemy numer konta analitycznego pod kontem źródłowym. Można je pozostawić puste lub wpisać numer na jednym z poziomów.
+- Pole `Okres od` > określamy datę początkową pozycji, które będą brane do przeniesienia. Naciśnięcie spacji spowoduje zmianę `BO` na datę.
+- Pole `Okres do` > określamy datę końcową pozycji, które będą brane do przeniesienia.
+- Pole `Strona` > można tutaj ograniczyć pozycje do przeniesienia tylko ze strony `Ma` lub `Wn` konta.
+- Pole `Typ dekretów` > można tutaj ograniczyć pozycje do przeniesienia tylko do specyficznego typu dekretu. Brak wyboru oznacza wszystkie typy.
+- Pole `Na konto` > wpisujemy numer konta docelowego (bez myślników) lub pozostawiamy puste, w takim wypadku konto docelowe będzie można określić ręcznie w następnych polach.
+- Pole `Liczba pozycji` > określamy limit pozycji branych do przeniesienia. (max. 5000)
+- Kliknąć: `Wyszukaj`.
 
-![Przenoszenie księgowań](przenoszksieg1.png)
+W dolnej części okna powinno się pokazać zestawienie pozycji do przeniesienia, które spełniają wyżej określone kryteria. Najważniejsze są kolumny `Konto`, podane w niej jest konto źródłowe oraz kolumna `Konto docelowe`, w skazanej jest w niej konto, na które zostanie przeniesiona pozycja. Jeśli konto docelowe jest określone jako `-----` oznacza to, że pozycja nie zostanie przeniesiona. Można też ręcznie wskazać lub zmienić konto docelowe pozycji, w tym celu w polach:
 
-- Wybieramy menu Funkcje i Przeksięgowania. Po chwili otworzy się nowe okno dialogowe.
+- Pole `Pozycja` > wybrać pozycję księgową.
+- Pole `Konto docelowe` > ustawić jej konto, na które ma zostać przeniesiona.
+- Kliknąć: `Dodaj`.
 
-![Przenoszenie księgowań](przenoszksieg2.png)
+Gdy ustawienia są w porządku, wystarczy wpisać hasło i kliknąć zatwierdź. Pozycje przeniosą się natychmiast, po zmianie można też odświeżyć system: menu `Funkcje` > `Odśwież`. Z funkcji prosimy korzystać ostrożnie, cofnięcie zmian jest bardzo problematyczne i żmudne.
 
-- W tym momencie określamy Filtry dla naszego wyszukiwania: Pole Z konta — Wybieramy konto źródłowe.
+Na poniższym przykładzie przenosimy źle zaksięgowane koszty. Opłaty pocztowe powinny znaleźć się na koncie dedykowanym `400-2-001-001 Opłaty pocztowe`, a nie w pozostałych opłatach `400-2-099 Pozostałe opłaty`.
 
-![Przenoszenie księgowań](przenoszksieg3.png)
+![Przenoszenie księgowań](przenoszenieksiegowan.gif)
 
-- Pole Okres od — Określamy datę początkową, domyślnie podpowiada bilans otwarcia, można to zmienić (naciskając Spację) na konkretną datę.
+#### Funkcje specjalne
 
-![Przenoszenie księgowań](przenoszksieg4.png)
+W polu `Na konto` można wpisać formułę, która pozwoli na uzupełnienie konta docelowego automatycznie, czyli bez konieczności ręcznej edycji każdej z pozycji.
 
-- Pole Okres do — Określamy datę końcową.
+Formuła ma postać:
 
-![Przenoszenie księgowań](przenoszksieg5.png)
+`{X;Y}`
 
-- Pole Strona — W tym polu wybieramy czy przeksięgowanie ma wyświetlić obroty z obydwu stron konta lub tylko z jednej, konkretnej Wn lub Ma.
+Pozwala ona na skopiowanie części cyfr z konta źródłowego do konta docelowego. Liczba `X` określa miejsce, od którego numer będzie kopiowany. Liczba `Y` określa ilość skopiowanych cyfr.
 
-![Przenoszenie księgowań](przenoszksieg6.png)
+- Przykłady użycia:
 
-- Pole Typy dekretów — Pozwala na przeksięgowanie tylko wybranych typów dokumentów. Domyślnie wyświetlane i poprawiane jest wszystko, jeśli zostanie zaznaczony jeden lub więcej typów, to zostaną wyświetlone i poprawione tylko one.
+    W polu `Konto źródłowe` mamy wybrane konto syntetyczne `SSS`, które ma analityki: SSS-aa-bb.
 
-![Przenoszenie księgowań](przenoszksieg7.png)
+    W polu `Na konto` uzupełnione `ZZZ{3;4}`
 
-- Pole Na konto — opcjonalnie określamy konto docelowe (TYLKO CIĄG CYFR BEZ MYŚLNIKÓW) - możemy wpisać numer konta, na który system przeksięguje obroty. 
+    Konto docelowe w pozycjach podpowie się `ZZZaabb`.
 
-![Przenoszenie księgowań](przenoszksieg8.png)
+    Czyi program do konta syntetycznego `ZZZ` zastosuje taki sam numer konta co z `SSS`.
 
-- Po kliknięciu przycisku Wyszukaj, pozycje załadują się do dolnej części okna (do edycji).
+    `{3;4}` oznacza: zacznij kopiowanie po 3 cyfrze numeru konta, skopiuj 4 kolejne cyfry.
 
-![Przenoszenie księgowań](przenoszksieg9.png)
+- Przykład użycia:
 
-- Pole Pozycja — uaktywnia się po załadowaniu pozycji w dolnej części okna, pozwala wybrać konkretną pozycję.
+    W polu `Konto źródłowe` mamy wybrane konto syntetyczne `201`, które ma analityki: 201-y-xxxxxxx-z.
 
-![Przenoszenie księgowań](przenoszksieg10.png)
+    W polu `Na konto` uzupełnione `{0;11}1`.
 
-- Pole Konto docelowe — Pozwala na zmianę konta docelowego wybranej wcześniej pozycji.
+    Konto docelowe w pozycjach podpowie się `201-y-xxxxxxx-1`.
 
-![Przenoszenie księgowań](przenoszksieg11.png)
+    Czyi program skopiuje prawie cały numer konta, jako ostatnie dostawi `1` zamiast `z`.
 
-- Po kliknięciu klawisza Dodaj system ustawi konto docelowe w pozycji do przeksięgowania. Możemy teraz uzupełnić pozostałe pozycje (jedno przeksięgowanie może się odbywać na różne konta dla różnych pozycji).
-
-![Przenoszenie księgowań](przenoszksieg12.png)
-
-- Całość zatwierdzamy Hasłem.
-
-![Przenoszenie księgowań](przenoszksieg13.png)
-
-- W podglądzie dokumentu widać naszą przeksięgowaną pozycję.
-
-![Przenoszenie księgowań](przenoszksieg14.png)
-
-### Funkcje specjalne
-
-W polu Na konto można wpisać formułę, która pozwoli na uzupełnienie konta docelowego automatycznie, czyli bez konieczności ręcznej edycji każdej z pozycji. W pole możemy wpisać konkretny numer konta albo formułę, która będzie takie konto podstawiała. Poniżej kilka przykładów dla lepszego zobrazowania.
-
-- Pole Na konto jest puste — system nie przypisze konta docelowego, dla każdej widocznej pozycji trzeba takie konto wprowadzić osobno.
-
-![Przenoszenie księgowań](przenoszksieg15.png)
-
-- W pole Na konto jest wprowadzony konkretny numer konta z planu kont — wszystkie pozycje będą miały domyślnie wpisany ten numer konta.
-
-![Przenoszenie księgowań](przenoszksieg16.png)
-
-- W pole Na konto wprowadzamy formułę zaawansowaną tj. {X;Y} oznaczające podciąg numeru oryginalnego konta od znaku X o długości Y np. przy koncie 400123 specyfikacja 401{3;3} da nam 401123.
-
-- Poniżej przykłady przeksięgowania z konta 400-1-100 na 400-1-200 w różnych wariantach.
-
-![Przenoszenie księgowań](przenoszksieg17.png)
-
-![Przenoszenie księgowań](przenoszksieg18.png)
-
-![Przenoszenie księgowań](przenoszksieg19.png)
+    `{0;11}` oznacza: zacznij kopiowanie po 0 cyfrze konta, skopiuj 11 kolejnych cyfry.
