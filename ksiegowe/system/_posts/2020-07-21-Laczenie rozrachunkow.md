@@ -1,92 +1,41 @@
 ---
 title: Łączenie rozrachunków
 ---
+
 # Łączenie rozrachunków
 
-### Złącz rozrachunki
+Za pomocą opisywanej funkcji systemu można przypisać wpłatę do obciążenia. Pozwala ona też na przypisanie części wpłaty do części obciążenia. Łączenie rozrachunków jest bardzo pomocne w sprawach windykacyjnych/sądowych/komorniczych. Pozwala na stworzenie raportu, w którym wykazana jest wpłata, sparowane z nią obciążenia oraz ewentualne kwota nierozliczonego jeszcze obciążenia/wpłaty. Aby skorzystać z funkcji, należy przejść do:
 
-Funkcja pozwalająca łączyć/parować zapłaty z obciążeniami (np. przypisywać wpłatę właściciela do konkretnej zaliczki lub naliczonych odsetek).
+- Zakładka `Konta Fk` > menu `Funkcje` > `Łączenie rozrachunków`.
+- Pole `Konto FK` > wskazujemy konto, np. dłużnika.
+- Pole `Uznanie` > w tym polu zostaną wyświetlone uznania, wpłaty lub zwroty. W ostatniej kolumnie tego pola zostanie podana kwota uznania oraz kwota, jaka pozostała nierozliczona z danej wpłaty, tj. niesparowana z obciążeniem.
+- Pole `Obciążenie` > w tym polu zostaną wyświetlone obciążenia dłużnika. W ostatniej kolumnie tego pola zostanie podana kwota obciążenia oraz kwota, jaka pozostała nierozliczona z danego obciążenia, tj. niesparowana z wpłatą.
+- Pole `Kwota` > system podpowie kwotę na podstawie wybranych pozycji we wcześniejszych polach. Można ją oczywiście zmienić na inną. Podpowiadana będzie kwota `Nierozliczone` ta, która jest mniejsza.
+- Kliknąć: `Dodaj`.
+- Powtórzyć czynności dla innych uznań lub obciążeń.
+- Pole `Hasło` > wpisać hasło.
+- Kliknąć: `Zatwierdź`.
 
-- Wybieramy nieruchomość i przechodzimy do zakładki Konta FK.
+Należy tak sparować możliwie wszystkie uznania/obciążenia dłużnika. Wprowadzanie można w dowolnej chwili przerwać, zapisać zmiany i powrócić w późniejszym czasie.
 
-![Łączenie rozrachunków](laczenierozrach1.png)
+![Łączenie pozycji](laczenierozrach.gif)
 
-- Z menu Funkcje wybieramy Złącz rozrachunki. Po chwili otworzy się nowe okno dialogowe.
+#### Podgląd i wydruki kontrolne
 
-![Łączenie rozrachunków](laczenierozrach2.png)
+Efekty pracy można sprawdzić bezpośrednio w:
 
-- W polu Konto FK wskazujemy konto, dla którego chcemy złączyć rozrachunki.
+- Zakładka `Konta FK`.
+- Z listy kont wybrać konto.
+- Przycisk `Rozrachunki uznania` lub `Rozrachunki obciążenia`.
 
-![Łączenie rozrachunków](laczenierozrach3.png)
+Można też stworzyć raport w:
 
-- W polu Uznanie system pokaże pozycje dokumentów, które mogą zostać połączone.
+- Menu `Funkcje` > `Wydruki`.
+- Zakładka `Dokumenty` lub `Osoby`, lub `Konta FK`.
+- Wydruk: `Kartoteka - rozrachunki`.
+- Pole `Układ` > ustawiamy sposób pokazywania pozycji nierozlicznej.
+- Pole `Data końcowa` > data końcowa wydruku.
+- Pole `Sumuj rozrachunki` > w przypadku dwóch lub więcej kont rozrachunkowych system pokaże na końcu tabelki wiersz z sumą wysokich podkont.
+- Kliknąć: `Podgląd wydruku`.
 
-![Łączenie rozrachunków](laczenierozrach4.png)
-
-- W polu Obciążenie system pokaże dostępne pozycje przeciwstawne. 
-
-![Łączenie rozrachunków](laczenierozrach5.png)
-
-- W polu Wartość system podpowie kwotę do sparowania (pole jest edytowalne — wyświetloną wartość można zmienić).
-
-![Łączenie rozrachunków](laczenierozrach6.png)
-
-- Klikamy: Dodaj.
-
-![Łączenie rozrachunków](laczenierozrach7.png)
-
-- Wracając do punktu 4, możemy sparować wiele pozycji dla wybranego konta FK — jeśli jest taka potrzeba.
-
-![Łączenie rozrachunków](laczenierozrach8.png)
-
-- Na koniec całość zatwierdzamy Hasłem.
-
-![Łączenie rozrachunków](laczenierozrach9.png)
-
-### Podgląd i wydruki kontrolne
-
-Złączone rozrachunki można podejrzeć na dwa sposoby tj. bezpośrednio na podglądzie planu kont (zakładka Konta FK) lub za pomocą specjalnego wydruku. Poniżej, opisano oba sposoby.
-
-Konta FK
-
-- Wybieramy nieruchomość i przechodzimy do zakładki Konta FK.
-
-![Łączenie rozrachunków](laczenierozrach10.png)
-
-- Z listy wskazujemy konto do podglądu.
-
-![Łączenie rozrachunków](laczenierozrach11.png)
-
-- W oknie po prawej stronie wskazujemy Rozrachunki uznania.
-
-![Łączenie rozrachunków](laczenierozrach12.png)
-
-- Albo Rozrachunki obciążenia.
-
-![Łączenie rozrachunków](laczenierozrach13.png)
-
-Wydruki
-
-- Wybieramy nieruchomość i przechodzimy do zakładki Administracja.
-
-![Łączenie rozrachunków](laczenierozrach14.png)
-
-- Z menu Funkcje wybieramy Wydruki.
-
-![Łączenie rozrachunków](laczenierozrach15.png)
-
-- Przechodzimy do zakładki Osoby (opcjonalnie dla dokumentów zaksięgowanych będzie to zakładka Dokumenty).
-
-![Łączenie rozrachunków](laczenierozrach16.png)
-
-- Wybieramy wydruk Kartoteka — rozrachunki i ustawiamy odpowiednie parametry wydruku.
-
-![Łączenie rozrachunków](laczenierozrach17.png)
-
-- Klikamy na Podgląd wydruku.
-
-![Łączenie rozrachunków](laczenierozrach18.png)
-
-- Po chwili system wyświetli dokument w formacie pdf.
-
-![Łączenie rozrachunków](laczenierozrach19.png)
+![Podgląd i wydruk](laczenierozrachpodglwdr.gif)
