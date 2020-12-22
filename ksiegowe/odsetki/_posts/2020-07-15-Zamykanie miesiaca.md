@@ -11,10 +11,6 @@ Przed zaksięgowaniem odsetek lub zamknięciem roku, konieczne jest zamknięcie 
 - Klikamy: `Dodaj`.
 - Wpisujemy hasło i zatwierdzamy.
 
+Zamknąć można kilka miesięcy naraz. W zamkniętym miesiącu nie można dodawać nowych dokumentów, można edytować istniejące, nie można też edytować pozycji na kontach 201.
+
 ![Zamykanie miesiąca](zamykaniemiesiaca.gif)
-
-#### Uwagi:
-
-- Zamknąć można kilka miesięcy naraz.
-- W zamkniętym miesiącu nie można dodawać nowych dokumentów, można edytować istniejące.
-- W zamkniętych miesiącach nie można edytować pozycji na kontach 201.
