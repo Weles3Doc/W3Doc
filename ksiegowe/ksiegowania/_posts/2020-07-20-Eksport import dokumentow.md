@@ -1,92 +1,108 @@
 ---
-title: Eksport Import dokumentów
+title: Eksport Import dekretów
 ---
-# Eksport/Import dokumentów
+
+# Eksport/Import dekretów
 
 Funkcja eksportu umożliwia uzyskanie z systemu dekretów w formacie CSV. Mając taki plik, można go dowolnie edytować, a następnie korzystając z funkcji Importu, wprowadzić do systemu. Narzędzie jest przydatne zwłaszcza przy wprowadzaniu powtarzających się cyklicznie operacji (np. Faktur kosztowych lub dekretów PK).
 
-### Eksport dokumentu
+#### Eksport dekretu
 
-- Aby wyeksportować dany dokument z systemu, należy skorzystać z zakładki Dekrety. 
+Aby wyeksportować dany dekret z systemu, należy przejść do:
 
-![Eksport import dokumentów](ekspimpdok1.png)
+- Zakładki `Dekrety`.
+- Po lewej stronie okna wybrać dekret.
+- Przycisk: `Eksport`.
+- Kliknąć tabelkę, która się wyświetli.
+- Na klawiaturze nacisnąć klawisz [ . ] kropki.
 
-- Tam należy wybrać żądany dokument poprzez kliknięcie wskaźnikiem myszy i następnie przejść do pozycji Export. 
+Wyskoczy monit o pobranie pliku CSV, zapisujemy go lub otwieramy bezpośrednio. Separator: `Przecinek`, zestaw znaków `Unicode UTF-8`, sugerujemy też ustawienie `Identyfikacji liczb specjalnych`.
 
-![Eksport import dokumentów](ekspimpdok2.png)
+![Eksport dekretu](eksportdekretu.gif)
 
-- W ramce z prawej strony klikamy na dowolną pozycję i wciskamy na klawiaturze klawisz z kropką. Potwierdzeniem działania będzie pojawienie się komunikatu o dokumencie do pobrania.
+#### Przygotowanie tabelki do importu
 
-![Eksport import dokumentów](ekspimpdok3.png)
+Poniżej przedstawimy jak samodzielnie stworzyć tabelkę do importu. Można także posłużyć się wyeksportowanym dekretem jak szablonem i uzupełnić/zmienić go wg własnych potrzeb. Nazwy pól w niniejszym opisie są zgodne z nazwami dostępnymi w oknie dodawania dokumentu (menu `Dokumenty` > `Dodaj dokument`).
 
-### Przygotowanie danych
+![Tabelka do importu](imporddekretowtabelka.png)
 
-Na poniższych obrazkach pokazujemy, jak powinien wyglądać plik przygotowany do importu. Można także posłużyć się wyeksportowanym dokumentem jak szablonem i uzupełnić/zmienić go wg własnych potrzeb. Nazwy pól w niniejszym opisie są zgodne z nazwami dostępnymi w oknie dodawania dokumentu (menu Dokumenty -> Dodaj dokument).
+Tabela do importu księgowań składa się z jednego wiersza „nagłówka” oraz 7 kolumn z danymi. W tabelce nie łączymy komórek i nie używamy żadnego typu formatowania komórek.
 
-- Prezentowany w przykładzie dokument, to PK z dwoma pozycjami na łączną kwotę 120 zł.
+**Nagłówek**
 
-![Eksport import dokumentów](ekspimpdok4.png)
+Cały nagłówek wpisujemy w jednej komórce, nad pierwszą kolumną z danymi pozycji. Nagłówek ma postać:
 
-- Komórka A1 - nagłówek importowanego dekretu/dokumentu
-  - Rozpoczyna się zawsze od frazy W3ImpDok. Następne są 3 pozycje oddzielone spacją:
-  - Typ wprowadzanego dokumentu zgodny z nazwą podaną w polu Typ dokumentu FK, tutaj PK.
-  - Data księgowania dokumentu, w systemie to pole Data księgowania — tutaj 2017-01-01.
-  - Nazwa Dokumentu — w systemie to pole Opis dokumentu, tutaj Przeksięgowanie.
-- Całość wygląda tak jak na obrazku poniżej:
+```
+<W3ImpDok>_<Typ dokumentu>_<Data księgowania>_<Nazwa dokumentu>
+```
 
-![Eksport import dokumentów](ekspimpdok5.png)
+Gdzie:
+- `W3ImpDok` > nagłówek importu dokumentów.
+- `Typ dokumentu` > wpisujemy: `PK`, `Faktury`, `WB`, `ODS`, `NAL`, `KW`.
+- `Data księgowania` > w formacie `RRRR-MM-DD`.
+- `Nazwa dokumentu` > nazwa dokumentu widoczna na liście dokumentów w zakładce `Dekrety`.
+- `_` > spacja, każdy z tych członów jest oddzielony spacją, **są one bardzo istotne**.
 
-- Kolumny z danymi poszczególnych pozycji dekretu/dokumentu:
-  - Kolumna A to data księgowania danej pozycji, tutaj: 2017-01-01.
-  - Kolumna B to termin płatności (wymagalności lub wpłaty) danej pozycji, tutaj: 2017-01-02.
-  - Kolumna C to pole Treść, tutaj: Zwrot.
-  - Kolumna D to pole Dowód, tutaj: PK.
-  - Kolumna E to pole Konto Wn.
-  - Kolumna F to pole Konto Ma.
-  - Kolumna G to pole Wartość.
-- Całość wygląda tak jak na obrazku poniżej:
+Przykłady:
 
-![Eksport import dokumentów](ekspimpdok6.png)
+```
+W3ImpDok PK 2017-04-01 Przeksięgowanie salda
+W3ImpDok Faktury 2017-03-31 Koszty marzec 2017
+W3ImpDok WB 2017-02-15 WB marzec FR
+```
 
-Poniżej zostało pokazane jak podobny dokument, wyglądałby przy wprowadzaniu ręcznym za pomocą opcji z programu: menu Dokumenty > Edytuj dokument.
+**Wiersze z pozycjami**
 
-![Eksport import dokumentów](ekspimpdok7.png)
+Kolumny nie mają tytułów, funkcja komórki jest określona przez jej pozycje w tabelce. Kolumny mają postać:
 
-### Import dokumentu
+```
+| <Data pozycji> | <Termin płatności> | <Treść> | <Dowód> | <Konto WN> | <Konto MA> | <Kwota> |
+```
 
-Posiadając już przygotowany dokument, można go zaimportować do systemu, za pomocą narzędzia Importuj dane, znajdującego się w zakładce Dekrety i menu Funkcje. 
+Gdzie:
+- `Data pozycji` > data w formacie `RRRR-MM-DD`.
+- `Termin płatności` > data w formacie `RRRR-MM-DD`.
+- `Treść` > ogólna nazwa tytułu księgowania, dowolny tekst.
+- `Dowód` > numer dowodu wew. lub numer dokumentu, faktury.
+- `Konto WN` > podajemy numer konta, na którym pozycja ma być zaksięgowana po stronie WN.
+- `Konto MA` > podajemy numer konta, na którym pozycja ma być zaksięgowana po stronie MA.
+- `Kwota` > kwota pozycji, zaokrąglona do dwóch miejsc po przecinku.
 
-![Eksport import dokumentów](ekspimpdok8.png)
+Wyżej wymienione pozycje wpisujemy w oddzielne komórki w tym samym wierszu. Numery kont podajemy z myślnikami, tak jak widzimy to w planie kont w zakładce `Konta FK`. Przykład:
 
-Import można wykonać na 2 sposoby:
-- Wybierając plik (format CSV).
+```
+201-1-0000086-2
+130-01
+400-2-001-006
+```
 
-![Eksport import dokumentów](ekspimpdok9.png)
+Dla kont właścicieli lokali jest możliwy inny sposób określana konta:
 
-- Wkleić zawartość do pola Dane.
+```
+<Numer lokalu>|<Numer podkonta>
+```
 
-![Eksport import dokumentów](ekspimpdok10.png)
+Gdzie:
+- `Numer lokalu` > taki jak w Weles3.
+- `|` > klawisz pionowej kreski, oddziela te dwa człony.
+- `Numer podkonta` > numer podkonta rozrachunkowego (zazwyczaj 1 , 2, 3 itd. do 9).
 
-- Po imporcie możemy podejrzeć nasz dokument.
+Przykład: `M01|1` `M01|2` `M01|3`.
 
-![Eksport import dokumentów](ekspimpdok11.png)
+**Przykłady gotowych tabelek**
 
-### Import sald właścicieli w Bilansie otwarcia (BO)
+![Tabelka do importu](imporddekretowtabelkaprzyklady.png)
 
-W bardzo podobny sposób można również zaimportować salda właścicieli do BO, aczkolwiek sama tabela jest już znacznie uproszczona. Składa się tylko z trzech kolumn.
+#### Import dekretu
 
-![Eksport import dokumentów](ekspimpdok12.png)
+Gdy tabelka jest już gotowa, można ją zaimportować. Aby to zrobić, należy:
 
-- Pierwszy wiersz i jego oznaczenie:
-  - Komórka A1 to fraza BO albo BO= (ze znakiem równości program najpierw usuwa istniejące BO i doda całkowicie nowe pozycje; bez znaku równości program po prostu doda kolejne pozycje do BO) i następnie numer konta, którym system domknie księgowanie dokumentu.
-  - Komórka B1 to zawsze fraza TR jako treść.
-  - Komórka C1 to zawsze fraza MIE jako mieszkanie.
+- W arkuszu kalkulacyjnym zaznaczyć i skopiować całą tabelkę.
+- Menu `Funkcje` > `Import danych`.
+- Pole `Dane` > wklejamy tabelkę.
+- Pole `Hasło` > wpisujemy hasło.
+- Klikamy: `Zatwierdź`.
 
-- Kolumny i ich oznaczenia:
-  - Kolumna A to saldo właściciela. Kwota z minusem będzie księgowana po stronie WN a kwota z plusem po stronie MA.
-  - Kolumna B to oznaczenie, którego bilansu otwarcia dotyczy. Może być to BO czyli Bilans Otwarcia lub BOO, czyli Bilans Otwarcia — Odsetki.
-  - Kolumna C to numer systemowy lokalu, następnie pionowa kreska, kolejna cyfra to numer podkonta właściciela, na które ma być zaksięgowana pozycja (zazwyczaj 1 = Rozrachunki, 2 = Media i eksploatacja, 3 = Fundusz remontowy itd.).
+Suma obrotów kont po stronie Wn i Ma musi być równa w importowanym dekrecie, bez tego system zgłosi błąd.
 
-Tak wygląda zaimportowany przykładowy dokument z ustawieniami zaprezentowanymi powyżej.
-
-![Eksport import dokumentów](ekspimpdok13.png)
+![Import dekretu](importdekretu.gif)
