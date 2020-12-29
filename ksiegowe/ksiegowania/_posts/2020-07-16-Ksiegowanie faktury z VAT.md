@@ -52,4 +52,9 @@ W tym momencie można wprowadzić pozostałe pozycje danego dokumentu lub nastę
 
 Do wprowadzania pozycji można w każdej chwili powrócić, zaznaczając dokument > menu `Dokumenty` > `Edytuj dokument`.
 
+Artykuły:
+- [Sprzedaż ZW](https://nowoczesnyzarzadca.pl/2020/11/25/sprzedaz_ZW.html)
+- [JPK_V7](https://nowoczesnyzarzadca.pl/2020/09/22/JPK_V7.html)
+- [Założenia JPK_V7](https://doc.weles3.pl/ksiegowe/eksportplikowpodatkowych/Zalozenia-JPK_V7.html)
+
 ![Koszt z VAT](kosztzvat.gif)
