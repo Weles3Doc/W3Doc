@@ -1,8 +1,8 @@
 ---
-title: Księgowanie faktury z VAT
+title: Księgowanie z VAT
 ---
 
-# Księgowanie faktury z VAT
+# Księgowanie z VAT
 
 Aby zaksięgować faktury kosztowe z VAT, należy przejść do:
 
@@ -19,19 +19,19 @@ Aby zaksięgować faktury kosztowe z VAT, należy przejść do:
 - Pole `Treść` > opisujemy pozycję.
 - Pole `Wartość` > podajemy kwotę brutto z dokumentu.
 - Pole `St. VAT` > ustawiamy odpowiednią stawkę VAT.
-- Pole `Typy` > 
-    - `Podzielona płatność` > 
-    - `Środki trwałe` > 
-    - `Proporcja VAT` > 
-    - `Metoda kasowa` > 
-    - `GTU_12` > 
-    - `Odbiorca powiązany` > 
-    - `Dokument WEW` > 
-- Pole `Korekta` > 
-    - `Nie korekta` > 
-    - `Korekta podstawy i VAT art. 89a ust. 1, 4` > 
-    - `Korekta VAT art. 89b ust. 1, 4` > 
-    - `Korekta VAT art. 90a-90c oraz art. 91` > 
+- Pole `Typy` > te opcje służą do odpowiedniego oznaczenia pozycji w plikach JPK.
+    - `Podzielona płatność` > mechanizm podzielonej płatności.
+    - `Środki trwałe`. 
+    - `Proporcja VAT`.
+    - `Metoda kasowa`.
+    - `GTU_12` > pozycja sprzedaży, która zalicza się do grupy GTU_12.
+    - `Odbiorca powiązany` > pozycje na rzecz podmiotu powiązanego.
+    - `Dokument WEW`. 
+- Pole `Korekta` > pole odpowiada za oznaczanie korekt VATu w plikach JPK.
+    - `Nie korekta` > zwyczajna pozycja.
+    - `Korekta podstawy i VAT art. 89a ust. 1, 4` > związanych z uznaniem nieściągalności należności.
+    - `Korekta VAT art. 89b ust. 1, 4` > związanych z opóźnieniem w opłaceniu faktury.
+    - `Korekta VAT art. 90a-90c oraz art. 91` > korekta współczynnika proporcji VAT.
 - Pole `VAT` > w tym polu podpowie się wartość podatku VAT, to pole można edytować, jeśli trzeba.
 - Klikamy: `Dodaj`.
 
