@@ -1,13 +1,17 @@
 ---
-title: 3. Usuwanie wyciągów płatności masowych
+title: 3. Płatności masowe - usuwanie e-WB
 ---
 
 # Usuwanie wyciągów płatności masowych
 
-Zaimportowane pliki masowe e-WB, można usuwać z tego samego menu, z którego dokonuje się ich importów:
+Zaimportowanych wyciągów masowych e-WB nie można edytować, ale można je usuwać w całości. Aby to zrobić, należy przejść do:
 
-- Zakładka Zasoby > menu Funkcje > Importuj płatności masowe.
+- Zakładka `Zasoby` > menu `Funkcje` > `Importuj płatności masowe`.
+- Zakładka `Podgląd`.
+- Na liście plików odszukujemy wyciąg do usunięcia.
+- Pole `Hasło` > wpisujemy hasło.
+- Klikamy: `Wycofaj import`. 
 
-W oknie importów przechodzimy na zakładkę Podglądu, a z lewej strony listy zaimportowanych plików, odszukujemy i klikamy w ten do usunięcia. Obok, pojawi się podgląd jego pozycji oraz pole do wpisania hasła i zaakceptowanie usunięcia.
+Dekret e-WB usunie się natychmiast.
 
 ![Usuwanie e-WB](usuwaniewb.gif)

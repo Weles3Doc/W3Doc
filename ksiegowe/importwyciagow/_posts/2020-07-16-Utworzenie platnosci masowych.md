@@ -1,5 +1,5 @@
 ---
-title: 1. Utworzenie płatności masowych
+title: 1. Płatności masowe - uruchomienie
 ---
 
 # Utworzenie płatności masowych
