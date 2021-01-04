@@ -4,24 +4,21 @@ title: 4. Podgląd kont indywidualnych
 
 # Podgląd indywidualnych kont bankowych
 
-Po otrzymaniu informacji o wygenerowanych numerach kont bankowych możemy sporządzić ich zestawienie. Poniżej, została opisana procedura uzyskania takiego dokumentu.
+Po otrzymaniu informacji o wygenerowaniu indywidualnych numerów kont bankowych możemy sporządzić ich zbiorcze zestawienie oraz dodać je na wydrukach indywidualnych.
 
-- Z menu Funkcje, wybieramy Wydruki.
+Indywidualne konta bankowe można umieścić na wydruku dla każdego właściciela za pomocą:
 
-![Lista kont indywidualnych](listakontind1.png)
+- Zakładka `Administracja` > menu `Funkcje` > `Wydruki`.
+- Zakładka `Dokumenty` lub `Osoby`.
+- Wydruki:
+    - `Rozrachunki` > element ten pokaże nr rachunku bankowego wraz z saldem kartoteki właściciela. Można też podać właścicielowi sam numer, odpowiednio ustawiając: pole `Drukuj` > `Tylko numery rachunków`.
+    - `Wykaz do zapłaty` > jeden z podstawowych elementów przy tworzeniu wydruków z opłatami za lokale pokazuje numer konta oraz kwotę do zapłaty z ustawionego obciążenia w polu `Miesiąc`.
 
-- W nowym oknie wybieramy zakładkę Zasób. W polu Struktura wybieramy budynek.
+Zbiorcze zestawienie kont indywidualnych możne uzyskać w:
 
-![Lista kont indywidualnych](listakontind2.png)
+- Zakładka `Administracja` > menu `Funkcje` > `Wydruki` > zakładka `Zasób`.
+- Wydruk: `Lista kont indywidualnych`.
 
-- Dodajemy wydruk Lista kont indywidualnych. Mamy tu możliwość segregowania właścicieli na wydruku wg lokali lub klucza.
+Omawiane wydruki przedstawiamy na poniższej prezentacji.
 
-![Lista kont indywidualnych](listakontind3.png)
-
-- Po wybraniu wszystkich interesujących nas informacji klikamy w Podgląd wydruku.
-
-![Lista kont indywidualnych](listakontind4.png)
-
-- Po chwili system wygeneruje dokument, na którym będą widoczne numery kont bankowych wszystkich właścicieli w danej wspólnocie. 
-
-![Lista kont indywidualnych](listakontind5.png)
+![Wydruki kont indywidualnych](listakontind.gif)
