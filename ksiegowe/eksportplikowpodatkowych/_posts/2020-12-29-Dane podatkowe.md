@@ -23,12 +23,13 @@ Eksporty JPK, Sprawozdań i CITu należy zacząć od uzupełnienia danych podatk
 - Pole `Kod pocztowy` > kod pocztowy.
 - Pole `Poczta` > poczta.
 - Pole `Zaliczka CIT` > określić częstotliwość składania deklaracji.
+- Pole `Deklaracja VAT` > określić częstotliwość składania deklaracji.
 - Pole `Mail` > podać adres poczty elektronicznej (obowiązkowy do nowych JPK).
 - Pole `Telefon` > podać nr telefonu.
 - Kliknąć: `Dodaj`.
 - Pole `Hasło` > wpisać hasło.
 - Kliknąć: `Zatwierdź`.
 
-Okno zamknie się, po tym można przejść do eksportu.
+Okno zamknie się, następnie można przejść do eksportu danych.
 
-(dodać gif)
+![Dane podatkowe](danepodatkowe.gif)
