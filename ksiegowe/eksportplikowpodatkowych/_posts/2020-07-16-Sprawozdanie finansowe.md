@@ -1,9 +1,10 @@
 ---
 title: Sprawozdanie finansowe
 ---
+
 # Sprawozdania finansowe
 
-Celem sporządzenia elektronicznego sprawozdania finansowego należy:
+W celu sporządzenia elektronicznego sprawozdania finansowego należy:
 
 - Pobrać i zainstalować aplikację Ministerstwa Finansów.
 - W aplikacji utworzyć sprawozdanie.
@@ -11,7 +12,8 @@ Celem sporządzenia elektronicznego sprawozdania finansowego należy:
   - W aplikacji trzeba potwierdzić, że jest się osobą fizyczną — nie będzie to mieć znaczenia dla działania sprawozdań.
   - W aplikacji wypełniamy przymusowe pola bilansu i rachunku zysków i strat kwotami 0 - będzie to potem nadpisane przez Weles3.
 - Do działania konieczne jest przypisanie specyfikacji raportów dowolnych dla odpowiedniego bilansu i rachunku zysków i strat.
-- Przygotowany przez aplikację plik (zip lub xml) trzeba wrzucić w zakładce Sprawozdania finansowe w menu Funkcje/Podatki w zakładce Zasoby.
+- Przygotowany przez aplikację plik (zip lub xml) trzeba dodać do systemu za pomocą:
+  - Zakłada `Zasoby` > menu `Funkcje` > `Podatki` > zakładka `Sprawozdania finansowe`.
 - Po zatwierdzeniu zostanie pobrany plik sprawozdania, będący kopią przesłanego pliku ze zmianami:
   - Ustawionymi datami początkowymi i końcowymi.
   - Ustawioną datą sporządzenia.

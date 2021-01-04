@@ -27,7 +27,7 @@ Aby wygenerować plik JPK, należy przejść do:
 - Pole `Przyczyna korekty` > opis przyczyny korekty.
 - Pole `Nadwyżka z poprzedniego okresu` > podajemy kwotę, która zostanie podana w segmencie `D1.1 Przeniesienia` deklaracji.
 - Pole `Pozycje NP` > ustawiamy czy system ma ujmować pozycje, które w systemie zostały naliczone z typem stawki: `NP VAT (FV)`.
-- Pole `Weryfikacja schematu` > ustawiamy czy system ma weryfikować poprawność pliku xml.
+- Pole `Weryfikacja schematu` > ustawiamy czy system ma sprawdzać plik pod względem zgodności z definicjami struktur dostarczanymi przez Ministerstwo Finansów — jeżeli wystąpi niezgodność, plik się nie pobierze i zostanie wyświetlony komunikat o błędzie.
 - Pole `Akcja` > wybieramy czy chcemy pobrać plik xml lub podejrzeć jego zawartość w nowym oknie.
 - Kliknąć: `Pobierz`.
 
