@@ -1,6 +1,7 @@
 ---
 title: Założenia eksportu JPK_V7
 ---
+
 # Zakres JPK_V7
 
 Weles3 pozwala generować deklaracje JPK_V7M i JPK_V7K. Zgodnie z wymogami raportowymi system
