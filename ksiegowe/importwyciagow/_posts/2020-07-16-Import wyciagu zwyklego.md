@@ -1,118 +1,151 @@
 ---
-title: Import wyciągu zwykłego
+title: Import operacji bankowych
 ---
-# Import wyciągu zwykłego
 
-- Wyciągi zwykłe/elektroniczne importujemy poprzez: zakładka Zasoby -> menu Funkcje -> Importuj wyciąg elektroniczny
-- Identyfikacja, następuje tutaj poprzez bankowe KONTO ŹRÓDŁOWE, z którego jest przykładowa transakcja.
-- Wymagana jest wcześniejsza konfiguracja głównych parametrów rachunku, w zakładce Rachunki bankowe.
-- Wymagane są też, przypisania rozpoznanych kont bankowych, do kont księgowych w systemie Weles, na których to mają nastąpić poszczególne księgowania. Każde konto przypisuje się tylko raz, a system pamięta jego ustawienia (zakładka [Edycja])
-- Po imporcie, jeśli nie będzie błędów i okno zamknie się samo, można odświeżyć i ponownie przejść w okno importu i na jej zakładkę [Podgląd], gdzie można podejrzeć zaimportowany plik i jego pozycje.
-- Plik eWB powinien też być widoczny na zakładce Dekrety danej WM, do której był import.
-- Dekret eWB jest edytowalny.
+# Import operacji bankowych
+
+Za pomocą opisywanej funkcji można do systemu zaimportować wszystkie pozycje występujące na rachunku bankowym. Co więcej, w przeciwieństwie do importu płatności masowych, nie trzeba podpisywać z bankiem dodatkowej umowy oraz ponosić dodatkowych kosztów. Właściciele nie posiadają indywidualnych nr rachunków, przelewy kierują bezpośrednio na konto główne wspólnoty. Pozycje są identyfikowane następująco:
+
+- Wpłaty — na podstawie numeru rachunku wpłacającego (z którego przychodzi przelew).
+- Zapłaty — na podstawie numeru rachunku wyjściowego (na który jest kierowany przelew).
+- Pozostałe uznania rachunku bankowego, np. odsetki od lokat, są księgowane automatycznie na wskazane konto.
+- Pozostałe obciążenia rachunku bankowego, np. prowizje i opłaty, są księgowane automatycznie na wskazane konto.
+
+#### Uruchomienie
+
+Przed przystąpieniem do importu trzeba dla każdego budynku i rachunku bankowego, określić kilka ważnych ustawień. Aby to zrobić, należy przejść do:
+
+- Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny`.
+- Zakładka `Rachunki bankowe`.
+- Pole `Zasób` > wybieramy budynek
+- Pole `Konto` > wybieramy konto księgowe rachunku bankowego.
+- Pole `Opis` > opis konta.
+- Pole `Pozycje nierozpoznane Ma (Odsetki)` > ustalamy konto księgowe dla pozycji nierozpoznanych, uznań, zazwyczaj jest to konto `7xx-.. Przychody finansowe` lub `2xx-.. Pozycje do wyjaśnienia`.
+- Pole `Pozycje nierozpoznane Wn (Prowizje)` > ustalamy konto księgowe dla pozycji nierozpoznanych, obciążeń, zazwyczaj jest to konto `4xx/7xx-.. Koszty finansowe` lub `2xx-.. Pozycje do wyjaśnienia`.
+- Pole `Bank` > wskazujemy odpowiedni bank.
+- Pole `Numer` > wpisujemy numer konta.
+- Kliknąć: `Dodaj`.
+- Podobnie uzupełniamy dla innych budynków lub rachunków.
+- Pole `Hasło` > wpisać hasło.
+- Kliknąć: `Zatwierdź`.
+
+Powyższe ustawienia można dowolnie zmieniać w późniejszym czasie. Jeśli Państwa banku nie ma na liście, to prosimy się zgłosić do działu wsparcia Weles3.
+
+![Uruchomienie importu](impoperacjiuruch.gif)
+
+#### Pobranie pliku z banku
+
+Z banku należy pobrać plik z listą operacji bankowych. Dane w pliku wyciągu powinny być w jednym z formatów:
+
+- `Elixir`
+- `MT940`
+- `xml`
+
+Pliki te zazwyczaj mają rozszerzenia: `*.ELX *.RES *.xml *.txt *.sta *.csv *.mt940`, należy tutaj zaznaczyć, że rozszerzenie nie decyduje czy plik się zaimportuje, do importu potrzeby jest właściwy format danych zawartych wewnątrz pliku. Plik musi być plikiem tekstowym, czyli zawierającym dane w postaci alfanumerycznej, więc importu nie przejdą formaty PDF, DOC, XLS.
+
+Nie opiszemy tutaj pobierania pliku ze strony banku, każdy z nich ma swój sposób na generowanie raportu oraz różne formaty plików do wyboru, dodatkowo te rzeczy mogą się zmieniać w czasie. Jako pomoc w wyborze odpowiedniego formatu wyciągu podajemy przykłady nazw plików, które do tej pory są importowane do systemu:
+
+- PKO BP:
+    - `MT940_xx1440138700000000xxxxxxxx_20201209.txt`
+    - `ACCOUNTS-HISTORY-STANDARD_xxxxxxx_20201228_xxxxxx_xxxxxxxx.xml`
+    - `history_20201207_xxxxxx.xml`
+    - `ELIXIR_xx102010550000xxxxxxxxxxxx_20201231.txt`
+    - `xxxxxxxx.RES`
+- Pekao:
+    - `export20201201xxxxxx.mt940`
+    - `export20210103xxxxxx.sta`
+- Millennium:
+    - `Historia_transakcji_20201210_xxxxxx.sta`
+- ING:
+    - `Wyciag_dla_Otwarte_Konto_Oszczęd._Firma__30.11.2020.sta`
+    - `Wyciag_dla_Konto_Direct_dla_Firmy_w_PLN__30.11.2020.sta`
+    - `Wyciag_dla_Konto Direct dla wspóln mieszk__31.10.2020.sta`
+    - `Wyciag_dla_KONTO Z LWEM ZYSK w PLN__31.10.2020.sta`
+    - `Lista_transakcji_nr_xxxxxxxxxx_xxxxxx.csv`
+- BNP Paribas:
+    - `export20201201xxxxxxxxxx.mt940`
+- Pocztowy:
+    - `11M_2020.mt940`
+    - `xx13201120xxxxxxxxx0000001_1_MT940`
+- Alior:
+    - `export20201202xxxxxx.STA`
+- mBank:
+    - `xxxxxxx.dat`
+- BZWBK:
+    - `wyciag_xxxx_20201201.mt940x`
+- GetIn:
+    - `wyciagi_zbiorcze_2021-01-05_10-13-25.xml`
+- BOŚ:
+    - `_BOS_operacje_201201_xxxxxx.txt`
+- Deutsche Bank:
+    - `eWyciag_20210104_xxxxxx.csv`
+
+Zazwyczaj ustalenie właściwego typu pliku należy przeprowadzić metodą prób i błędów. Najlepiej ze strony banku pobrać kilka różnych plików. Następnie skorzystać z funkcji do sprawdzania formatu w:
+
+- Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny`.
+- Zakładka `Sprawdzenie formatu`.
+
+Należy tutaj wczytać plik i jeśli otworzy się tabelka z operacjami wyciągu, to oznacza, że format danych jest prawidłowy. Jest to opisane w dedykowanej [**instrukcji**](https://doc.weles3.pl/ksiegowe/importwyciagow/Sprawdzanie-formatu-pliku-WB.html).
+
+Z importu operacji bankowych można korzystać nawet wtedy, gdy wspólnota posiada płatności masowe. Należy tutaj stosować pewną zasadę, z banku należy pobrać dwa pliki:
+
+- Pierwszy z nich musi zawierać operacje tylko z wpłatami właścicieli na rachunki wirtualne, importujemy go w: `Importuj płatności masowe`.
+- Drugi musi zawierać wszystkie pozostałe operacje z wyłączeniem wpłat masowych, importujemy go w: `Importuj wyciąg elektroniczny`.
+
+Dla przykładu z banku PKO BP można pobrać paczkę przelewów składającą się z 3 plików:
+
+- `*.ELX` > zawiera wszystkie operacje — pomijamy go.
+- `*.SWR` > zawiera wyłącznie operacje skierowane na SWRK.
+- `*.RES` > zawiera operacje z wyłączeniem tych, skierowanych na SWRK.
+
+Pliki `SWR` i `RES` importujemy zgodnie z wcześniejszym opisem.
+
+Do programu można importować paczkę wyciągów bankowych spakowanych w archiwum ZIP.
+
+Jeśli napotykają Państwo problem z wyborem pliku pomimo zastosowania powyższych sposobów, to prosimy o kontakt z działem wsparcia Weles3.
+
+#### Importuj pliku wyciągu
+
+Aby zaimportować plik, należy przejść do:
+
+- Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny`.
+- Zakładka `Dodawanie`.
+- Pole `Plik` > klikamy `Przeglądaj`.
+- W oknie dialogowym wyszukujemy plik.
+- Klikamy: `Otwórz`.
+- Pole `Hasło` > wpisujemy hasło.
+- Klikamy: `Zatwierdź`.
+
+Po kliknięciu `Zatwierdź` okno może się zamknąć i wpłaty zostaną zaksięgowane w systemie. W tym momencie może też pojawić się błąd:
+
+```
+ERR
+Brak konta FK dla rachunku 'WWEEEEOOOOPPPPLLLLNNNNYYYY'
+Brak konta FK dla rachunku 'AABBBBCCCCDDDDEEEEFFFFGGGG'
+Brak konta FK dla rachunku 'AAQQQQWWWWRRRRSSSSDDDDFFFF'
+```
+
+Oznacza to, że wpłata/zapłata z/na konto AA BBBB CCCC DDDD EEEE FFFF GGGG nie ma przypisanego konta księgowego, gdzie mogłaby się zaksięgować. Takie sparowanie trzeba teraz utworzyć, w tym celu, należy:
+
+- Zamknąć okno błędu.
+- Zakładka `Edycja`.
+- Pole `Rachunek zasobu` > wybrać budynek i rachunek, dla którego był importowany plik.
+
+W dolnej części okna pokarze się tabelka, w której przypisujemy `Rachunek obcy` do `Konta FK`. Należy odszukać pozycje, dla których `Konto FK` **nie jest określone**. Następnie:
+
+- Z prawej strony pozycji klikamy na ikonkę lupy, pozycja załaduje się do górnej części okna.
+- Pole `Rachunek obcy` > pomijamy.
+- Pole `Nadawca` > będzie uzupełnione danymi nadawcy/odbiorcy przelewu.
+- Pole `Treść` > będzie uzupełnione tytułem przelewu.
+- Pole `Konto FK` > na podstawie wcześniejszych pól ustawiamy konto księgowe właściciela lub kontrahenta, ew. inne dowolne np. `2xx-.. Pozycje do wyjaśnienia`.
+- Pole `Konto FK zapłat` > podajemy tutaj konto do zapłat, jeżeli mają być one księgowane na innym koncie niż w polu `Konto FK`, można w ten sposób rozdzielić wpłaty i zapłaty.
+- Kliknąć: `Dodaj`.
+
+Powyższe czynności powtarzamy dla każdego rachunku obcego, który nie ma przypisanego konta księgowego. Gdy pozycje będą uzupełnione, należy:
+
+- Pole `Hasło` > wpisać hasło.
+- Kliknąć: `Zatwierdź`.
+
+Okno funkcji zamknie się, należy jednak powrócić do niej i ponownie spróbować dodać plik do systemu, zaczynając jeszcze raz od początku instrukcji.
 
 ![Import wyciągu](importwbzwyklego.gif)
-
-### Importuj wyciąg elektroniczny
-
-Funkcja służy do importowania wyciągów elektronicznych bez udziału płatności masowych. Na podstawie wygenerowanego z systemu bankowego pliku (prawidłowe formaty plików to np csv, txt, mt-940; system nie rozpozna plików w formacie pdf), możemy zaksięgować poszczególne pozycje z rachunku bankowego. Program identyfikuje pozycje w pliku na podstawie numeru konta bankowego wpłacającego i przypisuje je do odpowiedniego konta w systemie. 
-
-### Rachunki bankowe
-
-Pierwszym niezbędnym krokiem jest określenie Numeru konta bankowego nieruchomości, z którego wykonywane są transakcje (wpłaty/wypłaty) - jest to wspólne ustawienie dla Eksportu zapłat elektronicznych (polecenie zapłaty) oraz dla Importu wyciągów elektronicznych (zwykłych — bez płatności masowych).
-
-- W zakładce Zasoby wybieramy menu Funkcje i Importuj wyciąg elektroniczny.
-
-![Import WB](impwb1.png)
-
-- Po chwili otworzy się nowe okno dialogowe. Przechodzimy do zakładki Rachunki bankowe.
-
-![Import WB](impwb2.png)
-
-- Wybieramy Zasób (nieruchomość/wspólnotę), której będziemy przypisywać numer rachunku bankowego.
-
-![Import WB](impwb3.png)
-
-- Wskazujemy Konto, na które księgowane będą obroty — system pokaże tutaj wszystkie konta analityczne dla syntetyki określonej typem Rachunek bankowy (zwykle 13x).
-
-![Import WB](impwb4.png)
-
-- Wskazujemy Konto pozycji nierozpoznanych. Plik wyciągu bankowego zawiera także takie pozycje jak prowizje bankowe, wpłaty w kasie w banku/poczcie itp. — są to pozycje, których nie da się przypisać do konta, dlatego wpłaty takie domyślnie będą trafiały na wskazane tutaj konto (np. 149-1 Wpłaty do wyjaśnienia).
-
-![Import WB](impwb5.png)
-
-- Wskazujemy Bank, z którym mamy podpisaną umowę — jest to potrzebne do określenia odpowiedniego formatu kodowania (tak, żeby pliki systemu bankowego zostały poprawnie zinterpretowane oraz, żeby Weles generował właściwie polecenia zapłaty). W przypadku, gdyby na liście brakowało Państwa banku, prosimy o kontakt mailowy z danymi kontaktowymi do opiekuna — postaramy się jak najszybciej zaktualizować listę, o ile będzie taka możliwość.
-
-![Import WB](impwb6.png)
-
-- Wprowadzamy Numer rachunku bankowego. Cyfry mogą być oddzielone spacją lub wprowadzone ciągiem (bez odstępów).
-
-![Import WB](impwb7.png)
-
-- Klikamy: Dodaj.
-
-![Import WB](impwb8.png)
-
-- Możemy od razu uzupełnić dane dla pozostałych nieruchomości.
-
-![Import WB](impwb9.png)
-
-- Całość zatwierdzamy Hasłem.
-
-![Import WB](impwb10.png)
-
-### Import wyciągów elektronicznych
-
-Sam import sprowadza się do wygenerowania w banku zestawienia operacji na rachunku i zaimportowania takiego zestawienia w wersji elektronicznej (plik) do programu Weles. Program na podstawie numeru konta wpłacającego identyfikuje daną pozycję i przypisuje do konkretnego konta w systemie Weles. Operacje typu wpłata w kasie banku/poczty są traktowane jako niezidentyfikowane i będą księgowane na wskazanym wcześniej koncie pozycji nierozpoznanych.
-
-- W zakładce Zasoby wybieramy menu Funkcje i Importuj wyciąg elektroniczny.
-
-![Import WB](impwb11.png)
-
-- Po chwili otworzy się nowe okno dialogowe. W zakładce Dodawanie wskazujemy pobrany z banku raport, wpisujemy Hasło i klikamy Zatwierdź.
-
-![Import WB](impwb12.png)
-
-- System sprawdza, czy dany numer konta bankowego jest przypisany do konta w programie. Jeżeli wszystkie pozycje są przypisane, system zamknie okno, a wyciąg się zaimportuje. Jeżeli w pliku będą jakieś pozycje bez przypisanych kont, program wyświetli komunikat o błędzie — konieczne jest przypisanie tych pozycji. 
-
-![Import WB](impwb13.png)
-
-- Przechodzimy do zakładki Edycja i wskazujemy Rachunek zasobu, dla którego chcemy przypisać nieznane wpłaty.
-
-![Import WB](impwb14.png)
-
-- Wpłaty, które system rozpoznaje, mają przypisane konta.
-
-![Import WB](impwb15.png)
-
-- Nierozpoznane pozycje z wyciągu bankowego przypisujemy, klikając znak lupy po prawej stronie. System podstawi dane z wyciągu do powyższych formularzy.
-
-- ![Import WB](impwb16.png)
-
-- Przechodzimy do pola Konta i wskazujemy konto w planie kont, gdzie system ma księgować daną pozycję z wyciągu (parujemy numer rachunku wpłacającego z kontem w systemie).
-
-![Import WB](impwb17.png)
-
-- Klikamy: Dodaj. Uzupełniamy tak WSZYSTKIE nierozpoznane pozycje.
-
-![Import WB](impwb18.png)
-
-- Na koniec wpisujemy Hasło i klikamy Zatwierdź. System powinien zamknąć okno.
-
-![Import WB](impwb19.png)
-
-- Ponownie wybieramy menu Funkcje i Importuj wyciąg elektroniczny.
-
-![Import WB](impwb20.png)
-
-- Wskazujemy nasz wyciąg, wpisujemy Hasło i Zatwierdzamy. Okno powinno się zamknąć. 
-
-![Import WB](impwb21.png)
-
-- Ponownie przechodzimy do menu Funkcje i Importuj wyciąg elektroniczny.
-
-![Import WB](impwb22.png)
-
-- Przechodząc do zakładki Podgląd, możemy podejrzeć zaimportowane wyciągi elektroniczne.
-
-![Import WB](impwb23.png)
