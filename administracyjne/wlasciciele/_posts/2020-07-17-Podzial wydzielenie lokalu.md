@@ -14,7 +14,7 @@ Niniejsza instrukcja opisuje sytuację, w której właściciel sprzedaje tylko c
 - Pole `Informacje` > wpisać ew informacje.
 - Kliknąć: `Utwórz`.
 
-Nowy lokal nie pokarze się od razu, trzeba do niego przydzielić odbiorcę.
+Nowy lokal nie pokaże się od razu, trzeba do niego przydzielić odbiorcę.
 
 ![Podział lokalu](podziallokalu0.gif)
 
