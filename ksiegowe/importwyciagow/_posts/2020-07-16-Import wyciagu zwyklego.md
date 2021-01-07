@@ -104,7 +104,7 @@ Do programu można importować paczkę wyciągów bankowych spakowanych w archiw
 
 Jeśli napotykają Państwo problem z wyborem pliku pomimo zastosowania powyższych sposobów, to prosimy o kontakt z działem wsparcia Weles3.
 
-#### Importuj pliku wyciągu
+#### Import pliku wyciągu
 
 Aby zaimportować plik, należy przejść do:
 
@@ -131,7 +131,7 @@ Oznacza to, że wpłata/zapłata z/na konto AA BBBB CCCC DDDD EEEE FFFF GGGG nie
 - Zakładka `Edycja`.
 - Pole `Rachunek zasobu` > wybrać budynek i rachunek, dla którego był importowany plik.
 
-W dolnej części okna pokarze się tabelka, w której przypisujemy `Rachunek obcy` do `Konta FK`. Należy odszukać pozycje, dla których `Konto FK` **nie jest określone**. Następnie:
+W dolnej części okna pokaże się tabelka, w której przypisujemy `Rachunek obcy` do `Konta FK`. Należy odszukać pozycje, dla których `Konto FK` **nie jest określone**. Następnie:
 
 - Z prawej strony pozycji klikamy na ikonkę lupy, pozycja załaduje się do górnej części okna.
 - Pole `Rachunek obcy` > pomijamy.
