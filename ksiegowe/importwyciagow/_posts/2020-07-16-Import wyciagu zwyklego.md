@@ -148,4 +148,25 @@ Powyższe czynności powtarzamy dla każdego rachunku obcego, który nie ma przy
 
 Okno funkcji zamknie się, należy jednak powrócić do niej i ponownie spróbować dodać plik do systemu, zaczynając jeszcze raz od początku instrukcji.
 
+Zaimportowane wyciągi można dowolnie edytować i usuwać tak jak zwyczajny dekret. Można też je importować jeszcze raz, dodając do nazwy pliku frazę `_WYMUS_`.
+
 ![Import wyciągu](importwbzwyklego.gif)
+
+#### Edycja konta księgowego
+
+Czasami zachodzi konieczność zmiany miejsca księgowania się operacji bankowych dla danego rachunku obcego. W systemie można to bez problemu zrealizować, aby to zrobić, należy:
+
+- Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny`.
+- Zakładka `Edycja`.
+- Pole `Rachunek zasobu` > wybrać budynek i rachunek.
+- Z prawej strony pozycji klikamy na ikonkę lupy, pozycja załaduje się do górnej części okna.
+- Pole `Rachunek obcy` > pomijamy.
+- Pole `Nadawca` > będzie uzupełnione danymi nadawcy/odbiorcy przelewu.
+- Pole `Treść` > będzie uzupełnione tytułem przelewu.
+- Pole `Konto FK` > na podstawie wcześniejszych pól ustawiamy konto księgowe właściciela lub kontrahenta, ew. inne dowolne np. `2xx-.. Pozycje do wyjaśnienia`.
+- Pole `Konto FK zapłat` > podajemy tutaj konto do zapłat, jeżeli mają być one księgowane na innym koncie niż w polu `Konto FK`, można w ten sposób rozdzielić wpłaty i zapłaty.
+- Kliknąć: `Dodaj`.
+- Pole `Hasło` > wpisać hasło.
+- Kliknąć: `Zatwierdź`.
+
+![Edycja konta](importwbedycjakonta.gif)
