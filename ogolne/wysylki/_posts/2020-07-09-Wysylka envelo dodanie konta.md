@@ -8,13 +8,12 @@ Program Weles daje możliwość integracji z [Envelo](https://www.envelo.pl/) (I
 
 - Zakładka `Zasoby` > Menu `Funkcj`e > `Wysyłka e-mail`.
 - Zakładka `Konta pocztowe`.
-- Pole `Typ konta` > wybrać `Envelo (Poczta Polska)`.
-- Pole `Identyfikator` > wpisać nazwę skrzynki/konta.
+- Pole `Typ` > wybrać `Envelo (Poczta Polska)`.
+- Pole `E-Mail` > wpisać nazwę skrzynki/konta.
 - Pola `Prefiks` > wpisać dane konta z Envelo.
-- Pole `Nazwa użytkownika` > login do konta Envelo.
+- Pole `Login` > login do konta Envelo.
 - Pole `Hasło` > hasło do konta Envelo.
 - Kliknąć: `Dodaj`.
-- Pole `Hasło` > wpisać hasło.
 - Kliknąć: `Zatwierdź`.
 
 Po dodaniu konta można przejść do przypisywania go do budynków.
