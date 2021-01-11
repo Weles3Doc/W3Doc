@@ -1,7 +1,9 @@
 ---
 title: Blokada wyskakujących okien
 ---
+
 # Blokada wyskakujących okien
+
 Zdarza się, że po aktualizacjach przeglądarka blokuje wyskakujące okna/zakładki. Aby umożliwić poprawną pracę w systemie, należy:
 
 - Zalogować się do systemu.
@@ -10,10 +12,9 @@ Zdarza się, że po aktualizacjach przeglądarka blokuje wyskakujące okna/zakł
 - Wrócić do zakładki z Weles.
 - Wywołać funkcję systemu jeszcze raz — nowa zakładka powinna się otworzyć.
 
-![Blokada wyskakujących okien](wyskakujaceokna.gif)
+Alternatywnym miejscem dodania wyjątków do Blokowania wyskakujących okien jest:
 
-### Uwagi:
-
-- Alternatywnym miejscem dodania wyjątków do Blokowania wyskakujących okien jest:
 - Opcje > Zakładka: Prywatność i Bezpieczeństwo > Sekcja: Uprawnienia
 - Wiersz: Blokowanie wyskakujących okien > Przycisk: Wyjątki.
+
+![Blokada wyskakujących okien](wyskakujaceokna.gif)
