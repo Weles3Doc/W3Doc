@@ -8,7 +8,7 @@ Podczas księgowania należności nie określamy bezpośrednio terminu płatnoś
 
 - Zakładka `Administracja` > menu `Elementy` > `Terminy płatności`.
 - Pole `Dokument` > wybrać typ dokumentu, dla którego ustawiamy termin.
-- Pole `Właściciel` > można wybrać osobę, dla której określimy indywidualny termin. Jeśli pozostanie wybrane BRAK, pozycja będzie dotyczyła wszystkich.
+- Pole `Właściciel` > można wybrać osobę, dla której określimy indywidualny termin. Jeśli pozostanie wybrane `Wszyscy`, pozycja będzie dotyczyła wszystkich.
 - Pole `Dni` > określamy ilość dni, która doda się do daty bazowej określanej przy księgowaniu należności i następnym polu.
 - Pole `Data bazowa` > określamy, co ma być datą podstawową, do której dodadzą się `Dni`:
   - `Bazowy termin płatności` > określany przy księgowaniu należności.
