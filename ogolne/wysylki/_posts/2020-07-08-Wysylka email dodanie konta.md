@@ -8,9 +8,9 @@ Pierwszym krokiem przed rozpoczęciem wysyłania wiadomości e-mail jest dodanie
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Wysyłka e-mail`.
 - Zakładka `Konta pocztowe`.
-- Pole `Typ konta` > wybieramy `E-mail`.
-- Pole `Adres e-mail` > podajemy adres mail, z którego będzie prowadzona wysyłka.
-- Pole `Nazwa użytkownika` > podajemy login **do konta pocztowego**.
+- Pole `Typ` > wybieramy `E-mail`.
+- Pole `E-mail` > podajemy adres mail, z którego będzie prowadzona wysyłka.
+- Pole `Login` > podajemy login **do konta pocztowego**.
 - Pole `Hasło` > podajemy hasło **do konta pocztowego**.
 - Klikamy: `Dodaj`.
 - Wpisujemy `Hasło`.
