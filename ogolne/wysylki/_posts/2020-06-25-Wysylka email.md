@@ -2,22 +2,23 @@
 title: 3. Wysyłka e-mail - wysyłka dokumentu
 ---
 
-# Wysyłka e-mail — wysyłka dokumentu
+# Wysyłka e-mail — wysyłka dokumentów
 
 Wysyłanie wiadomości e-mail zaczynamy zawsze od stworzenia dokumentu. Robimy to tak jak w przypadku zwyczajnych dokumentów:
 
 - Zakładka `Administracja` > Menu `Funkcje` > `Wydruki`.
 - Okno `Wydruki` > tworzymy dokument do rozesłania właścicielom.
-- Na liście właścicieli można określić, do kogo trafi wysyłka. Można też skorzystać z filtrów wydruków.
-- Gdy dokument będzie już gotowy, przekierowujemy go do wysyłki.
-- Menu `Funkcje` > `Wyślij do wysyłki e-mail`.
-- Zamykamy okno wydruków.
 
-Przechodzimy do definiowania właściwej wysyłki, przechodzimy do:
+Na liście właścicieli można określić, do kogo trafi wysyłka. Można też skorzystać z filtrów wydruków. Gdy dokument będzie już gotowy, przekierowujemy go do wysyłki:
+
+- Menu `Funkcje` > `Wyślij do wysyłki e-mail`.
+
+Zamykamy okno wydruków. Przechodzimy do definiowania właściwej wysyłki, przechodzimy do:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Wysyłka e-mail`.
-- W lewej stronie okna **zaznaczamy** wysyłkę `NOWY`.
-- W środkowej części okna wyświetlą się parametry wydruku oraz lista właścicieli, dla których został on stworzony.
+
+W lewej stronie okna **klikamy** na wysyłkę `NOWY`. W środkowej części okna wyświetlą się parametry wydruku oraz lista właścicieli, dla których został on stworzony.
+
 - Klikamy: `Edycja`.
 - Pole `Wysyłka` > `E-mail`.
 - Pole `Nazwa wysyłki (tytuł E-Mail)`> wpisujemy nazwę wysyłki, będzie to jednocześnie tytuł maila.
