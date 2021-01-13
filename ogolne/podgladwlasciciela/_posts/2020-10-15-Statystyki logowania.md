@@ -6,7 +6,7 @@ title: Statystyki logowania
 
 Funkcja prezentuje metody logowania właścicieli przez stronę https://tomojdom.pl/ do podglądu internetowego swojej kartoteki. Można ją odnaleźć w:
 
-- Zakładka `Zasoby` > menu `Elementy` > `Statystyki`.
+- Zakładka `Zasoby` > menu `Elementy` > `Logowania właścicieli`.
 
 Okno podzielone jest na dwie części, po lewej stronie znajduje się lista budynków z dodatkowymi kolumnami, w których podana jest liczba użytkowników:
 
