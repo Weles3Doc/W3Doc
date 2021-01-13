@@ -17,13 +17,11 @@ Aby wysłać powiadomienie z informacją lub ogłoszeniem, należy przejść do:
 W lewej części okna znajduje się lista właścicieli, można tutaj dokonać dokładniejszej selekcji, do kogo ma trafić powiadomienie — wybierając jednego, kilku lub wszystkich właścicieli, odpowiednio ich zaznaczając. W prawej części okna uzupełniamy:
 
 - Pole `Nazwa wysyłki` > podajemy, czego dotyczy wysyłka.
-- Pole `Treść SMS` > wpisujemy treść powiadomienia.
-- Pole `Informacja o saldzie` > `nie dotyczy`.
-- Pole `Podgląd` > można w nim sprawdzić finalną postać powiadomienia.
 - Pole `Wysyłka` > `Push`.
-- Pole `Priorytet` > ustawiamy opóźnienie wysyłki.
-- Pole `Hasło` > wpisujemy hasło.
-- Klikamy: `Wyślij` > w nazwie przycisku zostanie podana ilość powiadomień do wysłania.
+- Pole `Podgląd` > można w nim sprawdzić finalną postać powiadomienia.
+- Pole `Treść SMS` > wpisujemy treść powiadomienia.
+- Pole `PUSH` > zostanie tutaj pokazana ilość powiadomień Push.
+- Klikamy: `Wyślij`.
 
 Po zatwierdzeniu system przeniesie nas do zakładki Wysyłka. Można w niej ostatecznie sprawdzić wysyłkę i ewentualnie ją zatrzymać.
 
