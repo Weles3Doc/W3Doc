@@ -13,15 +13,14 @@ Aby wysłać właścicielom prostego SMS z informacją lub ogłoszeniem, należy
 W lewej części okna znajduje się lista właścicieli, można tutaj dokonać dokładniejszej selekcji, do kogo ma trafić SMS — wybierając jednego, kilku lub wszystkich właścicieli, odpowiednio ich zaznaczając. W prawej części okna uzupełniamy:
 
 - Pole `Nazwa wysyłki` > podajemy, czego dotyczy wysyłka.
-- Pole `Treść SMS` > wpisujemy treść SMS.
-- Pole `Informacja o saldzie` > `nie dotyczy`.
-- Pole `Podgląd` > można w nim sprawdzić finalną postać SMS-a.
 - Pole `Wysyłka` > `SMS`.
+- Pole `Podgląd` > można w nim sprawdzić finalną postać SMS-a.
+- Pole `Treść SMS` > wpisujemy treść SMS.
 - Pole `Pula płatności` > określamy, z którego wykupionego pakietu SMS ma zostać potrącona ilość wysłanych wiadomości.
 - Pole `Priorytet` > ustawiamy opóźnienie wysyłki.
-- Pole `Hasło` > wpisujemy hasło.
-- Klikamy: `Wyślij` > w nazwie przycisku zostanie podana ilość SMS do wysłania.
+- Pole `GSM` > zostanie pokazana tutaj ilość SMS-ów do wysłania.
+- Klikamy: `Wyślij`.
 
-Po zatwierdzeniu system przeniesie nas do zakładki Wysyłka. Można w niej ostatecznie sprawdzić wysyłkę i ewentualnie ją zatrzymać.
+Po zatwierdzeniu system przeniesie nas do zakładki Wysyłka. Można w niej ostatecznie sprawdzić wysyłkę i ewentualnie ją zatrzymać, klikając `Zatrzymaj wysyłkę`.
 
 ![SMS z wiadomością](smszawiadomienie.gif)
