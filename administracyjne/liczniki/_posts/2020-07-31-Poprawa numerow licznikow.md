@@ -1,5 +1,5 @@
 ---
-title: Poprawa numerów liczników
+title: Hurtowa poprawa numerów liczników
 ---
 
 # Poprawa numerów liczników
