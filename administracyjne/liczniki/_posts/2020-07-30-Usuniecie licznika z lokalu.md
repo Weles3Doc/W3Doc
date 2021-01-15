@@ -15,4 +15,6 @@ Aby usunąć licznik z lokalu, należy przejść do:
 - Z listy liczników wybieramy licznik do usunięcia.
 - Klikamy: `Usuń`.
 
+Licznik usunie się natychmiast. Jeśli przycisk `Usuń` jest szary, oznacza to, że licznik nie spełnia warunków do usunięcia.
+
 ![Usunięcie licznika lokalu](usuwanielicznika.gif)
