@@ -1,114 +1,103 @@
 ---
 title: Zamknięcie roku
 ---
+
 # Zamknięcie roku
 
-Poniższa instrukcja opisuje procedurę prawidłowego zamknięcia roku rozliczeniowego. Szczególnie ważne jest tu przeprowadzenie wydruków kontrolnych. 
+Poniższa instrukcja ma za zadanie opisać przykładową procedurę zamknięcia roku rozliczeniowego. Nie jest ona uniwersalna, należy ją dostosować do specyfiki danej nieruchomości.
 
-### Rozliczenie liczników i kosztów
+#### Przygotowania
 
-Pierwszym etapem na drodze do zakończenia roku jest poprawne wykonanie i zaksięgowanie rozliczenia liczników (RL) oraz rozliczenia kosztów (RK). Rozliczenia te mogą zostać zaksięgowane jako dwa osobne dokumenty. Wtedy najpierw księgujemy rozliczenie liczników, a następnie przystępujemy do rozliczenia kosztów. Można też spróbować wykonać takie rozliczenie jednym dokumentem — korekta RL+RK — jest to jednak trudniejsze i nie zawsze akceptowalne rozwiązanie. W przypadku takiego rozliczenia należy wyliczyć dla mediów licznikowych stawki wynikowe (tzw. po kosztach) i wprowadzić wstecz (ręcznie, za cały rozliczany okres). Dla pozostałych rozliczanych składników wprowadzamy zwykłe rozliczenie kosztów. Dla algorytmu licznikowego — przy jednoczesnym rozliczaniu liczników i kosztów (jednym księgowaniem/dokumentem) - nie ma możliwości wykonania programowego rozliczenia kosztów !!! Dlatego właśnie potrzebne są stawki, które rozliczą media "na zero" wg faktycznego zużycia, ale bez formalnego rozliczania kosztów.
-Więcej na temat rozliczeń w dokumentacji odnośnie do Rozliczeń kosztów.
+Przed przystąpieniem do zamykania roku trzeba:
 
-### Zamykanie miesięcy FK
+- Zaksięgować wszystkie zaliczki w danym roku.
+- Zaksięgować wszystkie wpłaty właścicieli.
+- Zaksięgować wszystkie koszty.
+- Zrobić inne potrzebne księgowania.
 
-Przed przystąpieniem do naliczania odsetek lub księgowania wynikowego należy najpierw pozamykać wszystkie miesiące w module FK programu Weles. Zamknięcie miesiąca FK powoduje, brak możliwości wprowadzania i księgowania w nim nowych dokumentów i jest niezbędne do prawidłowego wykonania automatycznych przeksięgowań oraz naliczenia odsetek. Ponadto, przy księgowaniu wynikowym, czy kończeniu roku niezbędne jest zamknięcie wszystkich miesięcy od stycznia do grudnia włącznie. Na raz można wykonać księgowanie TYLKO jednego miesiąca FK, a więc czynność należy wykonać ponownie, aby zaksięgować kolejny miesiąc.
+Warto tutaj też nadmienić, że nie muszą Państwo czekać z księgowaniami z bieżącego roku, należy wprowadzać je normalnie, system i tak zamknie pierwszy otwarty rok.
 
-- Z drzewa struktury wybieramy nieruchomość i przechodzimy do zakładki Dekrety.
+#### Rozliczenie liczników 
 
-![Zakończenie roku](zakrok1.png)
+Jeśli w budynku znajdują się liczniki oraz ich termin rozliczenia wypada na koniec roku to w tym momencie, należy zrobić rozliczenie, więcej na ten temat znajduje się w dokumentacji:
 
-- Z dostępnego menu Funkcje, wybieramy opcję Zamknij miesiąc FK.
+- `Administracyjne` > `Rozliczenia liczników`
 
-![Zakończenie roku](zakrok2.png)
+Rozliczenia liczników nie są obowiązkowe przy zamykaniu roku, z punktu widzenia systemu. Można je pominąć, ustawiając termin w następnym roku i sporządzając odpowiednie przeniesienia przychodów i kosztów.
 
-- Otworzy się nowe okno dialogowe. Dodajemy pozycję, klikając przycisk Dodaj.
+#### Rozliczenie kosztów
 
-![Zakończenie roku](zakrok3.png)
+Następnym etapem, choć nie obowiązkowym, są rozliczenia kosztów. Jeśli zachodzi potrzeba zrównania przychodów z poniesionymi kosztami (rozliczenie na zero), to trzeba wykonać systemowe rozliczenia kosztów, które są dokładnie opisane w dedykowanych instrukcjach:
 
-- Na koniec wprowadzamy hasło i zatwierdzamy okno przyciskiem Zatwierdź.
+- `Administracyjne` > `Rozliczenia kosztów`
 
-![Zakończenie roku](zakrok4.png)
+Rozliczenia zazwyczaj księgujemy na koniec okresu rozliczeniowego, którego dotyczą, w ten sposób nie wpływają na przychody roku bieżącego.
 
-- Analogicznie postępujemy dla pozostałych miesięcy (do Grudnia włącznie).
+#### Zamykanie miesięcy
 
-### Odsetki
+Przed zaksięgowaniem odsetek lub zamknięciem roku, konieczne jest zamknięcie miesięcy FK, aby to zrobić, należy przejść do:
 
-Jeśli wspólnota ma zamiar naliczyć odsetki od nieterminowych w płat w minionym roku, to bezwzględnie należy wykonać tę czynność przed programowym zakończeniem roku, gdyż nie będzie możliwości naliczenia odsetek za miniony rok po jego zakończeniu. Odsetki naliczamy po zamknięciu wszystkich miesięcy w minionym roku, natomiast miesiące nowego roku powinny pozostać otwarte (w FK), ponieważ odsetki są księgowane zawsze na koniec ostatniego zamkniętego miesiąca.
+- Zakładka `Dekrety` > menu `Funkcje` > `Zamykanie miesiąca FK`.
+- Pole `Data` > ustawiamy ostatni zamykany miesiąc roku **RRRR-12**.
+- Klikamy: `Dodaj`.
+- Pole `Hasło` > wpisujemy hasło.
+- Klikamy: `Zatwierdź`.
 
-### Księgowanie wynikowe (KW)
+Zamknąć można kilka miesięcy naraz. W zamkniętym miesiącu nie można dodawać nowych dokumentów, można edytować istniejące, ale nie można edytować pozycji na kontach 201. Jeśli mają Państwo w danym budynku zamknięte miesiące i naliczone odsetki już w bieżącym roku to ten krok należy pominąć.
 
-Po zamknięciu wszystkich miesięcy minionego roku w module FK i ewentualnym zaksięgowaniu odsetek należy wykonać księgowanie wynikowe — zaksięgować właściwy dokument (lub dokumenty) KW. Księgowanie wynikowe można wykonywać iteracyjne celem zaksięgowania wyniku na kilka różnych kont. Księgowanie takie ma zastosowanie, gdy przykładowo wynik z kont 400/700 funduszu remontowego (FR) chcemy umieścić na innym koncie wynikowym niż ogólny wynik finansowy. Niniejsza instrukcja pokaże jak wykonać takie księgowanie na 2 kontach wynikowych (oddzielnym na FR) w dwóch dokumentach. Oczywiście, nie ma limitu na ilość dokumentów KW i operacja taka może zostać przeprowadzona więcej razy — jeśli są salda, które chcemy wyróżnić i umieścić poza głównym kontem wyniku finansowego (najczęściej jest to konto nr 860).
-Poniżej przedstawiono przykładowe wykonanie KW w 2 dokumentach — z księgowaniem FR na oddzielnym koncie (poza głównym kontem wyniku finansowego).
+![Zamykanie miesiąca](zamykaniemiesiaca.gif)
 
-- Z drzewa struktury wybieramy nieruchomość oraz przechodzimy do zakładki Dekrety.
+#### Odsetki
 
-![Zakończenie roku](zakrok5.png)
+Jeśli wspólnota ma zamiar naliczyć odsetki od nieterminowych wpłat w minionym roku, to należy wykonać tę czynność przed programowym zakończeniem roku. Odsetki naliczamy po zamknięciu wszystkich miesięcy w minionym roku, natomiast miesiące nowego roku powinny pozostać otwarte, ponieważ odsetki są księgowane zawsze na koniec ostatniego zamkniętego miesiąca. Jeśli mają Państwo w danym budynku zamknięte miesiące i naliczone odsetki już w bieżącym roku (są na przykład księgowane na bieżąco co miesiąc) to ten krok należy pominąć. Więcej na temat odsetek znajduje się w dokumentacji:
 
-- Z dostępnego w tym module menu Dokumenty wybieramy opcję Księgowanie wynikowe.
+- `Księgowe` > `Odsetki`
 
-![Zakończenie roku](zakrok6.png)
+#### Księgowanie wynikowe (KW)
 
-- Otworzy się nowe okno dialogowe. Wybieramy w polu Konto właściwe konto rozrachunkowe, na które ma zostać zaksięgowany wynik (np. 860-1 Wynik finansowy).
+Jedną z ostatnich czynności przed zamknięciem roku księgowego jest zrobienie księgowań wynikowych. Aby je wykonać, należy przejść do:
 
-![Zakończenie roku](zakrok7.png)
+- Zakładka `Dekrety` > menu `Dokumenty` > `Księgowania wynikowe`.
+- Pole `Konto wynikowe` > wybieramy konto, dla którego będziemy robić księgowanie wynikowe.
 
-- Przechodzimy do listy pozycji i usuwamy te, których nie chcemy uwzględnić w tym księgowaniu (np. konto Fundusz remontowy). Usunięte pozycje będą zaksięgowane na innym koncie wynikowym w kolejnym dokumencie.
+W niższej części okna możemy ręcznie dodawać pozycje i edytować kwoty, jakie zostaną przeksięgowane na wynik.
 
-![Zakończenie roku](zakrok8.png)
+W tabelce w dolnej części okna są pokazane proponowane pozycje, podpowiedzą się tylko i wyłącznie konta `4xx` i `7xx`, które mają niezerowe salda.
 
-- Gdy dokument zawiera już tylko te pozycje, które chcemy zaksięgować na wskazane konto wynikowe, wprowadzamy Hasło i zatwierdzamy.
+**Pozostawiamy tutaj tylko konta, dla których ma zajść przeksięgowanie na wskazany wynik**.
 
-![Zakończenie roku](zakrok9.png)
+Zbędne pozycje usuwamy niebieskim kluczykiem po prawej stronie okna. Gdy pozostaną tylko wybrane pozycje:
 
-- Wprowadzony dokument powinien być widoczny w zakładce dokumenty — możemy przystąpić do wprowadzenia kolejnego.
+- Pole `Hasło` > wpisujemy hasło.
+- Klikamy: `Zatwierdź`. 
 
-![Zakończenie roku](zakrok10.png)
+Po zamknięciu okna, na liście dokumentów powinien się pojawić dekret KW, zostanie dodany na ostatni dzień zamkniętego miesiąca. Stworzone dokumenty KW można ręcznie edytować do własnych potrzeb.
 
-- Ponownie wybieramy opcję Księgowanie wynikowe z menu Dokumenty. Po otwarciu się okna ponownie wybieramy konto rozrachunkowe, na które ma zostać zaksięgowany wynik, ale tym razem dla drugiego dokumentu (np. 860-2 Fundusz remontowy). Klawiszem [TAB] przechodzimy do listy pozycji i sprawdzamy, czy są tam wszystkie pozycje, które chcemy uwzględnić w tym księgowaniu — powinny się tutaj znajdować wszystkie pozycje, które zostały usunięte/nieuwzględnione w poprzednim księgowaniu.
+![Księgowanie wynikowe](robieniekw.gif)
 
-![Zakończenie roku](zakrok11.png)
+#### Wydruki sprawdzające
 
-- Na koniec wprowadzamy Hasło i zatwierdzamy.
+Po przejściu przez wymienione wyżej czynności, zmierzające ku formalnemu zakończeniu roku w programie, warto zapoznać się z niektórymi raportami sprawozdawczymi dla całej wspólnoty dostępnymi w wydrukach (zakładka `Zasób`). Poniżej przedstawiono te najważniejsze, na które powinno się zwrócić szczególną uwagę.
 
-![Zakończenie roku](zakrok12.png)
-
-- Wprowadzony dokument powinien być widoczny w zakładce Dekrety.
-
-![Zakończenie roku](zakrok13.png)
-
-### Wydruki sprawdzające
-
-Po przejściu przez wymienione wyżej czynności, zmierzające ku formalnemu zakończeniu roku w programie, warto zapoznać się z niektórymi raportami sprawozdawczymi dla całej wspólnoty dostępnymi w wydrukach (zakładka Zasób). Poniżej przedstawiono te najważniejsze, na które powinno się zwrócić szczególną uwagę.
-
-### Naliczenia
-
-Wydruk Zasób/Naliczenia prezentuje sumaryczne naliczenie związane z przygotowanym dokumentem (zaliczka lub korekta/rozliczenie — również niezaksięgowane) całej nieruchomości bez podziału na właścicieli. Jest szczególnie przydatny przy analizowaniu poprawności kwot wynikających z rozliczenia, gdyż przy domyślnych ustawieniach pokazuje (wyszczególnia) podstawę obciążenia oraz sposób wykonania naliczenia (R, LR, LP, LZ, RKL, RKR) nawet w ramach tego samego algorytmu/składnika. Od razu widoczne są więc błędy wynikające z indywidualnych odstępstw od założonego scenariusza rozliczania (np. kwoty naliczone z ryczałtu przy rozliczeniu liczników "R" — sugerujące brak aktywnego licznika). Przykładowy wydruk: Zasób/Naliczenia.
+**Naliczenia** — Wydruk prezentuje sumaryczne obciążenia związane z zamykanym rokiem na całej nieruchomości bez podziału na właścicieli. Jest szczególnie przydatny przy analizowaniu poprawności kwot wynikających z rozliczenia, gdyż przy domyślnych ustawieniach pokazuje (wyszczególnia) podstawę obciążenia oraz sposób wykonania naliczenia (R, LR, LP, LZ, RKL, RKR) nawet w ramach tego samego algorytmu/składnika. Od razu widoczne są więc błędy wynikające z indywidualnych odstępstw od założonego scenariusza rozliczania (np. kwoty naliczone z ryczałtu przy rozliczeniu liczników "R" — sugerujące brak aktywnego licznika). Przykładowy wydruk:
 
 ![Zakończenie roku](zakrok14.png)
 
 ![Zakończenie roku](zakrok15.png)
 
-### Rozliczenie
-
-Na wydruku Zasób/Rozliczenie mamy przedstawione zestawienie przychodów (konta 700) i kosztów (konta 400) oraz wynikające z nich salda obrotów związane z poszczególnymi składnikami naliczeń. Wydruk ten jest szczególnie przydatny do wprowadzania kwot przy rozliczeniach kosztów (RK), jak również sprawdzenia/weryfikacji zaksięgowanego rozliczenia — po zaksięgowaniu RK salda dla rozliczanych składników powinny się zerować. Przykładowy wydruk: Zasób/Rozliczenie.
+**Rozliczenie** — Na wydruku mamy przedstawione zestawienie przychodów (konta 700) i kosztów (konta 400) oraz wynikające z nich salda obrotów związane z poszczególnymi składnikami naliczeń. Wydruk ten jest szczególnie przydatny do wprowadzania kwot przy rozliczeniach kosztów, jak również sprawdzenia/weryfikacji zaksięgowanego rozliczenia — po zaksięgowaniu rozliczenia salda dla rozliczanych składników powinny się zerować. Przykładowy wydruk:
 
 ![Zakończenie roku](zakrok16.png)
 
 ![Zakończenie roku](zakrok17.png)
 
-### Plan rozliczenia kosztów
-
-Wydruk Zasób/Plan rozliczenia kosztów pokazuje wprowadzone kwoty oraz sposób wykonania przygotowanego, a nawet zaksięgowanego już rozliczenia (po zaksięgowaniu RK podgląd okna rozliczenia kosztów nie jest już możliwy). Dzięki niemu możemy w łatwy sposób zobaczyć, w jaki sposób zostało wykonane rozliczenie.
-Przykładowy wydruk: Zasób/Plan rozliczenia kosztów.
+**Plan rozliczenia kosztów** — Wydruk pokazuje wprowadzone kwoty oraz sposób wykonania rozliczenia kosztów. Przykładowy wydruk:
 
 ![Zakończenie roku](zakrok18.png)
 
 ![Zakończenie roku](zakrok19.png)
 
-### Sprawozdanie finansowe
-
-Na wydruku sprawozdania finansowego widoczne są:
+**Sprawozdanie finansowe** — Na wydruku sprawozdania finansowego widoczne są:
 
 - Stan środków pieniężnych (100- Kasa, 131- Rachunki)
 - Stan rozrachunków (201- właściciele, 202- dostawcy)
@@ -116,21 +105,19 @@ Na wydruku sprawozdania finansowego widoczne są:
 - Rozliczenie międzyokresowe (640-)
 - Konta wynikowe (856- Fundusz remontowy, 860- Wynik finansowy), po KW
 
-Jest to niezwykle przydatny wydruk sprawozdawczo-kontrolny, pozwala w szybki i czytelny sposób zapoznać się ze stanem księgowym prowadzonej nieruchomości/wspólnoty. Przykładowy wydruk: Zasób/Sprawozdanie finansowe.
+Jest to niezwykle przydatny wydruk sprawozdawczo-kontrolny, pozwala w szybki i czytelny sposób zapoznać się ze stanem księgowym prowadzonej nieruchomości/wspólnoty. Przykładowy wydruk:
 
 ![Zakończenie roku](zakrok20.png)
 
 ![Zakończenie roku](zakrok21.png)
 
-### Obroty na kontach
-
-Wydruk Obroty na kontach (tzw. obrotówka — szczególnie przydatny w swojej poziomej formie, Strona: A4 Poziomy) pokazuje dla poszczególnych kont syntetycznych salda i obroty narastająco po obu stronach księgowania (możliwe jest zejście niżej z poziomem analityki przy szukaniu nieprawidłowości). Szczególnie szybko pozwala wyłapać brak bilansowania się kont przychodów i kosztów 400/700 oraz prawidłowego wykonania księgowania wynikowego (KW). Przykładowy wydruk: Zasób/Obroty na kontach.
+**Obroty na kontach** — Wydruk (tzw. obrotówka, szczególnie przydatny w swojej poziomej formie, Pole `Strona` > `A4 Poziomy`) pokazuje dla poszczególnych kont syntetycznych salda i obroty narastająco po obu stronach księgowania (możliwe jest zejście niżej z poziomem analityki przy szukaniu nieprawidłowości). Szczególnie szybko pozwala wyłapać brak bilansowania się kont przychodów i kosztów 400/700 oraz prawidłowego wykonania księgowania wynikowego (KW). Przykładowy wydruk:
 
 ![Zakończenie roku](zakrok22.png)
 
 ![Zakończenie roku](zakrok23.png)
 
-### Funkcja: Zakończ rok
+#### Funkcja: Zakończ rok
 
 Po wykonaniu wszystkich poprzedzających czynności i sprawdzeniu podstawowych wydruków sprawozdawczych dla wspólnoty/nieruchomości możemy formalnie zakończyć rok — wykonać przejście roczne. Gdyby któraś z czynności poprzedzających nie została wykonana do końca, to system może nie pozwolić na zakończenie roku.
 
@@ -150,7 +137,7 @@ Po wykonaniu wszystkich poprzedzających czynności i sprawdzeniu podstawowych w
 
 ![Zakończenie roku](zakrok27.png)
 
-### Funkcja: Otwórz rok
+#### Funkcja: Otwórz rok
 
 - W celu otwarcia zamkniętego roku przechodzimy do bieżącej bazy (tam, gdzie mamy bieżące księgowania) i do zakładki Dekrety.
 
