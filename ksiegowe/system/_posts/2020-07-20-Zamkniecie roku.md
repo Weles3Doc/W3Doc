@@ -117,40 +117,29 @@ Jest to niezwykle przydatny wydruk sprawozdawczo-kontrolny, pozwala w szybki i c
 
 ![Zakończenie roku](zakrok23.png)
 
-#### Funkcja: Zakończ rok
+#### Zamknięcie roku
 
-Po wykonaniu wszystkich poprzedzających czynności i sprawdzeniu podstawowych wydruków sprawozdawczych dla wspólnoty/nieruchomości możemy formalnie zakończyć rok — wykonać przejście roczne. Gdyby któraś z czynności poprzedzających nie została wykonana do końca, to system może nie pozwolić na zakończenie roku.
+Po wykonaniu wszystkich poprzedzających czynności i sprawdzeniu podstawowych wydruków sprawozdawczych dla wspólnoty/nieruchomości możemy formalnie zakończyć rok — wykonać przejście roczne. Gdyby któraś z czynności poprzedzających nie została wykonana do końca, to system może nie pozwolić na zakończenie roku. Aby zamknąć rok, należy przejść do:
 
-- Z drzewa struktury wybieramy nieruchomość i przechodzimy do zakładki Dekrety.
+- Zakładka `Dekrety` > menu `Funkcje` > `Zamykanie roku FK`.
+- Pole `Zakończenie roku` > `Zakończ rok`.
 
-![Zakończenie roku](zakrok24.png)
+Pola w środkowej części okna odpowiadają za sposób liczenia sald na podkontach rozrachunkowych właścicieli. Można w tym momencie wprowadzić zmiany na przyszły rok, więcej na temat w dedykowanej instrukcji `Sposób liczenia sald 201`, ew. pozostawić bez zmian.
 
-- Z menu Funkcje wybieramy opcję Zamykanie roku FK.
+- Pole `Hasło` > wpisujemy hasło.
+- Klikamy: `Zatwierdź`.
 
-![Zakończenie roku](zakrok25.png)
+Zamknięty rok będzie dostępny do podglądu w zakładce `Zasoby`, po kliknięciu + przy nazwie wspólnoty. Rok zostanie zamknięty zawsze pojedynczo, zaczynając od najstarszego, niezależnie od ilości otwartych lat.
 
-- Otworzy się nowe okno dialogowe. Wprowadzamy Hasło i zatwierdzamy okno. System zamknie bieżący rok.
+![Zamykanie roku](zamykanieroku.gif)
 
-![Zakończenie roku](zakrok26.png)
+#### Otwarcie roku
 
-- Zamknięty rok można przeglądać w zakładce Zasoby.
+W celu otwarcia zamkniętego roku przechodzimy do bieżącej bazy (tam, gdzie mamy bieżące księgowania), następnie:
 
-![Zakończenie roku](zakrok27.png)
+- Zakładka `Dekrety` > menu `Funkcje` > `Otwieranie roku FK`.
+- Pole `Cofanie zakończenia roku` > `Cofnij zakończenie roku`.
+- Pole `Hasło` > wpisujemy hasło.
+- Klikamy: `Zatwierdź`.
 
-#### Funkcja: Otwórz rok
-
-- W celu otwarcia zamkniętego roku przechodzimy do bieżącej bazy (tam, gdzie mamy bieżące księgowania) i do zakładki Dekrety.
-
-![Zakończenie roku](zakrok28.png)
-
-- Z menu Funkcje wybieramy Otwieranie roku FK.
-
-![Zakończenie roku](zakrok29.png)
-
-- Po chwili otworzy się nowe okno dialogowe. Wprowadzamy i zatwierdzamy okno Hasłem.
-
-![Zakończenie roku](zakrok30.png)
-
-- System przeniesie nas do zakładki Zasoby, gdzie możemy sprawdzić, że rok w FK jest otwarty.
-
-![Zakończenie roku](zakrok31.png)
+![Otwieranie roku](otwieranieroku.gif)
