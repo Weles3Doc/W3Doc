@@ -1,5 +1,5 @@
 ---
-title: Księgowanie rozliczenia kosztów
+title: 3. Księgowanie rozliczenia kosztów
 ---
 # Księgowanie rozliczenia kosztów
 

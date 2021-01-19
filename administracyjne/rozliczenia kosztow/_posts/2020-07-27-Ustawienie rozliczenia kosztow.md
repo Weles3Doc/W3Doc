@@ -1,5 +1,5 @@
 ---
-title: Ustawienie rozliczenia kosztów
+title: 2. Ustawienie rozliczenia kosztów
 ---
 # Ustawienie rozliczenia kosztów
 

@@ -1,5 +1,5 @@
 ---
-title: Terminy rozliczeń kosztów
+title: 1. Terminy rozliczeń kosztów
 ---
 
 # Terminy rozliczeń kosztów
@@ -11,7 +11,7 @@ Przed przystąpieniem do systemowych rozliczeń kosztów trzeba ustawić okres, 
 - Pole `Od miesiąca` > ustawiamy miesiąc początkowy.
 - Pole `Do miesiąca` > ustawiamy miesiąc końcowy.
 - Klikamy: `Dodaj`.
-- Jeśli trzeba, to należy powtórzyć czynności dla innych składników.
+- Jeśli trzeba, to należy powtórzyć czynności dla innych rozliczanych składników.
 - Klikamy: `Zatwierdź`.
 
 Po ustaleniu terminu rozliczeń przechodzimy do definiowania sposobu rozliczeń w menu `Obciążenia` > `Rozliczenia kosztów`.
