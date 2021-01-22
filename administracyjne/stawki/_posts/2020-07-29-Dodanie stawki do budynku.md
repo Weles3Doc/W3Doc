@@ -8,7 +8,7 @@ Aby wprowadzić stawkę w budynku, należy przejść do:
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj stawki`.
 - Pole `Lokal` > wybrać cały budynek, stawki dodajemy zazwyczaj na cały budynek.
-- Pole `Dana` > wybrać żądaną daną.
+- Pole `Stawka` > wybrać żądaną stawkę.
 - Pole `Data` > wprowadzić datę, od kiedy ma obowiązywać wartość stawki.
 - Pole `Wartość` > wprowadzamy wartość stawki.
 - Pole `Typ` > wybieramy typ VAT stawki, jeśli WM nie jest vatowcem, to pozostawiamy `Brutto`.
