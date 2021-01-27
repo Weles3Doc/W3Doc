@@ -21,7 +21,7 @@ Założenia:
 Przed przystąpieniem do rozliczenia sprawdzamy:
 
 - Czy wartość Danej (powierzchni użytkowej) wg, której będziemy rozliczać składnik, jest stała i prawidłowa w okresie rozliczenia lub jeśli występują jej zmiany, to są one zamierzone?
-- Czy wartość zaliczki za centralne ogrzewanie jest prawidłowa we wszystkich miesiącach, sprawdzamy też konto 700 przychodów składnika w zakładce Konta FK?
+- Czy wartość zaliczki za centralne ogrzewanie jest prawidłowa we wszystkich miesiącach, sprawdzamy też konto 700 przychodów składnika w zakładce Konta FK.
 - Czy na koncie 400 składnika są zaksięgowane wszystkie koszty?
 
 ![Przykład RK1](przykladRK1.gif)
@@ -32,7 +32,7 @@ Po sprawdzeniu określamy okres rozliczenia składnika, w naszym przypadku jest 
 
 ![Przykład RK2](przykladRK2.gif)
 
-#### Określanie sposobu rozliczeń
+#### Określanie sposobu rozliczenia
 
 Przechodzimy do ustawienia sposobu rozliczenia kosztów. Dla przyjętych wcześniej założeń ustawiamy:
 - Pole `Typ` > `Algorytm - pełen koszt`.
@@ -52,7 +52,7 @@ Sprawdzamy rozliczenie kosztów jeszcze przed zaksięgowaniem. Właściciele nie
 
 - `Było Wartość` > jest to kwota poprzednich obciążeń (zaliczek, korekt, rozliczeń). do których odnosi się bieżące rozliczenie.
 - `Ma być Wartość` > jest to kwota kosztu przypadająca na lokal, wynika z iloczynu kolumn Ilość oraz Stawka.
-- `Wartość` > to różnica pomiędzy kolumnami Było i Ma być.
+- `Wartość` > to różnica pomiędzy kolumnami `Było` i `Ma być`.
 - `Stawka` > to kwota kosztu do rozliczenia.
 - `Ilość` > to udział (ułamek) wyliczony z ilorazu: pow. lokalu / pow. całkowita, przedstawiając to w uproszczeniu.
 
