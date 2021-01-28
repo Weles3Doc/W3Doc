@@ -13,7 +13,6 @@ Pierwszym krokiem przed rozpoczęciem wysyłania wiadomości e-mail jest dodanie
 - Pole `Login` > podajemy login **do konta pocztowego**.
 - Pole `Hasło` > podajemy hasło **do konta pocztowego**.
 - Klikamy: `Dodaj`.
-- Wpisujemy `Hasło`.
 - Klikamy: `Zatwierdź`.
 
 Na koniec prosimy o przesłanie maila na adres: weles@e-adm.pl — informując o zdefiniowaniu konta pocztowego w systemie — sprawdzimy jego poprawność i ustawimy dokładnie serwer. Prosimy nie podawać w treści wiadomości loginu ani hasła do konta pocztowego. Po otrzymaniu odpowiedzi można przejść do przypisania konta pocztowego do nieruchomości.

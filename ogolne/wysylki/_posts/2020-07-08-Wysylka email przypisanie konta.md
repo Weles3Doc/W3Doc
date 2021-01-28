@@ -14,7 +14,6 @@ Po dodaniu konta pocztowego trzeba je przypisać do nieruchomości. Aby to zrobi
 - Pole `Opóźnienie` > podajemy **ilość godzin opóźnienia wysyłki**. Zalecamy od 1 do 4 godzin.
 - Klikamy: `Dodaj`.
 - Powtarzamy czynności dla innych nieruchomości, jeśli trzeba.
-- Wpisujemy `Hasło`.
 - Klikamy: `Zatwierdź`.
 
 Wysyłka e-mail następuje w sesjach co 2 godziny. Opóźnienie ma uniemożliwić przypadkowe wysłanie niesprawdzonych i pospiesznie przygotowywanych dokumentów. Jeśli pole Opóźnienie pozostanie puste, to opóźnienie wyniesie 1 dzień.

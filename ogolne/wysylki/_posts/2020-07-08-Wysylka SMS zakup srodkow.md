@@ -16,7 +16,6 @@ Aby wykupić pakiet SMS, należy przejść do:
 - Pole `Liczba kupowanych SMS` > wpisujemy liczbę kupowanych SMS.
 - Sprawdzić tabelkę z wartościami.
 - Zapoznać się z **[regulaminem](https://docs.google.com/document/d/10HBuFcquTAQhHlhH8buiezpAowFSK4MZujMfgxSNaKc/)**.
-- Pole `Hasło` > wpisać hasło.
 - Klikamy: `Kup pakiet SMS`.
 
 Z lewej strony okna powinien od razu pojawić się wykupiony pakiet. Kwota zostanie dodana do Państwa kolejnej faktury za korzystanie z systemu Weles 3.
