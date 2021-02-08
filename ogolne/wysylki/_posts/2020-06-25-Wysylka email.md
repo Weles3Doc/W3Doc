@@ -24,8 +24,6 @@ W lewej stronie okna **klikamy** na wysyłkę `NOWY`. W środkowej części okna
 - Pole `Nazwa wysyłki (tytuł E-Mail)`> wpisujemy nazwę wysyłki, będzie to jednocześnie tytuł maila.
 - Pole `Treść E-Maila` > uzupełniamy zawartość wiadomości.
 - Pole `Podgląd wydruku E-mail` > można sprawdzić załącznik.
-- Pole `E-Mail` > można tutaj wpisać swój mail, na który zostanie wysłany przykład wiadomości.
-- Klikamy: `Wyślij e-mail testowy` > wysyła przykładowego maila na wskazany wcześniej adres, dzięki temu można sprawdzić treść, załącznik oraz czy ogólnie skrzynka jest poprawnie ustawiona.
 - Klikamy: `Zapisz`.
 
 Wysyłka zmieni tytuł, aby ją rozesłać, należy:
@@ -34,6 +32,8 @@ Wysyłka zmieni tytuł, aby ją rozesłać, należy:
 
 Wysyłka zmieni grupę na `Zaplanowane`, obok nazwy zostanie określona data i godzina wysyłki. Wysyłkę można odwołać, klikając `Wstrzymaj rozsyłanie` oraz następnie usunąć, klikając `Usuń`.
 
-Każdy z właścicieli otrzyma tylko swój załącznik. Wydruk do wysyłki tworzony jest w momencie faktycznej wysyłki, a nie w momencie jej definiowania. Jeżeli w międzyczasie dokonamy zmian w systemie, które wpłyną na wydruk, to może on ulec zmianie. Wysyłka zajdzie tylko dla właścicieli, którzy mają uzupełniony poprawnie adres e-mail w menu `Zasoby` > `Edytuj dane właścicieli` > Pole `Kontakty e-mail`. Jeśli właściciel ma nie brać udziału w wysyłce, to jego adres należy usunąć z pola `Kontakty e-mail` i wpisać w pole `Informacja`. Do wysyłki z programu nie można podpiąć zewnętrznych załączników.
+Po prawej stronie okna, w polu `E-Mail` można wpisać swój mail, następnie kliknąć `Wyślij e-mail testowy`. Na wskazany adres zostanie wysłany przykład wiadomości, dzięki temu można sprawdzić treść, załącznik oraz czy ogólnie skrzynka jest poprawnie ustawiona.
+
+Każdy z właścicieli otrzyma tylko swój załącznik. Wydruk do wysyłki tworzony jest w momencie faktycznej wysyłki, a nie w momencie jej definiowania. Jeżeli w międzyczasie dokonamy zmian w systemie, które wpłyną na wydruk, to może on ulec zmianie. Wysyłka zajdzie tylko dla właścicieli, którzy mają uzupełniony poprawnie adres e-mail w menu `Zasoby` > `Edytuj dane właścicieli` > Pole `E-mail`. Jeśli właściciel ma nie brać udziału w wysyłce, to jego adres należy usunąć z pola `E-mail` i wpisać w pole `Informacja`. Do wysyłki z programu nie można podpiąć zewnętrznych załączników.
 
 ![Wysyłka e-mail](wysylkaemail.gif)
