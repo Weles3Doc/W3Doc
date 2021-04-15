@@ -1,5 +1,5 @@
 ---
-title: 4. Ręczne dodawanie dokumentów
+title: 3. Ręczne dodawanie dokumentów
 ---
 
 # Ręczne dodawanie dokumentów

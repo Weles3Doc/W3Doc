@@ -1,8 +1,10 @@
 ---
-title: 2. Podłączenie dysku Google
+title: Podłączenie dysku Google
 ---
 
 # Podłączenie dysku Google
+
+### Podłączenie dysku Google nie jest już wymagane.
 
 Elektroniczny obieg dokumentów w Weles 3 wykorzystuje zewnętrzną usługę Google Drive jako miejsce do przechowywania zeskanowanych dokumentów. W związku z tym wymagane jest posiadanie konta Google. Firma Google oferuje [darmowy dostęp](https://www.google.com/intl/pl/gmail/about/) do swoich usług, z którego zazwyczaj na co dzień korzystamy do osobistych spraw. Darmowe konto można podłączyć do systemu, jednakże wiąże się to z ograniczeniami miejsca na dysku, dlatego sugerujemy to konto tylko do wypróbowania funkcji. Google zapewnia też [profesjonalne rozwiązania dla firm](https://workspace.google.com/). Zapewniają one większa przestrzeń dyskową i możliwość rozszerzenia jej, także indywidualne konta dla pracowników i wiele więcej.
 

@@ -1,5 +1,5 @@
 ---
-title: 3. Podłączenie aplikacji skanera
+title: 2. Podłączenie aplikacji skanera
 ---
 
 # Podłączenie aplikacji skanera

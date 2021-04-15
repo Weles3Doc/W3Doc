@@ -1,5 +1,5 @@
 ---
-title: 5. Skanowanie dokumentów aplikacją
+title: 4. Skanowanie dokumentów aplikacją
 ---
 
 # Skanowanie dokumentów aplikacją

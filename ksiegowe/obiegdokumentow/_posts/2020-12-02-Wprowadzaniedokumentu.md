@@ -1,5 +1,5 @@
 ---
-title: 6. Wprowadzanie dokumentów
+title: 5. Wprowadzanie dokumentów
 ---
 
 # Wprowadzanie dokumentów
