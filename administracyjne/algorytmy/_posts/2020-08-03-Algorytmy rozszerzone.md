@@ -4,93 +4,74 @@ title: Algorytmy rozszerzone
 
 # Algorytmy rozszerzone
 
-Poniżej znajduje się szczegółowy opis dostępnych funkcji oraz operatorów przy wprowadzaniu algorytmu w wersji rozszerzonej.
+System pozwala na wprowadzenie bardziej zaawansowanego sposobu (algorytmu) liczenia opłat lub rozliczeń. Wprowadzamy go tym samym oknem co zwykłe algorytmy:
 
-- Z drzewa struktury wybieramy budynek i przechodzimy do zakładki Administracja.
+- Zakładka `Administracja` > menu `Zasoby` > `Edytuj algorytmy`.
+- Pole `Lokal` > wybrać cały budynek, algorytmy dodajemy zazwyczaj na cały budynek.
+- Pole `Algorytm` > wybrać nazwę opłaty, algorytmu.
+- Pole `Data` > wprowadzić datę, od kiedy ma obowiązywać opłata.
+- Pole `Sposób wpr. alg.` > `Rozszerzony`.
+- Pole `Algorytm` > tutaj wpisujemy sposób liczenia opłaty. Jest to opisane w dalszej części instrukcji.
+- Pole `Algorytm licznikowy` > tutaj wpisujemy część licznikową algorytmu, jeśli opłata ma być powiązana z licznikami i rozliczana wg nich w przyszłości. Jeśli nie to pozostawiany ją pustą.
+- Kliknąć: `Dodaj`.
+- Kliknąć: `Zatwierdź`.
 
-![Algorytmy rozszerzone](algorozsz1.png)
+#### Operatory i oznaczenia
 
-- Z dostępnego menu Zasoby, wybieramy Edytuj algorytmy. Po chwili system wyświetli nowe okno dialogowe.
+Poniżej przedstawiamy operatory i oznaczenia używane w działaniach algorytmów.
 
-![Algorytmy rozszerzone](algorozsz2.png)
+- `Dx` > literka D a zaraz po niej wpisujemy ID danej. W ten sposób wskazujemy daną w działaniu (np. o indeksie/numerze 21 - D21 „Liczba osób”). ID danych można sprawdzić w menu `Zasoby` > `Edytuj dane`.
+- `Sxxxx` > literka S a zaraz po niej wpisujemy ID stawki. W ten sposób wskazujemy stawkę w działaniu (np. o indeksie/numerze 2001 - S2001 „Eksploatacja”). ID stawek można sprawdzić w menu `Zasoby` > `Edytuj stawki`.
+- `Lx` > literka L a zaraz po niej wpisujemy ID licznika. W ten sposób wskazujemy licznik w działaniu (np. typu pierwszego - L1, zazwyczaj ZW). ID liczników można sprawdzić w menu `Elementy` > `Typy liczników`.
+- `+` > znak plus oznacza dodawanie.
+- `*` > znak gwiazdka oznacza mnożenie.
+- `-` > znak minus oznacza odejmowanie.
+- `/` > znak ukośnika oznacza dzielenie.
+- `() `> nawiasy, służące grupowaniu i zmianie kolejności wykonywania działań.
+- W działaniu można również wpisać konkretną liczbę za pomocą klawiatury numerycznej (np. 123).
 
-- Algorytm najlepiej jest zakładać Globalnie, czyli jeden na całą nieruchomość (lub ew. na strukturach grupujących — unikamy wprowadzania algorytmów indywidualnie, na mieszkaniach). W polu Lokal wskazujemy zatem najwyższy element struktury.
+#### Pole Algorytm
 
-![Algorytmy rozszerzone](algorozsz3.png)
+W tym polu wpisujemy działanie, za pomocą którego system będzie liczył opłatę. Sposób podany tutaj musi się zawsze sprowadzać do prostego iloczynu:
 
-- W polu Algorytm wskazujemy który algorytm chcemy dodać (w przypadku kilku tych samych nazw należy patrzeć na Indeksy — ID algorytmu).
+    Ilosć * stawka
 
-![Algorytmy rozszerzone](algorozsz4.png)
+Pole może pozostać puste, wtedy wymagane jest uzupełnienie pola `Algorytm licznikowy`. Poniżej przykłady działań możliwych do wpisania (pod małe litery trzeba podstawić ID danej lub stawki):
 
-- W polu Data, określamy datę, od kiedy ma obowiązywać nasz algorytm.
+- `Dx * Syyyy` > proste możenie danej przez stawkę.
+- `(Dx + Dz + Dq) * Syyyy` > mnożenie sumy danych przez stawkę. Można też stosować odejmowanie.
+- `Dx * Szzzz * Syyyy` > w działaniu można też użyć drugiej stawki np. pełniącej funkcję współczynnika lub danej sterującej naliczeniem, przyjmującej wartość 0 (brak) lub 1 (nalicz). Drugą daną może być też norma na osobę lub lokal. Stawką, która pokaże się na wydruku, będzie stawka z lewej strony działania.
+- `Syyyy` > naliczenie z samej stawki. Sugerujemy nie stosować takiego sposobu. Opłata naliczy się od każdego lokalu, który posiada stawkę (ilość będzie równa 1). Dopuszczalne jest stosowanie tego sposobu dla naliczeń pożytków.
 
-![Algorytmy rozszerzone](algorozsz5.png)
 
-- W polu Sposób wpr. alg. określamy czy chcemy wprowadzić algorytm w sposób Zwykły (dotychczasowy — wybierać dane, stawki, liczniki itp.), czy też Rozszerzony (zaawansowany — nowa funkcjonalność). Skupimy się tutaj na algorytmie rozszerzonym.
+#### Warunki w algorytmach
 
-![Algorytmy rozszerzone](algorozsz6.png)
+- GDY WTEDY AGDY INACZEJ KGDY — to elementy typowej instrukcji warunkowej (jeśli/jeżeli). Funkcja zawsze zaczyna się, od GDY a kończy na KGDY. Dopuszczalne jest pominięcie części struktury, np. algorytm może wyglądać tak: GDY [warunek] WTEDY [wartość/instrukcja] INACZEJ [wartość/instrukcja] KGDY lub GDY [warunek] WTEDY [wartość/instrukcja] KGDY.
 
-- Przechodzimy do pola Algorytm. Jak widać, jest ono nieco większe. W polu można wpisać odpowiedni algorytm, stosując odpowiednie i operatory lub po prostu go wkleić (Ctrl + C/V) z innej nieruchomości, schowka czy pliku tekstowego.  Struktura funkcji oraz operatorów jest opisana w dalszej części tego dokumentu.
+- LUB ORAZ — spójniki logiczne alternatywy i koniunkcji (logiczne lub i logiczne i)
 
-![Algorytmy rozszerzone](algorozsz7.png)
+- NIE — logiczne zaprzeczenie (odwrócenie wartości logicznej)
 
-- Wprowadzamy nasz algorytm. Założenie jest takie: pomnóż (operator gwiazdki - *) liczbę osób (dana Liczba osób ma indeks o numerze 205, więc wpisujemy D205) przez Stawkę za śmieci, ale z podziałem (instrukcja warunkowa — GDY), jeżeli liczba osób będzie mniejsza lub równa 2 to pomnóż przez stawkę o indeksie 1311 (S1311), w innym wypadku (INACZEJ) pomnóż przez stawkę o indeksie 1312 (S1312).
+- < <= = >= > <> — operatory porządkujące (mniejszy, mniejszy-równy, równy, większy równy, większy, przedział), wskazujemy konkretną liczbę lub przedział
 
-![Algorytmy rozszerzone](algorozsz8.png)
+- $ — symbol dolara postawiony przed oznaczeniem danej lub stawki oznacza sprawdzenie, czy istnieje/jest ona zdefiniowana — jeżeli tak, to zwraca wartość “prawda” w przeciwnym przypadku fałsz.
 
-- W polu Algorytm licznikowy (jeżeli nie ma takiej potrzeby) nie wprowadzamy nic. Pole nie jest obowiązkowe (chyba że chcemy mieć naliczenia/rozliczenia związane z zużyciem liczników — np. przy ZW, CW, czy CO) i w tym przykładzie pozostawiamy je puste.
+- TYP — to typ naliczenia: 1 - (R), 2 - (LR), 3 - (LP), 4 - (LZ), 5 - (RKR), 6 - (RKL)
 
-![Algorytmy rozszerzone](algorozsz9.png)
 
-- Klikamy: Dodaj.
-
-![Algorytmy rozszerzone](algorozsz10.png)
-
-- Całość zatwierdzamy hasłem.
-
-![Algorytmy rozszerzone](algorozsz11.png)
-
-- Pozostaje jeszcze dodać odpowiednie stawki (jeżeli nie zostało to zrobione dotychczas), tj z menu Zasoby, wybieramy Edytuj stawki. (jeśli stawki są już określone, to pomijamy punkty 12 i 13)
-
-![Algorytmy rozszerzone](algorozsz12.png)
-
-- Odszukujemy interesujące nasz stawki oraz określamy ich wartość.
-
-![Algorytmy rozszerzone](algorozsz13.png)
-
-- Możemy teraz sprawdzić nasze naliczenie. Po przeliczeniu zaliczek widać, że system wyświetlił dwie pozycje dla naszego algorytmu — stawka 10 zł i 7 zł.
-
-![Algorytmy rozszerzone](algorozsz14.png)
-
-- Po wybraniu konkretnego lokalu widać, że algorytm liczy poprawnie (dla liczby osób = 4, system przyjął stawkę S1312).
-
-![Algorytmy rozszerzone](algorozsz15.png)
-
-### Instrukcja warunkowa
-
-    GDY [warunek] WTEDY
-        [wartość/instrukcja] 
-    AGDY [warunek] WTEDY
-        [wartość/instrukcja]
-    INACZEJ
-        [wartość/instrukcja] 
-    KGDY
+GDY [warunek] WTEDY
+    [wartość/instrukcja] 
+AGDY [warunek] WTEDY
+    [wartość/instrukcja]
+INACZEJ
+    [wartość/instrukcja] 
+KGDY
 
 Jest to typowa struktura instrukcji warunkowej (if/else).
 
-Operatory i oznaczenia:
 
-- GDY WTEDY AGDY INACZEJ KGDY — to elementy typowej instrukcji warunkowej (jeśli/jeżeli). Funkcja zawsze zaczyna się, od GDY a kończy na KGDY. Dopuszczalne jest pominięcie części struktury, np. algorytm może wyglądać tak: GDY [warunek] WTEDY [wartość/instrukcja] INACZEJ [wartość/instrukcja] KGDY lub GDY [warunek] WTEDY [wartość/instrukcja] KGDY.
-- / * + - — gwiazdka, ukośnik, plus i minus, operatory prostych działań arytmetycznych.
-- () — nawiasy, służące grupowaniu i zmianie kolejności wykonywania działań
-- LUB ORAZ — spójniki logiczne alternatywy i koniunkcji (logiczne lub i logiczne i)
-- NIE — logiczne zaprzeczenie (odwrócenie wartości logicznej)
-- < <= = >= > <> — operatory porządkujące (mniejszy, mniejszy-równy, równy, większy równy, większy, przedział), wskazujemy konkretną liczbę lub przedział
-- $ — symbol dolara postawiony przed oznaczeniem danej lub stawki oznacza sprawdzenie, czy istnieje/jest ona zdefiniowana — jeżeli tak, to zwraca wartość “prawda” w przeciwnym przypadku fałsz.
-- DXXX, SXXX, LXXX — wskazujemy Daną (np. o indeksie/numerze 21 - D21), Stawkę (np o indeksie/numerze 2001 - S2001) lub Licznik (np. typu pierwszego - L1). Możemy również wpisać konkretną liczbę za pomocą klawiatury numerycznej (np. 123).
-- TYP — to typ naliczenia: 1 - (R), 2 - (LR), 3 - (LP), 4 - (LZ), 5 - (RKR), 6 - (RKL)
 
-### Przykładowe algorytmy
+#### Przykładowe algorytmy
 
 Wywóz nieczystości — Wrocław
 

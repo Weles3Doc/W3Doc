@@ -15,7 +15,7 @@ Aby wprowadzić algorytm, należy przejść do:
 - Pole `Stawka` > wybieramy stawkę. ID stawki musi pokazać się w polu.
 - Pole `Stawka licznikowa` > pomijamy, jeśli jest to opłata niepowiązana z licznikami.
 - Kliknąć: `Dodaj`.
-- Kliknąć: `Zapisz`.
+- Kliknąć: `Zatwierdź`.
 
 System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić algorytmy w większej ilości, w tym celu powtarzamy powyższe czynności dla wybranych opłat. Algorytmy dodane na cały budynek lub strukturę, automatycznie obowiązują w lokalach podrzędnych.
 
