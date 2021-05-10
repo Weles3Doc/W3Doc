@@ -11,10 +11,14 @@ System pozwala na wprowadzenie bardziej zaawansowanego sposobu (algorytmu) licze
 - Pole `Algorytm` > wybrać nazwę opłaty, algorytmu.
 - Pole `Data` > wprowadzić datę, od kiedy ma obowiązywać opłata.
 - Pole `Sposób wpr. alg.` > `Rozszerzony`.
-- Pole `Algorytm` > tutaj wpisujemy sposób liczenia opłaty. Jest to opisane w dalszej części instrukcji.
-- Pole `Algorytm licznikowy` > tutaj wpisujemy część licznikową algorytmu, jeśli opłata ma być powiązana z licznikami i rozliczana wg nich w przyszłości. Jeśli nie to pozostawiany ją pustą.
+- Pole `Algorytm` > tutaj wpisujemy sposób liczenia opłaty. **Pole jest opisane dokładniej w dalszej części instrukcji**.
+- Pole `Algorytm licznikowy` > tutaj wpisujemy część licznikową algorytmu, jeśli opłata ma być powiązana z licznikami i rozliczana wg nich w przyszłości. Jeśli nie to pozostawiany ją pustą. **Pole jest opisane dokładniej w dalszej części instrukcji**.
 - Kliknąć: `Dodaj`.
 - Kliknąć: `Zatwierdź`.
+
+Poniżej przykład dodania algorytmu konserwacji domofonu od lokalu.
+
+![Dodanie algorytmu do budynku](algorrozsze.gif)
 
 #### Operatory i oznaczenia
 
@@ -112,7 +116,7 @@ Najprostszy możliwy algorytm z wyborem:
         [instrukcja]            Nalicz opłatę wg działania (np. Sxxxx)
     KGDY                        Koniec
 
-Za pomocą takiego algorytmu można zrealizować opłatę od lokalu. Radzimy nie stosować takich algorytmów, ponieważ nie zawierają one instrukcji w przypadku kiedy warunek nie zostanie spełniony na przykład na brak opłaty lub korektę danej z warunku (nie naliczy się korekta). Prawidłowy algorytm przedstawiamy poniżej:
+Za pomocą takiego algorytmu można zrealizować opłatę od lokalu. Radzimy nie stosować takich algorytmów, ponieważ nie zawierają one instrukcji w przypadku kiedy warunek nie zostanie spełniony, na przykład na brak opłaty lub korektę danej z warunku (nie naliczy się korekta). Prawidłowy algorytm przedstawiamy poniżej:
 
     GDY Dx>0 WTEDY              Gdy np. powierzchnia jest większa od zera wtedy
         [instrukcja]            Nalicz opłatę wg działania (np. Sxxxx)
@@ -136,30 +140,14 @@ Algorytm z wielokrotnymi warunkami. Dobrym przykładem jest tutaj algorytm dla n
 
 System sprawdza kolejno, od góry, warunki podane: `GDY` > `AGDY` > `AGDY` > itd. Gdy któryś z nich zostanie spełniony jako pierwszy, to opłata przyjmie wartość z działania określonego po `WTEDY` dla tego warunku, reszta zostanie niesprawdzona/pominięta. Należy to mieć na uwadze przy konstruowaniu prawidłowego algorytmu.
 
+Algorytmy zagnieżdżone. Przykładem tutaj może być algorytm dla naliczeń za odpady dla Wrocławia. Jako pierwsze sprawdzamy w nim czy lokal jest zamieszkały, a następnie sprawdzamy powierzchnię przypadającą na jednego mieszkańca i w zależności od niej wybieramy odpowiedni sposób naliczania opłaty.
 
-
-Wywóz nieczystości — Wrocław
-
-    GDY D21>0 WTEDY             
-        GDY D1/D21 =< 27 WTEDY
-            D1 * S1302
-        INACZEJ
-            D21 * S1303
-        KGDY
-    INACZEJ
-        S9999
-    KGDY
-
-
-
-- D1 - Dana o indeksie/numerze 1, czyli np. Powierzchnia użytkowa.
-- D21 - Dana o indeksie/numerze 21, czyli np. Liczba osób.
-- S1301 - Stawka o indeksie/numerze 1301, czyli np. Śmieci LU (używana do indywidualnych obciążeń w lokalu — stawka indywidualna).
-- S1302 - Stawka o indeksie/numerze 1302, czyli np. Śmieci [m2] (obciążenie od m2 powierzchni).
-- S1303 - Stawka o indeksie/numerze 1303, czyli np. Śmieci [os.] (obciążenie od ilości osób).
-- S9999 - stawka zero.
-
-Założenie/opis do algorytmu jest taki:
-
-Jeżeli istnieje stawka S1301, wtedy obciążamy lokal stawką S1301. Jeśli nie ma zdefiniowanej stawki S1301, to rozpatrujemy kolejną (wewnętrzną) instrukcję warunkową i wtedy (inaczej): jeżeli Liczba osób jest większa niż 0 (zabezpieczenie przed dzieleniem przez zero, w przypadku gdy liczba osób faktycznie wynosi zero) to wtedy dzielimy powierzchnię użytkową (D1) przez liczbę osób (D21) - jeśli wynik tej operacji jest mniejszy bądź równy 27, to wynik będzie mnożeniem powierzchni użytkowej (D1) przez stawkę S1302, w innym przypadku wynik będzie mnożeniem liczby osób (D21) przez stawkę S1303.
-
+    GDY D21>0 WTEDY             Sprawdzamy czy liczba osób większa od zera
+        GDY D1/D21 =< 27 WTEDY      Sprawdzamy czy na osobę przypada mniej niż 27m2 wtedy
+            D1 * S1302              Stosujemy opłatę od powierzchi lokalu
+        INACZEJ                     Gdy jest inna wtedy
+            D21 * S1303             Stosujemy opłatę od osoby.
+        KGDY                        Koniec
+    INACZEJ                     Gdy liczba osób jest równa zero wtedy
+        S9999                   Stosujemy stawkę zero, brak opłaty
+    KGDY                        Koniec
