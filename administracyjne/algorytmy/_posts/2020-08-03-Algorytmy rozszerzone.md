@@ -71,7 +71,7 @@ W algorytmach rozszerzonych możemy stosować warunki w naliczeniu opłat. Dzię
     [instrukcja]
     KGDY
 
-Jest to typowa struktura instrukcji (if/elseif/else). Możliwe jest pominięcie `AGDY` i `INACZEJ`, można też stosować wiele `AGDY`. System analizuje funkcję od lewej do prawej, z góry do dołu. Jeśli `[warunek]` jest prawdą, to system wykona `[instrukcję]` po słowie `WTEDY`, jeśli nie, to przejdzie do następnej linijki algorytmu. Wyjątkiem jest `INACZEJ` które zawsze stawiamy jako ostatnie, jest to alternatywa do warunków poprzedzających, w przypadku ich niespełnienia. Każdą funkcję zawsze zaczynamy, od `GDY` a kończymy `KGDY`. Wielkość liter i spacje są bez znaczenia. Jako `[instrukcję]` możemy użyć prostych działań na danych i stawkach opisanych wcześniej lub też zagnieździć kolejną instrukcję warunkową.
+Jest to typowa struktura instrukcji (if/elseif/else). Możliwe jest pominięcie `AGDY` i `INACZEJ`, można też stosować wiele `AGDY`. System analizuje algorytm od lewej do prawej, z góry do dołu. Jeśli `[warunek]` jest prawdą, to system wykona `[instrukcję]` po słowie `WTEDY`, jeśli nie, to przejdzie do następnej linijki algorytmu. Wyjątkiem jest `INACZEJ` które zawsze stawiamy jako ostatnie, jest to alternatywa do warunków poprzedzających, w przypadku ich niespełnienia. Każdą funkcję zawsze zaczynamy, od `GDY` a kończymy `KGDY`. Wielkość liter i spacje są bez znaczenia. Jako `[instrukcję]` możemy użyć prostych działań na danych i stawkach opisanych wcześniej lub też zagnieździć kolejną instrukcję warunkową.
 
 Operatory logiczne używane w warunkach:
 
@@ -106,22 +106,50 @@ Operatory relacji:
 
 #### Przykładowe algorytmy
 
+Najprostszy możliwy algorytm z wyborem:
+
+    GDY Dx>0 WTEDY              Gdy np. powierzchnia jest większa od zera wtedy
+        [instrukcja]            Nalicz opłatę wg działania (np. Sxxxx)
+    KGDY                        Koniec
+
+Za pomocą takiego algorytmu można zrealizować opłatę od lokalu. Radzimy nie stosować takich algorytmów, ponieważ nie zawierają one instrukcji w przypadku kiedy warunek nie zostanie spełniony na przykład na brak opłaty lub korektę danej z warunku (nie naliczy się korekta). Prawidłowy algorytm przedstawiamy poniżej:
+
+    GDY Dx>0 WTEDY              Gdy np. powierzchnia jest większa od zera wtedy
+        [instrukcja]            Nalicz opłatę wg działania (np. Sxxxx)
+    INACZEJ                     Jeśli warunek nie został spełniony wokonaj
+        [instrukcja]            W tej instukcji możemy podać alternatywę, np. brak opłaty wpisać S9999 (stawkę zero)
+    KGDY                        Koniec
+
+Algorytm z wielokrotnymi warunkami. Dobrym przykładem jest tutaj algorytm dla naliczeń za odpady dla Warszawy, który obowiązywał od 2013-07-01 do 2020-03-01. Opłata uzależniona jest od ilości osób w lokalu, nie jest wielokrotnością jednej stawki oraz ma górny limit kwoty. 
+
+    GDY D21<1 WTEDY             Sprawdzamy czy liczba osób w lokalu jest mniejsz od jeden
+        S9999                   Jeśli tak to stosujemy stawkę zero, brak opłaty.
+    AGDY D21<2 WTEDY            Jeśli liczba osób jest mniejsza od 2
+        S1301                   To sotosujemy stawkę za jedną osobę
+    AGDY D21<3 WTEDY            Jeśli liczba osób jest mniejsza od 3
+        S1302                   To sotosujemy stawkę za dwie osoby
+    AGDY D21<4 WTEDY            Jeśli liczba osób jest mniejsza od 4
+        S1303                   To sotosujemy stawkę za trzy osoby
+    INACZEJ                     W innych przypadkach czyli równe lub więcej niż 4
+        S1304                   To sotosujemy stawkę maksymalną, za cztery osoby
+    KGDY                        Koniec
+
+System sprawdza kolejno, od góry, warunki podane: `GDY` > `AGDY` > `AGDY` > itd. Gdy któryś z nich zostanie spełniony jako pierwszy, to opłata przyjmie wartość z działania określonego po `WTEDY` dla tego warunku, reszta zostanie niesprawdzona/pominięta. Należy to mieć na uwadze przy konstruowaniu prawidłowego algorytmu.
+
+
+
 Wywóz nieczystości — Wrocław
 
-
-    GDY $S1301 WTEDY
-        S1301
-    INACZEJ
-        GDY D21>0 WTEDY
-            GDY D1/D21 =< 27 WTEDY
+    GDY D21>0 WTEDY             
+        GDY D1/D21 =< 27 WTEDY
             D1 * S1302
-            INACZEJ
-            D21 * S1303
-            KGDY
         INACZEJ
-        S9999
+            D21 * S1303
         KGDY
+    INACZEJ
+        S9999
     KGDY
+
 
 
 - D1 - Dana o indeksie/numerze 1, czyli np. Powierzchnia użytkowa.
