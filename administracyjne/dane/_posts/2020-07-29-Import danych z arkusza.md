@@ -12,16 +12,18 @@ Gdzie w kolumnach podajemy:
 
 - `MIE` > numer lokalu z systemu, musi być taki sam.
 - `DATA` > podajemy datę w formacie RRRR-MM-DD.
-- `Dxx` > literka D i zaraz po niej `ID` danej, którą importujemy, np. D1.
+- `Dxx` > literka D i zaraz po niej `ID` danej, którą importujemy, np. D1 D21 D100.
 - `Dyy` > można importować wiele danych naraz. W kolejnych kolumnach dostawiamy kolejne dane do importu. 
 
-Tak przygotowaną tabelkę zaznaczamy w arkuszu, wraz z tytułami kolumn. Kopiujemy. Wklejamy do:
+`ID` odstępnych danych można sprawdzić w menu `Zasoby` > `Edytuj dane`. Tak przygotowaną tabelkę zaznaczamy w arkuszu, wraz z tytułami kolumn. Kopiujemy i wklejamy do:
 
 - Menu `Funkcje` > `Import danych` > Pole `Dane`.
 
-Następnie wpisujemy hasło i zatwierdzamy. Okno zamknie się, po czym można sprawdzić zaimportowane wartości danych. Czasami potrzeba też odświeżyć system: menu `Funkcje` > `Odśwież`.
+Następnie wpisujemy hasło i zatwierdzamy. Okno zamknie się, po czym można sprawdzić zaimportowane wartości danych. Czasami potrzeba też odświeżyć system: menu `Funkcje` > `Odśwież`. Przy imporcie udziałów prosimy w arkuszu używać funkcji `=ZAOKR( )`, zaokrąglić wartość danej do maksymalnie sześciu miejsc po przecinku. W przeciwnym wypadku udział może się nie równać 1 lub 100 procent. W kolumnie `Dxx` wartość danej może pozostać nieuzupełniona (pusta komórka), wtedy nie zostanie ona zaimportowana lub zmieniona na lokalu.
 
 ![Import danych](importdanych.gif)
+
+#### Import danych wstecz
 
 Powyższy import działa dla miesięcy, za które **nie są jeszcze zaksięgowane zaliczki**. Gdy trzeba zaimportować dane wstecz, to trzeba do importowanej tabelki dodać dodatkowe kolumny.
 
@@ -32,12 +34,4 @@ Przykład tabelki i przykład importu:
 
 ![Przykładowa tabelka](przykladimp2.png)
 
----
-
 ![Import danych wstecz](importdanychwstecz.gif)
-
-#### Uwagi:
-
-- Przy imporcie udziałów prosimy w arkuszu używać funkcji zaokr, zaokrąglić wartość danej do maksymalnie sześciu miejsc po przecinku. W przeciwnym wypadku udział może się nie równać 1 lub 100 procent.
-- W kolumnie Dxx wartość danej może pozostać nieuzupełniona (pusta komórka), wtedy nie zostanie ona zaimportowana lub zmieniona.
-- `ID` danych są różne — można je sprawdzić w menu `Zasoby` > `Edytuj dane`.
