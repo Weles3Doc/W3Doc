@@ -7,7 +7,7 @@ title: Struktura algorytmów w lokalach
 W celu analizy budynku często potrzebujemy sprawdzić zmiany algorytmów na wszystkich lokajach jednocześnie. Aby zobaczyć strukturę algorytmów, należy przejść do:
 
 - Zakładka `Administracja`.
-- Pole `Struktura` > Klikamy na wybrany strukturę lub całą nieruchomość.
+- Pole `Struktura` > klikamy na wybrany strukturę lub całą nieruchomość.
 - Klikamy przycisk `Algorytmy`.
 - Zaznaczamy interesujący nas algorytm.
 - Menu `Widok` > `Struktura algorytmów w lokalach`.
