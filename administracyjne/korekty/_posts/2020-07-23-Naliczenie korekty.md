@@ -25,7 +25,7 @@ System zaprezentuje tabelkę. W jej kolumnach pokaże nam odpowiednio:
 
 Na przykładzie poniżej przeliczamy korektę liczby osób i prognozy dla lokalu M01 oraz korektę stawki za zarządzanie dla całego budynku.
 
-![Naliczeniekorekty1](naliczeniekorekty1.gif)
+![Naliczenie korekty](naliczeniekorekty1.gif)
 
 #### Sprawdzenie korekty
 
@@ -46,4 +46,4 @@ System ponadto umożliwia podgląd struktury korekty w pojedynczym lokalu. Spraw
 - Wpośród naliczonych korekt, klikamy na interesującą nas pozycję (zaznaczamy ją).
 - Menu `Widok` > `Struktura naliczeń`.
 
-![Naliczeniekorekty2](naliczeniekorekt2.gif)
+![Sprawdzenie korekty](naliczeniekorekt2.gif)
