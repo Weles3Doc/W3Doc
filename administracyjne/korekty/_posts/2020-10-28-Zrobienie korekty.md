@@ -14,6 +14,8 @@ Skorygowanie należności zaczynamy od wprowadzenia zmiany danej, stawki, odczyt
 
 Sposób działania opisany w instrukcjach jest identyczny, z tą różnicą, że zmianę wprowadzamy w okresie (miesiącach), **za który są już zaksięgowane należności**. W dalszej części instrukcji pokażemy skrótowo sposób korygowania danej, stawki oraz prognozy.
 
+Po skorygowaniu potrzebnych rzeczy opisanych poniżej trzeba przeliczyć korektę i ją sprawdzić. Jest to opisane w następnej części dokumentacji: **[Naliczenie i sprawdzenie korekty](https://doc.weles3.pl/administracyjne/korekty/Naliczenie-korekty.html)**.
+
 #### Korygowanie danej
 
 Aby skorygować daną, należy przejść do:
