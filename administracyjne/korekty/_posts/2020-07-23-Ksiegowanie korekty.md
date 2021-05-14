@@ -15,8 +15,8 @@ Po przygotowaniu korekty i po sprawdzeniu jej można przejść do księgowania. 
   - `Data` > jeśli termin **zwrotów** ma być na pierwszy dzień następnego miesiąca po miesiącu określonym w polu `Data`.
   - `Bazowy termin płatności` > jeśli termin **zwrotów** ma być na datę określoną w polu `Bazowy termin płatności`.
 - Pole `Opis` > umieszczamy opis księgowanej należności (tekst ten będzie widoczny na wydrukach).
-- Pole `Hasło` > wpisać hasło. 
-- Klikamy: `Zatwierdzamy`.
+- Pole `Hasło` > wpisać hasło.
+- Klikamy: `Zatwierdź`.
 
 Zaksięgowanie można sprawdzić w zakładce `Dekrety`, po czym można przejść do wydruku korekty.
 
