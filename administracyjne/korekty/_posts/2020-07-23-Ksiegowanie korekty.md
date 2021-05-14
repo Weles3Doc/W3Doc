@@ -1,5 +1,5 @@
 ---
-title: Księgowanie korekty
+title: 3. Księgowanie korekty
 ---
 
 # Księgowanie korekty
