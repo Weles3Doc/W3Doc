@@ -18,7 +18,7 @@ Po przygotowaniu korekty i po sprawdzeniu jej można przejść do księgowania. 
 - Pole `Hasło` > wpisać hasło.
 - Klikamy: `Zatwierdź`.
 
-Zaksięgowanie można sprawdzić w zakładce `Dekrety`, po czym można przejść do wydruku korekty.
+Księgowanie można sprawdzić w zakładce `Dekrety`, po czym można przejść do wydruku korekty.
 
 Korekty przechodzące przez koniec roku można zaksięgować w podziale, pierwszy raz wskazując pole `Data` = RRRR-12 oraz pole `Data księgowania` = RRRR-12-31, drugi raz wskazując daty w roku następnym. Dzięki temu przychody poprzedniego roku zostaną w nim prawidłowo skorygowane.
 
