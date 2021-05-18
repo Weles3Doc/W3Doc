@@ -1,6 +1,7 @@
 ---
 title: Import prognoz liczników
 ---
+
 # Import prognoz liczników
 
 Do systemu można wprowadzić prognozy hurtowo, za pomocą tabelki z odpowiednimi kolumnami. Często taka potrzeba zachodzi przy dodawaniu ręcznie wyliczonych prognoz lub ich powiększaniu np. o 10%. Tabelka do importu prognoz powinna zawierać pięć kolumn. Oczywiście, jeśli posiadamy już prognozy liczników w arkuszu, to tabelkę formatujemy do opisanej postaci. Poniżej przykładowa tabelka, którą tworzymy w arkuszu kalkulacyjnym:
