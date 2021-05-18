@@ -23,16 +23,11 @@ W system umożliwia automatyczne wyliczenie nowych prognoz na podstawie zużyć 
   - `Ustaw ryczałt` > usunie prognozę z licznika.
   - `Nie zmieniaj` > nie zmieni prognozy.
 - Pole `Wymiana liczników` > ustalamy czy system ma brać pod uwagę zużycie starych liczników, w przypadku ich wymiany, do wyliczenia nowej prognozy.
-- Pole `Zmiana od` > ustawiamy datę zmiany/dodania nowych prognoz.
+- Pole `Data` > ustawiamy datę zmiany/dodania nowych prognoz.
 - Klikamy: `Dodaj`.
 - Dodajemy kolejną pozycję dla innego typu liczników.
 - Wpisujemy hasło i zatwierdzamy.
 
-Po zamknięciu okna, prognozy powinny być od razu widoczne. Można ew. odświeżyć system: menu `Funkcje` > `Odśwież`. Należy przeliczyć też ponownie zaliczki: menu `Obciążenia` > `Nalicz zaliczki`.
+Po zamknięciu okna, prognozy powinny być od razu widoczne. Można ew. odświeżyć system: menu `Funkcje` > `Odśwież`. Należy przeliczyć też ponownie zaliczki: menu `Obciążenia` > `Nalicz zaliczki`. Wyliczonych prognozy nie można dodawać od daty wstecznej. Wartości prognoz można wyeksportować za pomocą wydruku: menu `Funkcje` > `Wydruki` > `Zasób` > `Lista odczytywania liczników` > pole `Typ` > `Lista importu`. Ostatnia, obecna prognoza licznika jest w kolumnie `OB_PROG`.
 
 ![Wyliczenie prognoz](wyliczenieprognoz.gif)
-
-#### Uwagi:
-
-- Wyliczonych prognozy nie można dodawać od daty wstecznej.
-- Wartości prognoz można wyeksportować za pomocą wydruku: menu `Funkcje` > `Wydruki` > `Zasób` > `Lista odczytywania liczników` > pole `Typ` > `Lista importu`. Ostatnia, obecna prognoza licznika jest w kolumnie OB_PROG.
