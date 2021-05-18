@@ -13,12 +13,6 @@ Aby usunąć prognozę licznika, należy przejść do:
 - Klikamy: `Dodaj`.
 - Klikamy: `Zatwierdź`.
 
-Jeśli na liczniku nie będzie już prognozy, to zaliczka może być (ale nie musi) naliczona wg części ryczałtowej algorytmu.
+Jeśli na liczniku nie będzie już prognozy, to zaliczka może być (ale nie musi) naliczona wg części ryczałtowej algorytmu. Jeśli przed przejściem do opisywanej funkcji zaznaczymy pożądany licznik, to podpowie się on automatycznie w nowym oknie. Jeśli prognoza ma obowiązywać przez cały miesiąc, to dodajemy ją od pierwszego dnia miesiąca. Jeśli zmienimy prognozę z datą w środku miesiąca, to jej wartość zostanie przeliczona proporcjonalnie do czasu obowiązywania.
 
 ![Usunięcie prognozy](usuniecieprognozy.gif)
-
-#### Uwagi:
-
-- Jeśli przed przejściem do opisywanej funkcji zaznaczymy pożądany licznik, to podpowie się on automatycznie w nowym oknie.
-- Jeśli prognoza ma obowiązywać przez cały miesiąc, to dodajemy ją od pierwszego dnia miesiąca.
-- Jeśli dodamy prognozę z datą w środku miesiąca, to jej wartość zostanie przeliczona proporcjonalnie do czasu obowiązywania.
