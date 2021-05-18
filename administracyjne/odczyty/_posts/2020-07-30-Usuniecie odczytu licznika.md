@@ -8,8 +8,8 @@ Aby usunąć odczyt licznika, trzeba dodać odczyt wcześniejszy niż ten, któr
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj odczyty`.
 - Pole `Licznik` > wybieramy licznik.
-- Pole `Data` > ustawiamy datę odczytu wcześniejszego.
-- Pole `Wartość` > wpisujemy wartość wcześniejszego.
+- Pole `Data` > ustawiamy datę odczytu **wcześniejszego**.
+- Pole `Wartość` > wpisujemy wartość odczytu **wcześniejszego**.
 - Pole `Typ odczytu` > jeśli odczyt jest normalny, to nie zaznaczamy nic w tym polu. Natomiast jeśli spełnia poniższe warunki, to zaznaczamy odpowiednie:
   - `Końcowy — demontaż licznika` > jeśli odczyt jest odczytem końcowym, licznik zostanie zamknięty.
   - `Wcześniejsze rozliczenie` > jeśli liczniki trzeba rozliczyć wcześniej niż koniec okresu rozliczeniowego (np. przy wykupie lokalu lub na żądanie właściciela).
@@ -17,8 +17,6 @@ Aby usunąć odczyt licznika, trzeba dodać odczyt wcześniejszy niż ten, któr
 - Klikamy: `Dodaj`.
 - Klikamy: `Zatwierdź`.
 
+Jeśli przed przejściem do opisywanej funkcji zaznaczymy pożądany licznik, to podpowie się on automatycznie w nowym oknie.
+
 ![Usunięcie odczytu](usuniecieodczytu.gif)
-
-### Uwagi:
-
-- Jeśli przed przejściem do opisywanej funkcji zaznaczymy pożądany licznik, to podpowie się on automatycznie w nowym oknie.
