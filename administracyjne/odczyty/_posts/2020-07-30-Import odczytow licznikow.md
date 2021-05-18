@@ -1,6 +1,7 @@
 ---
 title: Import odczytów liczników
 ---
+
 # Import odczytów liczników
 
 Do systemu można wprowadzić odczyty hurtowo, za pomocą tabelki z odpowiednimi kolumnami. Tabelka do importu odczytów powinna zawierać pięć kolumn. Oczywiście, jeśli posiadamy już odczyty liczników w arkuszu, to tabelkę formatujemy do opisanej postaci. Przed importem odczytów trzeba określić termin rozliczeń liczników. Poniżej przykładowa tabelka, którą tworzymy w arkuszu kalkulacyjnym:
