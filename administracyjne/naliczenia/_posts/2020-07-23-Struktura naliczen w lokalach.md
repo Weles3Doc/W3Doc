@@ -6,7 +6,7 @@ title: Struktura naliczeń w lokalach
 
 Sprawdzenie struktury naliczeń w lokalach pozwala skontrolować rozłożenie opłat w wielu lokalach w funkcji czasu. Dzięki temu można łatwo znaleźć lokale, które mają przerwy w obciążeniach, nietypowe wartości danych i stawek. Aby uzyskać takie zestawienie, należy przejść do:
 
-- Zakładka Administracja.
+- Zakładka `Administracja`.
 - Pole `Struktura` > kliknąć całą nieruchomość lub inną podrzędną strukturę.
 - Przycisk `Naliczenia`.
 - Wybrać miesiąc i następnie pozycję z zaliczek.
