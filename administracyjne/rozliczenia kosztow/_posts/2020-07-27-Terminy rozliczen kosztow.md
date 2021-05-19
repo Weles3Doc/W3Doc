@@ -14,7 +14,7 @@ Przed przystąpieniem do systemowych rozliczeń kosztów trzeba ustawić okres, 
 - Jeśli trzeba, to należy powtórzyć czynności dla innych rozliczanych składników.
 - Klikamy: `Zatwierdź`.
 
-Po ustaleniu terminu rozliczeń przechodzimy do definiowania sposobu rozliczeń w menu `Obciążenia` > `Rozliczenia kosztów`. Jest to opisane w instrukcjach i przykładach:
+Przykład terminów, jeśli rozliczamy składnik za pół roku, to ustawiamy od `RRRR-01` do `RRRR-06`, a jeśli za cały rok to od `RRRR-01` do `RRRR-12`. Po ustaleniu terminu rozliczeń przechodzimy do definiowania sposobu rozliczeń w menu `Obciążenia` > `Rozliczenia kosztów`. Jest to opisane w instrukcjach i przykładach:
 
 - **[Ustawienie rozliczenia kosztów](https://doc.weles3.pl/administracyjne/rozliczenia%20kosztow/Ustawienie-rozliczenia-kosztow.html)**
 - **[Przykład RK — alg. pełen koszt](https://doc.weles3.pl/administracyjne/rozliczenia%20kosztow/Przyklad-RK-alg.-pelny-koszt.html)**
