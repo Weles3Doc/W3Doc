@@ -18,6 +18,6 @@ Aby zaksięgować rozliczenie kosztów, należy przejść do:
 - Pole `Hasło` > wpisujemy hasło.
 - Kliknąć: `Zatwierdź`. 
 
-Po zaksięgowaniu należy sprawdzić, czy z rozliczeniem nie zaksięgowały się inne niepotrzebne korekty, oraz sprawdzić termin płatności rozliczenia.
+Po zaksięgowaniu należy sprawdzić, czy z rozliczeniem nie zaksięgowały się inne niepotrzebne korekty, oraz sprawdzić termin płatności rozliczenia. Sprawdzamy też wydruk `Wydruki` > `Zasób` > `Sprawozdanie finansowe`, rozliczane składniki zazwyczaj powinny mieć saldo równe zero.
 
 ![Księgowanie rozliczenia kosztów](ksiegowanierozliczeniakosztow.gif)
