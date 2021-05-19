@@ -34,16 +34,8 @@ Aby określić sposób rozliczenia kosztów, należy:
     - `Drukuj wszystkie` > będą pokazywane wszystkie.
 - Kliknąć: `Dodaj`.
 - Wprowadzić inne pozycje, jeśli trzeba.
-- Kliknąć: `Zapisz`.
+- Kliknąć: `Zatwierdź`.
+
+Nie można ustawić rozliczenia kosztów i liczników **na raz** dla tego samego składnika. Składnikom opłat, które są poprzedzone rozliczeniem liczników, ustawiamy rozliczenie różnicy, nie — pełen koszt. Rozliczenie wg obciążeń robimy tylko wtedy gdy dla danego składnika są zaksięgowane wcześniejsze zaliczki lub korekty, lub inne rozliczenia. Jeśli ich nie będzie, to system zgłosi błąd zerowej podstawy rozliczenia. W systemie można robić korekty do rozliczeń kosztów, polega to na zrobieniu jeszcze raz rozliczenia za ten sam okres z nowym sposobem rozliczenia lub kwotą. Za pozycje, które są rozliczone w systemowych rozliczeniach kosztów, nie można robić korekt zaliczek. Zazwyczaj dla jednego składnika opłat, na jednej tej samej strukturze, nie dodajemy dwóch lub więcej sposobów rozliczeń, w takich przypadkach system zgłosi błąd. Możliwe jest dodanie takich sposobów, ale muszą się one nawzajem wykluczać na każdym z lokali. W polu `Algorytm` należy zawsze wybrać jakąś daną lub wpisać działanie na danych, lub algorytm, nie może pozostać puste.
 
 ![Ustawienie rozliczenia kosztów](ustawienierozliczeniakosztow.gif)
-
-#### Uwagi:
-
-- Nie można ustawić rozliczenia kosztów i liczników **na raz** dla tego samego składnika.
-- Składnikom opłat, które są poprzedzone rozliczeniem liczników, ustawiamy rozliczenie różnicy, nie — pełen koszt.
-- Rozliczenie wg obciążeń robimy tylko wtedy gdy dla danego składnika są zaksięgowane wcześniejsze zaliczki lub korekty, lub inne rozliczenia. Jeśli ich nie będzie, to system zgłosi błąd zerowej podstawy rozliczenia.
-- W systemie można robić korekty do rozliczeń kosztów, polega to na zrobieniu jeszcze raz rozliczenia za ten sam okres z nowym sposobem rozliczenia lub kwotą.
-- Za pozycje, które są rozliczone w systemowych rozliczeniach kosztów, nie można robić korekt zaliczek.
-- Zazwyczaj dla jednego składnika opłat, na jednej tej samej strukturze, nie dodajemy dwóch lub więcej sposobów rozliczeń, w takich przypadkach system zgłosi błąd. Możliwe jest dodanie takich sposobów, ale muszą się one nawzajem wykluczać na każdym z lokali.
-- W polu `Algorytm` należy zawsze wybrać jakąś daną lub wpisać działanie na danych, lub algorytm, nie może pozostać puste.
