@@ -14,6 +14,12 @@ Przed przystąpieniem do systemowych rozliczeń kosztów trzeba ustawić okres, 
 - Jeśli trzeba, to należy powtórzyć czynności dla innych rozliczanych składników.
 - Klikamy: `Zatwierdź`.
 
-Po ustaleniu terminu rozliczeń przechodzimy do definiowania sposobu rozliczeń w menu `Obciążenia` > `Rozliczenia kosztów`.
+Po ustaleniu terminu rozliczeń przechodzimy do definiowania sposobu rozliczeń w menu `Obciążenia` > `Rozliczenia kosztów`. Jest to opisane w instrukcjach i przykładach:
+
+- **[Ustawienie rozliczenia kosztów](https://doc.weles3.pl/administracyjne/rozliczenia%20kosztow/Ustawienie-rozliczenia-kosztow.html)**
+- **[Przykład RK — alg. pełen koszt](https://doc.weles3.pl/administracyjne/rozliczenia%20kosztow/Przyklad-RK-alg.-pelny-koszt.html)**
+- **[Przykład RK — alg. różnica](https://doc.weles3.pl/administracyjne/rozliczenia%20kosztow/Przyklad-RK-alg.-roznica.html)**
+- **[Przykład RK — rozliczenie na dwóch poziomach struktur](https://doc.weles3.pl/administracyjne/rozliczenia%20kosztow/Przyklad-RK-rozliczenie-na-dwoch-poziomach-struktur.html)**
+- **[Przykład RK — wyłączenie lokalu z RK](https://doc.weles3.pl/administracyjne/rozliczenia%20kosztow/Przyklad-wylaczenie-lokalu-z-RK.html)**
 
 ![Dodanie terminu rozliczenia kosztów](dodanieterminurozliczeniakosztow.gif)
