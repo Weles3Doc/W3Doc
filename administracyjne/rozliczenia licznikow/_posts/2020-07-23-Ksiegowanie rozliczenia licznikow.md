@@ -1,6 +1,7 @@
 ---
-title: Księgowanie rozliczenia liczników
+title: 4. Księgowanie rozliczenia liczników
 ---
+
 # Księgowanie rozliczenia liczników
 
 Aby zaksięgować rozliczenie liczników należy:

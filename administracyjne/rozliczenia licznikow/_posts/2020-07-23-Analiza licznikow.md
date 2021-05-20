@@ -1,16 +1,35 @@
 ---
-title: Analiza liczników
+title: 2. Analiza liczników
 ---
+
 # Analiza liczników
-Aby skorzystać z narzędzia należy przejść do zakładki: "Administracja" -> menu: "Funkcje" -> "Analiza liczników".
-System wyświetli dane w narzędziu,  gdy będą spełnione poniższe warunki:
+
+Analiza liczników pozwala na wyłapanie błędów skojarzonych z odczytami i zużyciami liczników. Warto skorzystać z niej zaraz po wprowadzeniu odczytów liczników, przed sprawdzaniem rozliczeń na poszczególnych właścicielach. Aby skorzystać z narzędzia, należy przejść do:
+
+- Zakładka `Administracja` > menu `Funkcje` > `Analiza liczników`.
+
+System wyświetli dane w narzędziu wtedy, gdy będą spełnione poniższe warunki:
 - Ustawiony będzie Termin Rozliczenia Liczników (TRL).
 - Zaksięgowane będą wszystkie zaliczki w rozliczanym okresie.
-- System wykaże jakiekolwiek zmiany w odczytach/licznikach w kategoriach opisanych poniżej.
 
-Kategorie komunikatów narzędzia "Analiza liczników":
-- "BŁĄD Brak odczytów do RL" - komunikat oznacza, że na wskazanych licznikach brakuje odczytu rozliczeniowego i uniemożliwia to zaksięgowanie Rozliczenia Liczników (RL). W takim wypadku należy uzupełnić odczyty.
-- "Liczniki zamknięte/Liczniki założone" - system wykazuje liczniki zamknięte (wraz z datą zamknięcia) lub założone czysto informacyjnie. Komunikat nie ma to wypływu na księgowanie rozliczenia (Administrator może na podstawie tych danych sprawdzić, czy w tym okresie rozliczeniowym faktycznie takie zmiany miały miejsce).
-- "OSTRZEŻENIE" - pozycje z tej kategorii komunikatów zdecydowanie warto sprawdzić w lokalu i w licznikach, czy taka sytuacja faktycznie powinna mieć miejsce. Istnieje możliwość, że sytuacja jest spowodowana jakimś błędem we wprowadzonych do systemu danych lub błędem merytorycznym w założeniach do rozliczenia.
+Pozycje, które mają w nazwie `BŁAD`, uniemożliwiają zaksięgowanie rozliczenia liczników.
+
+Poniżej wszystkie możliwe pozycje:
+
+- `Liczniki zamknięte (ostatni odczyt)` > zostaną wymienione zamknięte liczniki.
+- `Liczniki zamknięte (data zamknięcia)` > zostaną wymienione zamknięte liczniki.
+- `Liczniki założone` > nowe liczniki w nieruchomości.
+- `BŁĄD Zużycie bez przypisanego właściciela lokalu` > zostaną tutaj wykazane liczniki w lokalach, które nie mają przypisanego właściciela.
+- `BŁĄD Brak odczytów przy RL w przód` > błąd skojarzony z Wcześniejszym rozliczeniem liczników, wszystkie liczniki z danej grupy liczników muszą mieć dodany odczyt z typem Wcześniejsze rozliczenie. 
+- `BŁĄD Brak odczytów do RL` > brak odczytów na konie okresu rozliczeniowego.
+- `OSTRZEŻENIE Puste zużycia` > tu zostaną wymienione liczniki, które mają dodany pusty odczyt, może to powodować brak rozliczenia (ryczałt).
+- `OSTRZEŻENIE Ujemne zużycie` > zostaną wymienione liczniki z ujemnym zużyciem.
+- `OSTRZEŻENIE Zerowe zużycie` > zostaną wymienione liczniki z zerowym zużyciem.
+- `OSTRZEŻENIE Brak porównania` > ta pozycja będzie zawierała liczniki, dla których system nie będzie mógł porównać zużycia z poprzednim okresem rozliczeniowym.
+- `OSTRZEŻENIE Poprzednie zużycie ujemne` > zostaną tutaj wymienione liczniki, u których w poprzednim okresie rozliczeniowych było ujemne zużycie.
+- `OSTRZEŻENIE Poprzednie zużycie zerowe` > zostaną tutaj wymienione liczniki, u których w poprzednim okresie rozliczeniowych było zerowe zużycie.
+- `OSTRZEŻENIE Kolejne zerowe zużycie` > zostaną tutaj wymienione liczniki, które kolejny raz zz rzedu wykazują zerowe zużycie.
+- `OSTRZEŻENIE Średnia zmiana >= 2 < 10` > zostaną tutaj wymienione liczniki, których zużycie wzrosło od 2 razy do 10, w porównaniu do poprzedniego okresu rozliczeniowego.
+- `OSTRZEŻENIE Duża zmiana >= 10` > zostaną tutaj wymienione liczniki, których zużycie wzrosło przynajmniej 10 razy, w porównaniu do poprzedniego okresu rozliczeniowego.
 
 ![Analiza liczników](analizalicznikow.gif)
