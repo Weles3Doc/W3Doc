@@ -17,4 +17,6 @@ Rozpoczęcie procesu głosowania nad uchwałą należy zacząć od dodania pliku
 
 Prosimy sprawdzić poprawność danych przed ustawieniem głosowania w zakładce Administracja > Dane. Dane wybrane w polu Algorytm, są przeliczane na udział. Jeśli udział ma być co do wartości równy danej, to ta dana musi mieć wartość sumaryczną 1. Jeśli w polu `Sposób wprowadzania algorytmu` wybiorą Państwo `Rozszerzony`, to w polu `Algorytm rozszerzony` można wpisać ręcznie sposób liczenia udziału z danych, na przykład: `D1+D3`.
 
+Kolejność uchwał — uchwały będą się sortowały na listach i w systemie, w pierwszej kolejności po statusie uchwały (Nieaktywna, Głosowana, Przyjęta, Odrzucona), następnie alfabetycznie po opisie uchwały. Z tym że kolejność cyfr (liczb) w sortowaniu jest odwrócona, tak aby najnowsze uchwały były prezentowane jako pierwsze.
+
 ![Dodanie uchwały](dodanieuchwaly.gif)
