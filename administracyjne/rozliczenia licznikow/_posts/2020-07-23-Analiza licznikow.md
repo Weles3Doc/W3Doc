@@ -14,7 +14,9 @@ System wyświetli dane w narzędziu wtedy, gdy będą spełnione poniższe warun
 
 Pozycje, które mają w nazwie `BŁAD`, uniemożliwiają zaksięgowanie rozliczenia liczników.
 
-Poniżej wszystkie możliwe pozycje:
+Wszystkie pozycje należy sprawdzić i rozwiązać przed przejściem do dalszej analizy rozliczenia.
+
+Poniżej możliwe pozycje:
 
 - `Liczniki zamknięte (ostatni odczyt)` > zostaną wymienione zamknięte liczniki.
 - `Liczniki zamknięte (data zamknięcia)` > zostaną wymienione zamknięte liczniki.
