@@ -17,3 +17,13 @@ Klikając `Nalicz korekty RL`, są przeliczane korekty zwyczajne, rozliczenia li
 Rozliczenie można w tym momencie poprawiać i przeliczać do woli. Właściciele nie widzą niezaksięgowanych rozliczeń.
 
 ![Przeliczenie RL](przeliczenierl.gif)
+
+#### Sprawdzenie zużyć
+
+Zużycia będą dostępne od razu po przeliczeniu rozliczenia, w kolumnie `Ilość` przy pozycjach oznaczonych jako `(LZ)`. Oczywiście zużycia można sprawdzić na całej WM lub na strukturze albo na pojedynczym lokalu. Obowiązkowo należy porównać zużycie całego budynku z `K.bieżąca` z zużyciem widocznym pod przyciskiem `Liczniki`. Różnice te mogą wskazywać na zerowe stawki lub pomijane zużycie. Dodatkowo należy zwrócić uwagę na ilość cyfr po przecinku w zużyciu w rozliczeniu.
+
+Do sprawdzania zużyć służy też zbiorczy wydruk:
+
+- Menu `Funkcje` > `Wydruki` > `Zasób` > `Zużycia liczników`.
+
+![Sprawdzenie rozliczenia](sprrozliczenia1.gif)
