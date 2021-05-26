@@ -6,7 +6,7 @@ title: 5. Wydruk rozliczenia liczników
 
 Jednym z ważniejszych wydruków generowanych z programu w ciągu roku jest rozliczenie liczników. Dokument generujemy zawsze po sprawdzeniu i zaksięgowaniu rozliczenia. Aby to zrobić, należy przejść do:
 
-- Menu `Funkcje` > `Wydruki`.
+- Zakładka `Administracja` > menu `Funkcje` > `Wydruki`.
 - Przejść do zakładki `Dokumenty` (jeśli mają być one opatrzone numerem) lub zakładki `Osoby` (jeśli wystarczy wydruk bez numeru).
 - Z listy wydruków dodajemy:
   - `Tekst` > w nim wpisujemy tekst wprowadzający, jak i objaśnienia do rozliczenia. (można go dodać kilka razy, w różnych miejscach)
@@ -16,7 +16,8 @@ Jednym z ważniejszych wydruków generowanych z programu w ciągu roku jest rozl
 - W każdym z tych elementów sprawdzamy i ustawiamy opcje szczegółowe.
 - Szczególnie proszę zwrócić uwagę, aby w polu `Miesiąc`, na każdym z wydruków było wybrane te samo rozliczenie.
 - Warto dobrze opisać rozliczenie, aby właściciele dobrze je zrozumieli.
-- Po ustaleniu wszystkiego klikamy `Podgląd wydruku` i pobieramy plik.
+- Klikamy: `Podgląd wydruku`.
+- Pobieramy/otwieramy plik PDF.
 
 Poniższy wzór rozliczenia prosimy traktować jako przykład.
 
