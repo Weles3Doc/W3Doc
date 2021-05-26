@@ -4,15 +4,20 @@ title: 4. Księgowanie rozliczenia liczników
 
 # Księgowanie rozliczenia liczników
 
-Aby zaksięgować rozliczenie liczników należy:
-- Przejść do Menu funkcje > Księguj należności.
-- Z pola Księgowanie wybrać Korekta RL.
-- Pola Data i Data księgowania ustawią się automatycznie. (korekty zazwyczaj księgujemy na koniec rozliczanego okresu, jeśli trzeba, daty te mogą być późniejsze niż rozliczany okres)
-- W polu Bazowy termin płatności ustawiamy datę w zależności od pożądanego terminu płatności (więcej w dokumentacji odnośnie terminów płatności).
-- W polu Termin płatności zwrotów wybieramy:
-  - Data - jeśli termin zwrotów ma być na pierwszy dzień następnego miesiąca po miesiącu określonym w polu Data.
-  - Bazowy termin płatności - jeśli termin zwrotów ma być na pierwszy dzień miesiąca określonego w polu Bazowy termin płatności.
-- W polu Opis umieszczamy opis księgowanej należności (tekst ten będzie widoczny na wydrukach).
-- Wpisujemy hasło i zatwierdzamy.
+Aby zaksięgować rozliczenie liczników, należy przejść do:
+
+- Zakładka `Administracja` > menu `Funkcje` > `Księguj należności`.
+- Pole `Księgowanie` > `Korekty RL`.
+- Pole `Data` > ustawiamy ostatni miesiąc rozliczanego okresu. (można ustawić późniejszy)
+- Pole `Data księgowania` > to data księgowania dekretu, zazwyczaj ostatni dzień miesiąca z pola `Data`. (można ustawić późniejszą)
+- Pole `Bazowy termin płatności` > ustawiamy bazowy termin płatności, więcej na temat w instrukcji dotyczącej Terminów płatności.
+- Pole `Termin płatności zwrotów` > określamy termin płatności zwrotów dla właścicieli:
+  - `Data` > data zwrotów będzie na pierwszy dzień miesiąca po miesiącu ustawianym w polu `Data`.
+  - `Bazowy termin płatności` > termin zwrotów będzie równy dacie z pola `Bazowy termin płatności`.
+- Pole `Opis (opcjonalny)` > opis księgowania np. Rozliczenia mediów za 2020.
+- Pole `Hasło` > wpisujemy hasło.
+- Kliknąć: `Zatwierdź`. 
+
+Po zaksięgowaniu należy sprawdzić, czy z rozliczeniem nie zaksięgowały się inne niepotrzebne korekty, oraz sprawdzić termin płatności rozliczenia. Sprawdzamy też wydruk `Wydruki` > `Zasób` > `Sprawozdanie finansowe`, rozliczane składniki zazwyczaj powinny mieć saldo równe zero w przypadku rozliczenia po stawce wynikowej. Na tym wydruku można też sprawdzić pozostałe różnice (uchyby) na składnikach.
 
 ![Księgowanie rozliczenia liczników](ksiegowanierozliczenialicznikow.gif)
