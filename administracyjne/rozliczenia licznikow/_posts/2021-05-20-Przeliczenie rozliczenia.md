@@ -27,3 +27,23 @@ Do sprawdzania zużyć służy też zbiorczy wydruk:
 - Menu `Funkcje` > `Wydruki` > `Zasób` > `Zużycia liczników`.
 
 ![Sprawdzenie rozliczenia](sprrozliczenia1.gif)
+
+#### Sprawdzenie struktury rozliczenia
+
+Sprawdzenie struktury korekty na całym zasobie i na lokalach pozwala wyłapać częste błędy przy rozliczeniu:
+
+- Przerwa we własności lokalu.
+- Indywidualne lub inne stawki niż pożądana.
+- Ujemne zużycia.
+- Odczyty na złe daty.
+- Brak rozliczenia.
+
+Aby uzyskać zestawienie, należy przejść do:
+
+- Zakładka `Administracja`.
+- Pole `Struktura` > kliknąć całą nieruchomość lub inną podrzędną strukturę.
+- Przycisk `Naliczenia`.
+- Wybrać `K.bieżąca`.
+- Menu `Widok` > `Struktura naliczeń w lokalach` lub `Struktura naliczeń` przy wybraniu pojedynczego lokalu w polu `Struktura`.
+
+![Sprawdzenie rozliczenia](sprrozliczenia2.gif)
