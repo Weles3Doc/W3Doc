@@ -15,12 +15,6 @@ Aby wprowadzić stawkę w budynku, należy przejść do:
 - Kliknąć: `Dodaj`.
 - Kliknąć: `Zapisz`.
 
-System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić stawki w większej ilości, w tym celu powtarzamy powyższe czynności dla wybranych stawek. Stawki dodane na cały budynek lub strukturę, automatycznie obowiązują w lokalach podrzędnych.
+System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić stawki w większej ilości, w tym celu powtarzamy powyższe czynności dla wybranych stawek. Stawki dodane na cały budynek lub strukturę, automatycznie obowiązują w lokalach podrzędnych. Unikamy dodawania stawek na lokale — prowadzi to do problemów z naliczeniami. Kategorycznie nie zerujemy stawek za media na lokalach — prowadzi to do błędów w rozliczeniach.
 
 ![Dodanie stawki do budynku](dodaniestawki.gif)
-
-#### Uwagi:
-
-- Unikamy dodawania stawek na lokale — prowadzi to do problemów z naliczeniami.
-- Stawka dodana na cały budynek obowiązuje od razu w każdym podrzędnym lokalu.
-- Kategorycznie nie zerujemy stawek za media na lokalach — prowadzi to do błędów w rozliczeniach.
