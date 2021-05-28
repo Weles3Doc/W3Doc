@@ -58,7 +58,7 @@ Obecną stawkę do rozliczenia liczników musimy zastąpić wyliczoną wcześnie
 - Pole `Typ` > wybieramy typ VAT stawki, jeśli WM nie jest vatowcem, to pozostawiamy `Brutto`.
 - Kliknąć: `Dodaj`.
 
-Kolejnym krokiem jest przywrócenie stawki użytej do naliczenia zaliczek od końca okresu rozliczeniowego. Trzeba ją przywrócić, w przeciwnym wypadku do rozliczania doliczy się korekta zaliczek. Powtarzamy wyżej wymienione punkty, stosując odpowiednią datę i wartość.
+Kolejnym krokiem jest przywrócenie stawki użytej do naliczenia zaliczek od końca okresu rozliczeniowego. Trzeba ją przywrócić, w przeciwnym wypadku do rozliczania doliczy się korekta zaliczek. Powtarzamy wyżej wymienione punkty, stosując odpowiednią datę i wartość. Na koniec należy:
 
 - Kliknąć: `Zapisz`.
 
@@ -72,6 +72,26 @@ W celu sprawdzenia poprawności rozliczenia przeliczamy ponownie korektę RL.
 
 - Przycisk `Naliczenia` > `K. bieżąca` > menu `Obciążenia` > `Nalicz korekty RL`.
 
-Po chwili system wyświetli aktualne wyniki rozliczenia. Jak widać, Pozycja Ma być, zmieniła się na 77,00 zł, czyli dokładnie tyle, co zaksięgowane koszty.
+Po chwili system wyświetli aktualne wyniki rozliczenia. Należy zwrócić uwagę na kolumnę `Ma być Wartość`, powinna ona zmienić się na kwotę odpowiadającą zaksięgowanym kosztom, w tym przypadku 2658,72 zł.
 
-Po chwili system wygeneruje dokument w formacie pdf. Jak widać, konto CW jest zbilansowane do zera (przychody = koszty). Rozliczenie jest wykonane prawidłowo.
+Kolumna `Było Wartość` prezentuje wcześniejsze obciążenia właścicieli, które podlegają rozliczeniu z zużyciem. Mogą to być zaliczki właścicieli, ale nie tylko, prócz tego może ona zwierać korekty lub rozliczenia. Jeśli kwota z tej kolumny ma taką samą wartość co przychody z konta 700 składnika, można wtedy założyć, że wszystkie zaliczki naliczone właścicielom są rozliczane.
+
+Dodatkowe kroki sprawdzające są takie same jak przy standardowym rozliczeniu liczników:
+
+- [Analiza liczników](https://doc.weles3.pl/administracyjne/rozliczenia%20licznikow/Analiza-licznikow.html)
+- [Przeliczenie rozliczenia liczników](https://doc.weles3.pl/administracyjne/rozliczenia%20licznikow/Przeliczenie-rozliczenia.html)
+
+
+#### Zaksięgowanie i sprawdzenie wydruków
+
+Rozliczenie księgujemy na koniec okresu rozliczeniowego, postępujemy tak samo, jak w instrukcji:
+
+- [Księgowanie rozliczenia liczników](https://doc.weles3.pl/administracyjne/rozliczenia%20licznikow/Ksiegowanie-rozliczenia-licznikow.html)
+
+Po zaksięgowaniu należy sprawdzić efekty rozliczenia, należy wydrukować sprawozdanie finansowe za rozliczany okres:
+
+- Menu `Funkcje` > `Wydruki` > zakładka `Zasób` > `Sprawozdanie finansowe`.
+
+W tabelce przychody rozliczanego składnika powinny równać się kosztom, w konsekwencji saldo powinno wynosić zero. Jeśli saldo wynosi +/- kilka groszy, można je tak zostawić natomiast, jeśli jest większe, to można cofnąć rozliczenie i dodać stawkę wynikową z większą dokładnością. Być może spowoduje to zbliżenie się salda do zera.
+
+![RL po stawce wynikowej](rlpostwwynik3.gif)
