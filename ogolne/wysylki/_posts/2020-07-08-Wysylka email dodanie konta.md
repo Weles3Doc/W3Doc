@@ -10,8 +10,8 @@ Pierwszym krokiem przed rozpoczęciem wysyłania wiadomości e-mail jest dodanie
 - Zakładka `Konta pocztowe`.
 - Pole `Typ` > wybieramy `E-mail`.
 - Pole `E-mail` > podajemy adres mail, z którego będzie prowadzona wysyłka.
-- Pole `Login` > podajemy login **do konta pocztowego**.
-- Pole `Hasło` > podajemy hasło **do konta pocztowego**.
+- Pole `Login` > podajemy login **do konta pocztowego, zazwyczaj jest to e-mail, nie jest to login do Weles 3**.
+- Pole `Hasło` > podajemy hasło **do konta pocztowego, nie jest to hasło do Weles 3**.
 - Klikamy: `Dodaj`.
 - Klikamy: `Zatwierdź`.
 
