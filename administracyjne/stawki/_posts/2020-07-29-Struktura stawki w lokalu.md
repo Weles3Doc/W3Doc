@@ -1,6 +1,7 @@
 ---
 title: Struktura stawki w lokalu
 ---
+
 # Struktura stawki w lokalu
 
 W celu analizy naliczeń i rozliczeń często potrzebujemy sprawdzić zmiany stawki w czasie dla pojedynczego lokalu. Aby zobaczyć strukturę stawki, należy przejść do:
@@ -13,8 +14,10 @@ W celu analizy naliczeń i rozliczeń często potrzebujemy sprawdzić zmiany sta
 
 Wyświetli się nowe okno, w którym:
 
-- Na osi poziomej będziemy mieli oś czasu.
-- W górnej części okna będą podane przedziały czasowe.
-- W osi pionowej będziemy mieli podane lokale lub struktury, które posiadają wybraną stawkę oraz wartości tej stawki w czasie.
+- Na osi pionowej będziemy mieli oś czasu.
+- W lewej części okna będą podane przedziały czasowe.
+- Z prawej strony będą podane wartości stawki oraz ewentualne korekty.
+
+Okno ma za zadanie pokazać zmiany stawki na wybranym lokalu.
 
 ![Struktura stawki w lokalu](stawkawlokalu.gif)
