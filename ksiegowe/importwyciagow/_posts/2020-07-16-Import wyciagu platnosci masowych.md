@@ -7,7 +7,7 @@ title: 2. Płatności masowe - import
 Wyciągi masowe importujemy poprzez:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Importuj płatności masowe`.
-- Zakładka `Dodawanie`.
+- Zakładka `Import`.
 - Pole `Plik` > klikamy `Przeglądaj`.
 - W oknie dialogowym wyszukujemy plik
 - Klikamy: `Otwórz`.
