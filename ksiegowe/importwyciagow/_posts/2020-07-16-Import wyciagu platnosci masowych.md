@@ -4,21 +4,19 @@ title: 2. Płatności masowe - import
 
 # Import wyciągu płatności masowych
 
-Wyciągi masowe importujemy poprzez:
+Wyciągi z płatnościami na rachunki indywidualne importujemy poprzez:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Importuj płatności masowe`.
 - Zakładka `Import`.
-- Pole `Plik` > klikamy `Przeglądaj`.
-- W oknie dialogowym wyszukujemy plik
-- Klikamy: `Otwórz`.
+- Klikamy: `Wybierz lub przeciągnij i upuść plik`.
+- W oknie dialogowym wyszukujemy plik i klikamy: `Otwórz`.
+- Klikamy: `Analizuj płatności masowe`.
+- Pole `Sprawdzanie powielania` > można ustawić:
+    - `Weryfikuj` > system sprawdzi, czy importowany wyciąg się nie powtarza, jeśli jest powielany, nie zaimportuje pozycji.
+    - `Nie weryfikuj` > system zaimportuje wpłaty, nawet jeśli już istnieją.
 - Pole `Hasło` > wpisujemy hasło.
-- Klikamy: `Zatwierdź`.
+- Klikamy: `Importuj poprawne`.
 
-Po imporcie, jeśli nie będzie błędów, okno zamknie się samo, można ponownie przejść do: `Importuj płatności masowe` > zakładka `Podgląd`, gdzie można sprawdzić zaimportowany plik i jego pozycje. Dekret e-WB powinien też być widoczny na zakładce `Dekrety`.
-
-Jeśli po kliknięciu `Zatwierdź` wystąpi:
-
-- `ERR Błąd przy pozycji <nazwa pliku> <nr konta> <dane z przelewu> Nie znaleziono konta` Oznacza to, że w systemie nie ma sparowania: nr ind. rach. bankowego z kontem księgowym. W takim przypadku prosimy o przesłanie importowanego pliku do działu wsparcia.
-- Okno zamknie się, a w zakładce `Dekrety` nie powstanie dekret. Oznacza to, że importowany plik wyciągu jest pusty.
+Po imporcie okno zamknie się, można przejść do zakładki `Zaimportowane wyciągi`, gdzie można sprawdzić wgrany plik i jego pozycje. Dekret e-WB powinien też być widoczny w zakładce `Dekrety`. Za pomocą funkcji można wczytywać większą ilość wyciągów, muszą one być spakowane archiwum `ZIP`.
 
 ![Import WB masowego](importwbmasowy.gif)
