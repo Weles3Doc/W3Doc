@@ -26,7 +26,6 @@ Przed przystąpieniem do importu trzeba dla każdego budynku i rachunku bankoweg
 - Pole `Numer` > wpisujemy numer konta.
 - Kliknąć: `Dodaj`.
 - Podobnie uzupełniamy dla innych budynków lub rachunków.
-- Pole `Hasło` > wpisać hasło.
 - Kliknąć: `Zatwierdź`.
 
 Powyższe ustawienia można dowolnie zmieniać w późniejszym czasie. Jeśli Państwa banku nie ma na liście, to prosimy się zgłosić do działu wsparcia Weles3.
