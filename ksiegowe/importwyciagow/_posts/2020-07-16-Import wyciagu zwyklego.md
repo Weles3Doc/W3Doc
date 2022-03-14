@@ -79,17 +79,12 @@ Nie opiszemy tutaj pobierania pliku ze strony banku, każdy z nich ma swój spos
 - Deutsche Bank:
     - `eWyciag_20210104_xxxxxx.csv`
 
-Zazwyczaj ustalenie właściwego typu pliku należy przeprowadzić metodą prób i błędów. Najlepiej ze strony banku pobrać kilka różnych plików. Następnie skorzystać z funkcji do sprawdzania formatu w:
-
-- Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny`.
-- Zakładka `Sprawdzenie formatu`.
-
-Należy tutaj wczytać plik i jeśli otworzy się tabelka z operacjami wyciągu, to oznacza, że format danych jest prawidłowy. Jest to opisane w dedykowanej [**instrukcji**](https://doc.weles3.pl/ksiegowe/importwyciagow/Sprawdzanie-formatu-pliku-WB.html).
+Zazwyczaj ustalenie właściwego typu pliku należy przeprowadzić metodą prób i błędów. Najlepiej ze strony banku pobrać kilka różnych plików. Następnie wykonać import każdego z nich.
 
 Z importu operacji bankowych można korzystać nawet wtedy, gdy wspólnota posiada płatności masowe. Należy tutaj stosować pewną zasadę, z banku należy pobrać dwa pliki:
 
-- Pierwszy z nich musi zawierać operacje tylko z wpłatami właścicieli na rachunki wirtualne, importujemy go w: `Importuj płatności masowe`.
-- Drugi musi zawierać wszystkie pozostałe operacje z wyłączeniem wpłat masowych, importujemy go w: `Importuj wyciąg elektroniczny`.
+- Pierwszy z nich musi zawierać operacje tylko z wpłatami właścicieli na rachunki wirtualne.
+- Drugi musi zawierać wszystkie pozostałe operacje z wyłączeniem wpłat masowych.
 
 Dla przykładu z banku PKO BP można pobrać paczkę przelewów składającą się z 3 plików:
 
@@ -108,21 +103,21 @@ Jeśli napotykają Państwo problem z wyborem pliku pomimo zastosowania powyższ
 Aby zaimportować plik, należy przejść do:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny`.
-- Zakładka `Dodawanie`.
-- Pole `Plik` > klikamy `Przeglądaj`.
-- W oknie dialogowym wyszukujemy plik.
-- Klikamy: `Otwórz`.
+- Zakładka `Import`.
+- Pole `Wybierz lub przeciągnij i upuść plik` > wybieramy plik do importu, można też wczytać więcej wyciągów spakowanych archiwum ZIP.
+- Klikamy: `Analizuj wyciągi zwykłe`.
+
+Okno importu zmieni wygląd. 
+
 - Pole `Hasło` > wpisujemy hasło.
-- Klikamy: `Zatwierdź`.
+- Klikamy: `Importuj poprawnne`.
 
 Po kliknięciu `Zatwierdź` okno może się zamknąć i wpłaty zostaną zaksięgowane w systemie. W tym momencie może też pojawić się błąd:
 
-```
-ERR
+
 Brak konta FK dla rachunku 'WWEEEEOOOOPPPPLLLLNNNNYYYY'
 Brak konta FK dla rachunku 'AABBBBCCCCDDDDEEEEFFFFGGGG'
 Brak konta FK dla rachunku 'AAQQQQWWWWRRRRSSSSDDDDFFFF'
-```
 
 Oznacza to, że wpłata/zapłata z/na konto AA BBBB CCCC DDDD EEEE FFFF GGGG nie ma przypisanego konta księgowego, gdzie mogłaby się zaksięgować. Takie sparowanie trzeba teraz utworzyć, w tym celu, należy:
 
