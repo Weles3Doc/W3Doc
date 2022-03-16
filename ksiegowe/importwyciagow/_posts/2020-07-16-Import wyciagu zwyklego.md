@@ -107,10 +107,10 @@ Aby zaimportować plik, należy przejść do:
 - Pole `Wybierz lub przeciągnij i upuść plik` > wybieramy plik do importu, można też wczytać więcej wyciągów spakowanych archiwum ZIP.
 - Klikamy: `Analizuj wyciągi zwykłe`.
 
-Okno importu zmieni wygląd. 
+Okno importu zmieni wygląd. Z lewej strony pokażą się importowane pliki. Na liście plików należy kliknąć nazwę importowanego wyciągu.
 
 - Pole `Hasło` > wpisujemy hasło.
-- Klikamy: `Importuj poprawnne`.
+- Klikamy: `Importuj poprawne`.
 
 Po kliknięciu `Zatwierdź` okno może się zamknąć i wpłaty zostaną zaksięgowane w systemie. W tym momencie może też pojawić się błąd:
 
@@ -122,7 +122,7 @@ Brak konta FK dla rachunku 'AAQQQQWWWWRRRRSSSSDDDDFFFF'
 Oznacza to, że wpłata/zapłata z/na konto AA BBBB CCCC DDDD EEEE FFFF GGGG nie ma przypisanego konta księgowego, gdzie mogłaby się zaksięgować. Takie sparowanie trzeba teraz utworzyć, w tym celu, należy:
 
 - Zamknąć okno błędu.
-- Zakładka `Edycja`.
+- Zakładka `Przypisanie kont`.
 - Pole `Rachunek zasobu` > wybrać budynek i rachunek, dla którego był importowany plik.
 
 W dolnej części okna pokaże się tabelka, w której przypisujemy `Rachunek obcy` do `Konta FK`. Należy odszukać pozycje, dla których `Konto FK` **nie jest określone**. Następnie:
