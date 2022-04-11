@@ -4,48 +4,54 @@ title: Automatyczne pobieranie wyciągów
 
 # Automatyczne pobieranie wyciągów
 
-Instrukcja w przygotowaniu.
+## Instrukcja w przygotowaniu.
 
-#### Autoryzacja dostępu do banku
+W systemie Weles3 udostępniliśmy Państwu nową funkcję, która pozwala na pobieranie operacji bankowych bez konieczności każdorazowego logowania się i pobierania plików wyciągów bankowych.
 
-- Zakładka Import.
+- Wstęp
+- Cena
+- Warunki
+
+## Autoryzacja dostępu do banku
+
+#### Zakładka Import.
 ![Autoryzacja dostępu](autowb01.png)
 
-- Kliknij link.
+#### Kliknij link.
 ![Autoryzacja dostępu](autowb02.png)
 
-- Rozpocznij weryfikację.
+#### Rozpocznij weryfikację.
 ![Autoryzacja dostępu](autowb03.png)
 
-- Udziel zgody.
+#### Udziel zgody.
 ![Autoryzacja dostępu](autowb04.png)
 
-- Wybierz typ konta.
+#### Wybierz typ konta.
 ![Autoryzacja dostępu](autowb05.png)
 
-- Wybierz bank
+#### Wybierz bank
 ![Autoryzacja dostępu](autowb06.png)
 
-- Przejdź na stronę banku.
+#### Przejdź na stronę banku.
 ![Autoryzacja dostępu](autowb07.png)
 
-- Zaloguj się do banku.
+#### Zaloguj się do banku.
 ![Autoryzacja dostępu](autowb08.png)
 
-- Udziel zgody.
+#### Udziel zgody.
 ![Autoryzacja dostępu](autowb09.png)
 
-- Potwierdź zgody zgodnie z wymaganiami banku.
+#### Potwierdź zgody zgodnie z wymaganiami banku.
 ![Autoryzacja dostępu](autowb10.png)
 
-- Zgody ok.
+#### Zgody ok.
 ![Autoryzacja dostępu](autowb11.png)
 
-- Weryfikacja Transactionlink.
+#### Weryfikacja Transactionlink.
 ![Autoryzacja dostępu](autowb12.png)
 
-- Weryfikacja zakończona.
+#### Weryfikacja zakończona.
 ![Autoryzacja dostępu](autowb13.png)
 
-- Zakładka Import z podłączonym kontem.
+#### Zakładka Import z podłączonym kontem.
 ![Autoryzacja dostępu](autowb14.png)
