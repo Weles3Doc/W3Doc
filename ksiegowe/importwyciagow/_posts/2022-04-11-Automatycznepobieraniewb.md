@@ -4,23 +4,20 @@ title: Automatyczne pobieranie wyciągów
 
 # Automatyczne pobieranie wyciągów
 
-## Wstęp — Instrukcja w przygotowaniu.
+## >>>>>>>> Instrukcja w przygotowaniu <<<<<<<<
 
-W systemie Weles3 udostępniliśmy Państwu nową funkcję, która pozwala na pobieranie operacji bankowych bez konieczności każdorazowego logowania się i pobierania plików wyciągów bankowych. Dzięki niej wystarczy jedno kliknięcie, aby pobrać pozycje do zaksięgowania w systemie.
+## Wstęp
 
-- Cennik
+W systemie Weles3 udostępniliśmy Państwu nową funkcję, która pozwala na pobieranie operacji bankowych bez konieczności każdorazowego logowania się i pobierania plików wyciągów bankowych. Dzięki niej wystarczy jedno kliknięcie, aby pobrać pozycje do zaksięgowania w systemie. Usługa jest współrealizowana z naszym partnerem, firmą [Transactionlink sp. z o.o.](www.transactionlink.io), która jest wpisana do rejestru KNF jako dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku (ang. Account Information Service Provider – AISP), to rozwiązanie wprowadzone jest nowelizacją ustawy o usługach płatniczych w związku ze wdrożeniem dyrektywy PSD2. Służy ono prowadzeniu działalności w zakresie świadczenia usług polegających na dostarczaniu posiadaczom rachunków płatniczych skonsolidowanych informacji o tych rachunkach.
+
+Usługa jest dodatkowo płatna.
 
 ***
 
-## Wymagania początkowe
-
-#### Dodanie rachunku.
-
-Dodanie konta w zakładce Rachunki bankowe.
-
-#### Saldo konta rachunku bankowego 13x.
-
-Ustalić saldo konta 13x w programie.
+Wymagania początkowe:
+- Każdy rachunek bankowy, dla którego będą pobierane operacje bankowe automatycznie, musi być dodany w:
+    - Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny` > zakładka `Rachunki bankowe`.
+- Saldo konta księgowego rachunku bankowego `13x` w programie Weles3 musi być zgodne ze saldem konta bankowego, aby import mógł się rozpocząć. Operacje bankowe będą importowane od ostatniego momentu (daty) dla którego salda Weles3 <-> Bank były zgodne.
 
 ***
 
