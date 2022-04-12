@@ -22,8 +22,8 @@ Wymagania początkowe:
 - Saldo konta księgowego rachunku bankowego `13x` w programie Weles3 musi być zgodne ze saldem konta bankowego, aby import mógł się rozpocząć. Operacje bankowe będą importowane od ostatniego momentu (daty) dla którego salda Weles3 <-> Bank były zgodne.
 
 Obsługiwane banki:
-- Konta indywidualne > obsługujemy wszystkie banki.
-- Konta biznesowe i korporacyjne > obecnie są obsługiwane ??????, pracujemy nad rozszerzeniem listy banków. Jeśli Państwa bankowe konto biznesowe lub korporacyjne nie znajduje się na liście, to prosimy o maila, sprawdzimy, co da się zrobić.
+- Konta zwykłe > obsługujemy większość banków.
+- Konta biznesowe i korporacyjne > potwierdziliśmy i przetestowaliśmy, że konta ING i Alior dla części korporacyjnej i biznesowej działają poprawnie. Prace nad uruchomieniem usługi dla PKO BP i mBank trwają. Mogą Państwo sprawdzić działanie dla innych banków. Jeśli będzie problem z pozyskaniem dany z rachunku lub zalogowaniem się, to prosimy o kontakt mailowy, wyślemy do banku prośbę o naprawę połączenia.
 
 ***
 
@@ -116,3 +116,8 @@ Gdy autoryzacja przebiegnie pomyślnie, połączony rachunek bankowy zostanie wy
 
 ![Autoryzacja dostępu](autowb14.png)
 
+***
+
+## Import operacji
+
+Import operacji jest bardzo podobny do klasycznego.
