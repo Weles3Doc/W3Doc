@@ -21,6 +21,10 @@ Wymagania początkowe:
     - Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny` > zakładka `Rachunki bankowe`.
 - Saldo konta księgowego rachunku bankowego `13x` w programie Weles3 musi być zgodne ze saldem konta bankowego, aby import mógł się rozpocząć. Operacje bankowe będą importowane od ostatniego momentu (daty) dla którego salda Weles3 <-> Bank były zgodne.
 
+Obsługiwane banki:
+- Konta indywidualne > obsługujemy wszystkie banki.
+- Konta biznesowe i korporacyjne > obecnie są obsługiwane ??????, pracujemy nad rozszerzeniem listy banków. Jeśli Państwa bankowe konto biznesowe lub korporacyjne nie znajduje się na liście, to prosimy o maila, sprawdzimy, co da się zrobić.
+
 ***
 
 ## Autoryzacja dostępu do banku
@@ -111,3 +115,4 @@ Gdy weryfikacja przebiegnie pomyślnie, wyświetli się poniższy komunikat. Zak
 Gdy autoryzacja przebiegnie pomyślnie, połączony rachunek bankowy zostanie wyświetlony na liście w zakładce `Import`. Według powyższej instrukcji należy autoryzować każdy rachunek bankowy, dla którego wyciągi będą pobierane automatycznie.
 
 ![Autoryzacja dostępu](autowb14.png)
+
