@@ -4,8 +4,6 @@ title: Automatyczne pobieranie wyciągów
 
 # Automatyczne pobieranie wyciągów
 
-## >>>>>>>> Instrukcja w przygotowaniu <<<<<<<<
-
 ## Wstęp
 
 W systemie Weles3 udostępniliśmy Państwu nową funkcję, która pozwala na pobieranie operacji bankowych bez konieczności każdorazowego logowania się i pobierania plików wyciągów bankowych. Dzięki niej wystarczy jedno kliknięcie, aby pobrać pozycje do zaksięgowania w systemie. 
