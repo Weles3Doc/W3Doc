@@ -56,7 +56,7 @@ Prosimy zapoznać się z udzielanymi zgodami i regulaminem. Zaznaczyć checkboxy
 
 ![Autoryzacja dostępu](autowb04.png)
 
-##### 1.5Wybierz typ konta.
+##### 1.5 Wybierz typ konta.
 
 Wybierz jeden z typów kont, właściwy dla dodawanego rachunku bankowego.
 
@@ -142,10 +142,33 @@ W tym momencie są możliwe dwie sytuacje:
 
 ##### 2.3 Przypisanie kont
 
+W zakładce `Przypisanie kont`, w polu `Rachunek bankowy` wybieramy wspólnotę i rachunek, dla którego występowały błędy podczas importu. W dolnej części okna załaduje się zestawienie rachunków oraz przypisanych im kont księgowych. Dla pozycji, które mają:
+
+```
+--- BRAK ---
+--- BRAK ---
+```
+
+Należy określić konto księgowe, w tym celu klikamy:
+
+- Po prawej stronie pozycji na ikonę rysika ![Rysik](rysik.png), pozycja załaduje się do górnej części okna.
+- Pole `Nazwa podmiotu` > będzie uzupełnione danymi nadawcy/odbiorcy przelewu.
+- Pole `Treść` > będzie uzupełnione tytułem przelewu, można zmienić na własny opis.
+- Pole `Rachunek podmiotu` > pomijamy.
+- Pole `Konto FK` > na podstawie wcześniejszych pól ustawiamy konto księgowe właściciela lub kontrahenta, ew. inne dowolne np. `2xx-.. Pozycje do wyjaśnienia`.
+- Pole `Konto FK zapłat` > podajemy tutaj konto do zapłat, jeżeli mają być one księgowane na innym koncie niż w polu `Konto FK`, można w ten sposób rozdzielić wpłaty i zapłaty. Może pozostać puste: `BRAK`.
+- Kliknąć: `Dodaj`.
+
+Powyższe czynności powtarzamy dla każdego rachunku obcego, który nie ma przypisanego konta księgowego. Gdy pozycje będą uzupełnione, należy:
+
+- Kliknąć: `Zatwierdź`.
+
+Cały ten profes został przedstawiony na obrazku poniżej.
+
 ![Import automatyczny](autoimpwb03.png)
 
 ##### 2.4 Import
 
-![Import automatyczny](autoimpwb04.png)
+Po przypisaniu wszystkich operacji do kont księgowych wracamy do zakładki `Import`, następnie jeszcze raz klikamy `Analizuj z banku`. Importowany wyciąg będzie miał status `Poprawne pliki`. Po kliknięciu na wyciąg będzie można sprawdzić jego zawartość, poprawne pozycje będą zaznaczone na zielono. Pole `Hasło` oraz przycisk `Importuj poprawne` są aktywne, można od razu przeprowadzić import. W zakładce `Dekrety` zostaną utworzone adekwatne dokumenty WB na każdy dzień osobno, w którym występuje operacja bankowa.
 
-##### Uwagi:
+![Import automatyczny](autoimpwb04.png)
