@@ -116,11 +116,11 @@ Gdy autoryzacja przebiegnie pomyślnie, połączony rachunek bankowy zostanie wy
 
 ***
 
-## 2. Import operacji
+## 2. Import operacji.
 
 Import operacji jest bardzo podobny do klasycznego, z tym że pomijamy całkowicie logowanie się do banku oraz generowanie i pobieranie wyciągu bankowego. 
 
-##### 2.1 Pobranie operacji
+##### 2.1 Pobranie operacji.
 
 Import zaczynamy od przejścia do:
 
@@ -129,7 +129,7 @@ Import zaczynamy od przejścia do:
 
 ![Import automatyczny](autoimpwb01.png)
 
-##### 2.2 Import
+##### 2.2 Import.
 
 W tym momencie są możliwe dwie sytuacje:
 
@@ -138,7 +138,7 @@ W tym momencie są możliwe dwie sytuacje:
 
 ![Import automatyczny](autoimpwb02.png)
 
-##### 2.3 Przypisanie kont
+##### 2.3 Przypisanie kont.
 
 W zakładce `Przypisanie kont`, w polu `Rachunek bankowy` wybieramy wspólnotę i rachunek, dla którego występowały błędy podczas importu. W dolnej części okna załaduje się zestawienie rachunków oraz przypisanych im kont księgowych. Dla pozycji, które mają:
 
@@ -165,7 +165,7 @@ Cały ten profes został przedstawiony na obrazku poniżej.
 
 ![Import automatyczny](autoimpwb03.png)
 
-##### 2.4 Import
+##### 2.4 Import.
 
 Po przypisaniu wszystkich operacji do kont księgowych wracamy do zakładki `Import`, następnie jeszcze raz klikamy `Analizuj z banku`. Importowany wyciąg będzie miał status `Poprawne pliki`. Po kliknięciu na wyciąg będzie można sprawdzić jego zawartość, poprawne pozycje będą zaznaczone na zielono. Pole `Hasło` oraz przycisk `Importuj poprawne` są aktywne, można od razu przeprowadzić import. W zakładce `Dekrety` zostaną utworzone adekwatne dokumenty WB na każdy dzień osobno, w którym występuje operacja bankowa.
 
