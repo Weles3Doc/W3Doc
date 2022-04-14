@@ -104,7 +104,7 @@ Aby zaimportować plik, należy przejść do:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny`.
 - Zakładka `Import`.
-- Pole `Wybierz lub przeciągnij i upuść plik` > wybieramy plik do importu, można też wczytać więcej wyciągów spakowanych archiwum ZIP.
+- Pole `Wybierz lub przeciągnij i upuść plik` > wybieramy lub przeciągamy plik do importu, można też wczytać więcej wyciągów spakowanych archiwum ZIP.
 - Klikamy: `Analizuj wyciągi zwykłe`.
 
 Okno importu zmieni wygląd. Z lewej strony pokażą się importowane pliki. Na liście plików należy kliknąć nazwę importowanego wyciągu.
