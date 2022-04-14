@@ -10,10 +10,6 @@ W systemie Weles3 udostępniliśmy Państwu nową funkcję, która pozwala na po
 
 Usługa jest współrealizowana z naszym partnerem, firmą [Transactionlink sp. z o.o.](www.transactionlink.io), która jest wpisana do rejestru KNF jako dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku (ang. Account Information Service Provider – AISP), to rozwiązanie wprowadzone jest nowelizacją ustawy o usługach płatniczych w związku ze wdrożeniem dyrektywy PSD2. Służy ono prowadzeniu działalności w zakresie świadczenia usług polegających na dostarczaniu posiadaczom rachunków płatniczych skonsolidowanych informacji o tych rachunkach.
 
-Usługa jest dodatkowo płatna.
-
-***
-
 Wymagania początkowe:
 - Każdy rachunek bankowy, dla którego będą pobierane operacje bankowe automatycznie, musi być dodany w:
     - Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny` > zakładka `Rachunki bankowe`.
@@ -23,7 +19,11 @@ Obsługiwane banki:
 - Konta zwykłe > obsługujemy większość banków (banki spółdzielcze nie są obsługiwane).
 - Konta biznesowe i korporacyjne > potwierdziliśmy i przetestowaliśmy, że konta ING i Alior dla części korporacyjnej i biznesowej działają poprawnie. Prace nad uruchomieniem usługi dla PKO BP i mBank trwają. Mogą Państwo sprawdzić działanie dla innych banków. Jeśli będzie problem z pozyskaniem dany z rachunku lub zalogowaniem się, to prosimy o kontakt mailowy, wyślemy do banku prośbę o naprawę połączenia.
 
-***
+Dodatkowe informacje:
+- Usługa jest dodatkowo płatna. 
+- Autoryzacja jest ważna na 89 dni, po upłynięciu tego czasu trzeba ponownie autoryzować dostęp do konta bankowego.
+- Jeśli zasób posiada SWRK (płatności masowe, konta indywidualne) to takie operacje, które zostaną pobrane za pomocą opisywanej funkcji, należy przypisać do konta `141-xx Płatności masowe`. A same wpłaty na rachunki indywidualne, pobrać i zaimportować klasycznie.
+- Zaimportowane operacje zostaną zaksięgowane w zakładce `Dekrety`, w dekretach `WB` na każdy dzień oddzielnie. 
 
 ## 1. Autoryzacja dostępu do banku
 
@@ -170,3 +170,5 @@ Cały ten profes został przedstawiony na obrazku poniżej.
 Po przypisaniu wszystkich operacji do kont księgowych wracamy do zakładki `Import`, następnie jeszcze raz klikamy `Analizuj z banku`. Importowany wyciąg będzie miał status `Poprawne pliki`. Po kliknięciu na wyciąg będzie można sprawdzić jego zawartość, poprawne pozycje będą zaznaczone na zielono. Pole `Hasło` oraz przycisk `Importuj poprawne` są aktywne, można od razu przeprowadzić import. W zakładce `Dekrety` zostaną utworzone adekwatne dokumenty WB na każdy dzień osobno, w którym występuje operacja bankowa.
 
 ![Import automatyczny](autoimpwb04.png)
+
+***
