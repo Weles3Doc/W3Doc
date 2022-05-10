@@ -10,6 +10,12 @@ W systemie Weles3 udostępniliśmy Państwu nową funkcję, która pozwala na po
 
 Usługa jest współrealizowana z naszym partnerem, firmą [Transactionlink sp. z o.o.](www.transactionlink.io), która jest wpisana do rejestru KNF jako dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku (ang. Account Information Service Provider – AISP), to rozwiązanie wprowadzone jest nowelizacją ustawy o usługach płatniczych w związku ze wdrożeniem dyrektywy PSD2. Służy ono prowadzeniu działalności w zakresie świadczenia usług polegających na dostarczaniu posiadaczom rachunków płatniczych skonsolidowanych informacji o tych rachunkach.
 
+Zalety używania funkcji:
+- Nie trzeba logować się do banku, z każdym razem, gdy chcemy pobrać operacje.
+- Nie jest konieczne sprawdzanie i określania zakresu dat dla importowanych operacji.
+- Nie wybieramy typu lub formatu eksportowanego pliku wyciągu.
+- Pobieramy operacje ze wszystkich autoryzowanych rachunków/wspólnot, na raz.
+
 Wymagania początkowe:
 - Każdy rachunek bankowy, dla którego będą pobierane operacje bankowe automatycznie, musi być dodany w:
     - Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny` > zakładka `Rachunki bankowe`.
@@ -17,11 +23,11 @@ Wymagania początkowe:
 
 Obsługiwane banki:
 - Konta zwykłe > obsługujemy większość banków (banki spółdzielcze nie są obsługiwane).
-- Konta biznesowe i korporacyjne > potwierdziliśmy i przetestowaliśmy, że konta ING i Alior dla części korporacyjnej i biznesowej działają poprawnie. Prace nad uruchomieniem usługi dla PKO BP i mBank trwają. Mogą Państwo sprawdzić działanie dla innych banków. Jeśli będzie problem z pozyskaniem dany z rachunku lub zalogowaniem się, to prosimy o kontakt mailowy, wyślemy do banku prośbę o naprawę połączenia.
+- Konta biznesowe i korporacyjne > potwierdziliśmy i przetestowaliśmy, że konta ING, Alior i mBank dla części korporacyjnej i biznesowej działają poprawnie. Prace nad uruchomieniem usługi dla PKO BP trwają. Mogą Państwo sprawdzić działanie dla innych banków. Jeśli będzie problem z pozyskaniem dany z rachunku lub zalogowaniem się, to prosimy o kontakt mailowy, wyślemy do banku prośbę o naprawę połączenia.
 
 Dodatkowe informacje:
-- Usługa jest dodatkowo płatna. 
-- Autoryzacja jest ważna na 89 dni, po upłynięciu tego czasu trzeba ponownie autoryzować dostęp do konta bankowego.
+- Usługa jest darmowa do końca czerwca 2022, po tym okresie będzie dodatkowo płatna. Okres darmowy może się wydłużyć.
+- Autoryzacja jest ważna na 90 dni, po upłynięciu tego czasu trzeba ponownie autoryzować dostęp do konta bankowego.
 - Jeśli zasób posiada SWRK (płatności masowe, konta indywidualne) to takie operacje, które zostaną pobrane za pomocą opisywanej funkcji, należy przypisać do konta `141-xx Płatności masowe`. A same wpłaty na rachunki indywidualne, pobrać i zaimportować klasycznie.
 - Zaimportowane operacje zostaną zaksięgowane w zakładce `Dekrety`, w dekretach `WB` na każdy dzień oddzielnie. 
 
