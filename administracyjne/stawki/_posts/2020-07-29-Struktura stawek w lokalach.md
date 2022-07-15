@@ -4,7 +4,7 @@ title: Struktura stawek w lokalach
 
 # Struktura stawek w lokalach
 
-W celu analizy budynku często potrzebujemy sprawdzić zmiany stawek na wszystkich lokajach jednocześnie. Aby zobaczyć strukturę stawek, należy przejść do:
+W celu analizy budynku często potrzebujemy sprawdzić zmiany stawek na wszystkich lokalach jednocześnie. Aby zobaczyć strukturę stawek, należy przejść do:
 
 - Zakładka `Administracja`.
 - W oknie struktury klikamy na cały budynek.
