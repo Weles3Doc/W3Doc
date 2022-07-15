@@ -2,7 +2,7 @@
 title: Blokada dostępu do kartoteki
 ---
 
-# Blokada odstępu do kartoteki internetowej
+# Blokada dostępu do kartoteki internetowej
 
 Właścicielom można zablokować dostęp do kartoteki, aby to zrobić należny przejść do:
 
