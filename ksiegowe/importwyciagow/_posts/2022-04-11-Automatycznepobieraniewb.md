@@ -21,11 +21,8 @@ Wymagania początkowe:
     - Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny` > zakładka `Rachunki bankowe`.
 - Saldo konta księgowego rachunku bankowego `13x` w programie Weles3 musi być zgodne ze saldem konta bankowego, aby import mógł się rozpocząć. Operacje bankowe będą importowane od ostatniego momentu (daty) dla którego salda Weles3 <-> Bank były zgodne.
 
-Obsługiwane banki:
-- Konta zwykłe > obsługujemy większość banków (banki spółdzielcze nie są obsługiwane).
-- Konta biznesowe i korporacyjne > potwierdziliśmy i przetestowaliśmy, że konta ING, Alior i mBank dla części korporacyjnej i biznesowej działają poprawnie. Prace nad uruchomieniem usługi dla PKO BP trwają. Mogą Państwo sprawdzić działanie dla innych banków. Jeśli będzie problem z pozyskaniem dany z rachunku lub zalogowaniem się, to prosimy o kontakt mailowy, wyślemy do banku prośbę o naprawę połączenia.
-
 Dodatkowe informacje:
+- Obsługiwane banki sprawdzisz w procesie wykonywania autoryzacji.
 - Usługa jest darmowa przez 3 miesiąca dla każdej nieruchomości.
 - Autoryzacja jest ważna na 90 dni, po upłynięciu tego czasu trzeba ponownie autoryzować dostęp do konta bankowego.
 - Jeśli zasób posiada SWRK (płatności masowe, konta indywidualne) to takie operacje, które zostaną pobrane za pomocą opisywanej funkcji, należy przypisać do konta `141-xx Płatności masowe`. A same wpłaty na rachunki indywidualne, pobrać i zaimportować klasycznie.
