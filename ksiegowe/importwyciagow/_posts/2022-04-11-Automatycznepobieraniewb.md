@@ -8,7 +8,7 @@ title: Automatyczne pobieranie wyciągów
 
 W systemie Weles3 udostępniliśmy Państwu nową funkcję, która pozwala na pobieranie operacji bankowych bez konieczności każdorazowego logowania się i pobierania plików wyciągów bankowych. Dzięki niej wystarczy jedno kliknięcie, aby pobrać pozycje do zaksięgowania w systemie. 
 
-Usługa jest współrealizowana z naszym partnerem, firmą [Transactionlink sp. z o.o.](www.transactionlink.io), która jest wpisana do rejestru KNF jako dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku (ang. Account Information Service Provider – AISP), to rozwiązanie wprowadzone jest nowelizacją ustawy o usługach płatniczych w związku ze wdrożeniem dyrektywy PSD2. Służy ono prowadzeniu działalności w zakresie świadczenia usług polegających na dostarczaniu posiadaczom rachunków płatniczych skonsolidowanych informacji o tych rachunkach.
+Usługa jest współrealizowana z naszym partnerem, firmą [Easy Check Sp. z o.o.](https://easycheck.pl/), która jest wpisana do rejestru KNF jako dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku (ang. Account Information Service Provider – AISP), to rozwiązanie wprowadzone jest nowelizacją ustawy o usługach płatniczych w związku ze wdrożeniem dyrektywy PSD2. Służy ono prowadzeniu działalności w zakresie świadczenia usług polegających na dostarczaniu posiadaczom rachunków płatniczych skonsolidowanych informacji o tych rachunkach.
 
 Zalety używania funkcji:
 - Nie trzeba logować się do banku, z każdym razem, gdy chcemy pobrać operacje.
@@ -26,7 +26,7 @@ Obsługiwane banki:
 - Konta biznesowe i korporacyjne > potwierdziliśmy i przetestowaliśmy, że konta ING, Alior i mBank dla części korporacyjnej i biznesowej działają poprawnie. Prace nad uruchomieniem usługi dla PKO BP trwają. Mogą Państwo sprawdzić działanie dla innych banków. Jeśli będzie problem z pozyskaniem dany z rachunku lub zalogowaniem się, to prosimy o kontakt mailowy, wyślemy do banku prośbę o naprawę połączenia.
 
 Dodatkowe informacje:
-- Usługa jest darmowa do końca czerwca 2022, po tym okresie będzie dodatkowo płatna. Okres darmowy może się wydłużyć.
+- Usługa jest darmowa przez 3 miesiąca dla każdej nieruchomości.
 - Autoryzacja jest ważna na 90 dni, po upłynięciu tego czasu trzeba ponownie autoryzować dostęp do konta bankowego.
 - Jeśli zasób posiada SWRK (płatności masowe, konta indywidualne) to takie operacje, które zostaną pobrane za pomocą opisywanej funkcji, należy przypisać do konta `141-xx Płatności masowe`. A same wpłaty na rachunki indywidualne, pobrać i zaimportować klasycznie.
 - Zaimportowane operacje zostaną zaksięgowane w zakładce `Dekrety`, w dekretach `WB` na każdy dzień oddzielnie. 
@@ -50,75 +50,69 @@ W oknie pojawi się komunikat z widocznym linkiem do rozpoczęcia autoryzacji. N
 
 ##### 1.3 Rozpocznij weryfikację.
 
-Aby rozpocząć proces kliknij "Zezwól".
+Zapoznaj się z treścią okna, udziel upoważnień następnie, aby rozpocząć proces, kliknij "Przejdź do autoryzacji".
 
 ![Autoryzacja dostępu](autowb03.png)
 
-##### 1.4 Udziel zgody.
+##### 1.4 Wybierz bank.
 
-Prosimy zapoznać się z udzielanymi zgodami i regulaminem. Zaznaczyć checkboxy i następnie kliknąć przycisk "Zezwól".
+W nowym oknie wybierz bank, w którym posiadasz konto.
 
 ![Autoryzacja dostępu](autowb04.png)
 
 ##### 1.5 Wybierz typ konta.
 
-Wybierz jeden z typów kont, właściwy dla dodawanego rachunku bankowego.
+Wybierz jeden z typów kont, właściwy dla dodawanego rachunku bankowego. W polach wpisz wymagane dane.
 
 ![Autoryzacja dostępu](autowb05.png)
 
-##### 1.6 Wybierz bank.
+##### 1.6 Wyraź zgody.
 
-Wybierz właściwy bank z listy. Jeśli Twój bank nie znajduje się na liście, powiadom dział wsparcia Weles3, sprawdzimy, co da się z tym zrobić.
+Prosimy zapoznać się z udzielanymi zgodami i regulaminem. Zaznaczyć checkboxy i następnie kliknąć przycisk “Przejdź do wybranego banku”.
 
 ![Autoryzacja dostępu](autowb06.png)
 
-##### 1.7 Przejdź na stronę banku.
-
-Kliknij przycisk "Przejdź na stronę banku", aby zostać przekierowany do wybranego banku w celu dokonania autoryzacji.
-
-![Autoryzacja dostępu](autowb07.png)
-
-##### 1.8 Zaloguj się do banku.
+##### 1.7 Zaloguj się do banku.
 
 Następnie należy się zalogować do strony banku. 
 
-![Autoryzacja dostępu](autowb08.png)
+![Autoryzacja dostępu](autowb07.png)
 
-##### 1.9 Udziel zgody.
+##### 1.8 Udziel zgody.
 
 Bank może poprosić o zaznaczenie, dla których rachunków bankowych udzielamy zgód na przekazanie informacji o operacjach bankowych, zaznaczamy właściwe.
 
-![Autoryzacja dostępu](autowb09.png)
+![Autoryzacja dostępu](autowb08.png)
 
-##### 1.10 Potwierdź zgody zgodnie z wymaganiami banku.
+##### 1.9 Potwierdź zgody zgodnie z wymaganiami banku.
 
 Bank może wymusić dodatkowe potwierdzenie operacji udzielania zgód, za pomocą dodatkowych środków, np. za pomocą SMS lub aplikacji bankowej na telefonie.
 
-![Autoryzacja dostępu](autowb10.png)
+![Autoryzacja dostępu](autowb09.png)
 
-##### 1.11 Potwierdzenie udzielenia zgód.
+##### 1.10 Potwierdzenie udzielenia zgód.
 
 Na stronie banku może zostać wyświetlone potwierdzenie udzielania zgód informacyjnych.
 
-![Autoryzacja dostępu](autowb11.png)
+![Autoryzacja dostępu](autowb10.png)
 
-##### 1.12 Weryfikacja przez Transactionlink.
+##### 1.11 Weryfikacja przez Easy Check.
 
 W tym momencie autoryzacja jest przetwarzana i weryfikowana przez zewnętrznego dostawcę, może to potrwać kilka sekund.
 
-![Autoryzacja dostępu](autowb12.png)
+![Autoryzacja dostępu](autowb11.png)
 
-##### 1.13 Weryfikacja zakończona.
+##### 1.12 Weryfikacja zakończona.
 
 Gdy weryfikacja przebiegnie pomyślnie, wyświetli się poniższy komunikat. Zakładkę, w której dokonano autoryzacji, można zamknąć i wrócić do systemu Weles3.
 
-![Autoryzacja dostępu](autowb13.png)
+![Autoryzacja dostępu](autowb12.png)
 
-##### 1.14 Zakładka Import z podłączonym kontem.
+##### 1.13 Zakładka Import z podłączonym kontem.
 
 Gdy autoryzacja przebiegnie pomyślnie, połączony rachunek bankowy zostanie wyświetlony na liście w zakładce `Import`. Według powyższej instrukcji należy autoryzować każdy rachunek bankowy, dla którego wyciągi będą pobierane automatycznie.
 
-![Autoryzacja dostępu](autowb14.png)
+![Autoryzacja dostępu](autowb13.png)
 
 ***
 
