@@ -10,20 +10,48 @@ W systemie Weles3 udostępniliśmy Państwu nową funkcję, która pozwala na po
 
 Usługa jest współrealizowana z naszym partnerem, firmą [Easy Check Sp. z o.o.](https://easycheck.pl/), która jest wpisana do rejestru KNF jako dostawca świadczący wyłącznie usługę dostępu do informacji o rachunku (ang. Account Information Service Provider – AISP), to rozwiązanie wprowadzone jest nowelizacją ustawy o usługach płatniczych w związku ze wdrożeniem dyrektywy PSD2. Służy ono prowadzeniu działalności w zakresie świadczenia usług polegających na dostarczaniu posiadaczom rachunków płatniczych skonsolidowanych informacji o tych rachunkach.
 
-Zalety używania funkcji:
+***
+
+###### Zalety używania funkcji:
 - Nie trzeba logować się do banku, z każdym razem, gdy chcemy pobrać operacje.
 - Nie jest konieczne sprawdzanie i określania zakresu dat dla importowanych operacji.
 - Nie wybieramy typu lub formatu eksportowanego pliku wyciągu.
 - Pobieramy operacje ze wszystkich autoryzowanych rachunków/wspólnot, na raz.
 
-Wymagania początkowe:
+***
+
+###### Wymagania początkowe:
 - Każdy rachunek bankowy, dla którego będą pobierane operacje bankowe automatycznie, musi być dodany w:
     - Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny` > zakładka `Rachunki bankowe`.
 - Saldo konta księgowego rachunku bankowego `13x` w programie Weles3 musi być zgodne ze saldem konta bankowego, aby import mógł się rozpocząć. Operacje bankowe będą importowane od ostatniego momentu (daty) dla którego salda Weles3 <-> Bank były zgodne.
 
-Dodatkowe informacje:
-- Obsługiwane banki sprawdzisz w procesie wykonywania autoryzacji.
-- Usługa jest darmowa przez 3 miesiąca dla każdej nieruchomości.
+***
+
+###### Obsługiwane banki:
+
+| Bank | Rodzaj konta |
+| ---- | ------------ |
+|PKO BP i Intelgo | Indywidualne, JDG, Korporacyjne|
+|Bank Pekao | Indywidualne, JDG|
+|mBank | Indywidualne, JDG, Korporacyjne|
+|Santander Bank Polska | Indywidualne, JDG, Korporacyjne|
+|Bank Millenium | Indywidualne, JDG, Korporacyjne|
+|ING Bank Śląski | Indywidualne, JDG, Korporacyjne|
+|Alior Bank | Indywidualne, JDG, Korporacyjne|
+|BNP Paribas | Indywidualne, JDG, Korporacyjne|
+|Getin Noble Bank | Indywidualne, JDG|
+|Credit Agricole Bank Polska | Indywidualne, JDG|
+
+***
+
+**Uwaga** — banki PKO BP oraz Millennium wymagają podjęcia dodatkowych kroków w celu autoryzacji dostępu. Należy je wykonać przed rozpoczęciem autoryzacji. Poniżej zamieszczamy instrukcje:
+- [Bank PKO BP](Instr_w_banku_PKO_BP.pdf) 
+- [Bank Millennium](Instr_w_banku_Millennium.pdf)
+
+***
+
+###### Dodatkowe informacje:
+- Usługa jest darmowa przez 3 miesiące kalendarzowe dla każdej nieruchomości, liczone od miesiąca, w którym wykonano pierwszą autoryzację.
 - Autoryzacja jest ważna na 90 dni, po upłynięciu tego czasu trzeba ponownie autoryzować dostęp do konta bankowego.
 - Jeśli zasób posiada SWRK (płatności masowe, konta indywidualne) to takie operacje, które zostaną pobrane za pomocą opisywanej funkcji, należy przypisać do konta `141-xx Płatności masowe`. A same wpłaty na rachunki indywidualne, pobrać i zaimportować klasycznie.
 - Zaimportowane operacje zostaną zaksięgowane w zakładce `Dekrety`, w dekretach `WB` na każdy dzień oddzielnie. 
