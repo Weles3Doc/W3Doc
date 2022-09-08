@@ -11,7 +11,7 @@ Po dodaniu konta pocztowego trzeba je przypisać do nieruchomości. Aby to zrobi
 - Pole `Zasób` > wybieramy nieruchomość, jeśli w polu zostanie wybrane `Weles 3 FK`, to konto pocztowe będzie dotyczyło wszystkich nieruchomości.
 - Pole `Konto e-mail` > wybieramy adres, z którego ma być prowadzona wysyłka.
 - Pole `ENVELO` > można dodatkowo wybrać usługę Poczty Polskiej, jeśli została wcześniej zakupiona i skonfigurowana.
-- Pole `Opóźnienie` > podajemy **ilość godzin opóźnienia wysyłki**. Zalecamy od 1 do 4 godzin.
+- Pole `Opóźnienie` > podajemy **ilość godzin opóźnienia wysyłki**. Zalecamy od 1 do 4 godzin. **(Puste pole = 24 godz.)**
 - Klikamy: `Dodaj`.
 - Powtarzamy czynności dla innych nieruchomości, jeśli trzeba.
 - Klikamy: `Zatwierdź`.
