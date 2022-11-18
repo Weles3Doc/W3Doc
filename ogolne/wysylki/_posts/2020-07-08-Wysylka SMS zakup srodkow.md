@@ -28,5 +28,5 @@ Z lewej strony okna powinien od razu pojawić się wykupiony pakiet. Kwota zosta
 - Wartość wykupionego pakietu SMS zostanie dodana do jednej z kolejnych faktur za korzystanie z systemu. 
 - W przypadku standardowego SMS-a jedna wiadomość zajmuje około 160 znaków — po przekroczeniu ilości znaków system wyśle więcej niż 1 wiadomość. 
 - W przypadku gdy właściciel ma wprowadzonych kilka numerów kontaktowych, program wyśle wiadomość na każdy z nich. 
-- Po ustawieniu wysyłki, system wyśle wiadomości w pierwszej aktywnej sesji (sesje są w godzinach od około 10:00 do 20:00).
+- Po ustawieniu wysyłki, system wyśle wiadomości w pierwszej aktywnej sesji (sesje są w godzinach od około 9:00 do 18:00).
 - Regulamin dotyczący wysyłki SMS znajduje się [TUTAJ](https://docs.google.com/document/d/10HBuFcquTAQhHlhH8buiezpAowFSK4MZujMfgxSNaKc/).
