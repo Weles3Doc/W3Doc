@@ -2,9 +2,7 @@
 title: Rozliczenia ciepła
 ---
 
-# Rozliczenia ciepła
-
-Instrukcja w przygotowaniu
+# Rozliczenia ciepła (Instrukcja w przygotowaniu)
 
 W związku z wejściem w życie [rozporządzenia Ministra Klimatu i Środowiska z dnia 7 grudnia 2021 roku](https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20210002273) zaimplementowaliśmy w systemie możliwość przekazywania użytkownikom lokali dodatkowych informacji dotyczących kosztów zakupu ciepła w zakresie przewidzianym przedmiotowym rozporządzeniem.
 
