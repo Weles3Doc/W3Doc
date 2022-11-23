@@ -13,7 +13,7 @@ Aby określić parametry pozwalające wyliczyć dodatkowe informacje w sprawie r
 - Zakładka `Administracja` > menu `Elementy` > `Rozliczenia ciepła`.
 - Zakładka `Edycja`.
 - Pole `Grupa liczników` > wybieramy grupę liczników zawierającą liczniki uczestniczące w rozliczeniu ciepła.
-- Pole `Struktura` > w większości przypadków wybieramy cały zasób, jeśli chociaż jeden z parametrów ustalanych w dalszych polach jest inny dla danej grupy lokali, należy je rozdzielić, dodając dwie lub więcej pozycji.
+- Pole `Struktura` > w większości przypadków wybieramy cały zasób, jeśli chociaż jeden z parametrów ustalanych w dalszych polach jest inny dla danej grupy lokali, należy je rozdzielić, dodając dwie lub więcej pozycji na każdą ze struktur.
 - Pole `Od` > ustalamy datę obowiązywania wprowadzonej pozycji. Zazwyczaj będzie to pierwszy dzień okresu rozliczeniowego (na przykład 1 stycznia lub 1 lipca). Pozycję można dodać z datą przeszłą, dzięki temu zyskamy możliwość porównywania obecnych rozliczeń do dużo starszych okresów rozliczeniowych.
 - Pole `Typ` > ustawiamy `Ciepłomierze` lub `Podzielniki` w zależności, jakie urządzenie jest zainstalowane w lokalach danej struktury.
 - Pole `Koszt GJ` > wybieramy stawkę, w której jest zawarta cena jednostkowa ciepła.
