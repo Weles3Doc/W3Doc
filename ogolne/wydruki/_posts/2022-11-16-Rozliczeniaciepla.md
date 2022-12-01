@@ -19,12 +19,14 @@ Aby określić parametry pozwalające wyliczyć dodatkowe informacje w sprawie r
 - Pole `Koszt GJ` > wybieramy stawkę, w której jest zawarta cena jednostkowa ciepła.
 - Pole `Współczynnik struktury` > dotyczy tylko podzielników, wybieramy daną, w której są zawarte współczynniki wyrównawcze.
 - Pole `Powierzchnia` > ustawiamy daną, która reprezentuje powierzchnię, która zostanie wykorzystana do wyliczenia średniej ilości jednostek ciepła na jednostkę powierzchni na miesiąc.
-- Pole `Minimum GJ/m2` > dotyczy tylko podzielników, minimalny koszt ciepła.
-- Pole `Maksimum GJ/m2` > dotyczy tylko podzielników, maksymalny koszt ciepła.
+- Pole `Minimum GJ/m2` > dotyczy tylko podzielników, minimalny koszt ciepła, wyrażony w GJ/m2/miesiąc.
+- Pole `Maksimum GJ/m2` > dotyczy tylko podzielników, maksymalny koszt ciepła, wyrażony w GJ/m2/miesiąc.
 - Pole `Temperatura` > można pozostawić puste lub uzupełnić wartość wynikającą z normy: [https://nowoczesnyzarzadca.pl/2022/09/19/rozliczenia-ciepla](https://nowoczesnyzarzadca.pl/2022/09/19/rozliczenia-ciepla.html)
 - Kliknąć `Dodaj`.
 
 Dodajemy więcej pozycji, jeśli chociaż jeden z parametrów ustalanych w polach jest inny dla danej grupy lokali. Pozycje zazwyczaj ustalamy tylko raz, jeśli żaden z parametrów się nie zmienia. Wprowadzone pozycje można dowolnie edytować.
+
+![Rozliczenia ciepła parametry](rozl_co_parametry.gif)
 
 ### Sprawdzenie wyników
 
@@ -38,6 +40,8 @@ Po ustawieniu parametrów można od razu sprawdzić wynik działania opisywanej 
 - Pole `Struktura` > wybieramy strukturę, dla której zostały określone parametry i dla której chcemy zapoznać się z wynikami funkcji.
 
 W środkowej części okna wyświetlą się lokale oraz wyliczone dla nich parametry. Po wybraniu lokalu z listy, w dolnej części okna wyświetli się porównanie parametrów z różnych okresów rozliczeniowych.
+
+![Rozliczenia ciepła parametry](rozl_co_wyniki.gif)
 
 ### Wydruk dodatkowych informacji
 
