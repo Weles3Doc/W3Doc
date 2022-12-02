@@ -45,7 +45,7 @@ W środkowej części okna wyświetlą się lokale oraz wyliczone dla nich param
 
 ### Wydruk dodatkowych informacji
 
-Ady na wydruku rozliczenia dodać tabelkę z dodatkowymi informacjami, należy użyć elementu `Rozliczenia ciepła`:
+Aby na wydruku rozliczenia dodać tabelkę z dodatkowymi informacjami, należy użyć elementu `Rozliczenia ciepła`:
 
 ![Rozliczenia ciepła element](rozl_co_element.png)
 
@@ -110,7 +110,9 @@ Opis kolumn:
 - Kolumna `JM` > jednostka miary `GJ`.
 - Kolumna `Pow.` > wartość pochodząca z pola `Powierzchnia`.
 - Kolumna `Temp.` > wartość pochodząca z pola `Temperatura`.
-- Kolumna `Licznik` > zużycie licznika.
+- Kolumna `Koszt min` > iloczyn pól `Minimum GJ/m2` i `Koszt Gj`.
+- Kolumna `Koszt max` > iloczyn pól `Maksimum GJ/m2` i `Koszt Gj`.
+- Kolumna `Ryczałt` > teoretyczne zużycie licznika, iloraz pól `Koszt` i `Koszt GJ`.
 - Kolumna `Średnie` > średnie zużycie GJ na jednostkę powierzchni na miesiąc, wyliczone na podstawie:
 
             Koszt ciepła na lokal / Koszt GJ / Powierzchnia / Ilość miesięcy
