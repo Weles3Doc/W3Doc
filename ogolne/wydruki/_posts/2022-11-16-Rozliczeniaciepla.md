@@ -51,9 +51,17 @@ Aby na wydruku rozliczenia dodać tabelkę z dodatkowymi informacjami, należy u
 
 Opis ustawień:
 
-- Pole `Miesiąc` > wybieramy rozliczenie, w którym znajduje się rozliczenia liczników lub podzielników, można wybrać RL lub RK ciepła, w zależności, do jakich kwot chcemy odnieść obliczenia tej funkcji.
-- Pole `Okres bazowy — przesunięcie` > ustawiany częstotliwość rozliczeń. 1 - rok; 2 - półroczne; 4 - kwartalne. Parametr odpowiada za porównywanie okresów rozliczeniowych.
-- Pole `Okres bazowy — liczba` > ustawiamy ilość pokazywanych okresów rozliczeniowych w tabelce, które można porównać (2, 3, 4,).
+- Pole `Miesiąc` > wybieramy rozliczenie, w którym znajduje się rozliczenia liczników lub podzielników, można wybrać RL lub RK ciepła.
+- Pole `Okres bazowy — przesunięcie` > ustawiany pomijanie rozliczeń do wydruku w tabelce:
+    - `0` > brak pomijania, pokazujemy każdy poprzedni okres rozliczeniowy. (roczne)
+    - `1` > pomija poprzedni jeden okres rozliczeniowy. (półroczne)
+    - `2` > pomija poprzednie dwa okresy rozliczeniowe. 
+    - `4` > pomija poprzednie trzy okresy rozliczeniowe. (kwartalnie)
+- Pole `Okres bazowy — liczba` > ustawiamy ilość pokazywanych okresów rozliczeniowych w tabelce, które można porównać:
+    - `0` > bieżące rozliczenie, wybrane w polu `Miesiąc`.
+    - `1` > bieżące + jedno poprzednie.
+    - `2` > bieżące + dwa poprzednie.
+    - `4` > bieżące + trzy poprzednie.
 - Pole `Zużycie właścicieli` > decydujemy, czy w przypadkach zmian właścicieli lokalu, w tabelce ma się wyświetlać zużycie poprzedniego właściciela. 
 - Pole `Wykres` > decydujemy czy wykres ma się znaleźć w kolumnie z wartością średnich, czy obok w osobnej kolumnie.
 - Pole `Tytuł` > wpisujemy tytuł tabelki.
