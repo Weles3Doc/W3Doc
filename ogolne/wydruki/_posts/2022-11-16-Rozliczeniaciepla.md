@@ -15,16 +15,23 @@ Aby określić parametry pozwalające wyliczyć dodatkowe informacje w sprawie r
 - Pole `Grupa liczników` > wybieramy grupę liczników zawierającą liczniki uczestniczące w rozliczeniu ciepła.
 - Pole `Struktura` > w większości przypadków wybieramy cały zasób, jeśli chociaż jeden z parametrów ustalanych w dalszych polach jest inny dla danej grupy lokali, należy je rozdzielić, dodając dwie lub więcej pozycji na każdą ze struktur.
 - Pole `Od` > ustalamy datę obowiązywania wprowadzonej pozycji. Zazwyczaj będzie to pierwszy dzień okresu rozliczeniowego (na przykład 1 stycznia lub 1 lipca). Pozycję można dodać z datą przeszłą, dzięki temu zyskamy możliwość porównywania obecnych rozliczeń do dużo starszych okresów rozliczeniowych.
-- Pole `Typ` > ustawiamy `Ciepłomierze` lub `Podzielniki` w zależności, jakie urządzenie jest zainstalowane w lokalach danej struktury.
+- Pole `Typ` > ustawiamy `Ciepłomierze` lub `Podzielniki` w zależności, jakie urządzenie jest zainstalowane w lokalach danej struktury. W przypadku ryczałtu ustawiamy `Ciepłomierze`.
 - Pole `Koszt GJ` > wybieramy stawkę, w której jest zawarta cena GJ ciepła. Dodajemy ją zawsze niezależnie od jednostki, w której liczą liczniki/podzielniki ciepła.
 - Pole `Współczynnik struktury` > dotyczy tylko podzielników, wybieramy daną, w której są zawarte współczynniki wyrównawcze. Można pozostawić to pole puste, wtedy współczynnik będzie pominięty.
 - Pole `Powierzchnia` > ustawiamy daną, która reprezentuje powierzchnię, która zostanie wykorzystana do wyliczenia średniej ilości jednostek ciepła na jednostkę powierzchni na miesiąc.
-- Pole `Minimum GJ/m2` > dotyczy tylko podzielników, minimalny koszt ciepła, wyrażony w GJ/m2/miesiąc.
-- Pole `Maksimum GJ/m2` > dotyczy tylko podzielników, maksymalny koszt ciepła, wyrażony w GJ/m2/miesiąc.
+- Pole `Minimum GJ/m2` > dotyczy tylko podzielników, minimalny koszt ciepła, wyrażony w GJ/m2/miesiąc (nie kwota). Wartość tego pola zostanie pomnożona przez koszt GJ na wydrukach.
+- Pole `Maksimum GJ/m2` > dotyczy tylko podzielników, maksymalny koszt ciepła, wyrażony w GJ/m2/miesiąc (nie kwota). Wartość tego pola zostanie pomnożona przez koszt GJ na wydrukach.
 - Pole `Temperatura` > można pozostawić puste lub uzupełnić wartość wynikającą z normy: [https://nowoczesnyzarzadca.pl/2022/09/19/rozliczenia-ciepla](https://nowoczesnyzarzadca.pl/2022/09/19/rozliczenia-ciepla.html). Parametr ten nie jest brany do obliczeń, jest tylko pokazywany na wydruku.
 - Kliknąć `Dodaj`.
 
-Dodajemy więcej pozycji, jeśli chociaż jeden z parametrów ustalanych w polach jest inny dla danej grupy lokali. Pozycje zazwyczaj ustalamy tylko raz, jeśli żaden z parametrów się nie zmienia. Wprowadzone pozycje można dowolnie edytować. Pozycje należy zdefiniować zawsze, nawet jeśli nie mamy liczników i podzielników.
+Dodajemy więcej pozycji, jeśli chociaż jeden z parametrów ustalanych w polach jest inny dla danej grupy lokali. Pozycje zazwyczaj ustalamy tylko raz, jeśli żaden z parametrów się nie zmienia. Wprowadzone pozycje można dowolnie edytować. 
+
+Brak liczników:
+
+- Wyżej wymienioną pozycję pozycje należy zdefiniować zawsze, nawet jeśli nie mamy liczników i podzielników.
+- Trzeba zdefiniować termin rozliczenia ciepła w menu `Elementy` > `Terminy rozliczenia liczników`.
+- Należy dodać stawkę do zasobu, w której podamy cenę jednostkową ciepła i ustawić ja w polu `Koszt GJ`.
+- Algorytm rozliczający ciepło powinien mieć część licznikową, jeśli nie ma, prosimy o kontakt z działem wsparcia.
 
 ![Rozliczenia ciepła parametry](rozl_co_parametry.gif)
 
