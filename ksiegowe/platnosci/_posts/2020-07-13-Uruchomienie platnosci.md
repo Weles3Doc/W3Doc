@@ -66,7 +66,7 @@ Ostatecznie potwierdzamy konta do wpłat i akceptujemy regulamin. Aby to zrobić
 - Klikamy: `Edycja`.
 - Pole `Wspólnota` > powinno być uzupełnione, sprawdzamy je.
 - Pole `NIP` > powinno być uzupełnione, sprawdzamy je.
-- Pole `Adres` >powinno być uzupełnione, sprawdzamy je.
+- Pole `Adres` > pozostawiamy puste, pole uzupełni się po zatwierdzeniu zmian (jeśli wszystko będzie w porządku).
 - Pole `Konta bankowe` > powinno być uzupełnione, sprawdzamy je.
 - Pole `Dozwolone` > wpisujemy numer konta bankowego lub maskę kont płatności masowych:
   - Numer konta bankowego wpisujemy wtedy, gdy WM nie ma płatności masowych.  Jeśli rachunki są dwa (lub więcej) to każdy wpisujemy w nowej linii.
