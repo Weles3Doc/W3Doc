@@ -52,6 +52,8 @@ W środkowej części okna wyświetlą się lokale oraz wyliczone dla nich param
 
 ### Wydruk dodatkowych informacji
 
+**Przykład wydruku**: [Rozliczenie ciepła z dodatkowymi informacjami](przykladrozlcoponowemu.pdf). Plik proszę potraktować jako przykład, należy go dostosować do własnych potrzeb.
+
 Aby na wydruku rozliczenia dodać tabelkę z dodatkowymi informacjami, należy użyć elementu `Rozliczenia ciepła`:
 
 ![Rozliczenia ciepła element](rozl_co_element.png)
