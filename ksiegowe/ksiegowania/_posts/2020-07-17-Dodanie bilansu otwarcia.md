@@ -71,7 +71,7 @@ W systemie można zaimportować salda właścicieli (salda kont 201). Salda pozo
 
 Gdzie:
 
-- Kolumna `MIE` > podajemy numer lokalu oraz numer konta rozrachunkowego, są one oddzielone znakiem pionowej kreski `|` (znak ten zazwyczaj znajduje się obok Enteru). Przykład: `M01|1`. Numer lokalu musi być taki sam jak w systemie. Numery (id) podkont rozrachunkowych można sprawdzić w zakładka `Administracja` > menu `Elementy` > `Konta należności`. Ewentualnie w kolumnie można podać numer konta rozrachunkowego właściciela np: `201-1-0000001-1`.
+- Kolumna `MIE` > podajemy numer lokalu oraz numer konta rozrachunkowego, są one oddzielone znakiem pionowej kreski `|` (znak ten zazwyczaj znajduje się obok Enteru). Przykład: `M01|1`. Numer lokalu musi być taki sam jak w systemie. Numery (id) podkont rozrachunkowych można sprawdzić w zakładka `Administracja` > menu `Elementy` > `Konta należności`.
 - Kolumna `TR` > uzupełniamy w niej dowolny tekst, np. `Bilans na 2020-01-01`.
 - Ostatnia kolumna musi mieć określony nagłówek: `BO` spacja `nr konta technicznego`. Przykład: `BO 999-01`. Numer konta technicznego to zazwyczaj 999-01 lub 999-1, należy sprawdzić w planie kont. W tej kolumnie wpisujemy salda właścicieli:
   - Jeśli właściciel jest na `minus`, to kwotę wprowadzamy ze `znakiem ujemnym`. Saldo zaimportuje się po stronie Wn konta 201.
