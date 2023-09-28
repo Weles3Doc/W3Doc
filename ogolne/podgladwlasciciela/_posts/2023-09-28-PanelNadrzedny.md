@@ -35,6 +35,6 @@ Logowanie do panelu przebiega następująco:
 - Wraca na stronę logowania > wpisuje kod w polu `Kod`.
 - Klika: `Weryfikuj kod`.
 
-Po kliknięciu zostanie przeniesiony na stronę, gdzie będą widoczne wszystkie kartoteki podłączone pod danych adres e-mail. Właścicielowi przy każdym logowaniu jest generowany nowy kod.
+Po kliknięciu zostanie przeniesiony na stronę, gdzie będą widoczne wszystkie kartoteki podłączone pod dany adres e-mail. Właścicielowi przy każdym logowaniu jest generowany nowy kod.
 
 ![Dodanie e-mail](panelnadrzlogow.gif)
