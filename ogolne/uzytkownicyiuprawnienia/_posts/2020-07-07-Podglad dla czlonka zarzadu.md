@@ -4,20 +4,19 @@ title: Podgląd dla członka zarządu
 
 # Podgląd dla członka zarządu
 
-Aby nadać członkowi Zarządu dostęp bierny — tylko do podglądu, bez możliwości zmian należy dodać nowe konto użytkownika oraz nadać uprawnienia do konkretnego budynku. W tym celu przechodzimy do:
+Aby nadać członkowi Zarządu dostęp bierny — tylko do podglądu, bez możliwości zmian, należy dodać nowe konto użytkownika oraz nadać uprawnienia do konkretnego budynku. W tym celu przechodzimy do:
 
 - Zakładki `Zasoby` > menu `Funkcje` > `Administratorzy`.
 - Kliknąć: `Nowy`.
 - Pole `Administratorzy` > wpisujemy nazwę użytkownika. Nazwą może być imię i nazwisko, jednak sugerujemy tutaj stworzenie jej od nazwy nieruchomości. Nazwę nadajemy na zasadzie: Z + NazwaWM + Nr, przykładowo: Z-Wiatraczna-1.
-- Pole `Końcówka` > wpisujemy krótką frazę, która doda się do loginu użytkownika. (patrz uwagi)
+- Pole `Końcówka` > wpisujemy krótką frazę, która doda się do loginu użytkownika. (**Patrz uwagi**)
 - Pole `Hasło` > podajemy hasło tymczasowe dla użytkownika.
 - Pole `Uprawnienia` > **nie nadajemy żadnych uprawnień (WAŻNE!).**
-- Pole `Hasło` > wpisujemy własne hasło.
 - Klikamy: `Zapisz`.
 
-Nie zamykamy okna, trzeba jeszcze nadać uprawnienia do budynku.
-
 ![Dodawanie użytkownika](zarzad1.gif)
+
+Nie zamykamy okna, trzeba jeszcze nadać uprawnienia do budynku.
 
 - Przechodzimy do zakładki: `Uprawnienia`.
 - Klikamy: `Edycja`.
@@ -25,7 +24,6 @@ Nie zamykamy okna, trzeba jeszcze nadać uprawnienia do budynku.
 - Pole `Wspólnota` > wybieramy budynek, do której wybrany użytkownik ma mieć podgląd.
 - Pole `Dostęp` > wybieramy **Dostępny**.
 - Pole `Uprawnienia` > **nie nadajemy żadnych uprawnień (WAŻNE!).**
-- Pole `Hasło` > wpisujemy własne hasło.
 - Klikamy: `Zapisz`.
 
 ![Dodawanie uprawnień](zarzad2.gif)
