@@ -13,9 +13,8 @@ Aby nadać lub odebrać użytkownikowi uprawnienia ogólne, należy przejść do
 - Pole `Końcówka` > pomijamy.
 - Pole `Hasło` > pomijamy.
 - Pole `Uprawnienia` > przypisujemy użytkownikowi dostęp do funkcji systemu.
-- Pole `Hasło` > wpisujemy własne hasło.
 - Klikamy: `Zapisz`.
 
-Uprawnienia są zmieniane natychmiastowo. Użytkownik na swoim urządzeniu musi odświeżyć program przez menu `Funkcje` > `Odśwież`. (Lub Ctrl + F 5)
+Uprawnienia są zmieniane natychmiastowo. Użytkownik na swoim urządzeniu musi odświeżyć program przez menu `Funkcje` > `Odśwież`. (Lub `Ctrl + F5`)
 
 ![Uprawnienia ogólne](uprawnieniaogolne.gif)
