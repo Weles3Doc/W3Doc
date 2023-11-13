@@ -1,6 +1,7 @@
 ---
 title: Problemy z logowaniem
 ---
+
 # Problemy z logowaniem
 
 Instrukcja dla administratorów systemu. Najczęściej spotykane problemy przy logowaniu:
@@ -15,6 +16,6 @@ Instrukcja dla administratorów systemu. Najczęściej spotykane problemy przy l
 - Sprawdź, czy na twoim komputerze nie przełączył się układ klawiatury.
 - Sprawdź, czy zainstalowane w przeglądarce dodatki nie mają negatywnego wpływu na logowanie.
 - Sprawdź, czy logowanie działa na innej przeglądarce lub komputerze.
-- Jako ostateczność spróbuj wyczyścić pamięć podręczną przeglądarki Alt + Shift + Del.
+- Jako ostateczność spróbuj wyczyścić pamięć podręczną przeglądarki `Alt + Shift + Del`.
 
 Ostatecznie, w sprawach niewyjaśnionych prosimy o kontakt z działem wsparcia.
