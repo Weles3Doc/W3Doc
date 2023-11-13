@@ -7,7 +7,7 @@ title: Nadawanie uprawnień do budynku
 Aby nadać użytkownikowi uprawnienia do konkretnej nieruchomości, należy przejść do:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Administratorzy`.
-- Przechodzimy do zakładki: `Uprawnienia`.
+- Zakładka `Uprawnienia`.
 - Kliknąć: `Edycja`.
 - Pole `Administratorzy` > zaznaczamy osobę (można wybrać kilka).
 - Pole `Wspólnota` > zaznaczamy budynek (można wybrać kilka).
@@ -15,10 +15,9 @@ Aby nadać użytkownikowi uprawnienia do konkretnej nieruchomości, należy prze
   - `Niedostępny` > osoba nie będzie widziała budynku w systemie.
   - `Dostępny` > osoba widzi budynek w systemie.
 - Pole `Uprawnienia` > przypisujemy użytkownikowi dostęp do funkcji systemu.
-- Pole `Hasło` > wpisujemy hasło.
 - Klikamy: `Zapisz`.
 
-Uprawnienia są zmieniane natychmiastowo. Użytkownik na swoim urządzeniu musi odświeżyć program przez menu `Funkcje` > `Odśwież`. (Lub Ctrl + F 5)
+Uprawnienia są zmieniane natychmiastowo. Użytkownik na swoim urządzeniu musi odświeżyć program przez menu `Funkcje` > `Odśwież`. (Lub `Ctrl + F5`)
 
 ![Uprawnienia do budynku](uprawnieniabudynku.gif)
 
