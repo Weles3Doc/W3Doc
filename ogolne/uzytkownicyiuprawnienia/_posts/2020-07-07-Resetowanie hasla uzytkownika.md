@@ -13,7 +13,6 @@ Aby zresetować hasło dostępu użytkownikowi, należy przejść do:
 - Pole `Końcówka` > pomijamy.
 - Pole `Hasło` > wpisujemy nowe hasło tymczasowe.
 - Pole `Uprawnienia` > pomijamy.
-- Pole `Hasło` > wpisujemy własne hasło.
 - Klikamy: `Zapisz`.
 
 Przekazujemy nowe hasło tymczasowe użytkownikowi. System przy pierwszym logowaniu wymusi zmianę hasła na swoje.
