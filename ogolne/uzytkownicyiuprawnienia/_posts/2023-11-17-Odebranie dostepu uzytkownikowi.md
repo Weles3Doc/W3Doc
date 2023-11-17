@@ -7,7 +7,7 @@ title: Odebranie dostępu użytkownikowi
 Aby zablokować użytkownikowi dostęp do systemu Weles 3, należy nadać osobie długie, losowe hasło oraz odebrać wszelkie uprawnienia. W tym celu przechodzimy do:
 
 - Zakładki `Zasoby` > menu `Funkcje` > `Administratorzy`.
-- Z listy administratorów wybieramy pożądaną osobę.
+- Z listy administratorów wybieramy żądaną osobę.
 - Kliknąć: `Edycja`.
 - Pole `Administratorzy` > pomijamy.
 - Pole `Końcówka` > pomijamy.
@@ -21,7 +21,7 @@ Nie zamykamy okna, trzeba jeszcze odebrać uprawnienia do budynków.
 
 - Zakładka: `Uprawnienia`.
 - Klikamy: `Edycja`.
-- Pole `Administratorzy` > wybieramy pożądaną osobę. (można wybrać kilka).
+- Pole `Administratorzy` > wybieramy żądaną osobę. (można wybrać kilka).
 - Pole `Wspólnota` > wybieramy wszystkie zasoby.
 - Pole `Dostęp` > wybieramy **Niedostępny (WAŻNE!).**
 - Pole `Uprawnienia` > nie powinno się wyświetlić.
