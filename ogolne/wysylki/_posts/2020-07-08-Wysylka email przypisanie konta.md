@@ -8,14 +8,16 @@ Po dodaniu konta pocztowego trzeba je przypisać do nieruchomości. Aby to zrobi
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Wysyłka e-mail`.
 - Zakładka `Przypisanie kont pocztowych`.
-- Pole `Zasób` > wybieramy nieruchomość, jeśli w polu zostanie wybrane `Weles 3 FK`, to konto pocztowe będzie dotyczyło wszystkich nieruchomości.
+- Pole `Zasób` > wybieramy:
+  - `Weles 3 FK` > dodana tutaj skrzynka będzie domyślna dla wszystkich zasobów, nie trzeba więc dodawać oddzielnych pozycji dla każdego zasobu.
+  - `Zasób` > dodana pozycja będzie indywidualna dla wskazanego zasobu.
 - Pole `Konto e-mail` > wybieramy adres, z którego ma być prowadzona wysyłka.
-- Pole `ENVELO` > można dodatkowo wybrać usługę Poczty Polskiej, jeśli została wcześniej zakupiona i skonfigurowana.
+- Pole `ENVELO (Poczta Polska)` > można dodatkowo wybrać usługę Poczty Polskiej, jeśli została wcześniej zakupiona i skonfigurowana.
 - Pole `Opóźnienie` > podajemy **ilość godzin opóźnienia wysyłki**. Zalecamy od 1 do 4 godzin. **(Puste pole = 24 godz.)**
 - Klikamy: `Dodaj`.
 - Powtarzamy czynności dla innych nieruchomości, jeśli trzeba.
 - Klikamy: `Zatwierdź`.
 
-Wysyłka e-mail następuje w sesjach co 1 godzinę. Opóźnienie ma uniemożliwić przypadkowe wysłanie niesprawdzonych i pospiesznie przygotowywanych dokumentów. Jeśli pole Opóźnienie pozostanie puste, to opóźnienie wyniesie 1 dzień.
+Wysyłka e-mail następuje w sesjach co 1 godzinę, o równych godzinach. Opóźnienie ma uniemożliwić przypadkowe wysłanie niesprawdzonych i pospiesznie przygotowywanych dokumentów.
 
 ![Przypisanie konta](przypisaniekontaemail.gif)
