@@ -23,12 +23,12 @@ Zamykamy okno wydruków lub pozostawiamy otwarte. Po przekazaniu wydruków do wy
 
 ![Wysyłka e-mail](wysylkaemailwydruk.gif)
 
-#### Wysyłka wiadomości e-mail
+#### Ustawienie parametrów wysyłki
 
 Przechodzimy do definiowania właściwej wysyłki, przechodzimy do:
 
 - Zakładka `Administracja` > menu `Funkcje` > `Wysyłka e-mail`.
-- W lewej stronie okna **klikamy** na wysyłkę `-- NOWY --`.
+- Po lewej stronie okna **klikamy** na wysyłkę `-- NOWY --`.
 
 W środkowej części okna wyświetlą się parametry wydruków oraz lista właścicieli, dla których zostały one stworzone. Ustawienie mailingu robimy przez:
 
@@ -42,14 +42,28 @@ W środkowej części okna wyświetlą się parametry wydruków oraz lista wła�
 - Pole `Pliki` > służy do załączania wspólnych załączników, które trafią jednakowe do wszystkich właścicieli w danej wysyłce.
 - Klikamy: `Zapisz`.
 
-Wysyłka zmieni tytuł, aby ją rozesłać, należy:
-
-- Kliknąć: `Roześlij`.
-
-Wysyłka zmieni grupę na `Zaplanowane`, obok nazwy zostanie określona data i godzina wysyłki. Wysyłkę można odwołać, klikając `Wstrzymaj rozsyłanie` oraz następnie usunąć, klikając `Usuń`.
-
-Po prawej stronie okna, w polu `E-Mail` można wpisać swój mail, następnie kliknąć `Wyślij e-mail testowy`. Na wskazany adres zostanie wysłany przykład wiadomości, dzięki temu można sprawdzić treść, załącznik oraz czy ogólnie skrzynka jest poprawnie ustawiona.
-
-Każdy z właścicieli otrzyma tylko swój załącznik. Wydruk do wysyłki tworzony jest w momencie faktycznej wysyłki, a nie w momencie jej definiowania. Jeżeli w międzyczasie dokonamy zmian w systemie, które wpłyną na wydruk, to może on ulec zmianie. Wysyłka zajdzie tylko dla właścicieli, którzy mają uzupełniony poprawnie adres e-mail w menu `Zasoby` > `Edytuj dane właścicieli` > Pole `E-mail`. Jeśli właściciel ma nie brać udziału w wysyłce, to jego adres należy usunąć z pola `E-mail` i wpisać w pole `Informacja`. Do wysyłki z programu nie można podpiąć zewnętrznych załączników.
+Okno edycji zamknie się, a wysyłka zmieni tytuł na ustawiony. Mailing już gotowy, sposób rozesłania omówimy w następnym punkcie instrukcji.
 
 ![Wysyłka e-mail](wysylkaemail.gif)
+
+#### Rozesłanie e-mail
+
+Gdy mamy ustawione parametry wysyłki można ją rozesłać, aby to zrobić, należy kliknąć:
+
+- Przycisk `Roześlij`.
+
+Wysyłka zmieni grupę na `Zaplanowane`, obok nazwy zostanie określona data i godzina wysyłki. Wysyłkę można odwołać, klikając `Wstrzymaj rozsyłanie` oraz następnie usunąć, klikając `Usuń`. Wysyłka e-mail następuje w sesjach co 1 godzinę, o najbliższych równych godzinach. Każdy z właścicieli otrzyma tylko swój załącznik. Wysyłka zajdzie tylko dla właścicieli, którzy mają uzupełniony poprawnie adres e-mail w menu `Zasoby` > `Edytuj dane właścicieli` > Pole `E-mail`. Jeśli właściciel ma nie brać udziału w wysyłce, to jego adres należy usunąć z pola `E-mail` i wpisać w pole `Informacja`.
+
+![Wysyłka e-mail](wysylkaemailrozeslanie.gif)
+
+#### Dodatkowe opcje
+
+- Po prawej stronie okna, w polu `E-Mail` można wpisać swój mail, następnie kliknąć `Wyślij e-mail testowy`. Na wskazany adres zostanie wysłany przykład wiadomości, dzięki temu można sprawdzić treść, załącznik oraz ogólne, czy skrzynka jest poprawnie ustawiona. Zalecamy to zrobić przed kliknięciem `Roześlij`.
+
+- Przycisk `Podgląd wydruku e-mail` > pozwala na pobranie załączników z danej wysyłki.
+
+- Przycisk `Edycja wydruku` > TBA
+
+- Przycisk `Raport z wysyłki` > umożliwia pobranie PDF ze statusami wysyłek dla każdego właściciela.
+
+- Przycisk `Ponów niezrealizowane` > gdy w wysyłce pojawią się błędy, np. błędny adres e-mail, to po ich poprawieniu, można ponowić wysyłkę bez potrzeby definiowania jej ponownie.
