@@ -60,7 +60,7 @@ Wysyłka zmieni grupę na `Zaplanowane`, obok nazwy zostanie określona data i g
 
 - Po prawej stronie okna, w polu `E-Mail` można wpisać swój mail, następnie kliknąć `Wyślij e-mail testowy`. Na wskazany adres zostanie wysłany przykład wiadomości, dzięki temu można sprawdzić treść, załącznik oraz ogólne, czy skrzynka jest poprawnie ustawiona. Zalecamy to zrobić przed kliknięciem `Roześlij`.
 
-- Przycisk `Podgląd wydruku e-mail` > pozwala na pobranie załączników z danej wysyłki.
+- Przycisk `Podgląd wydruku e-mail` > pozwala na pobranie/sprawdzenie załączników z danej wysyłki.
 
 - Przycisk `Edycja wydruku` > zostanie otwarte okno `Wydruki`, w którym na nowo możemy stworzyć wysyłkę dokumentów.
 
