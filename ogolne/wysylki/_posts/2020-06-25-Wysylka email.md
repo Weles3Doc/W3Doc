@@ -42,7 +42,7 @@ W środkowej części okna wyświetlą się parametry wydruków oraz lista wła�
 - Pole `Pliki` > służy do załączania wspólnych załączników, które trafią jednakowe do wszystkich właścicieli w danej wysyłce.
 - Klikamy: `Zapisz`.
 
-Okno edycji zamknie się, a wysyłka zmieni tytuł na ustawiony. Mailing już gotowy, sposób rozesłania omówimy w następnym punkcie instrukcji.
+Okno edycji zamknie się, a wysyłka zmieni tytuł na ustawiony. Mailing jest już gotowy, sposób rozesłania omówimy w następnym punkcie instrukcji.
 
 ![Wysyłka e-mail](wysylkaemail.gif)
 
@@ -62,7 +62,7 @@ Wysyłka zmieni grupę na `Zaplanowane`, obok nazwy zostanie określona data i g
 
 - Przycisk `Podgląd wydruku e-mail` > pozwala na pobranie załączników z danej wysyłki.
 
-- Przycisk `Edycja wydruku` > TBA
+- Przycisk `Edycja wydruku` > zostanie otwarte okno `Wydruki`, w którym na nowo możemy stworzyć wysyłkę dokumentów.
 
 - Przycisk `Raport z wysyłki` > umożliwia pobranie PDF ze statusami wysyłek dla każdego właściciela.
 
