@@ -18,6 +18,6 @@ Po dodaniu konta pocztowego trzeba je przypisać do nieruchomości. Aby to zrobi
 - Powtarzamy czynności dla innych nieruchomości, jeśli trzeba.
 - Klikamy: `Zatwierdź`.
 
-Wysyłka e-mail następuje w sesjach co 1 godzinę, o równych godzinach. Opóźnienie ma uniemożliwić przypadkowe wysłanie niesprawdzonych i pospiesznie przygotowywanych dokumentów.
+Wysyłka e-mail następuje w sesjach co 1 godzinę, o najbliższych równych godzinach. Opóźnienie ma uniemożliwić przypadkowe wysłanie niesprawdzonych i pospiesznie przygotowywanych dokumentów. Powyższe czynności wykonujemy tylko raz.
 
 ![Przypisanie konta](przypisaniekontaemail.gif)
