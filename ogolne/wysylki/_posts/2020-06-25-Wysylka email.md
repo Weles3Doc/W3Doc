@@ -55,15 +55,3 @@ Gdy mamy ustawione parametry wysyłki można ją rozesłać, aby to zrobić, nal
 Wysyłka zmieni grupę na `Zaplanowane`, obok nazwy zostanie określona data i godzina wysyłki. Wysyłkę można odwołać, klikając `Wstrzymaj rozsyłanie` oraz następnie usunąć, klikając `Usuń`. Wysyłka e-mail następuje w sesjach co 1 godzinę, o najbliższych równych godzinach. Każdy z właścicieli otrzyma tylko swój załącznik. Wysyłka zajdzie tylko dla właścicieli, którzy mają uzupełniony poprawnie adres e-mail w menu `Zasoby` > `Edytuj dane właścicieli` > Pole `E-mail`. Jeśli właściciel ma nie brać udziału w wysyłce, to jego adres należy usunąć z pola `E-mail` i wpisać w pole `Informacja`.
 
 ![Wysyłka e-mail](wysylkaemailrozeslanie.gif)
-
-#### Dodatkowe opcje
-
-- Po prawej stronie okna, w polu `E-Mail` można wpisać swój mail, następnie kliknąć `Wyślij e-mail testowy`. Na wskazany adres zostanie wysłany przykład wiadomości, dzięki temu można sprawdzić treść, załącznik oraz ogólne, czy skrzynka jest poprawnie ustawiona. Zalecamy to zrobić przed kliknięciem `Roześlij`.
-
-- Przycisk `Podgląd wydruku e-mail` > pozwala na pobranie/sprawdzenie załączników z danej wysyłki.
-
-- Przycisk `Edycja wydruku` > zostanie otwarte okno `Wydruki`, w którym na nowo możemy stworzyć wysyłkę dokumentów.
-
-- Przycisk `Raport z wysyłki` > umożliwia pobranie PDF ze statusami wysyłek dla każdego właściciela.
-
-- Przycisk `Ponów niezrealizowane` > gdy w wysyłce pojawią się błędy, np. błędny adres e-mail, to po ich poprawieniu, można ponowić wysyłkę bez potrzeby definiowania jej ponownie.
