@@ -15,4 +15,12 @@ Czasami przeglądarka w swojej pamięci podręcznej przetrzymuje starą wersję 
 - Zamykamy przeglądarkę.
 - Odczekujemy chwilę i uruchamiamy ją ponownie.
 
-![Czyszczenie przeglądarki](czyszczeniepamieci.gif)
+Poniżej przedstawiamy czyszczenie pamięci na których filmikach.
+
+#### Chrome
+
+![Czyszczenie przeglądarki](czyszczeniepamiecichrome.gif)
+
+#### Firefox
+
+![Czyszczenie przeglądarki](czyszczeniepamiecipodrecznejfirefox.gif)
