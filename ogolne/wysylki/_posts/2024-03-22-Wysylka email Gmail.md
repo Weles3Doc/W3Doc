@@ -18,7 +18,7 @@ Po poprawnym przejściu procesu zostaną wyświetlone poniższe informacje.
 
 #### Ustawienie hasła dla aplikacji
 
-Przewijamy stronę na sam dół, w sekcji `Hasła do aplikacji` klikamy w strzałkę w prawo.
+Na stronie `Bezpieczeństwo` w sekcji `Sposób logowania się do Google` klikamy strzałkę w prawo, przy pozycji `Weryfikacja dwuetapowa`. Przewijamy stronę na sam dół, w sekcji `Hasła do aplikacji` klikamy w strzałkę w prawo.
 
 ![Wysyłka e-mail](gmail03.png)
 
