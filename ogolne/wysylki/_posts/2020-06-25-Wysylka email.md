@@ -39,7 +39,7 @@ W środkowej części okna wyświetlą się parametry wydruków oraz lista wła�
 - Pole `Opóźnienie (godz.)` > pozostawiamy puste, jeśli opóźnienie wysyłki ma przyjąć wartość domyślną dla zasobu. Można podać własną wartość, na przykład od 0 do 4 godzin.
 - Pole `Wyślij z` > pozostawiając `Domyślne`, powodujemy, że wiadomości e-mail zostaną wysłane z domyślnej skrzynki przypisanej do zasobu. Wybierając jedną z dostępnych na liście, możemy zadecydować na przykład, że sprawy księgowe lub windykacyjne będą wysyłane ze skrzynek mailowych do tego dedykowanych.
 - Pole `Treść e-maila` > uzupełniamy zawartość wiadomości mailowej. Tytuły i treści e-maila możemy zapisać wcześniej jako szablon w menu `Funkcje` > `Treści na wydruku`.
-- Pole `Pliki` > służy do załączania wspólnych załączników, które trafią jednakowe do wszystkich właścicieli w danej wysyłce.
+- Pole `Pliki` > służy do załączania zewnętrznych załączników spoza systemu, które trafią jednakowe do wszystkich właścicieli w danej wysyłce.
 - Klikamy: `Zapisz`.
 
 Okno edycji zamknie się, a wysyłka zmieni tytuł na ustawiony. Mailing jest już gotowy, sposób rozesłania omówimy w następnym punkcie instrukcji.
