@@ -13,7 +13,7 @@ Po dodaniu konta pocztowego trzeba je przypisać do nieruchomości. Aby to zrobi
   - `Zasób` > dodana pozycja będzie indywidualna dla wskazanego zasobu.
 - Pole `Konto e-mail` > wybieramy adres, z którego ma być prowadzona wysyłka.
 - Pole `ENVELO (Poczta Polska)` > można dodatkowo wybrać usługę Poczty Polskiej, jeśli została wcześniej zakupiona i skonfigurowana.
-- Pole `Opóźnienie` > podajemy **ilość godzin opóźnienia wysyłki**. Zalecamy od 1 do 4 godzin. **(Puste pole = 24 godz.)**
+- Pole `Opóźnienie` > podajemy **ilość godzin opóźnienia wysyłki**. Zalecamy od 1 do 4 godzin. Ustawienie 0 spowoduje wysyłkę o najbliższej pełnej godzinie. Pozostawienie tego pola pustego skutkuje wysyłką za 24 godziny.
 - Klikamy: `Dodaj`.
 - Powtarzamy czynności dla innych nieruchomości, jeśli trzeba.
 - Klikamy: `Zatwierdź`.
