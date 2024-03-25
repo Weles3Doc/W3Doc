@@ -4,7 +4,14 @@ title: Podział / Wydzielenie lokalu
 
 # Podział / Wydzielenie lokalu
 
-Niniejsza instrukcja opisuje sytuację, w której właściciel sprzedaje tylko część swojego mieszkania. Może też posłużyć do wprowadzenia sprzedaży lokalu gminy lub miasta, którego zasoby są prowadzone w systemie w jednym lokalu zbiorczym. Wydzielenie lokalu składa się z kilku zasadniczych etapów:
+Niniejsza instrukcja opisuje sytuację, w której właściciel sprzedaje tylko część swojego mieszkania. Może też posłużyć do wprowadzenia sprzedaży lokalu gminy lub miasta, którego zasoby są prowadzone w systemie w jednym lokalu zbiorczym.
+
+Uwagi:
+
+- Instrukcja opisuje wydzielenie lokalu **od daty bieżącej** (w miesiącu gdzie nie są zaksięgowane naliczenia).
+- Wydzielenie lokalu **od daty wstecznej** robimy podobnie jak w instrukcji: Wykup wstecz lokalu. Z tą różnicą, że na lokalu zbiorczym pomniejszamy dane, a nie zerujemy oraz nie usuwamy na koniec właściciela z lokalu.
+
+Wydzielenie lokalu składa się z kilku zasadniczych etapów:
 
 #### Dodanie nowego, wydzielonego lokalu
 
@@ -85,8 +92,3 @@ W polu `Licznik` wybieramy: `Nowy licznik`, pozostałe pola uzupełniamy danym l
 Po wykonaniu zmian sprawdzamy naliczenia dla obu lokali.
 
 ![Podział lokalu](podziallokalu5.gif)
-
-#### Uwagi:
-
-- Instrukcja opisuje wydzielenie lokalu od daty bieżącej (w miesiącu gdzie nie są zaksięgowane naliczenia).
-- Wydzielenie lokalu od daty wstecznej robimy podobnie jak w instrukcji: Wykup wstecz lokalu.
