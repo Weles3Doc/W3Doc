@@ -22,7 +22,7 @@ Na stronie `Bezpieczeństwo` w sekcji `Sposób logowania się do Google` klikamy
 
 ![Wysyłka e-mail](gmail03.png)
 
-Jeśli strzałka w prawo nie zadziała lub jej nie ma, klikamy w następujący link:[https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords).
+Jeśli strzałka w prawo nie zadziała lub jej nie ma, klikamy w następujący link: [https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords).
 
 Wprowadzamy nazwę aplikacji, dla której generujemy Hasło, np. `Weles3 wysyłka e-mail` i następnie klikamy w przycisk `Utwórz`.
 
