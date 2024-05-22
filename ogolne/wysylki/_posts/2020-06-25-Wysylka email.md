@@ -37,16 +37,16 @@ W środkowej części okna wyświetlą się parametry wydruków oraz lista wła�
 - Pole `Nazwa wysyłki (tytuł e-mail)`> wpisujemy nazwę wysyłki, która będzie jednocześnie tytułem e-maila.
 - Pole `Odpowiedz do` > pozostawiamy puste, jeśli chcemy, aby odpowiedzi właścicieli trafiały na tę samą skrzynkę, z której otrzymali wiadomość. Wpisując tutaj adres konkretnego pracownika, przekierujemy zapytania właścicieli na jego skrzynkę.
 - Pole `Opcje` > określamy akcję wykonywaną na wybranej wysyłce:
-    - `Roześlij` > 
-    - `Wstrzymaj rozsyłanie` > 
-    - `Usuń` >
-    - `Zakończ bez wysyłania` > 
+    - `Roześlij` > wysyłka zostanie od razu przekierowana do rozesłania. 
+    - `Wstrzymaj rozsyłanie` > wstrzymamy wysyłanie / brak akcji.
+    - `Usuń` > usuniemy wysyłkę.
+    - `Zakończ bez wysyłania` > zakończymy wysyłkę bez jej wysyłania do właścicieli.
 - Pole `Opóźnienie (godz.)` > pozostawiamy puste, jeśli opóźnienie wysyłki ma przyjąć wartość domyślną dla zasobu. Można podać własną wartość, na przykład od 0 do 4 godzin.
 - Pole `Wyślij z` > pozostawiając `Domyślne`, powodujemy, że wiadomości e-mail zostaną wysłane z domyślnej skrzynki przypisanej do zasobu. Wybierając jedną z dostępnych na liście, możemy zadecydować na przykład, że sprawy księgowe lub windykacyjne będą wysyłane ze skrzynek mailowych do tego dedykowanych.
 - Pole `Treść e-maila` > uzupełniamy zawartość wiadomości mailowej. Tytuły i treści e-maila możemy zapisać wcześniej jako szablon w menu `Funkcje` > `Treści na wydruku`.
 - Pole `Pliki` > służy do załączania zewnętrznych załączników spoza systemu, które trafią jednakowe do wszystkich właścicieli w danej wysyłce.
-- Pole `Skopiuj ustawienia do innych wysyłek` > pozostawiamy puste, pole dotyczy zlecania wielu wysyłek naraz, jest opisane dokładniej w dedykowanej instrukcji.
-- Pole `Skopiuj ustawienia do` > pozostawiamy puste, pole dotyczy zlecania wielu wysyłek naraz, jest opisane dokładniej w dedykowanej instrukcji.
+- Pole `Skopiuj ustawienia do innych wysyłek` > pozostawiamy puste, pole dotyczy zlecania wielu wysyłek naraz, jest to opisane dokładniej w dedykowanej instrukcji.
+- Pole `Skopiuj ustawienia do` > pozostawiamy puste, pole dotyczy zlecania wielu wysyłek naraz, jest to opisane dokładniej w dedykowanej instrukcji.
 - Klikamy: `Zapisz`.
 
 Okno edycji zamknie się, jeśli w polu `Opcje` wybraliśmy `Roześlij`, to wysyłka zmieni grupę na `Zaplanowane`, obok nazwy zostanie określona data i godzina wysyłki. Wysyłkę można odwołać, wracając do edycji wysyłki, w polu `Opcje` wybierając `Wstrzymaj rozsyłanie` lub usunąć wybierając `Usuń`. Wysyłka e-mail następuje w sesjach co 1 godzinę, o najbliższych równych godzinach. Każdy z właścicieli otrzyma tylko swój załącznik. Wysyłka zajdzie tylko dla właścicieli, którzy mają uzupełniony poprawnie adres e-mail w menu `Zasoby` > `Edytuj dane właścicieli` > Pole `E-mail`. Jeśli właściciel ma nie brać udziału w wysyłce, to jego adres należy usunąć z pola `E-mail` i wpisać w pole `Informacja`.
