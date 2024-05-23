@@ -11,8 +11,8 @@ Aby wysłać właścicielom SMS z informacją o saldzie lub wzywającego do zap�
 - Pole `Wysyłka` > ustawiamy jedno z:
   - `Tylko do zalegających (zbiorczo)` - do filtrowania będzie brane sumaryczne zadłużenie z kont właściciela.
   - `Tylko do zalegających (indywidualnie)` - warunki filtrowania zostaną zastosowane osobno dla każdego konta właściciela.
-- Pole `Zaległość na dzień` > ustawiamy datę salda właściciela, która zostanie poddana filtrowaniu.
 - Pole `Zakres dat` > ustawiamy czy saldo ma być brane wg `Terminów płatności` lub `Daty księgowania`.
+- Pole `Zaległość na dzień` > ustawiamy datę salda właściciela, która zostanie poddana filtrowaniu.
 - Pole `Min zaległość` > wpisujemy kwotę minimalnej zaległości (opcjonalnie).
 - Pole `Maks zaległość` > wpisujemy kwotę maksymalnej zaległości (opcjonalnie).
 - Pole `Min procent` > podajemy minimalną wartość procentową. Na przykład, jeśli podamy 200%, to będzie to dwu krotność miesięcznego czynszu (opcjonalnie).
