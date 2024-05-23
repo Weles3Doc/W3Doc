@@ -4,7 +4,7 @@ title: Powiadomienia Push
 
 # Powiadomienia Push
 
-Powiadomienia Push pozwalają przekazać szybko krótką informację właścicielowi. Wiadomość ta wyświetli się na komputerze lub telefonie użytkownika. Mają postać niewielkich okienek przedstawiających krótki tekst, ikonę aplikacji Weles3 oraz odnośnik do strony Tomojdom.pl. Powiadomienia te otrzymuje każdy właściciel, który odwiedził stronę Tomojdom.pl i wyraził zgodę na ich otrzymywanie. Są one wyświetlane nawet po opuszczeniu strony, podczas normalnej pracy na komputerze/telefonie oraz jeśli był on wyłączony, zostaną pokazane przy uruchomieniu.
+Powiadomienia Push pozwalają przekazać szybko krótką informację właścicielowi. Wiadomość ta wyświetli się na komputerze lub telefonie użytkownika. Mają postać niewielkich okienek przedstawiających krótki tekst, ikonę aplikacji Weles3 oraz odnośnik do strony Tomojdom.pl. Powiadomienia te otrzymuje każdy właściciel, który odwiedził stronę Tomojdom.pl i **wyraził zgodę na ich otrzymywanie**. Są one wyświetlane nawet po opuszczeniu strony, podczas normalnej pracy na komputerze/telefonie oraz jeśli był on wyłączony, zostaną pokazane przy uruchomieniu.
 
 #### Wysyłka powiadomień Push
 
@@ -20,10 +20,12 @@ W lewej części okna znajduje się lista właścicieli, można tutaj dokonać d
 - Pole `Wysyłka` > `Push`.
 - Pole `Podgląd` > można w nim sprawdzić finalną postać powiadomienia.
 - Pole `Treść SMS` > wpisujemy treść powiadomienia.
+- Pole `Informacja o saldzie` > do wiadomości można dodać saldo właściciela i nr bankowy do wpłat.
+- Pole `Priorytet` > pozwala zadecydować, jak szybko mają być wysłane wiadomości.
 - Pole `PUSH` > zostanie tutaj pokazana ilość powiadomień Push.
 - Klikamy: `Wyślij`.
 
-Po zatwierdzeniu system przeniesie nas do zakładki Wysyłka. Można w niej ostatecznie sprawdzić wysyłkę i ewentualnie ją zatrzymać.
+Po zatwierdzeniu system przeniesie nas do zakładki Wysyłka. Można w niej ostatecznie sprawdzić wysyłkę i ewentualnie ją zatrzymać. Sesje wysyłki powiadomień Push następują co 15 minut.
 
 ![Wysyłka Push](pushwysylka.gif)
 
