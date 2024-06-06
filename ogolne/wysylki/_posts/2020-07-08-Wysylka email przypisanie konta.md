@@ -7,7 +7,7 @@ title: 2. Wysyłka e-mail - przypisanie konta
 Po dodaniu konta pocztowego trzeba je przypisać do nieruchomości. Aby to zrobić, należy przejść do:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Wysyłka e-mail`.
-- Zakładka `Przypisanie kont pocztowych`.
+- Zakładka `Przypisanie`.
 - Pole `Zasób` > wybieramy:
   - `Weles 3 FK` > dodana tutaj skrzynka będzie domyślna dla wszystkich zasobów, nie trzeba więc dodawać oddzielnych pozycji dla każdego zasobu.
   - `Zasób` > dodana pozycja będzie indywidualna dla wskazanego zasobu.
