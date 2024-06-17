@@ -6,23 +6,34 @@ title: Wysyłka Envelo - analiza adresów
 
 #### Adres właściciela
 
-Do poprawnej wysyłki listów potrzebny nam jest pełen adres korespondencyjny właściciela lokalu. Układ powinien wyglądać następująco:
+Do poprawnej wysyłki listów przez `Envelo` potrzebny nam jest poprawny adres właściciela lokalu wpisany w polu `Adres`. Układ linii adresu powinien wyglądać następująco:
 
-```
-Nazwa firmy
-Imię Nazwisko
-ul. Ulica Nr budynku/Lokalu
-Kod pocztowy Miasto
-```
+
+Nazwa firmy  
+Imię Nazwisko  
+ul. Ulica Nr budynku/Lokalu  
+Kod pocztowy Miasto  
+
 
 A dokładniej:
 
-```
-<Pierwsza linijka>
-<Druga linijka>
-ul._<Nazwa ulicy>_<nr budynku>/<nr lokalu>  (lub zamiast / można użyć m.)
-<Kod pocztowy>_<Miejscowość>
-```
+`Pierwsza linia adresu`  
+`Druga linia adresu`  
+`ul. _ Nazwa ulicy _ nr budynku / nr lokalu` (lub zamiast / można użyć m.)  
+`Kod pocztowy _ Miejscowość`  
+
+Jeśli na wydruku chcemy zawrzeć adres nieruchomości, której dokument dotyczy oraz adres korespondencyjny, to konstrukcja pola adresowego powinna wyglądać następująco:
+
+Tomasz Nowak  
+ul. Wiatraczna 1 m. 1  
+04-365 Warszawa  
+
+Adres do korespondencji:  
+Tomasz Nowak  
+ul. Berka Joselewicza 2  
+07-400 Ostrołęka  
+
+Adresy do usługi Envelo są rozpoznawane od ostatniej linii.
 
 #### Analiza adresów
 
