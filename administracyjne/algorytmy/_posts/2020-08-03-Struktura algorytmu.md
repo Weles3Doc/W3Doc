@@ -1,8 +1,8 @@
 ---
-title: Struktura algorytmu w lokalu
+title: Struktura algorytmu
 ---
 
-# Struktura algorytmu w lokalu
+# Struktura algorytmu
 
 W celu analizy naliczeń i rozliczeń często potrzebujemy sprawdzić zmiany algorytmu w czasie dla pojedynczego lokalu/struktury. Aby zobaczyć strukturę algorytmu, należy przejść do:
 
