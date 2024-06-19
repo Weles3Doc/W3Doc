@@ -9,7 +9,7 @@ Usunięcie lub przywrócenie algorytmu ogólnego wygląda podobnie z tą różni
 - Jeśli w polu `Lokal` wybierzemy cały budynek, to algorytm zostanie usunięty lub zakończony na całym budynku.
 - Jeśli w polu `Lokal` wybierzemy lokal lub strukturę, to zostanie na tym elemencie przywrócony algorytm z wyższej struktury (ogólny).
 
-Aby wykonać usunięcie lub przywrócenie algorytmu ogólnego przechodzimy do:
+Ikona algorytmu obowiązującego na wybranej strukturze lub lokalu jest kolorowa. Natomiast jeśli algorytm obowiązuje z wyższej struktury, jest dziedziczony, to ikona jest czarnobiała. Aby wykonać usunięcie lub przywrócenie algorytmu ogólnego przechodzimy do:
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj algorytmy`.
 - Pole `Lokal` > wybieramy element, na którym jest dodany algorytm.
@@ -22,6 +22,6 @@ Aby wykonać usunięcie lub przywrócenie algorytmu ogólnego przechodzimy do:
 - Kliknąć: `Dodaj`.
 - Kliknąć: `Zatwierdź`.
 
-System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić algorytmy w większej ilości, w tym celu powtarzamy powyższe czynności dla wybranych opłat.
+System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić pozycje w większej ilości, w tym celu powtarzamy powyższe czynności dla wybranych opłat.
 
 ![Usunięcie lub przywrócenie algorytmu](usunalgo.gif)
