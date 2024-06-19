@@ -16,7 +16,7 @@ System pozwala na wprowadzenie bardziej zaawansowanego sposobu (algorytmu) licze
 - Kliknąć: `Dodaj`.
 - Kliknąć: `Zatwierdź`.
 
-Poniżej przykład dodania algorytmu konserwacji domofonu od lokalu.
+Poniżej przykład dodania algorytmu utrzymania czystości od powierzchni.
 
 ![Dodanie algorytmu do budynku](algorrozsze.gif)
 
