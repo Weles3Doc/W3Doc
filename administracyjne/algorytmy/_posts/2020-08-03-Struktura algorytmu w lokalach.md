@@ -4,7 +4,7 @@ title: Struktura algorytmów w lokalach
 
 # Struktura algorytmów w lokalach
 
-W celu analizy budynku często potrzebujemy sprawdzić zmiany algorytmów na wszystkich lokajach jednocześnie. Aby zobaczyć strukturę algorytmów, należy przejść do:
+W celu analizy budynku często potrzebujemy sprawdzić zmiany algorytmów na wszystkich lokajach jednocześnie. Dzięki temu oknu można bardzo łatwo sprawdzić, które z lokali mają inny sposób naliczeń danej opłaty niż ogólny. Aby zobaczyć strukturę algorytmów, należy przejść do:
 
 - Zakładka `Administracja`.
 - Pole `Struktura` > klikamy na wybrany strukturę lub całą nieruchomość.
