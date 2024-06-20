@@ -19,7 +19,7 @@ Gdzie w kolumnach podajemy:
 
 - Menu `Funkcje` > `Import danych` > Pole `Dane`.
 
-Następnie wpisujemy hasło i zatwierdzamy. Okno zamknie się, po czym można sprawdzić zaimportowane wartości danych. Czasami potrzeba też odświeżyć system: menu `Funkcje` > `Odśwież`. Przy imporcie udziałów prosimy w arkuszu używać funkcji `=ZAOKR( )`, zaokrąglić wartość danej do maksymalnie sześciu miejsc po przecinku. W przeciwnym wypadku udział może się nie równać 1 lub 100 procent. W kolumnie `Dxx` wartość danej może pozostać nieuzupełniona (pusta komórka), wtedy nie zostanie ona zaimportowana lub zmieniona na lokalu.
+Okno zamknie się, po czym można sprawdzić zaimportowane wartości danych. Czasami potrzeba też odświeżyć system: menu `Funkcje` > `Odśwież`. Przy imporcie udziałów prosimy w arkuszu używać funkcji `=ZAOKR( )`, zaokrąglić wartość danej do maksymalnie sześciu miejsc po przecinku. W przeciwnym wypadku udział może się nie równać 1 lub 100 procent. W kolumnie `Dxx` wartość danej może pozostać nieuzupełniona (pusta komórka), wtedy na lokalu nic się nie zmieni.
 
 ![Import danych](importdanych.gif)
 
