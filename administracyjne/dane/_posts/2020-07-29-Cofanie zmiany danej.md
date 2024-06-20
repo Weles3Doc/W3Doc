@@ -4,7 +4,7 @@ title: Cofanie zmiany danej
 
 # Cofanie zmiany danej
 
-Przed cofnięciem zmiany danej trzeba tę zmianę zlokalizować. W tym celu przechodzimy do:
+Gdy dostrzeżemy błąd w danych, np. zmieniającą się powierzchnię budynku, która zasadniczo nigdy się nie zmienia, to oczywiście należy to poprawić. Przed cofnięciem zmiany danej trzeba tę zmianę zlokalizować. W tym celu przechodzimy do:
 
 - Zakładka `Administracja`.
 - Klikamy: na cały budynek.
@@ -22,6 +22,6 @@ Wyświetli się okno, w którym będą pokazane zmiany danej na różnych lokala
 - Kliknąć: `Dodaj`.
 - Kliknąć: `Zapisz`.
 
-System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić dane do większej ilości lokali, w tym celu powtarzamy powyższe czynności dla wybranych lokali. Jeśli zmiana danej zostanie wprowadzona w miesiącu, za który są już zaksięgowane zaliczki, to może się naliczyć korekta.
+System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić dane do większej ilości lokali, w tym celu powtarzamy powyższe czynności dla wybranych lokali. Wprowadzenie danej od daty wstecznej może spowodować naliczenie korekty opłaty z nią powiązanej.
 
 ![Cofanie zmiany danej](cofaniezmianydanej.gif)
