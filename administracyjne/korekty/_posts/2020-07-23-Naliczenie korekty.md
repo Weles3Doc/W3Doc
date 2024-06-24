@@ -19,11 +19,11 @@ System zaprezentuje tabelkę. W jej kolumnach pokaże nam odpowiednio:
 - `Ilość` > skumulowana, prawidłowa ilość po korekcie.
 - `JM` > jednostka miary prezentowanej wartości w kolumnie Ilość.
 - `Stawka` > wartość stawki użyta do obliczenia nowego obciążenia lokalu.
-- `Wartość` > różnica między wartościami z kolumn: `Ma być Wartość` a `Było Wartość`.
+- `Wartość` > różnica między wartościami z kolumn: `Ma być Wartość` a `Było Wartość`. Kwota z plusem to obciążenie właściciela, a z minusem to zwrot.
 - `Ma być Wartość` > skorygowane, nowe obciążenie za dany składnik w korygowanym okresie, które równa się: `Ilość` * `Stawka`.
 - `Było Wartość` > zaksięgowana dotychczas kwota za dany składnik naliczeń — tzw. Wcześniejsze obciążenia — suma zaliczek lub/i korekt lub/i rozliczeń, na które wprowadzona korekta ma wpływ.
 
-Na przykładzie poniżej przeliczamy korektę liczby osób i prognozy dla lokalu M01 oraz korektę stawki za zarządzanie dla całego budynku.
+Na przykładzie poniżej przeliczamy korektę liczby osób dla lokalu M03 oraz korektę stawki za eksploatację dla całego budynku.
 
 ![Naliczenie korekty](naliczeniekorekty1.gif)
 
