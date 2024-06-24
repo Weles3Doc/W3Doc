@@ -18,7 +18,14 @@ Aby utworzyć wydruk zaksięgowanej korekty wraz z wykazem do zapłaty i opisem,
 - Klikamy: `Podgląd wydruku`
 - Pobieramy/otwieramy plik PDF.
 
-Poniższy wzór zawiadomienia prosimy traktować jako przykład. **[Przykład — kliknij tutaj, aby pobrać.](korekta.pdf)**
+Poniższy wzór zawiadomienia prosimy traktować jako przykład. **[Przykład — kliknij tutaj, aby pobrać.](korekta.pdf)** Na końcu instrukcji znajdują się dokładne opcje z okna Wydruki. Opisana tutaj konfiguracja wydruku to niezbędne minimum, do wydruku można dodać dużo więcej elementów, do czego Państwa zachęcamy. Z zakładki `Dokumenty` należy drukować korekty Faktur VAT oraz Rachunków, Not, Faktury uproszczonych. Przydarzą się też tutaj **[Filtry wydruków](https://doc.weles3.pl/ogolne/wydruki/Filtry-wydrukow.html)**.
+
+Wygląd dokumentu można zmienić, więcej w dedykowanych instrukcjach:
+
+- **[Grafiki na wydrukach](https://doc.weles3.pl/ogolne/wydruki/Grafiki-na-wydrukach.html)** > można dodać nagłówek i skany podpisów/pieczątek oraz np. zdjęcia.
+- **[Style wydruków](https://doc.weles3.pl/ogolne/wydruki/Style-wydrukow.html)** > można zmienić wielkość czcionek, kolory i marginesy.
+
+Często używane wydruki można zapisać jako **[schemat](https://doc.weles3.pl/ogolne/wydruki/Schemat-wydruku.html)** oraz można zapisać używane **[teksty na wydrukach](https://doc.weles3.pl/ogolne/wydruki/Tresci-na-wydruku.html)**.
 
 ![Wydruk korekty](wydrukkorekty.gif)
 

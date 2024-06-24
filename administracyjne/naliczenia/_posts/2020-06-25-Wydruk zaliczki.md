@@ -26,7 +26,7 @@ Wygląd dokumentu można zmienić, więcej w dedykowanych instrukcjach:
 - **[Grafiki na wydrukach](https://doc.weles3.pl/ogolne/wydruki/Grafiki-na-wydrukach.html)** > można dodać nagłówek i skany podpisów/pieczątek oraz np. zdjęcia.
 - **[Style wydruków](https://doc.weles3.pl/ogolne/wydruki/Style-wydrukow.html)** > można zmienić wielkość czcionek, kolory i marginesy.
 
-Często używane wydruki można zaisać jako **[schemat](https://doc.weles3.pl/ogolne/wydruki/Schemat-wydruku.html)** oraz można zapisać używane **[teksty na wydrukach](https://doc.weles3.pl/ogolne/wydruki/Tresci-na-wydruku.html)**.
+Często używane wydruki można zapisać jako **[schemat](https://doc.weles3.pl/ogolne/wydruki/Schemat-wydruku.html)** oraz można zapisać używane **[teksty na wydrukach](https://doc.weles3.pl/ogolne/wydruki/Tresci-na-wydruku.html)**.
 
 
 ![Wydruk zaliczki](wydrukzaliczki.gif)
