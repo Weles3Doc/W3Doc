@@ -15,7 +15,7 @@ Poniższa instrukcja jest dobra do wykonania wymiany jednego lub kilku licznikó
 - Jeśli trzeba, dodajemy odczyty kolejnym licznikom.
 - Klikamy: `Zatwierdź`.
 
-Po wprowadzeniu zmian i zamknięciu okna, w ikonce zamkniętego licznika pojawi się czerwone kółeczko.
+Po wprowadzeniu zmian i zamknięciu okna, ikonka zamkniętego licznika zmieni kolor na czarnobiały.
 
 ![Zamknięcie starego licznika](zamkniecielicznika.gif)
 
@@ -34,13 +34,6 @@ Po zamknięciu starego licznika dodajemy nowy, należy przejść do:
 - Pole `Lokalizacja` > wpisać lokalizacje, może pozostać puste.
 - Klikamy: `Utwórz`.
 
-Licznik od razu pojawi się w lokalu.
+Licznik od razu pojawi się w lokalu. Odczyt końcowy starego licznika oraz założenie nowego licznika musi być z tą samą datą. Prognoza na nowym liczniku powinna być dodana od daty bieżącej, nie od daty dodania nowego licznika. Opisana niżej procedura dotyczy wymiany liczników w nierozliczonym jeszcze okresie. Odczyt zamykający można będzie dodać jedynie wtedy, gdy ustawiony będzie dla tej grupy liczników Termin Rozliczenia Liczników.
 
 ![Dodanie nowego licznika](dodanielicznika.gif)
-
-#### Uwagi:
-
-- Odczyt końcowy starego licznika oraz założenie nowego licznika musi być z tą samą datą.
-- Prognoza na nowym liczniku powinna być dodana od daty bieżącej, nie od daty dodania nowego licznika.
-- Opisana niżej procedura dotyczy wymiany liczników w nierozliczonym jeszcze okresie.
-- Odczyt zamykający można będzie dodać jedynie wtedy, gdy ustawiony będzie dla tej grupy liczników Termin Rozliczenia Liczników.
