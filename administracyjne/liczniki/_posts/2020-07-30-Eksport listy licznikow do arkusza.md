@@ -26,9 +26,10 @@ Pobieramy plik i otwieramy go w arkuszu kalkulacyjnym. Znajdują się w nim nast
 - `OB_PROG` > obecna wartość prognozy.
 - `DT_OB_WAR` > data obecnej wartości odczytu.
 - `DT_OB_PROG` > data, od której obowiązuje prognoza na liczniku.
-- `OB_ODC_PROG` > odczyt prognozowany.
+- `OB_ODC_PROG` > odczyt prognozowany, 1 = Tak.
 - `DATA` > miejsce na uzupełnienie daty nowego odczytu.
 - `WAR` > miejsce na nowy odczyt.
+- `DT_LEG` > data legalizacji.
 
 Formatując i pozostawiając tylko kolumny: `MIE NR TYP DATA WAR` można w szybki sposób stworzyć tabelkę do importu odczytów.
 
