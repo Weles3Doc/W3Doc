@@ -4,7 +4,7 @@ title: Dodanie typu licznika do systemu
 
 # Dodanie typu licznika do systemu
 
-Zazwyczaj typu liczników są od razu zdefiniowane w systemie, więc nie ma potrzeby ich dodawania. Są one wspólne dla wszystkich budynków w systemie. To właśnie im dodajemy odczyty. Aby dodać nowy typ liczników, należy przejść do:
+Zazwyczaj typu liczników są od razu zdefiniowane w systemie, więc nie ma potrzeby ich dodawania. Są one wspólne dla wszystkich budynków w systemie. To właśnie licznikom z odpowiednim typem dodajemy odczyty. Nie dodajemy typów wielokrotnie lub o bardzo podobnej nazwie. Aby dodać nowy typ liczników, należy przejść do:
 
 - Zakładka `Zasoby` > menu `Elementy` > `Typy liczników`.
 - Pole `ID` > wpisujemy unikalny numer typu.
