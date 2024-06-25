@@ -4,11 +4,11 @@ title: Hurtowa wymiana liczników
 
 # Hurtowa wymiana liczników
 
-Wymiana liczników polega na zamknięciu starych i otwarciu nowych oraz ewentualnym przeniesieniu. Czynność tą można sprawnie wykonać, tworząc odpowiednie tabelki w arkuszu kalkulacyjnym. Wymianę więc zaczynamy od pobrania z systemu arkusza z danymi obecnych liczników. Aby to zrobić, należy przejść do:
+Wymiana liczników polega na zamknięciu starych i otwarciu nowych oraz ewentualnym przeniesieniu prognoz. Czynność tą można sprawnie wykonać, tworząc odpowiednie tabelki w arkuszu kalkulacyjnym. Wymianę więc zaczynamy od pobrania z systemu arkusza z danymi obecnych liczników. Aby to zrobić, należy przejść do:
 
 - Zakładka `Administracja` > menu `Funkcje` > `Wydruki`.
 - Zakładka `Zasób`.
-- Dodajemy wydruk `Lista odczytywania liczników`.
+- Dodajemy element `Lista odczytywania liczników`.
 - Pole `Typ` > `Lista importu`.
 - Pole `Bez grup liczników` > pozostawiamy bez zmian lub wybieramy pozycje.
 - Pole `Bez typów właścicieli` > pozostawiamy bez zmian lub wybieramy pozycje.
@@ -19,6 +19,8 @@ Wymiana liczników polega na zamknięciu starych i otwarciu nowych oraz ewentual
 Pobieramy plik i otwieramy go w arkuszu kalkulacyjnym, wybierając odpowiednie kodowanie znaków i separator. Przykładowy [>>ARKUSZ<<](listaodczytywanialicznikow.xls) kliknij, aby pobrać.
 
 ![Wymiana liczników](listalicznikow.gif)
+
+Przykład:
 
 ![Lista liczników](wymlistalicznikow.png)
 
@@ -54,19 +56,8 @@ Opis tabelek:
 Tak przygotowane tabelki zaznaczamy pojedynczo w arkuszu, wraz z tytułami kolumn. Kopiujemy. Wklejamy do:
 
 - Menu `Funkcje` > `Import danych` > Pole `Dane`.
-- Następnie wpisujemy hasło i zatwierdzamy. 
+- Klikamy: `Zatwierdź`.
 
-Okno zamknie się, po czym można sprawdzić zaimportowane wartości odczytów i liczników. Czasami potrzeba też odświeżyć system: menu `Funkcje` > `Odśwież`.
+Okno zamknie się, po czym można sprawdzić zaimportowane wartości odczytów i liczników. Czasami potrzeba też odświeżyć system: menu `Funkcje` > `Odśwież`. Datę wpisujemy w formacie RRRR-MM-DD. Numery liczników sugerujemy podawać bez zer wiodących. W kolumnie WAR musi być podany odczyt licznika, bez tego system nie przyjmie tabelki. Liczniki, które nie zostały wymienione, usuwamy z tabelek. Tabelki importujemy tylko raz. Pojedynczo. Importujemy w kolejności: zamykająca stare liczniki > dodająca nowe liczniki > przenosząca prognozy. Taką wymianę liczników prosimy najpierw przeprowadzić w bazie testowej. Przed przystąpieniem do wymiany jest konieczne ustalenie terminu rozliczenia liczników.
 
 ![Import wymiany liczników](importwymianylicznikow.gif)
-
-### Uwagi:
-
-- Datę wpisujemy w formacie RRRR-MM-DD.
-- Numery liczników sugerujemy podawać bez zer wiodących.
-- W kolumnie WAR musi być podany odczyt licznika, bez tego system nie przyjmie tabelki.
-- Liczniki, które nie zostały wymienione, usuwamy z tabelek.
-- Tabelki importujemy tylko raz. Pojedynczo.
-- Importujemy w kolejności: zamykająca stare liczniki > dodająca nowe liczniki > przenosząca prognozy.
-- Taką wymianę liczników prosimy najpierw przeprowadzić w bazie testowej.
-- Przed przystąpieniem do wymiany jest konieczne ustalenie terminu rozliczenia liczników.
