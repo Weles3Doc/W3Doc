@@ -33,14 +33,8 @@ Formatowanie zestawienia otrzymanego z systemu przedstawiamy poniżej.
 Tak sformatowaną tabelkę kopiujemy (wraz z tytułami kolumn) i wklejamy w:
 
 - Menu `Funkcje` > `Import danych` > `Pole dane`.
-- Wpisujemy hasło i zatwierdzamy.
+- Klikamy: `Zatwierdź`.
 
-Okno powinno się zamknąć. Nowe numery powinny być od razu widoczne na licznikach. Czasami trzeba też odświeżyć okno: menu `Funkcje` > `Odśwież`.
+Okno powinno się zamknąć. Nowe numery powinny być od razu widoczne na licznikach. Czasami trzeba też odświeżyć okno: menu `Funkcje` > `Odśwież`. Numer licznika może mieć 12 znaków. Jeśli wystąpi błąd podczas importu, proszę sprawdzić, czy pomiędzy arkuszem a systemem są zgodne numery lokali i liczników oraz ich typy. Przyczyną błędów może być też brak zer wiodących w numerach liczników lub niewidoczne spacje dodane w komórkach.
 
 ![Poprawa numerów](poprawanumerow3.gif)
-
-### Uwagi:
-
-- Numer licznika może mieć 12 znaków.
-- Jeśli wystąpi błąd podczas importu, proszę sprawdzić, czy pomiędzy arkuszem a systemem są zgodne numery lokali i liczników oraz ich typy.
-- Przyczyną błędów może być też brak zer wiodących w numerach liczników lub niewidoczne spacje dodane w komórkach.
