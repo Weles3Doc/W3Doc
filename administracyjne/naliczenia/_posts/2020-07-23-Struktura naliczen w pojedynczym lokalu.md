@@ -1,8 +1,8 @@
 ---
-title: Struktura naliczeń w pojedynczym lokalu
+title: Struktura naliczeń w lokalu
 ---
 
-# Struktura naliczeń w pojedynczym lokalu
+# Struktura naliczeń w lokalu
 
 Sprawdzenie struktury naliczeń w jednym lokalu pozwala skontrolować rozłożenie obciążeń w czasie. Dzięki temu można łatwo znaleźć przerwy w obciążeniach, nietypowe wartości danych i stawek oraz strukturę korekt/rozliczeń. Szczególnie jest to przydatne do sprawdzania rozliczeń liczników dla jednego właściciela, można na nim zobaczyć okres rozliczenia i które zaliczki rozliczają się z zużyciem. Aby uzyskać takie zestawienie, należy przejść do:
 
