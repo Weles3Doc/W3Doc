@@ -19,15 +19,16 @@ Aby utworzyć wydruk zaksięgowanej zaliczki wraz z wykazem do zapłaty i tekste
 - Klikamy: `Podgląd wydruku`
 - Pobieramy/otwieramy plik PDF.
 
-Poniższy wzór zawiadomienia prosimy traktować jako [przykład — kliknij tutaj, aby pobrać](zaliczka.pdf). Opisana tutaj konfiguracja wydruku to niezbędne minimum, do wydruku można dodać dużo więcej elementów, do czego Państwa zachęcamy. Z zakładki `Dokumenty` należy drukować Faktury VAT oraz Rachunki, Noty, Faktury uproszczone. Przydarzą się też tutaj **[Filtry wydruków](https://doc.weles3.pl/ogolne/wydruki/Filtry-wydrukow.html)**.
+Poniższy wzór zawiadomienia prosimy traktować jako **[przykład — kliknij tutaj, aby pobrać](zaliczka.pdf)**. Opisana tutaj konfiguracja wydruku to niezbędne minimum, do wydruku można dodać dużo więcej elementów, do czego Państwa zachęcamy. Z zakładki `Dokumenty` należy drukować Faktury VAT oraz Rachunki, Noty, Faktury uproszczone.
+
+Koniecznie zapoznaj się z **[Filtrami wydruków](https://doc.weles3.pl/ogolne/wydruki/Filtry-wydrukow.html)**. Dzięki temu ograniczysz drukowanie pustych stron. Rozdzielisz dokumenty do wysłania e-mailem, od tych do rozniesienia do skrzynek lub wysłania tradycyjną pocztą.
 
 Wygląd dokumentu można zmienić, więcej w dedykowanych instrukcjach:
 
-- **[Grafiki na wydrukach](https://doc.weles3.pl/ogolne/wydruki/Grafiki-na-wydrukach.html)** > można dodać nagłówek i skany podpisów/pieczątek oraz np. zdjęcia.
-- **[Style wydruków](https://doc.weles3.pl/ogolne/wydruki/Style-wydrukow.html)** > można zmienić wielkość czcionek, kolory i marginesy.
-
-Często używane wydruki można zapisać jako **[schemat](https://doc.weles3.pl/ogolne/wydruki/Schemat-wydruku.html)** oraz można zapisać używane **[teksty na wydrukach](https://doc.weles3.pl/ogolne/wydruki/Tresci-na-wydruku.html)**.
-
+- [Grafiki na wydrukach](https://doc.weles3.pl/ogolne/wydruki/Grafiki-na-wydrukach.html) > można dodać nagłówek i skany podpisów/pieczątek oraz np. zdjęcia.
+- [Style wydruków](https://doc.weles3.pl/ogolne/wydruki/Style-wydrukow.html) > można zmienić wielkość czcionek, kolory i marginesy.
+- [Schemat wydruków](https://doc.weles3.pl/ogolne/wydruki/Schemat-wydruku.html) > często używane wydruki można zapisać jako schematy, dzięki temu nie trzeba ich za każdym razem tworzyć od nowa.
+- [Teksty na wydrukach](https://doc.weles3.pl/ogolne/wydruki/Tresci-na-wydruku.html) > treści używane w polach tekstowych można zapisać jako podpowiedzi.
 
 ![Wydruk zaliczki](wydrukzaliczki.gif)
 
@@ -35,6 +36,6 @@ Przykładowa zaliczka:
 
 ![Wydruk zaliczki](zaliczka1.png)
 
-Poniżej parametry użyte do wyduku zaliczki:
+Poniżej parametry użyte do wydruku zaliczki:
 
 ![Zaliczka](zaliczkaparametry.png)
