@@ -8,7 +8,7 @@ Do systemu można wprowadzić odczyty hurtowo, za pomocą tabelki z odpowiednimi
 
 ![Tabelka importu odczytów](tabelkaimpodc.png)
 
-Tytuły kolumn są bardzo ważne, nazywamy ja tak jak na przykładzie. W kolumnach podajemy:
+Tytuły kolumn są bardzo ważne, nazywamy je tak jak na przykładzie. Kolejność kolumn nie ma znaczenia. W kolumnach podajemy:
 
 - `MIE` > numer lokalu z systemu, musi być taki sam.
 - `TYP` > podajemy typ licznika tak jak w systemie.
@@ -18,10 +18,10 @@ Tytuły kolumn są bardzo ważne, nazywamy ja tak jak na przykładzie. W kolumna
 
 Tak przygotowaną tabelkę zaznaczamy w arkuszu, wraz z tytułami kolumn. Kopiujemy i wklejamy do:
 
+- Zakładka `Administracja`.
 - Menu `Funkcje` > `Import danych` > Pole `Dane`.
-- Pole `Hasło` > wpisujemy hasło.
 - Klikamy: `Zatwierdź`.
 
-Okno zamknie się, po czym można sprawdzić zaimportowane wartości odczytów. Czasami potrzeba też odświeżyć system: menu `Funkcje` > `Odśwież`. Można pominąć kolumnę TYP — wtedy kolumna NR powinna mieć unikalne wartości. Można pominąć kolumnę NR — wtedy w lokalu może być tylko jeden licznik danego typu. Kolejność kolumn jest dowolna. Do liczników można zaimportować odczyty z typem odczytu: Wcześniejsze rozliczenie, w takim wypadku do tabelki dodajemy kolumnę FIN, wartości komórek uzupełniamy na 2. Częstą przyczyną problemów z importem są znaki niepisane (np. spacja) występujące w nazwach kolumn. Częstą przyczyną problemów są też zera wiodące w numerach liczników albo trzeba je dodać w arkuszu, albo usunąć z numerów liczników w systemie.
+Okno importu zamykamy, po czym można sprawdzić zaimportowane wartości odczytów. Czasami potrzeba też odświeżyć system: menu `Funkcje` > `Odśwież`. Można pominąć kolumnę `TYP` — wtedy kolumna `NR` powinna mieć unikalne wartości. Można pominąć kolumnę `NR` — wtedy w lokalu może być tylko jeden licznik danego typu. Kolejność kolumn jest dowolna. Do liczników można zaimportować odczyty z typem odczytu: Wcześniejsze rozliczenie, w takim wypadku do tabelki dodajemy kolumnę `FIN`, wartości komórek uzupełniamy na 2. Częstą przyczyną problemów z importem są znaki niepisane (np. spacja) występujące w nazwach kolumn. Częstą przyczyną problemów są też zera wiodące w numerach liczników albo trzeba je dodać w arkuszu, albo usunąć z numerów liczników w systemie.
 
 ![Import odczytów](importodczytow.gif)
