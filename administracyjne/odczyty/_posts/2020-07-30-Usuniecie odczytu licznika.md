@@ -15,8 +15,9 @@ Aby usunąć odczyt licznika, trzeba dodać odczyt wcześniejszy niż ten, któr
   - `Wcześniejsze rozliczenie` > jeśli liczniki trzeba rozliczyć wcześniej niż koniec okresu rozliczeniowego (np. przy wykupie lokalu lub na żądanie właściciela).
   - `Odczyt prognozowany` > gdy wartość odczytu jest wyliczona sztucznie.
 - Klikamy: `Dodaj`.
+- W oknie dodajemy więcej pozycji, jeśli trzeba.
 - Klikamy: `Zatwierdź`.
 
-Jeśli przed przejściem do opisywanej funkcji zaznaczymy pożądany licznik, to podpowie się on automatycznie w nowym oknie.
+Jeśli przed przejściem do opisywanej funkcji zaznaczymy pożądany licznik, to podpowie się on automatycznie w nowym oknie. Na poniższym przykładzie, licznik CW ma odczyty na 1 lipca i 1 kwietnia, chcemy je usunąć, w tym celu dodajemy odczyt na 1 stycznia jeszcze raz. Prosimy pamiętać, że opisane tutaj usuwanie odczytów znajduje tylko zastosowanie w okresie jeszcze nierozliczonym.
 
 ![Usunięcie odczytu](usuniecieodczytu.gif)
