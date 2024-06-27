@@ -16,6 +16,9 @@ Wyświetli się nowe okno, w którym:
 
 - Na osi pionowej będziemy mieli oś czasu.
 - W lewej części okna będą podane przedziały czasowe.
-- W osi poziomej będziemy mieli podane zaliczki, korekty lub rozliczenia, które zostały stworzone na podstawie odczytów oraz wartości zużycia w przedziałach czasowych.
+- W kolumnie `Wartość` są podane odczyty i zużycia bieżące, jeszcze nierozliczone.
+- W kolejnych kolumnach występują rozliczenia lub korekty odczytów.
+- Górna wartość w komórce to odczyt, podany na datę w kolumnie `Od` danego wiersza tabeli.
+- Dolna wartość w komórce to zużycie, przypadające pomiędzy daty w kolumnach `Od` i `Do`danego wiersza tabeli.
 
 ![Struktura odczytów](strodczytow.gif)
