@@ -13,6 +13,8 @@ Pierwszym krokiem przed rozpoczęciem wysyłania wiadomości e-mail jest dodanie
 - Pole `E-mail kopia ukryta` > wpisać adres mail, na który będą wysyłane kopie wszystkich maili wychodzących z systemu. Można to pole pozostawić puste. Nie zalecamy podawania tego samego adresu e-mail, który dodajemy. Najlepiej jest stworzyć nową skrzynkę pocztową tylko do archiwizacji wysłanych maili.
 - Pole `Login` > podajemy login **do konta pocztowego, zazwyczaj jest to e-mail, nie jest to login do Weles 3**.
 - Pole `Hasło` > podajemy hasło **do konta pocztowego, nie jest to hasło do Weles 3**.
+- Pole `Limit e-mail na sesję` > wpisz maksymalną ilość maili, jaka może zostać wysłana w jednej sesji. Sesje są co godzinę. Puste pole = bez limitu.
+- Pole `Usuń` > wybierz `Nie` aby zachować skrzynkę. Jeśli wybierzesz `Tak`, to usuniesz skrzynkę.
 - Klikamy: `Dodaj`.
 - W tym momencie można powtórzyć powyższe kroki dla kolejnych skrzynek pocztowych.
 - Gdy wszystkie są wprowadzone, klikamy: `Zatwierdź`.
