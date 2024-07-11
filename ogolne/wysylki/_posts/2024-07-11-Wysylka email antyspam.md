@@ -10,7 +10,6 @@ Bezpośrednio nie mamy wpływu na filtry antyspamowe używane przez dostawców s
 
 Zachęcenie właścicieli do oznaczania wiadomości "To nie spam" lub podobnie. Powinno to zaktualizować indywidualny filtry danego właściciela, przyszłe wiadomości nie będą oznaczane jako spam. Może spowodować, że dostawca poczty właściciela uzna mailingi z Państwa domeny za wiarygodne.
 
-
 #### Wpis DKIM
 
 W ustawieniach Państwa domeny  (na stronie dostawcy domeny) mogą Państwo dodać wpis:
@@ -18,7 +17,6 @@ W ustawieniach Państwa domeny  (na stronie dostawcy domeny) mogą Państwo doda
 `w3._domainkey IN CNAME w3.domainkey.e-adm.pl.`
 
 KIM służy do uwierzytelniania wysyłanej wiadomości e-mail. System przed rozpoczęciem wysyłki sprawdza, czy ten wpis jest poprawny i jeżeli tak to podpisuje wiadomości e-mail.
-
 
 #### Wpis SPF
 
