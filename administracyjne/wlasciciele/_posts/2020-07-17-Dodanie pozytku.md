@@ -16,7 +16,7 @@ Pożytki zazwyczaj dodajemy pod osobną strukturą po to, aby się wyróżniały
 - Pole `Nazwa` > wpisać POŻYTKI.
 - Kliknąć: `Utwórz`.
 
-Nowa struktura nie będzie od razu widoczna, pokarze się, jeśli będzie do niej przydzielony lokal z odbiorcą. 
+Nowa struktura nie będzie od razu widoczna, pokaże się, jeśli będzie do niej przydzielony lokal z odbiorcą. 
 
 ![Dodanie pożytku](dodaniepozytku1.gif)
 
@@ -30,7 +30,7 @@ Następnym krokiem jest dodanie lokalu na pożytek:
 - Pole `Informacje` > wpisać np. Pożytek.
 - Kliknąć: `Utwórz`.
 
-Nowy lokal nie pokarze się od razu, trzeba do niego przydzielić odbiorcę.
+Nowy lokal nie pokaże się od razu, trzeba do niego przydzielić odbiorcę.
 
 ![Dodanie pożytku](dodaniepozytku2.gif)
 
