@@ -1,8 +1,8 @@
 ---
-title: Struktura prognoz licznika
+title: Struktura prognoz
 ---
 
-# Struktura prognoz licznika
+# Struktura prognoz
 
 Narzędzie umożliwia podgląd historii zmian prognoz na danym liczniku. Aby przejść do narzędzia, należy:
 
