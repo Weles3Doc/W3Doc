@@ -1,15 +1,15 @@
 ---
-title: Usunięcie prognozy licznika
+title: Usunięcie prognozy
 ---
 
-# Usunięcie prognozy licznika
+# Usunięcie prognozy
 
-Aby usunąć prognozę licznika, należy przejść do:
+Aby usunąć prognozę z licznika, należy przejść do:
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj prognozy`.
 - Pole `Licznik` > wybieramy licznik.
 - Pole `Data` > ustawiamy datę, od której ma być usunięta prognoza.
-- Pole `Wartość` > pozostawiamy **puste**.
+- Pole `Wartość` > pozostawiamy **puste**, niezerowe.
 - Klikamy: `Dodaj`.
 - Klikamy: `Zatwierdź`.
 
