@@ -4,7 +4,7 @@ title: Wyliczenie prognoz liczników
 
 # Wyliczenie prognoz liczników
 
-W system umożliwia automatyczne wyliczenie nowych prognoz na podstawie zużyć liczników, aby to zrobić, należy przejść do:
+W system umożliwia automatyczne wyliczenie nowych prognoz na podstawie zużyć liczników w poprzednich okresach rozliczeniowych, aby to zrobić, należy przejść do:
 
 - Menu `Funkcje` > `Wylicz prognozy`.
 - Pole `Struktura` > wybieramy cały budynek lub konkretny lokal/strukturę.
@@ -26,7 +26,7 @@ W system umożliwia automatyczne wyliczenie nowych prognoz na podstawie zużyć 
 - Pole `Data` > ustawiamy datę zmiany/dodania nowych prognoz.
 - Klikamy: `Dodaj`.
 - Dodajemy kolejną pozycję dla innego typu liczników.
-- Wpisujemy hasło i zatwierdzamy.
+- Klikamy: `Zatwierdź`.
 
 Po zamknięciu okna, prognozy powinny być od razu widoczne. Można ew. odświeżyć system: menu `Funkcje` > `Odśwież`. Należy przeliczyć też ponownie zaliczki: menu `Obciążenia` > `Nalicz zaliczki`. Wyliczonych prognozy nie można dodawać od daty wstecznej. Wartości prognoz można wyeksportować za pomocą wydruku: menu `Funkcje` > `Wydruki` > `Zasób` > `Lista odczytywania liczników` > pole `Typ` > `Lista importu`. Ostatnia, obecna prognoza licznika jest w kolumnie `OB_PROG`.
 
