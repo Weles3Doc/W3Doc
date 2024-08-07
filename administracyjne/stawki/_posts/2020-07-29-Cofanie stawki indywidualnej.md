@@ -21,7 +21,7 @@ Wyświetli się okno, w którym będą pokazane zmiany stawki na różnych lokal
 - Pole `Wartość` > **pole pozostawiamy puste**.
 - Pole `Typ` > bez zmian.
 - Kliknąć: `Dodaj`.
-- Kliknąć: `Zapisz`.
+- Kliknąć: `Zatwierdź`.
 
 System powinien zamknąć okno narzędzia. Oczywiście można na raz wprowadzić stawki w większej ilości, w tym celu powtarzamy powyższe czynności dla wybranych stawek. 
 
