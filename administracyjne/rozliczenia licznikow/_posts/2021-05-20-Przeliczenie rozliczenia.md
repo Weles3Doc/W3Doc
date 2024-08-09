@@ -1,5 +1,5 @@
 ---
-title: 3. Przeliczenie rozliczenia
+title: 4. Przeliczenie rozliczenia
 ---
 
 # Przeliczenie rozliczenia
