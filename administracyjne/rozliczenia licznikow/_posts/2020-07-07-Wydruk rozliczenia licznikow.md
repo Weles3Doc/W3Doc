@@ -1,15 +1,15 @@
 ---
-title: 5. Wydruk rozliczenia liczników
+title: 6. Wydruk rozliczenia
 ---
 
-# Wydruk rozliczenia liczników
+# Wydruk rozliczenia
 
 Jednym z ważniejszych wydruków generowanych z programu w ciągu roku jest rozliczenie liczników. Dokument generujemy zawsze po sprawdzeniu i zaksięgowaniu rozliczenia. Aby to zrobić, należy przejść do:
 
 - Zakładka `Administracja` > menu `Funkcje` > `Wydruki`.
 - Przejść do zakładki `Dokumenty` (jeśli mają być one opatrzone numerem) lub zakładki `Osoby` (jeśli wystarczy wydruk bez numeru).
-- Z listy wydruków dodajemy:
-  - `Tekst` > w nim wpisujemy tekst wprowadzający, jak i objaśnienia do rozliczenia. (można go dodać kilka razy, w różnych miejscach)
+- Z listy elementów dodajemy:
+  - `Tekst` > w nim wpisujemy tytuł dokumentu, tekst wprowadzający, jak i objaśnienia do rozliczenia. (można go dodać kilka razy, w różnych miejscach)
   - `Zużycia liczników` > zostaną pokazane liczniki i ich odczyty na początek i koniec okresu rozliczenia.
   - `Dokument` lub `Naliczenia` > pokaże on tabelkę z rozliczeniem.
   - `Wykaz do zapłaty` > spowoduje pokazanie się podsumowania z numerem konta bankowego oraz kwotą do wpłaty.
@@ -19,7 +19,7 @@ Jednym z ważniejszych wydruków generowanych z programu w ciągu roku jest rozl
 - Klikamy: `Podgląd wydruku`.
 - Pobieramy/otwieramy plik PDF.
 
-Poniższy wzór rozliczenia prosimy traktować jako przykład.
+Poniższy wzór rozliczenia prosimy traktować jako przykład. W dolnej części instrukcji załączamy przykład wydruku oraz parametry okna wydruki.
 
 ![Wydruk rozliczenia liczników](wydrukrl.gif)
 
