@@ -21,9 +21,20 @@ Jednym z ważniejszych wydruków generowanych z programu w ciągu roku jest rozl
 
 Poniższy wzór rozliczenia prosimy traktować jako przykład. W dolnej części instrukcji załączamy przykład wydruku oraz parametry okna wydruki.
 
+[Przykład — kliknij tutaj, aby pobrać.](wydrukrlpdf.pdf)
+
+Koniecznie zapoznaj się z **[Filtrami wydruków](https://doc.weles3.pl/ogolne/wydruki/Filtry-wydrukow.html)**. Dzięki temu ograniczysz drukowanie pustych stron. Rozdzielisz dokumenty do wysłania e-mailem, od tych do rozniesienia do skrzynek lub wysłania tradycyjną pocztą.
+
+Wygląd dokumentu można zmienić, więcej w dedykowanych instrukcjach:
+
+- [Grafiki na wydrukach](https://doc.weles3.pl/ogolne/wydruki/Grafiki-na-wydrukach.html) > można dodać nagłówek i skany podpisów/pieczątek oraz np. zdjęcia.
+- [Style wydruków](https://doc.weles3.pl/ogolne/wydruki/Style-wydrukow.html) > można zmienić wielkość czcionek, kolory i marginesy.
+- [Schemat wydruków](https://doc.weles3.pl/ogolne/wydruki/Schemat-wydruku.html) > często używane wydruki można zapisać jako schematy, dzięki temu nie trzeba ich za każdym razem tworzyć od nowa.
+- [Teksty na wydrukach](https://doc.weles3.pl/ogolne/wydruki/Tresci-na-wydruku.html) > treści używane w polach tekstowych można zapisać jako podpowiedzi.
+
 ![Wydruk rozliczenia liczników](wydrukrl.gif)
 
-[Poniżej przykład — kliknij tutaj, aby pobrać.](wydrukrlpdf.pdf)
+Przykład:
 
 ![Wydruk rozliczenia](wydrukrlzdj.png)
 
