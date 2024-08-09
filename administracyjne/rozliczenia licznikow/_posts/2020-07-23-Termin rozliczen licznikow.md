@@ -4,7 +4,7 @@ title: 1. Terminy rozliczeń liczników
 
 # Terminy rozliczeń liczników
 
-Przed przystąpieniem do rozliczeń liczników trzeba w systemie ustawić okres, za który będziemy rozliczać wspólnotę. Terminy rozliczeń ustawiamy dla grup liczników. Ustawiamy tylko ostatni miesiąc, początkiem jest domyślnie miesiąc po ostatnim rozliczeniu.Przykładowe terminy rozliczeń:
+Przed przystąpieniem do rozliczeń liczników trzeba w systemie ustawić okres, za który będziemy rozliczać wspólnotę. Terminy rozliczeń ustawiamy dla grup liczników. Ustawiamy tylko ostatni miesiąc, początkiem jest domyślnie miesiąc po ostatnim rozliczeniu. Przykładowe terminy rozliczeń:
 
 - Od `RRRR-01` do `RRRR-06` > da nam rozliczenie za pierwsze półrocze. 
 - Od `RRRR-07` do `RRRR-12` > da nam rozliczenie za drugie półrocze.
