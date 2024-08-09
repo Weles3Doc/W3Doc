@@ -1,5 +1,5 @@
 ---
-title: 2. Analiza liczników
+title: 3. Analiza liczników
 ---
 
 # Analiza liczników
