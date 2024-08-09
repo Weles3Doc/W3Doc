@@ -10,7 +10,7 @@ Przed przystąpieniem do rozliczeń liczników trzeba w systemie ustawić okres,
 - Od `RRRR-07` do `RRRR-12` > da nam rozliczenie za drugie półrocze.
 - Od `RRRR-01` do `RRRR-12` > da nam rozliczenie za cały rok.
 
-Rozliczenia liczników mogą być robione na przełomie lat. Najktórszym okresem rozliczeniowym jest jeden miesiąc. Okres rozliczeniowy może obejmować kilka lat. W oknie można ustawić kilka okresów rozliczeniowych na raz. Aby ustalić terminy, należy przejść do:
+Rozliczenia liczników mogą być robione na przełomie lat. Najkrótszym okresem rozliczeniowym jest jeden miesiąc. Okres rozliczeniowy może obejmować kilka lat. W oknie można ustawić kilka okresów rozliczeniowych na raz. Aby ustalić terminy, należy przejść do:
 
 - Zakładka `Administracja` > menu `Elementy` > `Terminy rozliczeń liczników`.
 - Pole `Grupa liczników` > wybieramy jedną z grup.
