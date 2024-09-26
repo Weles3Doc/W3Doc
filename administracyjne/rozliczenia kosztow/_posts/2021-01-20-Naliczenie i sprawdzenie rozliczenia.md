@@ -16,6 +16,12 @@ Klikając: `Nalicz korekty RL+RK` są przeliczane wszystkie: korekty zwyczajne, 
 
 Rozliczenie można w tym momencie poprawiać i przeliczać do woli. Właściciele nie widzą niezaksięgowanych rozliczeń.
 
+W kolumnie `Było Wartość` są podane przychody biorące udział w rozliczeniu, mogą być to zarówno zaliczki, korekty lub rozliczenia. Kwota nie musi odpowiadać poniesionym przychodom, pewne zaliczki mogą być pomijane, w zależności od ustawionego sposobu rozliczeń.
+
+W kolumnie `Ma być Wartość` jest podany koszt wyliczony w rozliczeniu. Przy rozliczeniach `Pełnym kosztem` powinien być widoczny koszt który wpisaliśmy w polu `Wartość` (`Stawka`). Przy rozliczeniach różnicą będzie widoczne: `Było` + `Wartość`.
+
+Kolumna `Wartość` to różnica pomiędzy `Było` a `Powinno być`.
+
 ![Naliczenie RK](naliczenieRK.gif)
 
 #### Sprawdzenie udziału
