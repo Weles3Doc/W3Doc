@@ -1,0 +1,9 @@
+{
+    "remote.SSH.defaultForwardedPorts": [
+        {
+            "localPort": 4000,
+            "remotePort": 4000,
+            "name": "W3 Doc"
+        }
+    ],
+}
