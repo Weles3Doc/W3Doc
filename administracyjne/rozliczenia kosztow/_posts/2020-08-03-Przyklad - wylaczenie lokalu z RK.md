@@ -30,6 +30,6 @@ Gdy wszystkie będą wprowadzone:
 
 - Klikamy: `Zatwierdź`.
 
-Udział w rozliczeniu kosztów zostanie obliczony z pominięciem wyłączonego lokalu. Jeśli lokalowi zostanie ustawiony typ pełnym kosztem oraz wartość = 0, to zaliczki zostaną mu zwrócone (jeśli miał je naliczane).
+Udział w rozliczeniu kosztów zostanie obliczony z pominięciem wyłączonego lokalu. Jeśli lokalowi zostanie ustawiony typ pełnym kosztem oraz wartość = 0, to zaliczki zostaną mu zwrócone (jeśli miał je naliczane). Ustawienie rożnicy = 0 oznacza, że obciążenie lokalu w RK jest równe wcześniej naliczonym obciążeniom.
 
 ![Przykład RK - wyłączenie lokalu z RK](przykladRKwyllokalu.gif)
