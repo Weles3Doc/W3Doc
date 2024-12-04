@@ -4,7 +4,11 @@ title: Edycja danych właścicieli
 
 # Edycja danych właścicieli
 
-System pozwala na gromadzenie i przechowywanie użytecznych danych teleadresowych oraz dodatkowych informacji na temat właścicieli. Dane te są łatwo odstępne z poziomu zakładki `Administracja` > przycisk `Informacje`. Można też ich użyć przy wydrukach, wysyłce e-mail lub SMS. Poniżej przedstawiamy sposób edycji wraz z opisem, za co odpowiada każde z pól. Aby edytować dane właściciela, należy przejść do:
+System pozwala na gromadzenie i przechowywanie użytecznych danych teleadresowych oraz dodatkowych informacji na temat właścicieli. Można też ich użyć przy wydrukach, wysyłce e-mail lub SMS. Poniżej przedstawiamy sposób edycji wraz z opisem, za co odpowiada każde z pól.
+
+**Uwaga: opisywaną funkcją nie wprowadzamy zmian własności w lokalach.**
+
+Aby edytować dane właściciela, należy przejść do:
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj dane właścicieli`.
 - Na liście z lewej strony okna zaznaczamy właściciela do edycji.
@@ -27,11 +31,13 @@ ul. <ulica> <nr budynku> m. <nr mieszkania>
 <Kod pocztowy> <Miejscowość>
 ```
 
-- Pole `Sprawdzaj strukturę` > sprawdzanie struktury adresu, musi on spełniać powyższe założenia. Jeśli nie spełni, to nie da się zaakceptować zmian. Poprawny adres wymagany jest przy wysyłce dokumentów przez usługę Poczty Polskiej Envelo. Ewentualnie można pominąć sprawdzanie.
+- Pole `Sprawdzaj strukturę` > sprawdzanie struktury adresu, musi on spełniać powyższe założenia. Jeśli nie spełni, to nie da się zaakceptować zmian. Poprawny adres wymagany jest przy wysyłce dokumentów przez usługę Poczty Polskiej Envelo.
 - Pole `Informacje` > uzupełniamy dowolne informacje o właścicielu. Można je wydrukować za pomocą: `Wydruki` > `Zasób` > `Inf. osób/mieszkań`.
-- Pole `Informacje na wydruku` > pole tekstowe, w którym można wpisać informacje, które następnie można wywołać przy wydrukach dokumentów dla właścicieli, dodając wydruk: `Informacje na wydruku`.
-- Pole `E-mail` > podajemy adres poczty elektronicznej właściciela, który będzie wykorzystywany przy wysyłaniu wiadomości e-mail za pomocą systemu. Jeśli jest dwa lub więcej adresów, to każdy z nich wpisujemy w nowej linii. Na każdy podany adres trafi osobna wiadomość. Jeśli osoba nie wyraziła zgody na korespondencję elektroniczną, to adres e-mail należy wpisać w pole `Informacje`. W tej samej linii, po e-mailu można dodać krótki opis.
+- Pole `Informacje na wydruku` > pole tekstowe, w którym można wpisać informacje, które następnie można wywołać przy wydrukach dokumentów dla właścicieli, dodając element: `Informacje na wydruku`.
+- Pole `E-mail` > podajemy adres poczty elektronicznej właściciela, który będzie wykorzystywany przy wysyłaniu wiadomości e-mail za pomocą systemu. Jeśli jest dwa lub więcej adresów, to każdy z nich wpisujemy w nowej linii. Na każdy podany adres trafi osobna wiadomość e-mail. Jeśli osoba nie wyraziła zgody na korespondencję elektroniczną, to adres e-mail należy wpisać w pole `Informacje`. W tej samej linii, po adresie e-mail można dodać krótki opis.
 - Pole `Telefon` > podajemy numer telefonu, który będzie wykorzystywany przy wysyłaniu wiadomości SMS za pomocą systemu. Numer telefonu wpisujemy w formacie 123456789, bez myślników i kierunkowego +48. Najlepiej tylko numery komórkowe. Jeśli jest dwa lub więcej telefonów, to każdy z nich wpisujemy w nowej linii. Na każdy podany numer trafi osobna wiadomość SMS. Jeśli osoba nie wyraziła zgody na kontakt telefoniczny, to nr telefonu należy wpisać w pole `Informacje`.  W tej samej linii, po numerze można dodać krótki opis. W polu nie wpisujemy numerów zagranicznych.
+- Pole `Opcje` > dodatkowe opcje:
+    - `Powiązany odbiorca` > oznaczenie firmy jako podmiotu powiązanego w plikach JPK V7 "TP".
 - Klikamy: `Zapisz`.
 
 ![Dane właścicieli](danewlascicieli.gif)
