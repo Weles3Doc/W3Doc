@@ -12,7 +12,7 @@ Mieszkania/lokale są elementami systemu, do których można przydzielić właś
 - `LU01 LU02` > dla lokali użytkowych.
 - `P01 P02 P03` > dla pożytków. 
 
-Numery mieszkań są sortowane alfabetycznie. Jeśli do właściciela są przypisane dwa lub więcej lokali, to przy nazwisku na listach w systemie, wyświetli się jeden numer lokalu — pierwszy alfabetycznie. Numer lokalu w obrębie jednego zasobu musi być unikalny. Informacje podane w polu `Informacja` są dostępne w zakładce `Administracja` > przycisk `Informacje` lub w menu `Funkcje` > `Wydruki` > `Zasób` > `Inf. osób/mieszkań`.
+Numery mieszkań są sortowane alfabetycznie. Jeśli do właściciela są przypisane dwa lub więcej lokali, to przy nazwisku na listach w systemie, wyświetli się jeden numer lokalu — pierwszy alfabetycznie. Numer lokalu w obrębie jednego zasobu musi być unikalny. Informacje podane w polu `Informacja` są dostępne w zakładce `Administracja` po zaznaczeniu lokalu lub w menu `Funkcje` > `Wydruki` > `Zasób` > `Inf. osób/mieszkań`.
 
 #### Dodanie nowego mieszkania/lokalu
 
