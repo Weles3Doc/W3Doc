@@ -13,6 +13,8 @@ W systemie można wyszukiwać osoby we wszystkich nieruchomościach w systemie. 
 
 Aby wyszukać właściciela, należy przejść do:
 
-- Zakładka `Zasoby` > menu `Zasoby` > `Wyszukiwanie osób`.
+- Zakładka `Szukaj` > `Szukaj osób`.
+
+Po wyszukaniu osoby można bezpośrednio przejść do zasobu klikając `Przejdź do`.
 
 ![Wyszukiwanie osób](wyszukiwanieosob.gif)
