@@ -5,9 +5,17 @@ title: Zmiana typu dokumentu dla lokalu
 # Zmiana typu dokumentu dla lokalu
 
 W systemie można wystawić trzy różne typy dokumentów za lokal. Są to:
+
 - `Zawiadomienie` > zwyczajny wydruk z opłatami za lokal.
 - `Rachunek` > (Faktura bez VAT) - najczęściej wystawiamy go pożytkom lub jednostkom budżetowym.
-- `Faktura VAT` > stosujemy, tylko gdy wspólnota jest Vatowcem.
+- `Faktura VAT` > Nie zalecamy stosowania. Ustawienie tego typu powoduje że na lokalu można naliczać tylko i wyłącznie pozycje z VATem. Samo w sobie nie powoduje wystawienia Faktury VAT.
+
+Powyższą instrukcję stosujemy tylko dla zmiany od daty bieżącej lub przyszłej. Jeśli zmiana ma być od daty wstecznej, to trzeba albo:
+
+- Cofnąć naliczenia > nie polecamy — przy ponownym księgowaniu, numeracja dokumentów ulegnie zmianie.
+- Zastosować procedurę wykupu wstecz > wykup wstecz lokalu przez tego samego właściciela z innym typem dokumentu. 
+
+Jeśli zmiana typu dokumentu zostanie wprowadzona w środku okresu rozliczeniowego, to rozliczenie za ten okres wydrukuje się po części na starym i nowym typie dokumentu. Zalecamy zmiany typów dokumentów od początku roku lub początku kolejnego okresu rozliczeniowego. Wystawianie Faktury VAT nie wymaga zmiany typu dokumentu. Lokal może pozostać na zawiadomieniu, ale trzeba dodać do niego stawki z odpowiednim typem VAT.
 
 Aby zmienić typ wystawianego dokumentu, z zawiadomienia na rachunek, trzeba przejść do:
 
@@ -30,12 +38,3 @@ Aby zmienić typ wystawianego dokumentu, z zawiadomienia na rachunek, trzeba prz
 Lokal z nowym typem dokumentu powinien się pojawić obok.
 
 ![Zmiana typu dokumentu dla lokalu](zmianatypudokumentu.gif)
-
-#### Uwagi:
-
-- Powyższą instrukcję stosujemy tylko dla zmiany od daty bieżącej lub przyszłej.
-- Jeśli zmiana ma być od daty wstecznej, to trzeba albo:
-  - Cofnąć naliczenia > nie polecamy — przy ponownym księgowaniu, numeracja dokumentów ulegnie zmianie.
-  - Zastosować procedurę wykupu wstecz > wykup wstecz lokalu przez tego samego właściciela z innym typem dokumentu.
-- Jeśli zmiana typu dokumentu zostanie wprowadzona w środku okresu rozliczeniowego, to rozliczenie za ten okres wydrukuje się po części na starym i nowym typie dokumentu.
-- Wystawianie Faktury VAT nie wymaga zmiany typu dokumentu. Lokal może pozostać na zawiadomieniu, ale trzeba dodać do niego stawki z odpowiednim typem VAT.
