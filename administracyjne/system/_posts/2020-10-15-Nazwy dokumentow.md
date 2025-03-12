@@ -36,7 +36,7 @@ Za zmianę wzoru numeru dokumentu odpowiada pole `Numer`. Określamy w nim ukła
 - `{NR}` > numer w roku (numeracja łączna dokumentów i korekt).
 - `{1R}` > numer w miesiącu (numeracja łączna dokumentów i korekt).
 - `{2R}` > numer w roku (numeracja osobna dokumentów i korekt).
-- `{3R}` > numer w roku (numeracja osobna dokumentów i korekt).
+- `{3R}` > numer w miesiącu (numeracja osobna dokumentów i korekt).
 - `{ROK}` > ostatnie 2 cyfry roku.
 - `{TYP}` > ZAL/KOR.
 - `{MC}` > miesiąc.
