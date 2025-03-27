@@ -24,16 +24,11 @@ Aby dodać zupełnie nowego właściciela (kartotekę) do lokalu, należy przej�
 - Klikamy: `Dodaj`.
 - Klikamy: `Zatwierdź`.
 
-![Wykup lokalu](zmianawlasciciela.gif)
-
-#### Uwagi:
-
-- Podana instrukcja dotyczy miesiąca, za który nie są jeszcze zaksięgowane zaliczki.
-- Jeśli zaliczki za dany miesiąc są już zaksięgowanie i nie można ich cofnąć, to zmianę właściciela wykonujemy wg instrukcji: Wykup lokalu wstecz.
-- Pole `Udziałowcy` > służy do oddzielnego wprowadzania współwłaścicieli lokalu. Więcej na ten temat w instrukcji: Dodawanie współwłaścicieli.
-- Pole `Weryfikacja adresu` > odpowiada za sprawdzanie pola `Adres`. Adres tutaj podany powinien być wpisany w określonym formacie:
+Podana instrukcja dotyczy miesiąca, za który nie są jeszcze zaksięgowane zaliczki. Jeśli zaliczki za dany miesiąc są już zaksięgowanie i nie można ich cofnąć, to zmianę właściciela wykonujemy wg instrukcji: Wykup lokalu wstecz. Pole `Udziałowcy` > służy do oddzielnego wprowadzania współwłaścicieli lokalu. Więcej na ten temat w instrukcji: Dodawanie współwłaścicieli. Pole `Weryfikacja adresu` > odpowiada za sprawdzanie pola `Adres`. Adres tutaj podany powinien być wpisany w określonym formacie:
 ```
 Imię Nazwisko
 ul. Przykładowa 1 m.12
 01-123 Warszawa
 ```
+
+![Wykup lokalu](zmianawlasciciela.gif)
