@@ -22,10 +22,6 @@ Aby podpiąć lokal pod istniejącą kartotekę właściciela, należy przejść
 - Klikamy: `Dodaj`.
 - Klikamy: `Zatwierdź`.
 
+Podana instrukcja dotyczy miesiąca, za który nie są jeszcze zaksięgowane zaliczki. Jeśli zaliczki za dany miesiąc są już zaksięgowanie i nie można ich cofnąć, to zmianę właściciela wykonujemy wg instrukcji: Wykup lokalu wstecz. Pole `Udziałowcy` > służy do oddzielnego wprowadzania współwłaścicieli lokalu. Więcej na ten temat w instrukcji: Dodawanie współwłaścicieli.
+
 ![Dodanie właściciela](dodanielokaludoistniejacegowlasciciela.gif)
-
-#### Uwagi:
-
-- Podana instrukcja dotyczy miesiąca, za który nie są jeszcze zaksięgowane zaliczki.
-- Jeśli zaliczki za dany miesiąc są już zaksięgowanie i nie można ich cofnąć, to zmianę właściciela wykonujemy wg instrukcji: Wykup lokalu wstecz.
-- Pole `Udziałowcy` > służy do oddzielnego wprowadzania współwłaścicieli lokalu. Więcej na ten temat w instrukcji: Dodawanie współwłaścicieli.
