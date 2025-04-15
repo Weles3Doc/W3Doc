@@ -11,24 +11,24 @@ W niniejszej instrukcji przedstawimy Państwu przykładowe rozliczenie składnik
 Założenia:
 
 - Przeprowadzimy rozliczenie różnicy (często zwanej uchybem) po zaksięgowaniu rozliczenia liczników lokalowych zimnej wody.
-- W budynku są liczniki ZW i CW, część lokali jest ryczałtowa, rozliczenie uchybu proporcjonalnie do powierzchni użytkowej na wszystkich.
-- Okres rozliczenia to cały rok.
-- Dla uproszczenia przyjmujemy, że wartość zbieranych zaliczek przez właścicieli jest stała przez cały okres.
-- Nie ma zmian właścicieli ani zmian powierzchni użytkowej.
+- W budynku są liczniki ZW i CW, rozliczenie uchybu zrobimy proporcjonalnie do powierzchni użytkowej na wszystkich.
+- Okres rozliczenia to pół roku.
 
 #### Wstęp
 
 Przed przystąpieniem do rozliczenia sprawdzamy:
 
-- Czy wartość Danej (powierzchni użytkowej) wg, której będziemy rozliczać składnik, jest stała i prawidłowa w okresie rozliczenia?
-- Czy wartość zaliczki za Zimną wodę i ścieki, czy jest prawidłowa we wszystkich miesiącach, sprawdzamy też konto 700 przychodów składnika w zakładce Konta FK.
-- Czy na koncie 400 składnika są zaksięgowane wszystkie koszty?
+- Czy wartość danej (powierzchni użytkowej) wg której będziemy rozliczać składnik, jest stała i prawidłowa w okresie rozliczenia lub jeśli występują jej zmiany, to są one zamierzone? (menu `Widok` > `Struktura danych w lokalach`)
+- Czy wartość zaliczki za Zimna woda i ścieki jest prawidłowa we wszystkich miesiącach, sprawdzamy też konto 700 przychodów składnika w zakładce Konta FK. (menu `Widok` > `Struktura naliczeń w lokalach` i zakładka `Konta FK`)
+- Czy na koncie 400 składnika są zaksięgowane wszystkie koszty? (zakładka `Konta FK`)
 
 ![Przykład Rk alg.1](przykladRKalg1.gif)
 
 #### Terminy rozliczeń
 
-Po sprawdzeniu określamy okres rozliczenia składnika, w naszym przypadku jest to od 01-2012 do 12-2012. 
+Po sprawdzeniu określamy okres rozliczenia składnika, w naszym przypadku jest to od 01-2021 do 06-2021. 
+
+Menu `Elementy` > `Terminy rozliczeń kosztów`
 
 ![Przykład Rk alg.2](przykladRKalg2.gif)
 
@@ -36,10 +36,14 @@ Po sprawdzeniu określamy okres rozliczenia składnika, w naszym przypadku jest 
 
 Przechodzimy do ustawienia sposobu rozliczenia kosztów. Dla przyjętych wcześniej założeń ustawiamy:
 
+ Zakładka `Administracja` > `Naliczenia` > `K.bieżąca`
+- Menu `Obciążenia` > `Rozliczenia kosztów`.
 - Pole `Typ` > `Algorytm - różnica` (lub `Obciążenia - różnica` - jeśli RK ma być proporcjonalne od wcześniejszych obciążeń).
 - Pole `Sposób` > `Łącznie` (na wszystkie lokale bez rozróżnienia czy jest ryczałtowy, czy olicznikowany).
 - Pole `Algorytm` > wybieramy `Daną`, na przykład: `Powierzchnia użytkowa`.
 - Pole `Wartość` > wpisujemy lub wybieramy z podpowiedzi kwotę różnicy ZW.
+- Klikamy `Dodaj`.
+- Klikamy `Zatwierdź`.
 
 Następnie przeliczamy rozliczenie w korekcie bieżącej i sprawdzamy.
 

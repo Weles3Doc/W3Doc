@@ -10,35 +10,38 @@ W niniejszej instrukcji przedstawimy Państwu przykładowe rozliczenie składnik
 
 Założenia:
 
-- Przeprowadzimy rozliczenie Centralnego ogrzewania.
-- W budynku nie ma liczników CO.
-- Okres rozliczenia to cały rok.
-- Dla uproszczenia przyjmujemy, że wartość zbieranych zaliczek przez właścicieli jest stała przez cały okres.
-- Nie ma zmian właścicieli ani zmian powierzchni użytkowej.
+- Przeprowadzimy rozliczenie Centralnego ogrzewania - opłaty stałej.
+- Okres rozliczenia to pół roku.
 
 #### Wstęp
 
 Przed przystąpieniem do rozliczenia sprawdzamy:
 
-- Czy wartość Danej (powierzchni użytkowej) wg, której będziemy rozliczać składnik, jest stała i prawidłowa w okresie rozliczenia lub jeśli występują jej zmiany, to są one zamierzone?
-- Czy wartość zaliczki za centralne ogrzewanie jest prawidłowa we wszystkich miesiącach, sprawdzamy też konto 700 przychodów składnika w zakładce Konta FK.
-- Czy na koncie 400 składnika są zaksięgowane wszystkie koszty?
+- Czy wartość Danej (powierzchni użytkowej) wg, której będziemy rozliczać składnik, jest stała i prawidłowa w okresie rozliczenia lub jeśli występują jej zmiany, to są one zamierzone? (menu `Widok` > `Struktura danych w lokalach`)
+- Czy wartość zaliczki za centralne ogrzewanie jest prawidłowa we wszystkich miesiącach, sprawdzamy też konto 700 przychodów składnika w zakładce Konta FK. (menu `Widok` > `Struktura naliczeń w lokalach` i zakładka `Konta FK`)
+- Czy na koncie 400 składnika są zaksięgowane wszystkie koszty? (zakładka `Konta FK`)
 
 ![Przykład RK1](przykladRK1.gif)
 
 #### Terminy rozliczeń
 
-Po sprawdzeniu określamy okres rozliczenia składnika, w naszym przypadku jest to od 01-2012 do 12-2012. 
+Po sprawdzeniu określamy okres rozliczenia składnika, w naszym przypadku jest to od 01-2021 do 06-2021.
+
+Menu `Elementy` > `Terminy rozliczeń kosztów`
 
 ![Przykład RK2](przykladRK2.gif)
 
 #### Określanie sposobu rozliczenia
 
 Przechodzimy do ustawienia sposobu rozliczenia kosztów. Dla przyjętych wcześniej założeń ustawiamy:
+- Zakładka `Administracja` > `Naliczenia` > `K.bieżąca`
+- Menu `Obciążenia` > `Rozliczenia kosztów`.
 - Pole `Typ` > `Algorytm - pełen koszt`.
 - Pole `Sposób` > `Łącznie`.
 - Pole `Algorytm` > wybieramy `Daną`, na przykład: `Powierzchnia użytkowa`.
-- Pole `Wartość` > wpisujemy lub wybieramy z podpowiedzi kwotę kosztu CO.
+- Pole `Wartość` > wpisujemy lub wybieramy z podpowiedzi kwotę kosztu CO stałej.
+- Klikamy `Dodaj`.
+- Klikamy `Zatwierdź`.
 
 Następnie przeliczamy rozliczenie w korekcie bieżącej i sprawdzamy.
 
@@ -74,4 +77,4 @@ Saldo dla rozliczanego składnika powinno być jak najbardziej zbliżone do zera
 
 Na koniec przedstawimy Państwu omawiane rozliczenie w arkuszu kalkulacyjnym.
 
-**[Przykład RK Tabela](PrzykładRKtabela.xlsx)**
+**[Przykład RK Tabela](PrzykladRKtabela.xlsx)**

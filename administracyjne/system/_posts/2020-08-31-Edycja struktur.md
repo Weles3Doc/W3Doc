@@ -34,6 +34,8 @@ Można stosować wielopoziomowe mieszanki powyższych sposobów.
   - LOKALE UŻYTKOWE
   - MIESZKANIA
 
+Struktury są sortowane alfabetycznie, jeśli chcemy wymusić ich kolejność to nazwę struktury rozpoczynamy od cyfry. Nazwy można zmieniać dowolnie, bez konsekwencji.
+
 #### Dodanie nowej struktury
 
 - Zakładka `Administracja` > menu `Zasoby` > `Edytuj struktury`.

@@ -4,7 +4,7 @@ title: Terminy płatności
 
 # Terminy płatności
 
-Podczas księgowania należności nie określamy bezpośrednio terminu płatności dokumentów. Docelowy termin płatności będzie sumą ustawionej daty Pole Bazowy termin płatności oraz ilości dni określonej w niżej opisywanej funkcji. Dodatkowo będzie zależał od ustawionych opcji.  Aby ustawić ilość dni doliczanych podczas księgowania, należy przejść do:
+Podczas księgowania należności nie określamy bezpośrednio terminu płatności dokumentów. Docelowy termin płatności będzie sumą ustawionej daty w polu `Bazowy termin płatności` oraz ilości dni określonej w niżej opisywanej funkcji. Dodatkowo będzie zależał od ustawionych opcji. Aby ustawić ilość dni doliczanych podczas księgowania, należy przejść do:
 
 - Zakładka `Administracja` > menu `Elementy` > `Terminy płatności`.
 - Pole `Dokument` > wybrać typ dokumentu, dla którego ustawiamy termin.

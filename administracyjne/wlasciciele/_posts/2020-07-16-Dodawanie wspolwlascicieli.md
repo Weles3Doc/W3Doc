@@ -31,6 +31,6 @@ W tym momencie można dodać analogicznie pozostałych współwłaścicieli. Je�
 
 - Klikamy: `Zatwierdź`.
 
-Po zatwierdzeniu zmian system powinien zamknąć okno narzędzia. Współwłaściciele powinni od razu wyświetlić się na liście właścicieli. Obok klucza właściciela wyświetli się jego udział. Dla Każdego ze współwłaścicieli zostanie wystawiony dokument z opłatami, na którym ilości będą od razu przeliczone przez ich udział w nieruchomości. Przy dodawaniu, udziały są automatycznie odejmowane od udziału właściciela głównego, więc nie ma potrzeby dopełniać udziałów w pozycjach do 100 procent. 
+Po zatwierdzeniu zmian system powinien zamknąć okno narzędzia. Współwłaściciele powinni od razu wyświetlić się na liście właścicieli. Obok klucza właściciela wyświetli się jego udział. Dla Każdego ze współwłaścicieli zostanie wystawiony dokument z opłatami, na którym ilości będą od razu przeliczone przez ich udział w nieruchomości. Przy dodawaniu, udziały są automatycznie odejmowane od udziału właściciela głównego, więc nie ma potrzeby dopełniać udziałów w pozycjach do 100 procent. Każdy współwłaściciel będzie miał osobną kartotekę rozrachunkową, będzie mógł głosować oddzielnie w uchwałach, będzie miał osobny login do tomojdom.pl.
 
 ![Dodawanie współwłaścicieli](dodawaniewspolwlascicieli.gif)

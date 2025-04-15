@@ -60,7 +60,7 @@ Schemat działania jest następujący:
 - Na pierwotnym lokalu, dane **pomniejszamy** od daty wydzielenia.
 - Na nowym lokalu, dane **dodajemy** od daty wydzielenia.
 
-Na przykładzie, na którym działamy, z lokalu M01 wydzielamy lokal M01b od 1 sierpnia. Lokal M01 ma powierzchnię 67,50. Wydzielony lokal będzie miał powierzchnię 25, więc nową powierzchnią lokalu M01 będzie 42,5. W oknie edycji danych dodajemy dwie pozycje z wartością nowej powierzchni od daty podziału, na oba lokale. Podobnie postępujemy z innymi danymi lokalu, jak na przykład: Udział, Powierzchnia komórki, Liczba osób. (jeśli są dodane i jest taka potrzeba).
+Na przykładzie, na którym działamy, z lokalu LU01 wydzielamy lokal LU01B od 1 lipca. Lokal LU01 ma powierzchnię 137,40. Wydzielony lokal będzie miał powierzchnię 68,7, więc nową powierzchnią lokalu M01 będzie 68,7 (podział na pół). W oknie edycji danych dodajemy dwie pozycje z wartością nowej powierzchni od daty podziału, na oba lokale. Podobnie postępujemy z innymi danymi lokalu, jak na przykład: Udział, Powierzchnia komórki, Liczba osób. (jeśli są dodane i jest taka potrzeba).
 
 ![Podział lokalu](podziallokalu2.gif)
 

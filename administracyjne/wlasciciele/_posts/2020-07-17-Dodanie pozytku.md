@@ -20,7 +20,7 @@ Nowa struktura nie będzie od razu widoczna, pokaże się, jeśli będzie do nie
 
 ![Dodanie pożytku](dodaniepozytku1.gif)
 
-#### Dodanie lokalu P0xx
+#### Dodanie lokalu Pxx
 
 Następnym krokiem jest dodanie lokalu na pożytek:
 
@@ -34,12 +34,12 @@ Nowy lokal nie pokaże się od razu, trzeba do niego przydzielić odbiorcę.
 
 ![Dodanie pożytku](dodaniepozytku2.gif)
 
-#### Dodanie odbiorcy do lokalu P0xx
+#### Dodanie odbiorcy do lokalu Pxx
 
 Kolejnym etapem jest dodanie odbiorcy do pożytku. Przechodzimy do:
 
 - Zakładki `Administracja` > menu `Zasoby` > `Edytuj właścicieli`.
-- Pole `Lokal` > wybrać lokal P0xx.
+- Pole `Lokal` > wybrać lokal Pxx.
 - Pole `Data` > podać datę, zazwyczaj pierwszy dzień miesiąca, od którego mają być wystawiane dokumenty.
 - Pole `Operacja` > wybrać `Nowy właściciel`.
 - Pole `Udziałowcy` > `Właściciel główny`.
