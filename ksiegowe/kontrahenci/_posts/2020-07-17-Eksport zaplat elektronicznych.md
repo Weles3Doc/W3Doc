@@ -42,11 +42,17 @@ Aby pobrać plik z zapłatami, należy przejść do:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Eksportuj zapłaty elektroniczne`.
 - Zakładka `Zapłaty`.
+- Pole `Rachunek` > wybieramy wspólnotę/rachunek, z którego mają zostać opłacone koszty.
 - Pole `Dni przed TP` > określamy ilość dni, w których przeciągu upływa termin płatności pozycji kosztowej, które podpowiedzą się do eksportu. Jeżeli wskażemy np. 7 dni, to system wygeneruje listę płatności do zrealizowania, którym w przeciągu 7 dni od bieżącej daty upływa termin płatności (ew. zaległe/przeterminowane płatności również zostaną pokazane).
-- Pole `Minimalny TP` > minimalna data zlecenia przelewu zapłaty. Domyślnie jest to data bieżąca + 1 dzień.
+- Pole `Min data przelewu` > minimalna data zlecenia przelewu zapłaty w generowanym pliku. Domyślnie jest to data bieżąca + 1 dzień.
+- Pole `Max data przelewu` > maksymalna data zlecenia przelewu zapłaty w generowanym pliku. Domyślnie jest to data bieżąca + 1 dzień.
+- Pole `Uwzględnij rozrachunki` > TBD
+- Pole `Wcześniej wyeksportowane` > decydujemy czy system:
+    - `Nie uwzględniaj` > pominie pozycje które były już wcześniej wyeksportowane.
+    - `Uwzględniaj` > uwzględni/pobierze pozycje które były już wcześniej wyeksportowane. 
 - Klikamy: `Pobierz nieopłacone` > do dolnej części okna powinny się dodać pozycje z zapłatami. Na przycisk ten klikamy **jednokrotnie**, każde kliknięcie powoduje dodanie kolejnych, prosimy mieć to na uwadze, aby nie zlecić zapłaty dwa razy za tą samą pozycję.
 
-Pozycje zapłat można samodzielnie edytować lub dodawać/usuwać. Aby usunąć zbędną pozycję, klikamy na symbol niebieskiego kluczyka po prawej stronie pozycji. Aby edytować, klikamy na symbol lupy. Natomiast dodawanie ręcznie nowej pozycji rozpoczynamy od przejścia do:
+Pozycje zapłat można samodzielnie edytować lub dodawać/usuwać. Aby usunąć zbędną pozycję, klikamy na symbol X po prawej stronie pozycji. Aby edytować, klikamy na symbol ołówka. Natomiast dodawanie ręcznie nowej pozycji rozpoczynamy od przejścia do:
 
 - Pole `Rachunek` > wybieramy wspólnotę/rachunek, z którego mają wyjść zapłaty.
 - Pole `Kontrahent` > wybieramy pożądanego dostawcę.
@@ -57,6 +63,10 @@ Pozycje zapłat można samodzielnie edytować lub dodawać/usuwać. Aby usunąć
 
 Gdy w oknie eksportu pozostaną pożądane pozycje, można pobrać plik z zapłatami, należy:
 
+- Pole `Zapisz` > ustalamy czy:
+    - `Nie zapisuj` > pozycje nie będą oznaczone jako wyeksportowane, będą się podpowiadać w przyszłości jeszcze raz.
+    - `Zapisz eksportowane` > pozycje będą oznaczone jako wyeksportowane, nie będą się podpowiadać przy ponownych eksportach.
+    - `Zapisz wszystkie` > TBD
 - Kliknąć: `Zatwierdź`.
 
 Plik należy zapisać na dysku. Następnie trzeba go zaimportować do systemu bankowego.
