@@ -46,7 +46,9 @@ Aby pobrać plik z zapłatami, należy przejść do:
 - Pole `Dni przed TP` > określamy ilość dni, w których przeciągu upływa termin płatności pozycji kosztowej, które podpowiedzą się do eksportu. Jeżeli wskażemy np. 7 dni, to system wygeneruje listę płatności do zrealizowania, którym w przeciągu 7 dni od bieżącej daty upływa termin płatności (ew. zaległe/przeterminowane płatności również zostaną pokazane).
 - Pole `Min data przelewu` > minimalna data zlecenia przelewu zapłaty w generowanym pliku. Domyślnie jest to data bieżąca + 1 dzień.
 - Pole `Max data przelewu` > maksymalna data zlecenia przelewu zapłaty w generowanym pliku. Domyślnie jest to data bieżąca + 1 dzień.
-- Pole `Uwzględnij rozrachunki` > TBD
+- Pole `Uwzględnij rozrachunki` > decydujemy o uwzględnianiu `Łączenia rozrachunków`:
+    - `Nie` > wpłaty są zaliczane na najstarsze faktury i do zapłaty pokazują się najnowsze faktury kosztowe.
+    - `Tak` > system uwzględnia `Łączenie rozrachunków` i dopiero pozostałe pozycje (obciążenia/wpłaty) zapisuje na najstarsze.
 - Pole `Wcześniej wyeksportowane` > decydujemy czy system:
     - `Nie uwzględniaj` > pominie pozycje które były już wcześniej wyeksportowane.
     - `Uwzględniaj` > uwzględni/pobierze pozycje które były już wcześniej wyeksportowane. 
