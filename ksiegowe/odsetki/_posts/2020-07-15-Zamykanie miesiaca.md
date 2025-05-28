@@ -4,13 +4,12 @@ title: 3. Zamykanie miesiąca
 
 # Zamykanie miesiąca
 
-Przed zaksięgowaniem odsetek lub zamknięciem roku, konieczne jest zamknięcie miesięcy FK, aby to zrobić, należy przejść do:
+Przed zaksięgowaniem odsetek lub zamknięciem roku, konieczne jest zamknięcie miesięcy FK. Aby to zrobić, należy przejść do:
 
-- Zakładka `Dekrety` > menu `Funkcje` > `Zamykanie miesiąca FK`.
+- Zakładka `Dekrety` > menu `Funkcje` > `Zamykanie/otwieranie miesiąca FK`.
 - Pole `Data` > ustawiamy ostatni zamykany miesiąc.
-- Klikamy: `Dodaj`.
-- Wpisujemy hasło i zatwierdzamy.
+- Klikamy: `Zatwierdź`.
 
-Zamknąć można kilka miesięcy naraz. W zamkniętym miesiącu nie można dodawać nowych dokumentów, można edytować istniejące, nie można też edytować pozycji na kontach 201.
+Zamknąć można kilka miesięcy naraz. Zamknięte miesiące będą oznaczone symbolem kłódki w zakładce `Dekrety`.
 
 ![Zamykanie miesiąca](zamykaniemiesiaca.gif)
