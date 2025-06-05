@@ -6,8 +6,8 @@ title: 2. Ustawienie stóp odsetkowych
 
 Przed naliczeniem i zaksięgowaniem odsetek należy zdefiniować wysokość stopy odsetkowej oraz określić dodatkowe opcje odsetek. Rozróżniamy dwa miejsca, w których możemy je ustawić:
 
-- Zakładka `Zasoby` > menu `Elementy` > `Stopy odsetkowe` — dane kontaktowe dotyczą wszystkich nieruchomości (`poziom globalny`).
-- Zakładka `Administracja` > `Elementy` > `Stopy odsetkowe` — dane kontaktowe dotyczą tylko wybranej nieruchomości (`poziom zasobu`).
+- Zakładka `Zasoby` > menu `Elementy` > `Stopy odsetkowe` — dotyczą wszystkich nieruchomości (`poziom globalny`).
+- Zakładka `Dekrety` > `Elementy` > `Stopy odsetkowe` — dotyczą tylko wybranej nieruchomości (`poziom zasobu`).
 
 Zasada ich dodawania jest następująca:
 - Na poziomie `globalnym` dodajemy główne stopy odsetkowe, które są definiowane przez prawo. Dzięki temu nie trzeba każdej zmiany stóp procentowych powtarzać na każdym zasobie, z osobna.
