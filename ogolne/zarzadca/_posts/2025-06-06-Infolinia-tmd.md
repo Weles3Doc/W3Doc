@@ -16,7 +16,7 @@ W systemie Weles3 udostępniliśmy Państwu nową funkcję, której zadaniem jes
     - brak opcji kontaktu.
 
 Infolinia powstała z myślą o:
-- odciążenia pracowników administracji podstawowymi pytaniami o saldo i czynsz.
+- odciążenia pracowników administracji/księgowości podstawowymi pytaniami o saldo i czynsz.
 - powstaniu alternatywnego kanału komunikacji z właścicielami, którzy nie mogą lub nie chcą korzystać z klasycznego logowania przez `tomojdom.pl`, na przykład osoby starsze lub z niepełnosprawnościami.
 
 Numer na który właściciele wykonują połączenia to: `22 19 366`. Jest to numer ogólnopolski i jednakowy dla wszystkich naszych klientów. Cena za połączenie jest taka sama jak za połączenia na numer stacjonarny. Właściciel dzwoniąc na ten numer, autoryzuje się swoim loginem numerycznym do `tomojdom.pl`.
@@ -33,23 +33,23 @@ Jeśli właściciele nie mają nadanych odstępów do podglądu internetowego to
 
 #### Co musi zrobić właściciel aby z niej skorzystać?
 
-Właściciel musi znać swój login numeryczny do `tomojdom.pl`, mogą Państwo poinformować go o nim drogą mailową lub w rozmowie. Właściciel znajdzie też ten numer w stopce każdego wydruku z weles 3.
+Właściciel musi znać swój login numeryczny do `tomojdom.pl`, mogą Państwo poinformować go o nim drogą mailową lub w rozmowie. Właściciel znajdzie też ten numer w stopce każdego wydruku z Weles 3.
 
 Warunkiem koniecznym jest uzupełnienie telefonu właściciela, **z którego będzie dzwonił na infolinię**. Dodatkowo chcąc skorzystać z przesyłania informacji na maila, trzeba dodać też adresy mailowe.
 
-Swoje telefony i adresy mailowe właściciel może uzupełnić samodzielnie logując się do `tomojdom.pl`. Mogą je też uzupełnić Państwo przez zakładka `Administracja` > menu `Zasoby` > `Edytuj dane właścicieli`.
+Swoje telefony i adresy mailowe właściciel może uzupełnić samodzielnie logując się do `tomojdom.pl`. Mogą je też uzupełnić Państwo przez zakładkę `Administracja` > menu `Zasoby` > `Edytuj dane właścicieli`.
 
-Znajomość numeru oraz uzupełniony numer - jednoznacznie identyfikuje/autoryzuje osobę dzwoniącą. 
+Znajomość numeru loginu oraz uzupełniony numer telefonu - jednoznacznie identyfikuje/autoryzuje osobę dzwoniącą. 
 
 #### Testowanie działania infolinii
 
-Mogą Państwo przetestować infolinię przed poinformowaniem o niej właścicieli.
+Mogą Państwo przetestować infolinię przed poinformowaniem właścicieli.
 
-W wybranym zasobie, prosimy dodać własny numer telefonu i adres email wybranemu właścicielowi, najlepiej kartotece, która nie ma ich przypisanych. Można zrobić to przez zakładka `Administracja` > menu `Zasoby` > `Edytuj dane właścicieli`.
+W wybranym zasobie, prosimy dodać własny numer telefonu i adres email wybranemu właścicielowi, najlepiej kartotece, która nie ma ich przypisanych. Można zrobić to przez zakładkę `Administracja` > menu `Zasoby` > `Edytuj dane właścicieli`.
 
 Następnie zadzwonić pod numer: `22 19 366`, wpisać login właściciela, zatwierdzić `#` i przetestować wszystkie opcje.
 
-Po zakończeniu testowania, prosimy pamiętać o usunięciu swoich telefonów i adresów e-mail.
+Po zakończeniu testowania, prosimy pamiętać o usunięciu swoich danych kontaktowych.
 
 #### Jak korzystać z infolinii?
 
