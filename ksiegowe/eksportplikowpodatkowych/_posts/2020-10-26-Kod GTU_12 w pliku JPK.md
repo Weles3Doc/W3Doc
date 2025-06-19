@@ -15,14 +15,15 @@ W ramach nowych jednolitych plików kontrolnych: JPK_V7M lub JPK_V7K, które zac
 - Pole `Konto przychodów` > pozostawiamy bez zmian.
 - Pole `Konto kosztów` > pozostawiamy bez zmian.
 - Pole `Stawka VAT` > pozostawiamy bez zmian.
-- Pole `PKWiU` > może pozostać puste.
-- Pole `Typ` > wybieramy `GTU_12` lub `Podzielona płatność` - przy pozycji powinna się pojawić fajka wyboru.
+- Pole `PKWiU` > może pozostać bez zmian.
+- Pole `Typ` > wybieramy `GTU_12` lub/i `Podzielona płatność` - przy pozycji powinna się pojawić fajka wyboru.
+- Pole `Podstawa zwolnienia` > może pozostać bez zmian.
 - Klikamy: `Zapisz`.
 
 Zmiany ustawień algorytmów zachodzą w każdym budynku w systemie, gdzie dany algorytm jest dodany. Prosimy mieć na uwadze konta przychodów i kosztów oraz stawkę VAT, aby ich przypadkowo nie zmienić.
 
 ![Dodanie kodu GTU_12](kodgtu12.gif)
 
-#### Podgląd kodu GTU_12 na JPK_V7M
+#### Podgląd kodu GTU_12 i MPP na JPK_V7M
 
 ![Dodanie kodu GTU_12](kodgtu12podglad.gif)
