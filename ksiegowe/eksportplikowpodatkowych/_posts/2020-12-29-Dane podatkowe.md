@@ -13,14 +13,14 @@ Eksporty JPK, Sprawozdań i CITu należy zacząć od uzupełnienia danych podatk
 - Pole `NIP` > wpisać NIP. (po uzupełnieniu można pobrać dane z bazy REGON)
 - Pole `REGON` > wpisać REGON.
 - Pole `Urząd skarbowy` > wybrać US właściwy dla podmiotu.
-- Pole `Nazwa pełna` > pełna nazwa podatnika (bez adresu).
+- Pole `Nazwa` > pełna nazwa podatnika (bez adresu).
 - Pole `Województwo` > wpisać województwo.
 - Pole `Powiat` > wpisać nazwę powiatu.
 - Pole `Gmina` > podać nazwę gminy.
 - Pole `Miejscowość` > miejscowość.
 - Pole `Ulica` > nazwa ulicy.
-- Pole `Nr domu` > nr domu.
-- Pole `Nr lokalu` > nr lokalu.
+- Pole `Numer domu` > nr domu.
+- Pole `Numer lokalu` > nr lokalu.
 - Pole `Kod pocztowy` > kod pocztowy.
 - Pole `Poczta` > poczta.
 - Pole `Zaliczka CIT` > określić częstotliwość składania deklaracji.
