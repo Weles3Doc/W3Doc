@@ -1,32 +1,35 @@
 ---
-title: 4. Wprowadzanie dokumentów
+title: 4. Księgowanie dokumentów
 ---
 
-# Wprowadzanie dokumentów
+# Księgowanie dokumentów
 
 Gdy dokumenty są już umieszczone na dysku Google, można przejść do wprowadzania dekretów w programie, na ich podstawie. W tym celu należy przejść do:
 
-- Zakładka `Zasoby` > menu `Funkcje` > `Łączenie zeskanowanych`.
+- Zakładka `Zasoby` > menu `Funkcje` > `Obieg dokumentów`.
 
-Dokumenty wprowadzamy w zakładce `Przyłączanie`. Jej widok przedstawiamy poniżej, wraz z opisem poszczególnych części okna.
+Dokumenty wprowadzamy w zakładce `Księgowanie`.
 
-![Okno Przyłączanie](oknoprzylaczania.png)
+W tej zakładce mamy następujące opcje:
 
-### Wprowadzanie dokumentu — krok po kroku
+- Pole `Typ podglądu` > odpowiada za podgląd pliku w prawej części okna:
+    - `Bezpośredni` > podgląd pliku pochodzi bezpośrednio z dysku Google.
+    - `Pośredni` > podgląd pliku pochodzi z serwerów Weles 3, wybieramy tą opcję gdy nie mamy dostępu lub nie jesteśmy zalogowani w przeglądarce do konta Google na którym znajdują się pliki do zaksięgowania.
+- Pole `Konto` > wybieramy konto Google z którego będziemy księgować pliki.
+- Przycisk `Odśwież` > klikamy wtedy gdy chcemy odświeżyć listę plików do zaksięgowania.
 
-#### Krok 1
+#### Księgowanie dokumentu — Krok 1
 
-Jako pierwsze zawsze wybieramy prawidłowe konto dysku Google oraz plik, który będziemy wprowadzać. System będzie automatycznie rozpoznawał i podpowiadał nieruchomość i kontrahenta na liście plików, jeżeli podobne koszty były już dodawane.
+Jako pierwsze zawsze wybieramy prawidłowe konto Google oraz plik, który będziemy wprowadzać. System będzie automatycznie rozpoznawał i podpowiadał nieruchomość i kontrahenta na liście plików, jeżeli podobne koszty były już księgowane.
 
-![Okno Przyłączanie](dodaniedoku1.gif)
+Po wybraniu pliku klikamy `Księguj Fakturę`.
 
-#### Krok 2
+![Okno Księgowanie](dodaniedoku1.gif)
 
-Po wybraniu pliku przechodzimy do części okna odpowiadającej za ustawienia dodawanego dekretu. Ustawiamy odpowiednie wartości w polach:
+#### Księgowanie dokumentu — Krok 2
 
-- Pole `Typ` > wybieramy jedną z opcji:
-    - `Faktura` > ustawiamy, jeśli wprowadzany dokument jest fakturą kosztową.
-    - `Pismo` > ustawiamy, jeśli skan dotyczy dokumentu nieksięgowego. Będzie on możliwy do wyboru i przypisania w zakładce `Zgłoszenia`.
+Zostaniemy przeniesieni do okna księgowania kosztów. Ustawiamy odpowiednie wartości w polach:
+
 - Pole `Zasób` > wybieramy budynek/wspólnotę.
 - Pole `Kontrahent` > wybieramy dostawce usługi lub towarów.
 - Pole `Miesiąc księgowania` > określamy miesiąc księgowania. 
@@ -34,11 +37,10 @@ Po wybraniu pliku przechodzimy do części okna odpowiadającej za ustawienia do
 - Pole `Termin płatności` > Ustawiamy termin płatności kosztu.
 - Pole `Nazwa (dowód)` > podajemy numer faktury.
 - Pole `Treść` > wpisujemy opis księgowania.
-- Pole `Hasło` i przycisk `Zatwierdź` > na tym etapie pomijamy.
 
-![Okno Przyłączanie](dodaniedoku2.gif)
+![Okno Księgowanie](dodaniedoku2.gif)
 
-#### Krok 3
+#### Księgowanie dokumentu — Krok 3
 
 Następnie należy wprowadzić pozycje z faktury kosztowej. Oczywiście można się posiłkować tekstem rozpoznanym przez system OCR, jaki i skanem dokumentu w dolnej części strony.
 
@@ -53,15 +55,14 @@ Następnie należy wprowadzić pozycje z faktury kosztowej. Oczywiście można s
 
 Jeśli na dokumencie znajdują się kolejne pozycje, to wprowadzamy je.
 
-![Okno Przyłączanie](dodaniedoku3.gif)
+![Okno Księgowanie](dodaniedoku3.gif)
 
-#### Krok 4
+#### Księgowanie dokumentu — Krok 4
 
 Gdy wszystkie pozycje danego dokumentu zostaną wprowadzone i sprawdzone, można zapisać dokument.
 
-- Pole `Hasło` > wprowadzamy hasło.
 - Klikamy: `Zatwierdź`.
 
 Okno nie zamknie się, dodawany dokument zniknie z listy — oznacza to, że został poprawnie wprowadzony w systemie. Po tym można przystąpić do wprowadzania kolejnego dokumentu.
 
-![Okno Przyłączanie](dodaniedoku4.gif)
+![Okno Księgowanie](dodaniedoku4.gif)
