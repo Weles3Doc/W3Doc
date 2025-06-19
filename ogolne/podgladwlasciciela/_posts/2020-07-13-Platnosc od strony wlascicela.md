@@ -1,26 +1,32 @@
 ---
-title: Płatność od strony właściciela
+title: Płatności on-line - płatność
 ---
 
-# Płatność od strony właściciela
+# Płatności on-line - płatność
 
 Po uruchomieniu usługi, płatność od strony podglądu właściciela wygląda następująco:
 
-- Właściciel loguje się do swojej kartoteki internetowej.
-- Sprawdza symbol oraz wzorzec rachunku bankowego.
-- Klika: Zapłać.
-- Pojawi się komunikat z prośbą o zapamiętanie symbolu i wzorca. 
-- Klika: OK.
-- Otworzy się nowa zakładka ze stroną płatności.
-- Na której ponownie sprawdza wzorzec i symbol.
-- Pole Płatność > właściciel wybiera jedną z dostępnych opcji:
-  - Pełna — aby pokryć saldo całkowicie.
-  - Wymagalna — aby zapłacić saldo za dokumenty zaksięgowane z terminem płatności do dzisiaj włącznie.
-  - Dowolna — aby określić kwotę do wpłaty samodzielnie.
-- Właściciel deklaruje, że zapoznał się z regulaminem płatności i akceptuje go.
-- Klika: Zapłać przez dotpay.
-- Właściciel zostanie przekierowany na stronę dotpay.
-- Sprawdza Odbiorcę płatności, Opis i Kwotę.
-- Następnie wybiera dogodną metodę płatności i postępuje zgodnie z dalszymi instrukcjami na stronie Dotpay.
+- Właściciel loguje się do swojej kartoteki `tomojdom.pl`.
+- Klika: `Zapłać teraz on-line`. Przycisk ten jest dostępny w zakładce z nazwą zasobu lub `Rozrachunki`.
+
+Po kliknięciu zostanie przeniesiony na stronę płatności.
+
+- Klika: `Zapoznałem się i akceptuje regulamin....`
+- W polu z kwotą podpowie się aktualne saldo właściciela - może je zmienić na dowolną kwotę.
+- Klika: `OK`.
+
+Właściciel zostanie przeniesiony na stronę dostawcy płatności: `https://go.przelewy24.pl/`.
+
+- W polu `Adres e-mail` wpisuje swój adres mailowy.
+- Klika `Wyślij`.
+
+Na kolejnej stronie wybierze metodę płatności, do wyboru jest:
+
+- Szybki przelew bankowy.
+- Płatnosci `Blikiem`.
+
+Po kliknięciu, w obu przypadkach, wyświetli się `Podsumowanie transakcji`, gdzie właściciel potwierdza płatność klikając `Płacę`.
+
+W zależności od wyboru właściciel zostanie przeniesiony na stronę logowania wybranego banku lub na stronę gdzie podaje kod `Blik`, aby dokończyć płatność.
 
 ![Płatność od strony właściciela](platnoscwlasciciel.gif)
