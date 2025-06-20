@@ -22,13 +22,13 @@ Przed przystąpieniem do importu trzeba dla każdego budynku i rachunku bankoweg
 - Pole `Opis` > opis konta.
 - Pole `Pozycje nierozpoznane Ma (Odsetki)` > ustalamy konto księgowe dla pozycji nierozpoznanych, uznań, zazwyczaj jest to konto `7xx-.. Przychody finansowe` lub `2xx-.. Pozycje do wyjaśnienia`.
 - Pole `Pozycje nierozpoznane Wn (Prowizje)` > ustalamy konto księgowe dla pozycji nierozpoznanych, obciążeń, zazwyczaj jest to konto `4xx/7xx-.. Koszty finansowe` lub `2xx-.. Pozycje do wyjaśnienia`.
-- Pole `Bank` > wskazujemy odpowiedni bank.
+- Pole `Bank` > wskazujemy odpowiedni bank. Jeśli Państwa banku nie ma na liście, to prosimy wybrać `-----`.
 - Pole `Numer` > wpisujemy numer konta.
 - Kliknąć: `Dodaj`.
 - Podobnie uzupełniamy dla innych budynków lub rachunków.
 - Kliknąć: `Zatwierdź`.
 
-Powyższe ustawienia można dowolnie zmieniać w późniejszym czasie. Jeśli Państwa banku nie ma na liście, to prosimy się zgłosić do działu wsparcia Weles3.
+Powyższe ustawienia można dowolnie zmieniać w późniejszym czasie. 
 
 ![Uruchomienie importu](impoperacjiuruch.gif)
 
@@ -104,63 +104,77 @@ Aby zaimportować plik, należy przejść do:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny`.
 - Zakładka `Import`.
-- Pole `Wybierz lub przeciągnij i upuść plik` > wybieramy lub przeciągamy plik do importu, można też wczytać więcej wyciągów spakowanych archiwum ZIP.
+- Pole `Wybierz lub przeciągnij i upuść plik` > wybieramy lub przeciągamy plik do importu, można też wczytać więcej wyciągów na raz, mogą być też spakowane archiwum ZIP.
 - Klikamy: `Analizuj wyciągi zwykłe`.
 
-Okno importu zmieni wygląd. Z lewej strony pokażą się importowane pliki. Na liście plików należy kliknąć nazwę importowanego wyciągu.
+![Import zwykły](imp_wb_zwyk_01.png)
 
-- Pole `Hasło` > wpisujemy hasło.
+Okno importu zmieni wygląd. Z lewej strony pokażą się importowane pliki. Na liście plików można kliknąć nazwę importowanego wyciągu, aby zapoznać się z importowanymi operacjami.
+
+Jeśli kliki mają status `Prawidłowe pliki` to:
+
 - Klikamy: `Importuj poprawne`.
 
-Po kliknięciu `Zatwierdź` okno może się zamknąć i wpłaty zostaną zaksięgowane w systemie. W tym momencie może też pojawić się błąd:
+Po kliknięciu okno się zamknie i operacje zostaną zaksięgowane w systemie. 
 
+![Import zwykły](imp_wb_zwyk_02.png)
 
-Brak konta FK dla rachunku 'WWEEEEOOOOPPPPLLLLNNNNYYYY'
-Brak konta FK dla rachunku 'AABBBBCCCCDDDDEEEEFFFFGGGG'
-Brak konta FK dla rachunku 'AAQQQQWWWWRRRRSSSSDDDDFFFF'
+**W tym momencie może też pojawić się błąd**, jest to typowe dla tego rodzaju importu. Operacje dla których nie zostało jeszcze wskazane konto księgowe zostaną oznaczone jako `Brak konta FK dla rachunku`. Oznacza to, że wpłata/zapłata z/na konto AA BBBB CCCC DDDD EEEE FFFF GGGG nie ma przypisanego konta księgowego, gdzie mogłaby się zaksięgować. Takie sparowanie trzeba teraz utworzyć, w tym celu, należy:
 
-Oznacza to, że wpłata/zapłata z/na konto AA BBBB CCCC DDDD EEEE FFFF GGGG nie ma przypisanego konta księgowego, gdzie mogłaby się zaksięgować. Takie sparowanie trzeba teraz utworzyć, w tym celu, należy:
+- Kliknąć: `Powrót`.
 
-- Zamknąć okno błędu.
+![Import zwykły](imp_wb_zwyk_03.png)
+
+Przechodzimy do:
+
 - Zakładka `Przypisanie kont`.
-- Pole `Rachunek zasobu` > wybrać budynek i rachunek, dla którego był importowany plik.
 
-W dolnej części okna pokaże się tabelka, w której przypisujemy `Rachunek obcy` do `Konta FK`. Należy odszukać pozycje, dla których `Konto FK` **nie jest określone**. Następnie:
+![Import zwykły](imp_wb_zwyk_04.png)
 
-- Z prawej strony pozycji klikamy na ikonkę lupy, pozycja załaduje się do górnej części okna.
-- Pole `Rachunek obcy` > pomijamy.
-- Pole `Nadawca` > będzie uzupełnione danymi nadawcy/odbiorcy przelewu.
+W polu `Rachunek bankowy` wybrać rachunek dla którego importowane pozycje stwarzały problem.
+
+![Import zwykły](imp_wb_zwyk_05.png)
+
+W dolnej części okna pokaże się tabelka, w której przypisujemy `Rachunek podmiotu` do `Konta FK`. Należy odszukać pozycje, dla których `Konto FK` **nie jest określone**, takie pozycje są oznaczone jako `--- BRAK --- --- BRAK ---`. Następnie:
+
+- Z **prawej** strony pozycji klikamy na ikonkę rysika ![Rysik](rysik.png), pozycja załaduje się do górnej części okna.
+- Pole `Nazwa podmiotu` > będzie uzupełnione danymi nadawcy/odbiorcy.
 - Pole `Treść` > będzie uzupełnione tytułem przelewu.
+- Pole `Rachunek podmiotu` > pomijamy/nie zmieniamy.
 - Pole `Konto FK` > na podstawie wcześniejszych pól ustawiamy konto księgowe właściciela lub kontrahenta, ew. inne dowolne np. `2xx-.. Pozycje do wyjaśnienia`.
-- Pole `Konto FK zapłat` > podajemy tutaj konto do zapłat, jeżeli mają być one księgowane na innym koncie niż w polu `Konto FK`, można w ten sposób rozdzielić wpłaty i zapłaty.
+- Pole `Konto FK zapłat` > można pozostawić puste. Podajemy tutaj konto do zapłat, jeżeli mają być one księgowane na innym koncie niż wpłaty z pola `Konto FK`, można w ten sposób rozdzielić wpłaty i zapłaty.
 - Kliknąć: `Dodaj`.
 
-Powyższe czynności powtarzamy dla każdego rachunku obcego, który nie ma przypisanego konta księgowego. Gdy pozycje będą uzupełnione, należy:
+Powyższe czynności powtarzamy dla każdego rachunku podmiotu, który nie ma przypisanego konta księgowego. 
 
-- Pole `Hasło` > wpisać hasło.
+![Import zwykły](imp_wb_zwyk_06.png)
+
+Gdy pozycje będą uzupełnione, należy:
+
 - Kliknąć: `Zatwierdź`.
 
-Okno funkcji zamknie się, należy jednak powrócić do niej i ponownie spróbować dodać plik do systemu, zaczynając jeszcze raz od początku instrukcji.
+Należy powrócić do zakładki `Import` i ponownie spróbować dodać plik, postępując jeszcze raz od początku instrukcji.
 
-Zaimportowane wyciągi można dowolnie edytować i usuwać tak jak zwyczajny dekret. Można też je importować jeszcze raz, dodając do nazwy pliku frazę `_WYMUS_`.
+Jeśli właściciele wypłacają czynsze poprzez pośredników np. Pocztę Polską, będą one oznaczone w tytule przelewu jako `Wpłata w UP....`, to takie pozycje należy przypisać do konta ksiegowego `249-01 Wpłaty do wyjaśnienia`. Następnie po imporcie edytować WB i poprawić wpłatę na prawidłowego właściciela, zgodnie z tytułem przelewu.
+
+Zaimportowane wyciągi można dowolnie edytować i usuwać tak jak zwyczajny dekret. Można też je importować jeszcze raz, dodając do nazwy pliku frazę `_WYMUS_` lub wyłączając `Sprawdzanie powielania`. Cały proces importu pokazujemy na poniższym filmiku.
 
 ![Import wyciągu](importwbzwyklego.gif)
 
 #### Edycja konta księgowego
 
-Czasami zachodzi konieczność zmiany miejsca księgowania się operacji bankowych dla danego rachunku obcego. W systemie można to bez problemu zrealizować, aby to zrobić, należy:
+Czasami zachodzi konieczność zmiany miejsca księgowania się operacji bankowych dla danego rachunku podmiotu. W systemie można to bez problemu zrealizować, aby to zrobić, należy:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Importuj wyciąg elektroniczny`.
-- Zakładka `Edycja`.
+- Zakładka `Przypisanie kont`.
 - Pole `Rachunek zasobu` > wybrać budynek i rachunek.
-- Z prawej strony pozycji klikamy na ikonkę lupy, pozycja załaduje się do górnej części okna.
-- Pole `Rachunek obcy` > pomijamy.
-- Pole `Nadawca` > będzie uzupełnione danymi nadawcy/odbiorcy przelewu.
+- Z prawej strony pozycji klikamy na ikonkę rysika ![Rysik](rysik.png), pozycja załaduje się do górnej części okna.
+- Pole `Nazwa podmiotu` > będzie uzupełnione danymi nadawcy/odbiorcy przelewu.
 - Pole `Treść` > będzie uzupełnione tytułem przelewu.
+- Pole `Rachunek podmiotu` > pomijamy.
 - Pole `Konto FK` > na podstawie wcześniejszych pól ustawiamy konto księgowe właściciela lub kontrahenta, ew. inne dowolne np. `2xx-.. Pozycje do wyjaśnienia`.
-- Pole `Konto FK zapłat` > podajemy tutaj konto do zapłat, jeżeli mają być one księgowane na innym koncie niż w polu `Konto FK`, można w ten sposób rozdzielić wpłaty i zapłaty.
+- Pole `Konto FK zapłat` > można pozostawić puste. Podajemy tutaj konto do zapłat, jeżeli mają być one księgowane na innym koncie niż w polu `Konto FK`, można w ten sposób rozdzielić wpłaty i zapłaty.
 - Kliknąć: `Dodaj`.
-- Pole `Hasło` > wpisać hasło.
 - Kliknąć: `Zatwierdź`.
 
 ![Edycja konta](importwbedycjakonta.gif)
