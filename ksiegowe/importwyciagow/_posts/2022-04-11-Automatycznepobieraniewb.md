@@ -51,8 +51,7 @@ Usługa jest współrealizowana z naszym partnerem, firmą [Easy Check Sp. z o.o
 ***
 
 ###### Dodatkowe informacje:
-- Usługa jest darmowa przez 3 miesiące kalendarzowe dla każdej nieruchomości, liczone od miesiąca, w którym wykonano pierwszą autoryzację.
-- Autoryzacja jest ważna na 90 dni, po upłynięciu tego czasu trzeba ponownie autoryzować dostęp do konta bankowego.
+- Autoryzacja jest ważna na 180 dni, po upłynięciu tego czasu trzeba ponownie autoryzować dostęp do konta bankowego.
 - Jeśli zasób posiada SWRK (płatności masowe, konta indywidualne) to takie operacje, które zostaną pobrane za pomocą opisywanej funkcji, należy przypisać do konta `141-xx Płatności masowe`. A same wpłaty na rachunki indywidualne, pobrać i zaimportować klasycznie.
 - Zaimportowane operacje zostaną zaksięgowane w zakładce `Dekrety`, w dekretach `WB` na każdy dzień oddzielnie. 
 
@@ -143,7 +142,7 @@ Gdy autoryzacja przebiegnie pomyślnie, połączony rachunek bankowy zostanie wy
 
 ## 2. Import operacji.
 
-Import operacji jest bardzo podobny do klasycznego, z tym że pomijamy całkowicie logowanie się do banku oraz generowanie i pobieranie wyciągu bankowego. 
+Import operacji jest bardzo podobny do klasycznego, z tym że pomijamy całkowicie logowanie się do banku oraz generowanie i pobieranie pliku z wyciągiem bankowym. 
 
 ##### 2.1 Pobranie operacji.
 
@@ -158,7 +157,7 @@ Import zaczynamy od przejścia do:
 
 W tym momencie są możliwe dwie sytuacje:
 
-- Jeśli wszystkie operacje mają przypisane konta księgowe, importowany wyciąg będzie miał status `Poprawne pliki`. Po kliknięciu na wyciąg będzie można sprawdzić jego zawartość, poprawne pozycje będą zaznaczone na zielono. Pole `Hasło` oraz przycisk `Importuj poprawne` są aktywne, można od razu przeprowadzić import.
+- Jeśli wszystkie operacje mają przypisane konta księgowe, importowany wyciąg będzie miał status `Poprawne pliki`. Po kliknięciu na wyciąg będzie można sprawdzić jego zawartość, poprawne pozycje będą zaznaczone na zielono. Przycisk `Importuj poprawne` jest aktywny, można od razu przeprowadzić import.
 - Natomiast jeśli w pobranych operacjach bankowych trafi się nowa operacja, która nie była wcześniej importowana, to wyciąg będzie miał status `Błędne pliki`. Po kliknięciu na wyciąg można sprawdzić jego zawartość, błędne pozycje będą zaznaczone na czerwono. Import takiego wyciągu nie jest możliwy, aby go zaimportować, należy podjąć dodatkowy krok, trzeba stworzyć przypisanie numeru konta bankowego do konta księgowego. W tym celu należy kliknąć przycisk `Powrót` i przejść do zakładki `Przypisanie kont`.
 
 ![Import automatyczny](autoimpwb02.png)
@@ -179,7 +178,7 @@ Należy określić konto księgowe, w tym celu klikamy:
 - Pole `Treść` > będzie uzupełnione tytułem przelewu, można zmienić na własny opis.
 - Pole `Rachunek podmiotu` > pomijamy.
 - Pole `Konto FK` > na podstawie wcześniejszych pól ustawiamy konto księgowe właściciela lub kontrahenta, ew. inne dowolne np. `2xx-.. Pozycje do wyjaśnienia`.
-- Pole `Konto FK zapłat` > podajemy tutaj konto do zapłat, jeżeli mają być one księgowane na innym koncie niż w polu `Konto FK`, można w ten sposób rozdzielić wpłaty i zapłaty. Może pozostać puste: `BRAK`.
+- Pole `Konto FK zapłat` > może pozostać puste: `BRAK`. Podajemy tutaj konto do zapłat, jeżeli mają być one księgowane na innym koncie niż w polu `Konto FK`, można w ten sposób rozdzielić wpłaty i zapłaty. 
 - Kliknąć: `Dodaj`.
 
 Powyższe czynności powtarzamy dla każdego rachunku obcego, który nie ma przypisanego konta księgowego. Gdy pozycje będą uzupełnione, należy:
@@ -192,7 +191,7 @@ Cały ten profes został przedstawiony na obrazku poniżej.
 
 ##### 2.4 Import.
 
-Po przypisaniu wszystkich operacji do kont księgowych wracamy do zakładki `Import`, następnie jeszcze raz klikamy `Analizuj z banku`. Importowany wyciąg będzie miał status `Poprawne pliki`. Po kliknięciu na wyciąg będzie można sprawdzić jego zawartość, poprawne pozycje będą zaznaczone na zielono. Pole `Hasło` oraz przycisk `Importuj poprawne` są aktywne, można od razu przeprowadzić import. W zakładce `Dekrety` zostaną utworzone adekwatne dokumenty WB na każdy dzień osobno, w którym występuje operacja bankowa.
+Po przypisaniu wszystkich operacji do kont księgowych wracamy do zakładki `Import`, następnie jeszcze raz klikamy `Analizuj z banku`. Importowany wyciąg będzie miał status `Poprawne pliki`. Po kliknięciu na wyciąg będzie można sprawdzić jego zawartość, poprawne pozycje będą zaznaczone na zielono. Przycisk `Importuj poprawne` jest aktywny, można od razu przeprowadzić import. W zakładce `Dekrety` zostaną utworzone adekwatne dokumenty WB na każdy dzień osobno, w którym występuje operacja bankowa. Pole `sprawdzanie powielania` odpowiada za ochronę przed wielokrotnym importem tym samych pozycji. Pole `Sprawdzanie salda` odpowiada za sprawdzanie salda po każdej pozycji którą importujemy pomiędzy Weles 3, a tym co przesyła bank.
 
 ![Import automatyczny](autoimpwb04.png)
 
