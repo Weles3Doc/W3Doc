@@ -29,11 +29,7 @@ Objaśnienia:
 - `D` — identyfikator dodatkowy — (nieruchomości, rachunku), np. gdy umowa z bankiem podpisana jest z zarządcą, który posiada kilka nieruchomości, lub gdy księgowość prowadzona jest na dwóch rachunkach (np. z podziałem na tzw. zaliczkę i fundusz remontowy). Jeśli identyfikator dodatkowy nie występuje, `D` staje się rozszerzeniem `E`.
 - `E` – identyfikator dłużnika/płatności/kontrahenta.
 
-Aby założyć płatności w systemie, trzeba przesłać do działu wsparcia, części struktury oznaczone jako `B` i `C` oraz ewentualnie `D`. Przykład załącznika do umowy poniżej, informacje istotne zaznaczone na żółto:
-
-![Załącznik SWRK](zaloncznikswrk.png)
-
-#### Uwagi:
+#### Wskazówki:
 
 - Prosimy nie przysyłać nam skanów umów z bankiem — wystarczy załącznik ze strukturą lub wypisana sama struktura w mailu, w postaci:
   - cc 1234 5678 9012 XXXX XXXX XXXX
@@ -44,3 +40,9 @@ Aby założyć płatności w systemie, trzeba przesłać do działu wsparcia, cz
 - Jest możliwość importu już wygenerowanych/używanych wcześniej numerów rachunków — w tym celu prosimy nam przesłać zestawienie w arkuszu, zawierające kolumny: [nr lokalu] [nr konta ind].
 - Na wydruku opłat za lokal — numer konta podajemy, dodając wydruk: `Wykaz do zapłaty`.
 - Jest możliwość sporządzenia zbiorczego zestawienia rachunków wirtualnych, robimy to za pomocą: Menu `Funkcje` > `Wydruki` > `Zasób` > `Lista kont indywidualnych`.
+
+#### Załącznik z banku
+
+Aby założyć płatności w systemie, trzeba przesłać do działu wsparcia, części struktury oznaczone jako `B` i `C` oraz ewentualnie `D`. Przykład załącznika do umowy poniżej, informacje istotne zaznaczone na żółto:
+
+![Załącznik SWRK](zaloncznikswrk.png)
