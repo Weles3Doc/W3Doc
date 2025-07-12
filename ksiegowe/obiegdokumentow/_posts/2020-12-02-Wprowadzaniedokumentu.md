@@ -24,7 +24,7 @@ Jako pierwsze zawsze wybieramy prawidłowe konto Google oraz plik, który będzi
 
 Po wybraniu pliku klikamy `Księguj Fakturę`.
 
-![Okno Księgowanie](../dodaniedoku1.gif)
+![Okno Księgowanie](dodaniedoku1.gif)
 
 #### Księgowanie dokumentu — Krok 2
 
