@@ -35,8 +35,10 @@ Zostaniemy przeniesieni do okna księgowania kosztów. Ustawiamy odpowiednie war
 - Pole `Miesiąc księgowania` > określamy miesiąc księgowania. 
 - Pole `Data pozycji` > ustawiamy datę pozycji.
 - Pole `Termin płatności` > Ustawiamy termin płatności kosztu.
-- Pole `Nazwa (dowód)` > podajemy numer faktury.
-- Pole `Treść` > wpisujemy opis księgowania.
+- Pole `Nazwa (dowód)` > podajemy numer faktury. Można go skopiować z PDF lub z rozpoznanego tekstu po prawej stronie okna.
+- Pole `Treść` > wpisujemy opis księgowania. Najczęściej używane można zapisać jako podpowiedzi w menu `Funkcje` > `Podpowiedzi`.
+
+Po uzupełnienie powyższych przechodzimy do dodawania pozycji kosztowych.
 
 ![Okno Księgowanie](dodaniedoku2.gif)
 
@@ -63,6 +65,6 @@ Gdy wszystkie pozycje danego dokumentu zostaną wprowadzone i sprawdzone, można
 
 - Klikamy: `Zatwierdź`.
 
-Okno nie zamknie się, dodawany dokument zniknie z listy — oznacza to, że został poprawnie wprowadzony w systemie. Po tym można przystąpić do wprowadzania kolejnego dokumentu.
+Powrócimy do zakładki `Księgowanie`, dodawany dokument zniknie z listy — oznacza to, że został poprawnie wprowadzony w systemie. Po tym można przystąpić do wprowadzania kolejnego dokumentu.
 
 ![Okno Księgowanie](dodaniedoku4.gif)
