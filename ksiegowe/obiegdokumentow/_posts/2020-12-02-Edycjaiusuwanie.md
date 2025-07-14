@@ -8,7 +8,7 @@ title: Edycja i usuwanie
 
 Aby edytować dokument, który został dodany za pomocą obiegu dokumentów, należy przejść do:
 
-- Zakładka `Zasoby` > menu `Funkcje` > `Łączenie zeskanowanych`.
+- Zakładka `Zasoby` > menu `Funkcje` > `Obieg dokumentów`.
 - Zakładka `Edycja`.
 - Pole `Typ podglądu` > odpowiada za podgląd pliku w prawej części okna:
     - `Bezpośredni` > podgląd pliku pochodzi bezpośrednio z dysku Google.
@@ -31,7 +31,7 @@ Z listy po prawej stronie wybrać dokument kosztowy, który będzie edytowany.
 
 Aby usunąć dokument, który został dodany za pomocą obiegu dokumentów, należy przejść do:
 
-- Zakładka `Zasoby` > menu `Funkcje` > `Łączenie zeskanowanych`.
+- Zakładka `Zasoby` > menu `Funkcje` > `Obieg dokumentów`.
 - Zakładka `Edycja`.
 - Pole `Zasób` > wybrać nieruchomość.
 
