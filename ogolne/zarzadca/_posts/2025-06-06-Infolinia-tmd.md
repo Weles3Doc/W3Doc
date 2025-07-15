@@ -25,6 +25,36 @@ Najbardziej typowe scenariusze wykorzystania infolinii to:
 - Alternatywa dla numeru kontaktowego administracji. Zarządca prezentuje właścicielom dwa numery kontaktowe, swój podstawowy i infolinii.
 - Drugi scenariusz użycia to taki, w którym infolinia staje się pierwszym frontem dla właściciela. Firma udostępnia tylko numer na infolinię. Właściciel dzwoniąc musi przejść przez nią, do dopiero w czwartej opcji infolinii zyskuje możliwość połączenia się z administracją/księgowością.
 
+#### Prezentacja dla administratorów
+
+<center>
+<iframe
+    width="854"
+    height="480"
+    src="https://www.youtube.com/embed/ty2cDD4zyTo"
+    title="Infolinia Weles3 i ToMójDom.pl – nowoczesny kanał kontaktu dla właścicieli"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+</center>
+
+#### Instrukcja dla właścicieli
+
+<center>
+<iframe 
+    width="854"
+    height="480"
+    src="https://www.youtube.com/embed/2z3mabbJuK4"
+    title="Jak skorzystać z infolinii ToMójDom? Sprawdź saldo i czynsz dzwoniąc na infolinię."
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+</center>
+
 #### Jak uruchomić infolinię?
 
 Wymagane jest podpisanie dodatkowej umowy. Infolinia jest dodatkowo płatna, za każde połaczenie właściciela, z maksymalną miesięczną kwotą obciążenia, powyżej której nie będą Państwo obciążani za dodatkowe połączenia. W umowie też definiują Państwo sposób komunikacji w czwartej opcji oraz dla których zasobów będzie włączona infolinia. Przekierowanie połączeń na zew. telefon lub softphone jest dodatkowo płatne. Po podpisaniu umowy można od razu korzystać z infolinii.
