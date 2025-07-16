@@ -12,7 +12,6 @@ W systemie Weles3 udostępniliśmy Państwu nową funkcję, której zadaniem jes
 - w czwartej opcji mają Państwo wybór z poniższych:
     - przekazanie transkrypcji na adres e-mail.
     - przekazanie połączenia na numer telefonu.
-    - przekazanie połączenia na softphone.
     - brak opcji kontaktu.
 
 Infolinia powstała z myślą o:
@@ -95,8 +94,7 @@ Korzystanie z infolinii jest bardzo proste.
     - Naciskając klawisz `9` > akcja definiowana przy zawieraniu umowy z nami, tutaj właściciel może mieć jedną z 4 opcji:
         - przekazanie transkrypcji na adres e-mail administracji > właściciel dyktuje prośbę do telefonu, do Państwa trafia e-mail z tekstem prośby, danymi właściciela i plikiem audio.
         - przekazanie połączenia na numer telefonu > właściciel jest przekierowany na wskazany w umowie numer telefonu.
-        - przekazanie połączenia na softphone > właściciel jest przekierowany na wskazany softphone (VoIP).
-        - brak opcji kontaktu.
+                - brak opcji kontaktu.
 
 Właściciel może się rozłączyć w dowolnym momencie.
 
