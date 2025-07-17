@@ -11,12 +11,18 @@ Funkcja eksportu umożliwia uzyskanie z systemu dekretów w formacie CSV. Mając
 Aby wyeksportować dany dekret z systemu, należy przejść do:
 
 - Zakładki `Dekrety`.
-- Po lewej stronie okna wybrać dekret.
-- Przycisk: `Eksport`.
-- Kliknąć tabelkę, która się wyświetli.
-- Na klawiaturze nacisnąć klawisz [ . ] kropki.
 
-Wyskoczy monit o pobranie pliku CSV, zapisujemy go lub otwieramy bezpośrednio. Separator: `Przecinek`, zestaw znaków `Unicode UTF-8`, sugerujemy też ustawienie `Identyfikacji liczb specjalnych`.
+Po lewej stronie okna wybrać dekret, następnie kliknąć:
+
+- Przycisk: `Eksport`.
+
+W lewym górnym rogu tabelki kliknąć symbol kartki ![Ikonka](ikona_pobierania.png), lub na klawiaturze nacisnąć klawisz [ . ] (kropki).
+
+Wyskoczy monit o pobranie pliku CSV, zapisujemy go lub otwieramy bezpośrednio. Przy otwieraniu ustawiamy parametry:
+
+- Separator: `Tabulator`.
+- Zestaw znaków `Unicode UTF-8`.
+- `Identyfikuj liczby specjalne`.
 
 ![Eksport dekretu](eksportdekretu.gif)
 
@@ -100,9 +106,22 @@ Gdy tabelka jest już gotowa, można ją zaimportować. Aby to zrobić, należy:
 - W arkuszu kalkulacyjnym zaznaczyć i skopiować całą tabelkę.
 - Menu `Funkcje` > `Import danych`.
 - Pole `Dane` > wklejamy tabelkę.
-- Pole `Hasło` > wpisujemy hasło.
 - Klikamy: `Zatwierdź`.
 
 Suma obrotów kont po stronie Wn i Ma musi być równa w importowanym dekrecie, bez tego system zgłosi błąd.
 
 ![Import dekretu](importdekretu.gif)
+
+#### Powielenie dekretu
+
+Jeśli chcesz szybko powielić dekret do następnego miesiąca, to wyeksportuj go zgodnie z powyższą instrukcją. Następnie w edytorze arkuszy kalkulacyjnych wykonaj poniższe kroki:
+
+- Zaznacz cały obszar danych.
+- Wywołaj funkcję `Znajdź i zamień` (`Ctrl + H`).
+- W pole `Znajdź` wpisz: `RRRR-MM` (ten rok i miesiąc który jest obecnie w arkuszu).
+- W pole `Zamień` wpisz: `RRRR-MM` (`MM` podmień na kolejny miesiąc).
+- Kliknij: `Zamień wszystkie`.
+
+Jeśli numeracja pozycji (pole `Dowód`) jest istotna to też ją popraw.
+
+![Powielanie dekretu](powielanie_dekretu.png)
