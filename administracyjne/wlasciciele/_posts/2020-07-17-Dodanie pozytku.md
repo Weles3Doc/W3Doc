@@ -68,10 +68,10 @@ Po wykonaniu wyżej wymienionych czynności prosimy o przysłanie maila do obsł
 - Od kiedy?
 - Opisać sposób naliczania opłaty.
 - Podać ilość.
-- Poda stawkę.
+- Podać stawkę.
 - Można też załączyć skan wystawionego wcześniej dokumentu.
 - W jakiej grupie należności ma być opłata?
-- Na jakim koncie podkoncie 201 odbiory ma się księgować opłata? MiE czy FR?
+- Na jakim koncie podkoncie 201 odbiorcy ma się księgować opłata? MiE czy FR?
 - Na jakim koncie przychodów ma się księgować opłata?
 - Z jaką częstotliwością będzie wystawiany dokument?
 - Podać typ VAT opłaty.
