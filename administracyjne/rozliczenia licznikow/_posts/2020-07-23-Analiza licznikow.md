@@ -30,7 +30,7 @@ Poniżej możliwe pozycje:
 - `OSTRZEŻENIE Brak porównania` > ta pozycja będzie zawierała liczniki, dla których system nie będzie mógł porównać zużycia z poprzednim okresem rozliczeniowym.
 - `OSTRZEŻENIE Poprzednie zużycie ujemne` > zostaną tutaj wymienione liczniki, u których w poprzednim okresie rozliczeniowych było ujemne zużycie.
 - `OSTRZEŻENIE Poprzednie zużycie zerowe` > zostaną tutaj wymienione liczniki, u których w poprzednim okresie rozliczeniowych było zerowe zużycie.
-- `OSTRZEŻENIE Kolejne zerowe zużycie` > zostaną tutaj wymienione liczniki, które kolejny raz zz rzedu wykazują zerowe zużycie.
+- `OSTRZEŻENIE Kolejne zerowe zużycie` > zostaną tutaj wymienione liczniki, które kolejny raz z rzędu wykazują zerowe zużycie.
 - `OSTRZEŻENIE Średnia zmiana >= 2 < 10` > zostaną tutaj wymienione liczniki, których zużycie wzrosło od 2 razy do 10, w porównaniu do poprzedniego okresu rozliczeniowego.
 - `OSTRZEŻENIE Duża zmiana >= 10` > zostaną tutaj wymienione liczniki, których zużycie wzrosło przynajmniej 10 razy, w porównaniu do poprzedniego okresu rozliczeniowego.
 
