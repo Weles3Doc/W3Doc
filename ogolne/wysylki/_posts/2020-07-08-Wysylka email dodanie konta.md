@@ -10,7 +10,8 @@ Pierwszym krokiem przed rozpoczęciem wysyłania wiadomości e-mail jest dodanie
 - Zakładka `Konta pocztowe`.
 - Pole `Typ` > wybieramy `E-mail`.
 - Pole `E-mail` > podajemy adres mail, z którego będzie prowadzona wysyłka.
-- Pole `E-mail kopia ukryta` > wpisać adres mail, na który będą wysyłane kopie wszystkich maili wychodzących z systemu. Można to pole pozostawić puste. Nie zalecamy podawania tego samego adresu e-mail, który dodajemy. Najlepiej jest stworzyć nową skrzynkę pocztową tylko do archiwizacji wysłanych maili.
+- Pole `E-mail kopia ukryta` > Można to pole pozostawić puste. Wpisać adres mail, na który będą wysyłane kopie wszystkich maili wychodzących z systemu. Nie zalecamy podawania tego samego adresu e-mail, który dodajemy. Najlepiej jest stworzyć nową skrzynkę pocztową tylko do archiwizacji wysłanych maili.
+- Pole `Odpowiedz do` > Można to pole pozostawić puste. Pozwala określić, na który adres e-mail powinny być kierowane odpowiedzi, gdy użytkownik kliknie "Odpowiedz". Jest to przydatne, gdy chcesz, aby odpowiedzi trafiały na inny adres niż adres nadawcy wiadomości.
 - Pole `Login` > podajemy login **do konta pocztowego, zazwyczaj jest to e-mail, nie jest to login do Weles 3**.
 - Pole `Hasło` > podajemy hasło **do konta pocztowego, nie jest to hasło do Weles 3**.
 - Pole `Limit e-mail na sesję` > wpisz maksymalną ilość maili, jaka może zostać wysłana w jednej sesji. Sesje są co godzinę. Puste pole = bez limitu.
