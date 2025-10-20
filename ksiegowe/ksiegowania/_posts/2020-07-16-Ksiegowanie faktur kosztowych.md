@@ -52,9 +52,9 @@ W pierwszej wprowadzanej pozycji wykazać sumaryczną kwotę na kontrahencie.
 
 W kolejnych pozycjach dokonujemy podziału kwoty i wskazania kona kosztowego:
 
-- Pole `Konto Wn` > 400-... koszt | Pole `Konto Ma` > **puste**.
-- Pole `Konto Wn` > 400-... koszt | Pole `Konto Ma` > **puste**.
-- Pole `Konto Wn` > 400-... koszt | Pole `Konto Ma` > **puste**.
+- Pole `Konto Wn` > 400-... koszt. Pole `Konto Ma` > **puste**.
+- Pole `Konto Wn` > 400-... koszt. Pole `Konto Ma` > **puste**.
+- Pole `Konto Wn` > 400-... koszt. Pole `Konto Ma` > **puste**.
 - itd.
 
 Przykład przed zaksięgowaniem:
