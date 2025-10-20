@@ -7,6 +7,9 @@ title: Księgowanie faktur kosztowych
 Aby zaksięgować faktury kosztowe, należy przejść do:
 
 - Zakładka `Dekrety` > menu `Dokumenty` > `Dodaj dokument`.
+
+W nagłówku okna uzupełniamy podstawowe pola dotyczace dekretu:
+
 - Pole `Typ dokumentu FK` > ustawiamy `Faktury`.
 - Pole `Data księgowania` > wskazujemy datę zadekretowania dokumentu, zazwyczaj koniec miesiąca.
 - Pole `Opis dokumentu` > można zastosować wzór: `Koszty MM-RRRR` jeśli wprowadzamy zbiorczo. Można też tutaj umieścić numer dokumentu jeśli koszty wprowadzamy pojedynczo w dekretach. 
