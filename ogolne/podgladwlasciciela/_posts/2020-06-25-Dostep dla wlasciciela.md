@@ -16,6 +16,8 @@ Aby właściciel miał dostęp do swojego podglądu internetowego, konieczne jes
 - Pole `Hasło` > wpisujemy hasło tymczasowe, którego właściciel będzie musiał użyć podczas pierwszego logowania. Można je wygenerować automatycznie, klikając `Generuj`. **Wpisane hasło tymczasowe prosimy zapamiętać lub zapisać**.
 - Klikamy: `Zapisz`.
 
+W tym momencie właścicielom jest nadawany login do `tomojdom.pl`i hasło.
+
 Przed rozesłaniem sugerujemy wykonać kilka czynności:
 
 - Wprowadzić bilans otwarcia kont rozrachunkowych.
