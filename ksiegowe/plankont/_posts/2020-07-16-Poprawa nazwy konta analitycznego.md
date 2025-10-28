@@ -13,10 +13,6 @@ Zmianę nazwy konta analitycznego dokonuje się poprzez:
 - Pole `Nazwa` > podać nową nazwę konta.
 - Kliknąć: `Zapisz`.
 
+Zmiana nazwy konta analitycznego obowiązywać będzie w całej bazie. Nie ma możliwości zmiany nazwy konta tylko w obrębie jednego budynku. Plan kont jest wspólny dla wszystkich budynków w systemie.
+
 ![Poprawa nazwy konta analitycznego](poprawanazwyanalit.gif)
-
-#### Uwagi:
-
-- Zmiana nazwy konta analitycznego obowiązywać będzie w całej bazie.
-- Nie ma możliwości zmiany nazwy konta tylko w obrębie jednego budynku.
-- Plan kont jest wspólny dla wszystkich budynków w systemie.
