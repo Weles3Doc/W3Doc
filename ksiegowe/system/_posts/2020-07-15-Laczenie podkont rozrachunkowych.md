@@ -43,7 +43,7 @@ Jeśli trzeba, to po stworzeniu jednego konta rozrachunkowego, można przenieś�
 - Pole `Okres do` > określamy datę końcową przeniesienia.
 - Pole `Strona` > `Obie`.
 - Pole `Typ dekretów` > nic nie zaznaczamy, przenosimy wszystko.
-- Pole `Na konto` > wpisujemy formułkę {0;11}1 spowoduje to automatyczne uzupełnienie konta docelowego, nowym podkontem rozrachunkowym.
+- Pole `Na konto` > wpisujemy formułkę `{0;11}1` spowoduje to automatyczne uzupełnienie konta docelowego, nowym podkontem rozrachunkowym.
 - Pole `Liczba pozycji` > uzupełniamy 5000.
 - Kliknąć: `Wyszukaj`.
 
@@ -53,11 +53,16 @@ W dolnej części okna powinno się pokazać zestawienie pozycji do przeniesieni
 - Pole `Konto docelowe` > ustawić jej konto, na które ma zostać przeniesiona.
 - Kliknąć: `Dodaj`.
 
-Gdy ustawienia są w porządku, wystarczy wpisać hasło i kliknąć zatwierdź. Pozycje przeniosą się natychmiast, po zmianie można też odświeżyć system: menu `Funkcje` > `Odśwież`. Z funkcji prosimy korzystać ostrożnie, cofnięcie zmian jest bardzo problematyczne i żmudne.
+Gdy ustawienia są w porządku, wystarczy:
+
+- Kliknąć `Zatwierdź`.
+
+Pozycje przeniosą się natychmiast, po zmianie można też odświeżyć system: menu `Funkcje` > `Odśwież`. Z funkcji prosimy korzystać ostrożnie, cofnięcie zmian jest bardzo problematyczne i żmudne.
 
 ![Łączenie kont 201](lonczenie2012.gif)
 
 #### Dodatkowe czynności
 
-- Jeśli wspólnota ma uruchomione płatności masowe, to numery przypisane do starych podkont trzeba przenieść na nowe podkonto lub wygenerować nowe numery indywidualne. Prosimy skontaktować się z działem wsparcia.
-- Jeśli we wspólnocie importują Państwo wyciągi bankowe przez: menu `Funkcje` > `Import wyciągów bankowych` to trzeba poprawić konta FK przypisane do rachunków w zakładce `Edycja`.
+Jeśli wspólnota ma uruchomione płatności masowe, to numery przypisane do starych podkont trzeba przenieść na nowe podkonto lub wygenerować nowe numery indywidualne. Prosimy skontaktować się z działem wsparcia.
+
+Jeśli we wspólnocie importują Państwo wyciągi bankowe przez: menu `Funkcje` > `Importuj wyciąg elektroniczny` to trzeba poprawić konta FK przypisane do rachunków w zakładce `Przypisanie kont`.
