@@ -51,9 +51,10 @@ Gdy konta są gotowe, można dodać algorytm, którym rozliczymy wynik, przechod
 - Pole `Grupa należności` > wybieramy grupę należności, z której pochodzi rozliczany wynik.
 - Pole `Konto przychodów` > wpisujemy `820-01`, czyli wcześniej utworzone konto. (Ważne!)
 - Pole `Konto kosztów` > wpisujemy `820-01`, czyli wcześniej utworzone konto. (Ważne!)
-- Pole `Stawka VAT` > można pozostawić `ND` lub wybrać inną wartość.
+- Pole `Stawka VAT` > można pozostawić `23%` lub wybrać inną wartość.
 - Pole `PKWiU` > może pozostać puste.
-- Klikamy: `Dodaj`.
+- Pole `TYP` > może pozostać puste.
+- Pole `Podstawa zwolnienia` > może pozostać puste.
 - Klikamy: `Utwórz`.
 
 ![Rozliczenie WF](rkwf3.gif)
