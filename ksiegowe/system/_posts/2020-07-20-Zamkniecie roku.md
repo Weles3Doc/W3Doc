@@ -1,8 +1,8 @@
 ---
-title: Zamknięcie roku
+title: Zamknięcie roku FK
 ---
 
-# Zamknięcie roku
+# Zamknięcie roku FK
 
 Poniższa instrukcja ma za zadanie opisać przykładową procedurę zamknięcia roku rozliczeniowego. Nie jest ona uniwersalna, należy ją dostosować do specyfiki danej nieruchomości.
 
@@ -39,8 +39,6 @@ Przed zaksięgowaniem odsetek lub zamknięciem roku, konieczne jest zamknięcie 
 
 - Zakładka `Dekrety` > menu `Funkcje` > `Zamykanie miesiąca FK`.
 - Pole `Data` > ustawiamy ostatni zamykany miesiąc roku **RRRR-12**.
-- Klikamy: `Dodaj`.
-- Pole `Hasło` > wpisujemy hasło.
 - Klikamy: `Zatwierdź`.
 
 Zamknąć można kilka miesięcy naraz. W zamkniętym miesiącu nie można dodawać nowych dokumentów, można edytować istniejące, ale nie można edytować pozycji na kontach 201. Jeśli mają Państwo w danym budynku zamknięte miesiące i naliczone odsetki już w bieżącym roku to ten krok należy pominąć.
@@ -58,20 +56,24 @@ Jeśli wspólnota ma zamiar naliczyć odsetki od nieterminowych wpłat w miniony
 Jedną z ostatnich czynności przed zamknięciem roku księgowego jest zrobienie księgowań wynikowych. Aby je wykonać, należy przejść do:
 
 - Zakładka `Dekrety` > menu `Dokumenty` > `Księgowania wynikowe`.
+
+Następnie wybieramy wynik, który będziemy trwożyli.
+
 - Pole `Konto wynikowe` > wybieramy konto, dla którego będziemy robić księgowanie wynikowe.
 
-W niższej części okna możemy ręcznie dodawać pozycje i edytować kwoty, jakie zostaną przeksięgowane na wynik.
+W niższej części okna możemy ręcznie dodawać pozycje i edytować kwoty, jakie zostaną przeksięgowane na wynik.(Pola `Składnik`, `Kwota Wn`, `Kwota Ma`)
 
-W tabelce w dolnej części okna są pokazane proponowane pozycje, podpowiedzą się tylko i wyłącznie konta `4xx` i `7xx`, które mają niezerowe salda.
+W dolnej części okna, w tabelce są pokazane proponowane pozycje, podpowiedzą się tylko i wyłącznie konta `4xx` i `7xx`. Zawierają numer, nazwę oraz saldo Wn i Ma konta.
 
-**Pozostawiamy tutaj tylko konta, dla których ma zajść przeksięgowanie na wskazany wynik**.
+Zasada postępowania jest prosta:
+- **Pozostawiamy** tutaj tylko konta, dla których ma zajść przeksięgowanie wynikowe na wskazany wynik w polu `Konto wynikowe`.
+- Zbędne pozycje usuwamy ikonką [x]  po prawej stronie pozycji.
 
-Zbędne pozycje usuwamy niebieskim kluczykiem po prawej stronie okna. Gdy pozostaną tylko wybrane pozycje:
+Na koniec klikamy:
 
-- Pole `Hasło` > wpisujemy hasło.
 - Klikamy: `Zatwierdź`. 
 
-Po zamknięciu okna, na liście dokumentów powinien się pojawić dekret KW, zostanie dodany na ostatni dzień zamkniętego miesiąca. Stworzone dokumenty KW można ręcznie edytować do własnych potrzeb.
+Po zamknięciu okna, na liście dokumentów powinien się pojawić dekret KW, zostanie dodany na ostatni dzień zamkniętego miesiąca. Do funkcji księgowanie wynikowe można powrócić i stworzyć następny wynik finansowy. Stworzone dokumenty KW można ręcznie edytować do własnych potrzeb lub całkowicie usunąć i zrobić jeszcze raz.
 
 ![Księgowanie wynikowe](robieniekw.gif)
 
@@ -126,20 +128,8 @@ Po wykonaniu wszystkich poprzedzających czynności i sprawdzeniu podstawowych w
 
 Pola w środkowej części okna odpowiadają za sposób liczenia sald na podkontach rozrachunkowych właścicieli. Można w tym momencie wprowadzić zmiany na przyszły rok, więcej na temat w dedykowanej instrukcji `Sposób liczenia sald 201`, ew. pozostawić bez zmian.
 
-- Pole `Hasło` > wpisujemy hasło.
 - Klikamy: `Zatwierdź`.
 
-Zamknięty rok będzie dostępny do podglądu w zakładce `Zasoby`, po kliknięciu + przy nazwie wspólnoty. Rok zostanie zamknięty zawsze pojedynczo, zaczynając od najstarszego, niezależnie od ilości otwartych lat.
+Zamknięty rok będzie dostępny do podglądu w zakładce `Zasoby`, po kliknięciu `>` przy nazwie wspólnoty. Rok zostanie zamknięty zawsze pojedynczo, zaczynając od najstarszego, niezależnie od ilości otwartych lat.
 
 ![Zamykanie roku](zamykanieroku.gif)
-
-#### Otwarcie roku
-
-W celu otwarcia zamkniętego roku przechodzimy do bieżącej bazy (tam, gdzie mamy bieżące księgowania), następnie:
-
-- Zakładka `Dekrety` > menu `Funkcje` > `Otwieranie roku FK`.
-- Pole `Cofanie zakończenia roku` > `Cofnij zakończenie roku`.
-- Pole `Hasło` > wpisujemy hasło.
-- Klikamy: `Zatwierdź`.
-
-![Otwieranie roku](otwieranieroku.gif)
