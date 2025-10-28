@@ -10,12 +10,12 @@ Aby skorzystać z funkcji, należy przejść do:
 - Zakładka `Konta FK` > menu `Funkcje` > `Przeksięgowania`.
 - Pole `Z konta` > ustawiamy **konto źródłowe**.
 - Pole `Analityka 2 3 4 5` > w tych polach podajemy numer konta analitycznego pod kontem źródłowym. Można je pozostawić puste lub wpisać numer na jednym z poziomów.
-- Pole `Okres od` > określamy datę początkową pozycji, które będą brane do przeniesienia. Naciśnięcie spacji spowoduje zmianę `BO` na datę.
-- Pole `Okres do` > określamy datę końcową pozycji, które będą brane do przeniesienia.
-- Pole `Strona` > można tutaj ograniczyć pozycje do przeniesienia tylko ze strony `Ma` lub `Wn` konta.
-- Pole `Typ dekretów` > można tutaj ograniczyć pozycje do przeniesienia tylko do specyficznego typu dekretu. Brak wyboru oznacza wszystkie typy.
+- Pole `Data od` > określamy datę początkową pozycji, które będą brane do wyszukania. Naciśnięcie spacji spowoduje zmianę `BO` na datę.
+- Pole `Data do` > określamy datę końcową pozycji, które będą brane do wyszukania.
+- Pole `Strona` > można tutaj ograniczyć pozycje do wyszukania tylko ze strony `Ma` lub `Wn` konta.
+- Pole `Typ dekretów` > można tutaj ograniczyć pozycje do wyszukania tylko do specyficznego typu dekretu. Brak wyboru oznacza wszystkie typy.
 - Pole `Na konto` > wpisujemy numer konta docelowego (bez myślników) lub pozostawiamy puste, w takim wypadku konto docelowe będzie można określić ręcznie w następnych polach.
-- Pole `Liczba pozycji` > określamy limit pozycji branych do przeniesienia. (max. 5000)
+- Pole `Liczba pozycji` > określamy limit pozycji branych do wyszukania. (max. 5000)
 - Kliknąć: `Wyszukaj`.
 
 W dolnej części okna powinno się pokazać zestawienie pozycji do przeniesienia, które spełniają wyżej określone kryteria. Najważniejsze są kolumny `Konto`, podane w niej jest konto źródłowe oraz kolumna `Konto docelowe`, w skazanej jest w niej konto, na które zostanie przeniesiona pozycja. Jeśli konto docelowe jest określone jako `-----` oznacza to, że pozycja nie zostanie przeniesiona. Można też ręcznie wskazać lub zmienić konto docelowe pozycji, w tym celu w polach:
@@ -24,7 +24,11 @@ W dolnej części okna powinno się pokazać zestawienie pozycji do przeniesieni
 - Pole `Konto docelowe` > ustawić jej konto, na które ma zostać przeniesiona.
 - Kliknąć: `Dodaj`.
 
-Gdy ustawienia są w porządku, wystarczy wpisać hasło i kliknąć zatwierdź. Pozycje przeniosą się natychmiast, po zmianie można też odświeżyć system: menu `Funkcje` > `Odśwież`. Z funkcji prosimy korzystać ostrożnie, cofnięcie zmian jest bardzo problematyczne i żmudne.
+Gdy ustawienia są w porządku, wystarczy:
+
+- Kliknąć: `Zatwierdź`.
+
+Pozycje przeniosą się natychmiast, po zmianie można też odświeżyć system: menu `Funkcje` > `Odśwież`. Z funkcji prosimy korzystać ostrożnie, cofnięcie zmian jest bardzo problematyczne i żmudne.
 
 Na poniższym przykładzie przenosimy źle zaksięgowane koszty. Opłaty pocztowe powinny znaleźć się na koncie dedykowanym `400-2-001-001 Opłaty pocztowe`, a nie w pozostałych opłatach `400-2-099 Pozostałe opłaty`.
 
