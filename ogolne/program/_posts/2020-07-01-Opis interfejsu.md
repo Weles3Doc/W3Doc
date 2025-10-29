@@ -35,3 +35,7 @@ Wybierając tę zakładkę, mamy dostęp do obsługi zgłoszeń — bardzo prost
 #### Forum
 
 Wybierając tę zakładkę, przejdziemy do forum. Możemy na nim dyskutować z właścicielami w obrębie jednej wspólnoty mieszkaniowej.
+
+#### Szukaj
+
+W tej zakładce możemy wyszukiwać właścicieli lokali oraz przeszukiwać księgowania w wspólnotach mieszkaniowych.
