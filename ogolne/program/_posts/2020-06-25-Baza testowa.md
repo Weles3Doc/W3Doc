@@ -10,7 +10,7 @@ Baza testowa służy do sprawdzania rozwiązań w bezpieczny sposób na kopii rz
 
 - Menu `Pomoc` > `Kopia testowa bazy`.
 
-Narzędzie te dostępne jest w każdej z zakładek systemu. Po poprawnym wykonaniu kopii system poinformuje nas komunikatem na zielonym tle (komunikat wyświetlany będzie przez ok. 2 sekundy).
+Narzędzie te dostępne jest w każdej z zakładek systemu. Po poprawnym wykonaniu kopii system poinformuje nas komunikatem w górnej części okna (komunikat wyświetlany będzie przez ok. 2 sekundy). Nadpisywać kopię testową można do wielokrotnie, nie aktualizuje się ona samoczynnie. Z kopi testowej muszą się wylogować wszyscy użytkownicy aby ją nadpisać. Jest możliwość zablokowania wykonywania kopi testowej, w tym celu zwróć się do wsparcia klienta Weles. Dzieki zablokowaniu możesz wykonywać bardziej skomplikowane i dłuższe czynności, bez obawy o usunięcie ich przez innego użytkownika. Baza testowa jest wspólna dla wszystkich użytkowników.
 
 ![Wykonanie kopii testowej](wykonanie-kopi.gif)
 
@@ -20,18 +20,6 @@ W celu przełączenia się w tryb testowy należy przejść do:
 
 - Menu `Pomoc` > `Przełącz tryb testowy`.
 
-Opcja ta jest dostępna w każdej z zakładek systemu. Po przełączeniu w tryb testowy system otworzy nową zakładkę. Przebywanie w trybie testowym jest oznaczone czerwoną etykietą `WERSJA TESTOWA`.
+Opcja ta jest dostępna w każdej z zakładek systemu. Po przełączeniu w tryb testowy system otworzy nową zakładkę. Przebywanie w trybie testowym jest oznaczone czerwoną etykietą `WERSJA TESTOWA`. Zmian wprowadzonych w bazie testowej nie przenosimy do bazy głównej (produkcyjnej). Aby zakończyć pracę w trybie testowym, wystarczy zamknąć kartę przeglądarki, w której znajduje się baza testowa.
 
 ![Przejście do wersji testowej](przelaczenie-test.gif)
-
-#### Zakończenie pracy w trybie testowym bazy
-
-Aby zakończyć pracę w trybie testowym, wystarczy zamknąć kartę przeglądarki, w której znajduje się baza testowa.
-
-#### Uwagi:
-
-- Zmian wprowadzonych w bazie testowej nie przenosimy do bazy głównej (produkcyjnej).
-- Aby móc skorzystać z bazy testowej należy uprzednio choć raz kiedykolwiek wykonać kopię bazy.
-- Baza testowa nie aktualizuje się samodzielnie. Aby móc przeprowadzać testy na aktualnym stanie bazy głównej należy ponownie wykonać jej kopię.
-- Na Państwa dyspozycję możemy tymczasowo zablokować wykonywanie kopii bazy testowej. Dzięki temu możliwe będzie przeprowadzenie złożonych testów bez ryzyka nadpisania Państwa bazy przez innych administratorów.
-- Baza testowa jest w pełni funkcjonalna jak baza główna (z wyjątkiem: wysyłek / forum / ustawień uprawnień).
