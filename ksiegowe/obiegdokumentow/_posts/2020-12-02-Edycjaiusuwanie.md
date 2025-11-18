@@ -44,7 +44,7 @@ W górnej-lewej części okna trzeba wybrać jeden z przycisków decydujących o
 Powyższa czynność skutkuje:
 
 - Usunięciem pozycji księgowych z dekretu kosztowego powiązanych ze skanem.
-- Skan dokumentu będzie dostępny w zakładce `Przyłączanie` do ewentualnego ponownego dodania.
+- Skan dokumentu będzie dostępny w zakładce `Księgowanie` do ewentualnego ponownego dodania.
 - Plik skanu na dysku Google zostanie przeniesiony z folderu budynku do głównego folderu `Weles3 dokumenty`.
 - Skan dokumentu po wykonaniu rozłączania, można usunąć z dysku Google.
 
