@@ -9,7 +9,13 @@ Wysyłanie dokumentów przez Envelo zaczynamy zawsze od stworzenia dokumentu. Ro
 - Zakładka `Administracja` > Menu `Funkcje` > `Wydruki`.
 - Okno `Wydruki` > tworzymy dokument do rozesłania właścicielom.
 
-Na liście właścicieli można określić, do kogo trafi wysyłka. Można też skorzystać z filtrów wydruków. Gdy dokument będzie już gotowy, przekierowujemy go do wysyłki:
+Na liście właścicieli można określić, do kogo trafi wysyłka. Można też skorzystać z filtrów wydruków. Istotne jest też aby ustawić odpowiednią opcję w:
+
+- Pole `Dodatkowe adresy do korespondencji` > wybieramy jedno z opcji:
+    - `Nie używaj` > listy zostaną wysłane na główne adresy właścicieli.
+    - `Użyj` > jeśli właściciel posiada dodatkowe adresy korespondencyjne, to list zostanie skierowany na te adresy, określone w zakładka `Administracja` > menu `Zasoby` > `Edytuj dodatkowe adresy korespondencyjne`.
+
+Gdy dokument będzie już gotowy, przekierowujemy go do wysyłki:
 
 - Menu `Funkcje` > `Wyślij do wysyłki e-mail`.
 
@@ -28,9 +34,6 @@ W lewej stronie okna **klikamy** na wysyłkę `NOWY`. W środkowej części okna
     - `Opłacenie ręczne` > wymagane jest zalogowanie się do panelu klienta Envelo i potwierdzenie/opłacenie wysyłki. Jest to opcja dobra do testowania wysyłki.
 - Pole `Priorytet` > określamy czy wysyłka ma być priorytetowa.
 - Pole `Kolor wydruku` > ustawiamy kolor wydrukowanych dokumentów. 
-- Pole `Adresy dodatkowy` > wybieramy jedno z opcji:
-    - `Uzyj tylko adresu głównego` > listy zostaną wysłane na główne adresy właścicieli.
-    - `Użyj adresów dodatkowych` > jeśli właściciel posiada dodatkowe adresy korespondencyjne, to list zostanie skierowany na ten adres.
 - Pole `Podgląd wydruku Envelo (Poczta Polska)` > można sprawdzić załącznik.
 - Klikamy: `Zapisz`.
 
