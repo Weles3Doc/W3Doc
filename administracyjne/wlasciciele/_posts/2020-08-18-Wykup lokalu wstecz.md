@@ -84,7 +84,7 @@ Następnym krokiem jest zamknięcie liczników w lokalu, zakańczamy je z datą 
 - Pole `Licznik` > wybieramy licznik **w lokalu byłego właściciela**.
 - Pole `Data` > ustawiamy **datę wykupu lokalu**.
 - Pole `Wartość` > wpisujemy wartość odczytu z protokołu przekazania.
-- Pole `Typ odczytu` > zaznaczamy `Końcowy — demontaż licznika`, powinien się pokazać haczyk przy prawidłowo zaznaczonej pozycji.
+- Pole `Typ odczytu` > zaznaczamy `Końcowy — demontaż licznika`, powinien się pokazać haczyk przy prawidłowo zaznaczonej pozycji. Jeśli wykup jest dodawany w okresie za który liczniki nie sią jeszcze rozliczone, a chcemy jednocześnie rozliczyć byłego właściciela, to zaznaczamy typ odczytu `Wcześniejsze rozliczenie`.
 - Klikamy: `Dodaj`.
 - Czynności **powtarzamy** dla każdego licznika, który jest dodany do lokalu.
 - Klikamy: `Zatwierdź`.
