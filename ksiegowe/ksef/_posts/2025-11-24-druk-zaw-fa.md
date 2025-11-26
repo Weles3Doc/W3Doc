@@ -6,11 +6,12 @@ title: Formularz ZAW-FA
 
 W przypadku osób prawnych konieczne jest złożenie formularza ZAW-FA do Urzędu Skarbowego właściwego dla danego podatnika.
 
-[Pobierz formularz ZAW-FA](https://www.podatki.gov.pl/media/8968/zaw-fa-02-08.pdf)
+[Pobierz najnowszy formularz ZAW-FA](https://www.podatki.gov.pl/vat/formularze-do-druku-vat/)
 
 Formularz:
-- Składamy dla każdej wspólnoty mieszkaniowej.
+- Składamy dla każdej wspólnoty mieszkaniowej oddzielnie.
 - Składamy osobiście lub drogą pocztową w US. (podobnie jak UPL-1)
+- Składamy **tylko raz, tylko na jedną osobę uprawnioną** - ta osobą będzie dysponowała uprawnieniami do dalszego nadawania dostępów/uprawnień dla kolejnych osób.
 
 #### Nagłówek
 
@@ -40,9 +41,11 @@ Formularz:
 ![ZAW-FA](zawfa04.png)
 
 - Pola od `20` do `36` > uzupełnij danymi osoby uprawnionej. Taką osobą może być:
-    - Jeden z członków zarządu. (zalecane)
-    - Administrator.
-    - Księgowa wspólnoty.
+    - **Osoba fizyczna** (musi mieć kwalifikowany podpis elektroniczny lub profil zaufany):
+        - Jeden z członków zarządu. (zalecane)
+        - Administrator.
+        - Księgowa wspólnoty lub inny pracownik.
+    - **Osoba prawna** - firma administrująca, która musi mieć kwalifikowaną pieczęć firmową.
 - Pole `37. Telefon` > podaj telefon kontaktowy (nieobowiązkowy).
 - Pole `38. E-mail` > podaj adres e-mail. Adres e-mail wpisuje się obowiązkowo. Osoba uprawniona na podany adres e-mail otrzyma informację o nadaniu lub odebraniu uprawnień do korzystania z Krajowego Systemu e-Faktur.
 
@@ -56,4 +59,4 @@ Pomijamy.
 
 ![ZAW-FA](zawfa06.png)
 
-Tą sekcję uzupełniają osoby reprezentujące podatnika, czyli przypadku wspólnoty mieszkaniowej, podpisy składają członkowie zarządu. Urząd skarbowy może zażądać potwierdzenia, może wymagać dołączenia do druku ZAW-FA dokumentu potwierdzającego ze osoby podpisujące się, są zgodne z reprezentacją (na przykład uchwałę o wyborze zarządu).
+Tę sekcję uzupełniają osoby reprezentujące podatnika, czyli przypadku wspólnoty mieszkaniowej, podpisy składają członkowie zarządu. Urząd skarbowy może zażądać potwierdzenia, może wymagać dołączenia do druku ZAW-FA dokumentu potwierdzającego ze osoby podpisujące się, są zgodne z reprezentacją (na przykład uchwałę o wyborze zarządu).
