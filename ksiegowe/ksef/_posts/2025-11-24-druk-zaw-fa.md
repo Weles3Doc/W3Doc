@@ -41,11 +41,11 @@ Formularz:
 ![ZAW-FA](zawfa04.png)
 
 - Pola od `20` do `36` > uzupełnij danymi osoby uprawnionej. Taką osobą może być:
-    - **Osoba fizyczna** (musi mieć kwalifikowany podpis elektroniczny lub profil zaufany):
+    - **Osoba fizyczna** > musi mieć kwalifikowany podpis elektroniczny lub profil zaufany:
         - Jeden z członków zarządu. (zalecane)
         - Administrator.
         - Księgowa wspólnoty lub inny pracownik.
-    - **Osoba prawna** - firma administrująca, która musi mieć kwalifikowaną pieczęć firmową.
+    - **Osoba prawna** > firma administrująca, która musi mieć kwalifikowaną pieczęć firmową.
 - Pole `37. Telefon` > podaj telefon kontaktowy (nieobowiązkowy).
 - Pole `38. E-mail` > podaj adres e-mail. Adres e-mail wpisuje się obowiązkowo. Osoba uprawniona na podany adres e-mail otrzyma informację o nadaniu lub odebraniu uprawnień do korzystania z Krajowego Systemu e-Faktur.
 
