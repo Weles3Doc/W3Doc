@@ -25,14 +25,25 @@ Kolejnym niezbędnym krokiem jest określenie kilku parametrów konta bankowego 
 - Zakładka `Zasoby` > menu `Funkcje` > `Eksportuj zapłaty elektroniczne`.
 - Zakładka `Rachunki bankowe`.
 - Pole `Zasób` > wybieramy budynek.
-- Pole `Konto` > wybieramy konto księgowe rachunku bankowego.
-- Pole `Pozycje nierozpoznane Ma (Odsetki)` > Wskazujemy Konto pozycji nierozpoznanych. W programie plik z płatnościami zawiera np. prowizje bankowe, wpłaty w kasie w banku/poczcie itp. — są to pozycje, których nie da się przypisać do konkretnego konta (właściciela/kontrahenta itp.). Wpłaty takie domyślnie będą trafiały na wskazane tutaj konto.
-- Pole `Pozycje nierozpoznane Wn (Prowizje)` > Wskazujemy Konto pozycji nierozpoznanych. W programie plik z płatnościami zawiera np. prowizje bankowe, wpłaty w kasie w banku/poczcie itp. — są to pozycje, których nie da się przypisać do konkretnego konta (właściciela/kontrahenta itp.). Wpłaty takie domyślnie będą trafiały na wskazane tutaj konto.
-- Pole `Bank` > Wskazujemy Bank, z którym mamy podpisaną umowę — system wygeneruje wtedy plik w odpowiednim formacie (tak, żeby można było go bez problemu zaimportować do systemu bankowego). W przypadku, gdyby na liście nie ma Państwa banku, prosimy o kontakt mailowy z danymi kontaktowymi do opiekuna — postaramy się jak najszybciej zaktualizować listę, o ile będzie taka możliwość.
-- Pole `Numer` > wprowadzamy Numer rachunku bankowego. Cyfry mogą być oddzielone spacją lub wprowadzone ciągiem (bez odstępów).
+- Pole `Konto FK` > wybieramy konto księgowe rachunku bankowego.
+- Pole `Nazwa` > wpisujemy skróconą nazwę rachunku. (np Bieżące, FR, Lokata)
+- Pole `Konto FK nierozpoznanych Ma (Odsetki)` > wskazujemy konto pozycji od banku. Na przykład: odsetki od lokat, wpłaty w kasie banku. Uznania takie domyślnie będą trafiały na wskazane tutaj konto.
+- Pole `Konto FK nierozpoznanych Wn (Prowizje)` > wskazujemy konto pozycji od banku. Na przykład: prowizje bankowe, wypłaty w kasie w banku. Obciążania takie domyślnie będą trafiały na wskazane tutaj konto.
+- Pole `Bank` > Wskazujemy bank, z którym mamy podpisaną umowę — system wygeneruje wtedy plik w odpowiednim formacie (tak, żeby można było go bez problemu zaimportować do systemu bankowego). W przypadku, gdyby na liście nie ma Państwa banku, prosimy o kontakt mailowy z danymi kontaktowymi do opiekuna — postaramy się jak najszybciej zaktualizować listę, o ile będzie taka możliwość.
+- Pole `Rachunek bankowy` > wprowadzamy numer rachunku bankowego. Cyfry mogą być oddzielone spacją lub wprowadzone ciągiem (bez odstępów).
+- Pole `Domyślny rachunek do zapłat` > wskazujemy, czy dodawany rachunek ma być domyślnym rachunkiem do płacenia za koszty zasobu. (**Patrz uwagi poniżej**).
 - Klikamy: `Dodaj`.
 - Jeśli trzeba, można dodać pozycje dla innych budynków.
 - Klikamy: `Zatwierdź`.
+
+Po zdefiniowaniu rachunków (i nr RB kontrahentów) można przejść do eksportu zapłat.
+
+Uwagi do pola `Domyślny rachunek do zapłat`:
+
+- `Tak` > ustawiamy tylko przy jednym rachunku bankowym zasobu i tylko przy takim, który ma służyć jako jedyny do opłat za koszty. Zachęcamy ustawienie `Tak` dla zasobów gdzie sytuacja jest jednoznaczna.
+- Jeśli koszty zasobu, są **płacone z więcej niż jednego rachunku bankowego** danego zasobu, to zalecamy ustawienie `Nie` dla wszystkich rachunków bankowych danego zasobu, wtedy:
+    - Numer rachunku, z którego zostanie zrobiony przelew, będzie sugerowany na podstawie wcześniejszych przelewów (zapłat, po zaimportowaniu ich do Weles3).
+- Jeśli żaden z rachunków zasobu nie będzie miał ustawione `Tak` oraz mamy nowego kontrahenta, dla którego jeszcze nie było zapłat za jego koszty, to w eksporcie system oznaczy takie pozycje na czerwono - bedzie można je ręcznie edytować.
 
 ![Eksport zapłat ustawienia początkowe](eksportzaplat1.gif)
 
@@ -42,7 +53,14 @@ Aby pobrać plik z zapłatami, należy przejść do:
 
 - Zakładka `Zasoby` > menu `Funkcje` > `Eksportuj zapłaty elektroniczne`.
 - Zakładka `Zapłaty`.
-- Pole `Rachunek` > wybieramy wspólnotę/rachunek, z którego mają zostać opłacone koszty.
+
+Jako pierwszą czynność wykonujemy:
+
+- Klikamy: `Pobierz nieopłacone`.
+
+Na ekranie pojawi się pop-up, w którym:
+
+- Lista `Zasób` > wybieramy zasoby do eksportu zapłat za koszty, można zaznaczyć więcej niż jeden. Wszystkie oznaczamy klawiszem `=`.
 - Pole `Dni przed TP` > określamy ilość dni, w których przeciągu upływa termin płatności pozycji kosztowej, które podpowiedzą się do eksportu. Jeżeli wskażemy np. 7 dni, to system wygeneruje listę płatności do zrealizowania, którym w przeciągu 7 dni od bieżącej daty upływa termin płatności (ew. zaległe/przeterminowane płatności również zostaną pokazane).
 - Pole `Min data przelewu` > minimalna data zlecenia przelewu zapłaty w generowanym pliku. Domyślnie jest to data bieżąca + 1 dzień.
 - Pole `Max data przelewu` > maksymalna data zlecenia przelewu zapłaty w generowanym pliku. Domyślnie jest to data bieżąca + 1 dzień.
@@ -52,16 +70,25 @@ Aby pobrać plik z zapłatami, należy przejść do:
 - Pole `Wcześniej wyeksportowane` > decydujemy czy system:
     - `Nie uwzględniaj` > pominie pozycje które były już wcześniej wyeksportowane.
     - `Uwzględniaj` > uwzględni/pobierze pozycje które były już wcześniej wyeksportowane. 
-- Klikamy: `Pobierz nieopłacone` > do dolnej części okna powinny się dodać pozycje z zapłatami. Na przycisk ten klikamy **jednokrotnie**, każde kliknięcie powoduje dodanie kolejnych, prosimy mieć to na uwadze, aby nie zlecić zapłaty dwa razy za tą samą pozycję.
+- Klikamy: `Pobierz nieopłacone`.
 
-Pozycje zapłat można samodzielnie edytować lub dodawać/usuwać. Aby usunąć zbędną pozycję, klikamy na symbol X po prawej stronie pozycji. Aby edytować, klikamy na symbol ołówka. Natomiast dodawanie ręcznie nowej pozycji rozpoczynamy od przejścia do:
+W głównym oknie pojawi się nam lista pozycji zapłat za poszczególne faktury kosztowe do eksportu. Sprawdzamy ją dokładnie.
 
-- Pole `Rachunek` > wybieramy wspólnotę/rachunek, z którego mają wyjść zapłaty.
+Pozycje zapłat można samodzielnie edytować lub dodawać/usuwać. Aby usunąć zbędną pozycję, klikamy na symbol `X` po prawej stronie pozycji. Aby edytować, klikamy na symbol `X`. 
+
+Dodawanie / edycję pozycji rozpoczynamy od:
+
+- Pole `Zasób` > wybieramy wspólnotę.
+- Pole `Rachunek` > wybieramy rachunek, z którego mają wyjść zapłaty.
 - Pole `Kontrahent` > wybieramy pożądanego dostawcę.
 - Pole `Dowód` > wpisujemy tytuł przelewu lub numer faktury.
 - Pole `Wartość` > podajemy kwotę przelewu.
 - Pole `Termin zapłaty` > podajemy dzień, w którym ma zostać zlecony przelew.
 - Klikamy: `Dodaj`.
+
+Przed finalnym eksportem należy poprawić ewentualne niejasności - pozycje które sprawiają problem będą oznaczone kolorem czerwonym, bez tego przycisk `Zatwierdź` będzie nie aktywny.
+
+![Eksport zapłat](eksport-zap01.png)
 
 Gdy w oknie eksportu pozostaną pożądane pozycje, można pobrać plik z zapłatami, należy:
 
@@ -71,7 +98,7 @@ Gdy w oknie eksportu pozostaną pożądane pozycje, można pobrać plik z zapła
     - `Zapisz wszystkie` > TBD
 - Kliknąć: `Zatwierdź`.
 
-Plik należy zapisać na dysku. Następnie trzeba go zaimportować do systemu bankowego.
+Plik należy zapisać na dysku. Następnie trzeba go zaimportować do systemu bankowego. W przypadku eksportu dla wielu zasobów pobierze się archiwum `ZIP`.
 
 ![Eksport zapłat](eksportzaplat2.gif)
 
