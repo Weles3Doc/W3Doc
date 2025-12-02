@@ -41,7 +41,7 @@ Po zdefiniowaniu rachunków (i nr RB kontrahentów) można przejść do eksportu
 Uwagi do pola `Domyślny rachunek do zapłat`:
 
 - `Tak` > ustawiamy tylko przy jednym rachunku bankowym zasobu i tylko przy takim, który ma służyć jako jedyny do opłat za koszty. Zachęcamy ustawienie `Tak` dla zasobów gdzie sytuacja jest jednoznaczna.
-- Jeśli koszty zasobu, są **płacone z więcej niż jednego rachunku bankowego** danego zasobu, to zalecamy ustawienie `Nie` dla wszystkich rachunków bankowych danego zasobu, wtedy:
+- Jeśli koszty zasobu, są **płacone z więcej niż jednego rachunku bankowego** danego zasobu, to zalecamy ustawienie `Nie` dla wszystkich rachunków bankowych tego zasobu, wtedy:
     - Numer rachunku, z którego zostanie zrobiony przelew, będzie sugerowany na podstawie wcześniejszych przelewów (zapłat, po zaimportowaniu ich do Weles3).
 - Jeśli żaden z rachunków zasobu nie będzie miał ustawione `Tak` oraz mamy nowego kontrahenta, dla którego jeszcze nie było zapłat za jego koszty, to w eksporcie system oznaczy takie pozycje na czerwono - bedzie można je ręcznie edytować.
 
