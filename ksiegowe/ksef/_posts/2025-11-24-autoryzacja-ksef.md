@@ -25,7 +25,7 @@ Aby pobrać plik autoryzacyjny, należy przejść do:
 - Zaznaczyć zasób na liście. **Ważne**
 - Kliknąć: `Pobierz plik do autoryzacji`.
 
-Plik należy zapisać na komputerze i przesłać do osoby z odpowiednimi uprawnieniami.
+Plik należy zapisać na komputerze i przesłać do osoby z odpowiednimi uprawnieniami. Pliki autoryzacyjne są jednorazowe oraz trzeba je podpisać i wgrać w ciągu 10 minut.
 
 ![Autoryzacja plikiem](plik-aut01.gif)
 
@@ -70,6 +70,6 @@ Aby zaimportować plik autoryzacyjny podpisany cyfrowo, należy przejść do:
 - Pole: `Podpisany plik` > wybrać plik z dysku.
 - Kliknąć: `Wyślij podpisany plik`.
 
-Jeśli wszystko będzie w porządku, obok autoryzowanego zasobu pojawi się data autoryzacji oraz zakres nadanych uprawnień w polach `Odbiór` i `Wysyłka`. Pliki autoryzacyjne są jednorazowe.
+Jeśli wszystko będzie w porządku, obok autoryzowanego zasobu pojawi się data autoryzacji oraz zakres nadanych uprawnień w polach `Odbiór` i `Wysyłka`.
 
 ![Autoryzacja plikiem](plik-aut03.gif)
