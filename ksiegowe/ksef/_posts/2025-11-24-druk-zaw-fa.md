@@ -4,7 +4,7 @@ title: 1. Formularz ZAW-FA
 
 # Formularz ZAW-FA
 
-W przypadku osób prawnych konieczne jest złożenie formularza ZAW-FA do Urzędu Skarbowego właściwego dla danego podatnika.
+W przypadku osób prawnych konieczne jest złożenie formularza `ZAW-FA` do Urzędu Skarbowego właściwego dla danego podatnika.
 
 [Pobierz najnowszy formularz ZAW-FA](https://www.podatki.gov.pl/vat/formularze-do-druku-vat/)
 

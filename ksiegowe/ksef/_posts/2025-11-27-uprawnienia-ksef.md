@@ -4,7 +4,7 @@ title: 2. Uprawnienia KSeF
 
 # Uprawnienia KSeF
 
-System Weles3 posiada swój własny certyfikat firmowy. Aby móc wysyłać i odbierać faktury przez KSeF w Weles3, osoba uprawniona w MCU musi nadać uprawnienia systemowi Weles3 do dostępu do KSeF danej wspólnoty.
+System Weles3 posiada swój własny certyfikat firmowy do obsługi `KSeF 2.0`. Aby móc wysyłać i odbierać faktury przez KSeF w Weles3, osoba uprawniona w `MCU` musi nadać uprawnienia systemowi Weles3 do dostępu do KSeF danej wspólnoty.
 
 `Moduł Certyfikatów i Uprawnień` jest dostępny pod adresem:
 

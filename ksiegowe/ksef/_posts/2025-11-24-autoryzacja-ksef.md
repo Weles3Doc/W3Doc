@@ -4,7 +4,7 @@ title: 3. Autoryzacja KSeF
 
 # Autoryzacja KSeF
 
-Testowanie integracji `KSeF` można zrobić w bazie testowej `Weles3`. Baza testowa Weles3 łączy się ze środowiskiem przedprodukcyjnym (Demo) KSef. Autoryzacja w bazie głównej Weles3 nie jest możliwa - ministerstwo nie udostępniło wersji produkcyjnej - (będzie od 1 lutego 2026, od tej daty będzie można się autoryzować "Produkcyjnie").
+Testowanie integracji `KSeF 2.0` można zrobić w bazie testowej `Weles3`. Baza testowa Weles3 łączy się ze środowiskiem przedprodukcyjnym (Demo) KSef. Autoryzacja w bazie głównej Weles3 nie jest możliwa - ministerstwo nie udostępniło wersji produkcyjnej - (będzie od 1 lutego 2026, od tej daty będzie można się autoryzować "Produkcyjnie").
 
 Nie muszą mieć Państwo certyfikatów - przesyłanie i odbieranie faktur będzie się odbywało na certyfikacie firmowym firmy Weles. (Weles musi mieć uprawnienia w `MCU`, ale uwaga, jeśli nie ma ich nadanych, to przy wczytywaniu podpisanego pliku autoryzacyjnego nada sobie samodzielnie uprawnienia w kontekście wspólnoty. (o ile osoba podpisująca ma odpowiednie uprawnienia))
 
