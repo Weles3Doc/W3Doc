@@ -8,6 +8,8 @@ Testowanie integracji `KSeF 2.0` można zrobić w bazie testowej `Weles3`. Baza 
 
 Nie muszą mieć Państwo certyfikatów - przesyłanie i odbieranie faktur będzie się odbywało na certyfikacie firmowym firmy Weles. (Weles musi mieć uprawnienia w `MCU`, ale uwaga, jeśli nie ma ich nadanych, to przy wczytywaniu podpisanego pliku autoryzacyjnego nada sobie samodzielnie uprawnienia w kontekście wspólnoty. (o ile osoba podpisująca ma odpowiednie uprawnienia))
 
+**[Opis uprawnień](https://doc.weles3.pl/ksiegowe/ksef/uprawnienia-ksef.html)**
+
 #### Testowanie
 
 Testy KSeF robimy w wersji testowej Weles3.
