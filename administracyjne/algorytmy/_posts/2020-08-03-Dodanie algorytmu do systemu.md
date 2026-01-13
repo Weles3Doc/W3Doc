@@ -24,6 +24,7 @@ Powyższa zasada nie zawsze znajdzie zastosowanie w Państwa bazie danych, prosi
 - Pole `Typ` > dotyczy opłat z VATem:
     - `Podzielona płatności` > oznacza opłaty z tym parametrem jako Podzielone płatności w plikach JPK.
     - `GTU_12` > oznacza opłaty z tym parametrem jako GTU 12 w plikach JPK.
+- Pole `Podstawa zwolnienia` > pole umożliwiające określenie podstawy zwolnienia od podatku (pod JPK i KSeF).
 - Klikamy: `Utwórz`.
 
 W podobny sposób można edytować już istniejący algorytm. Przy edycji sugerujemy nie zmieniać konta przychodów i kosztów oraz stawki VAT, nieumiejętne zmiany mogą mieć poważne konsekwencje. Algorytm dodajemy raz, będzie można go użyć we wszystkich nieruchomościach w bazie.
