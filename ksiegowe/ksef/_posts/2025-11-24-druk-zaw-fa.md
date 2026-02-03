@@ -6,7 +6,7 @@ title: 1. Formularz ZAW-FA
 
 W przypadku osób prawnych konieczne jest złożenie formularza `ZAW-FA` do Urzędu Skarbowego właściwego dla danego podatnika.
 
-[Pobierz najnowszy formularz ZAW-FA](https://www.podatki.gov.pl/media/vbclyq3g/zaw-fa-pdf.pdf)
+[Pobierz najnowszy formularz ZAW-FA](https://www.podatki.gov.pl/media/yroducae/zaw-fa-3.pdf)
 
 Formularz:
 - Składamy dla każdej wspólnoty mieszkaniowej oddzielnie.
