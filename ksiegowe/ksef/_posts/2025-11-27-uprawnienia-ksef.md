@@ -16,7 +16,7 @@ Autoryzacja jest bardzo prosta, wystarczy przekazać plik `xml` osobie wymienion
 
 - [Autoryzacja KSeF](https://doc.weles3.pl/ksiegowe/ksef/autoryzacja-ksef.html)
 
-Jeśli to zadziała, to nie trzeba sie zagłębiać w dalszą treść tej instrukcji.
+**Jeśli to zadziała, to nie trzeba sie zagłębiać w dalszą treść tej instrukcji.**
 
 ---
 
