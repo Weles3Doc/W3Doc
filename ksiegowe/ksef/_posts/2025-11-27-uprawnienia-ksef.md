@@ -38,7 +38,7 @@ W przypadku **braku uprawnień** w `KSeF` na kontekście wspólnoty dla Weles, n
 
 Finalnie, niezależnie od toku postępowania, w `KSeF` na **kontekście wspólnoty**, firmie Weles musi być nadany rodzaj uprawnień `Podmiotowi do wystawienia i przeglądania faktur`, bez `prawem do dalszego przekazywania uprawnienia`. To gwarantuje poprawną autoryzacje KSeF w Weles3 danej wspólnoty, opisaną w instrukcji: Autoryzacja KSeF.
 
-#### Nadawanie uprawnień Weles w MCU
+#### Nadawanie uprawnień Weles
 
 Osoba fizyczna lub firma, po zalogowaniu do [Aplikacja Podatnika KSeF 2.0](https://ap.ksef.mf.gov.pl/web/) na **kontekst (NIP) wspólnoty**, może nadać uprawnienia na Weles sp. z o.o. sp. k. NIP 1231399770.
 
