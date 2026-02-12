@@ -2,7 +2,7 @@
 title: 4. Odbieranie faktur z KSeF
 ---
 
-#### Odbieranie faktur z KSeF
+# Odbieranie faktur z KSeF
 
 Odbieranie faktur z KSeF jest możliwe zaraz po autoryzacji zasobu.
 

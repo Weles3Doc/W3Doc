@@ -2,7 +2,7 @@
 title: 5. Wysyłka faktur do KSeF
 ---
 
-#### Wysyłka faktur do KSeF
+# Wysyłka faktur do KSeF
 
 Wysyłka faktur do `KSeF` odbywa się automatycznie podczas księgowania należności za pomocą:
 
