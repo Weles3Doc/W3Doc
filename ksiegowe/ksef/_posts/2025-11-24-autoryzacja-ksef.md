@@ -4,10 +4,9 @@ title: 3. Autoryzacja KSeF
 
 # Autoryzacja KSeF
 
-Nie muszą mieć Państwo certyfikatów lub tokenów - przesyłanie i odbieranie faktur będzie się odbywało na certyfikacie firmy Weles. Weles musi mieć uprawnienia w `KSeF`, ale uwaga, jeśli nie ma ich nadanych, to przy wczytywaniu podpisanego pliku autoryzacyjnego nada sobie samodzielnie uprawnienia w kontekście wspólnoty, o ile osoba podpisująca ma odpowiednie uprawnienia.
+Nie muszą mieć Państwo certyfikatów lub tokenów - przesyłanie i odbieranie faktur będzie się odbywało na certyfikacie firmy Weles. Weles musi mieć uprawnienia w `KSeF`, ale uwaga, jeśli nie ma ich nadanych, to przy wczytywaniu podpisanego pliku autoryzacyjnego, nada sobie samodzielnie uprawnienia w kontekście wspólnoty, o ile osoba podpisująca ma odpowiednie uprawnienia.
 
 **[Opis uprawnień](https://doc.weles3.pl/ksiegowe/ksef/uprawnienia-ksef.html)**
-
 
 
 #### Pobranie pliku
@@ -27,13 +26,13 @@ Plik należy zapisać na komputerze i przesłać do osoby z odpowiednimi uprawni
 Po przygotowaniu pliku XML. Należy go podpisać cyfrowo. Plik należy przesłać do jednej z osób:
 
 - Osobie podanej w formularzu `ZAW-FA` w sekcji C. (Najłatwiejszy sposób)
-- Osobie wpisanej jako `Administrator` w `MCU`.
-- Osobie/firmie, która ma odpowiednie uprawnienia w `MCU`, Są to:
+- Osobie wpisanej jako `Administrator` w `KSeF` wspólnoty.
+- Osobie/firmie, która ma odpowiednie uprawnienia w `KSeF` wspólnoty, są to:
     - `Podmiotowi do wystawienia i przeglądania faktur`.
     - `Wystawiania faktur` i `z prawem do dalszego przekazywania uprawnienia`.
     - `Przeglądania faktur` i `z prawem do dalszego przekazywania uprawnienia`.
 
-Osoba lub firma do podpisania pliku xml możne wykorzystać:
+Osoba lub firma do podpisania pliku xml możne wykorzystać stronę rządową:
 
 [https://podpis.gov.pl/podpisz-dokument-elektronicznie/](https://podpis.gov.pl/podpisz-dokument-elektronicznie/) (**Działa tylko dla osób fizycznych**)
 
@@ -43,12 +42,11 @@ Plik można podpisać za pomocą jednego ze sposobów:
 - `Certyfikat kwalifikowany organizacji (tzw. pieczęć firmowa)` - dla firm, zawierający numer NIP.
 - `Certyfikat KSeF` > wystawiany przez system KSeF. Certyfikat ten nie jest certyfikatem kwalifikowanym, ale jest honorowany w procesie uwierzytelniania. Certyfikat KSeF jest wyłącznie wykorzystywany na potrzeby systemu KSeF.
 
-Ważne aby podczas podpisywania cyfrowo wybrać metodę: `XAdES otoczony`.
-Przykład:
+Do podpisania pliku można użyć innych programów/dostawców podpisów cyfrowych, ważne aby podczas podpisywania wybrać metodę: `XAdES otoczony`. Przykład:
 
 ![Xades otoczony](xades-otoczony.png)
 
-Po podpisaniu osoba podpisująca przekazuje plik do użytkownika Weles3 w celu importu do systemu. Plik powinien mieć rozszerzenie `xml`. Przykład nazwy:
+Po podpisaniu, osoba podpisująca przekazuje plik do użytkownika Weles3 w celu importu do systemu. Plik powinien mieć rozszerzenie `xml`. Przykład nazwy:
 
 - signed_PlikDoAutoryzacji_WIATRACZNA 1.**xml**
 
