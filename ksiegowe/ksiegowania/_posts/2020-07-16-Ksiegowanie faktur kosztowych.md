@@ -22,6 +22,7 @@ Następnie przechodzimy do wprowadzania pozycji:
 - Pole `Konto Wn` > zazwyczaj wskazujemy konto kosztowe 400-.....
 - Pole `Konto Ma` > zazwyczaj wskazujemy konto kontrahenta 202-.....
 - Pole `Dowód` > pisujemy numer faktury.
+- Pole `Numer KSeF` > wpisujemy numer identyfikujący fakturę w Krajowym Systemie e-Faktur.
 - Pole `Treść` > opisujemy pozycję.
 - Pole `Wartość` > podajemy kwotę brutto z dokumentu.
 - Pole `St. VAT` > pomijamy, pozostawiamy bez zmian.
