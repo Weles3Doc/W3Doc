@@ -1,8 +1,18 @@
 ---
-title: 5. Wysyłka faktur do KSeF
+title: 6. Wysyłka faktur do KSeF
 ---
 
 # Wysyłka faktur do KSeF
+
+#### Ustawienie stawek
+
+- Zakładka `Administracja` > menu `Zasoby` > `Edytuj stawki`.
+
+#### Sprawdzenie naliczeń
+
+- Zakładka `Administracja` > przycisk `Naliczenia`.
+
+#### Wysyłka do KSeF
 
 Wysyłka faktur do `KSeF` odbywa się automatycznie podczas księgowania należności za pomocą:
 
