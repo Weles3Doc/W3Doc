@@ -92,7 +92,7 @@ Po wejściu do zakładki wybieramy dekret `NAL`. W kolumnie z numerem faktury po
 
 ![Dekret z KSeF](dekrety-nal-ksef01.png)
 
-Wizualizacje wystawionych faktur KSeFowych można sprawdzić w:
+Wizualizacje wystawionych faktur `KSeF` sprzedażowych można sprawdzić w:
 
 - Zakładka `Zasoby` > memu `Funkcje` > `Integracja KSeF`.
 - Zakładka `Faktury`.
@@ -105,3 +105,13 @@ System pobiera `Urzędowe poświadczenie odbioru dokumentu elektronicznego KSeF`
 - Zakładka `UPO`.
 
 ![Urzędowe poświadczenie odbioru dokumentu elektronicznego KSeF](ksef-upo01.png)
+
+Wizualizacje faktury `KSeF` można też sprawdzić w formie klasycznej, za pomocą:
+
+- Menu `Funkcje` > `Wydruki` > zakładka `Dokumenty`.
+
+Na fakturze wystawianej w trybie online, znajdzie się jeden kod QR - zapewniający dostęp do faktury i weryfikację danych na niej zawartych – z oznaczeniem numeru KSeF faktury.
+
+Na fakturze wystawianej w trybie offline - niedostępność KSeF lub offline24 oraz na fakturze wystawionej w trybie awaryjnym udostępnianej nabywcy w sposób inny niż przy użyciu KSeF znajdą się dwa kody. Pierwszy z napisem „OFFLINE”, drugi z napisem „CERTYFIKAT”.
+
+![Wydruk w PDF faktur z KSeF](ksef-wydruk-fv01.png)
