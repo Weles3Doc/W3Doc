@@ -10,13 +10,17 @@ Gdy dokumenty są już umieszczone na dysku Google, można przejść do wprowadz
 
 Dokumenty wprowadzamy w zakładce `Księgowanie`.
 
-W tej zakładce mamy następujące opcje:
+WZaraz po przejściu do okna możemy:
 
-- Pole `Typ podglądu` > odpowiada za podgląd pliku w prawej części okna:
+- Pole `Konto` > domyślnie jest podpowiadany system `KSeF` można go przełączyć na połączone konto `Google Drive`.
+- Pole `Typ podglądu` > tylko dla `Google Drive`, odpowiada za podgląd pliku w prawej części okna:
     - `Bezpośredni` > podgląd pliku pochodzi bezpośrednio z dysku Google.
-    - `Pośredni` > podgląd pliku pochodzi z serwerów Weles 3, wybieramy tą opcję gdy nie mamy dostępu lub nie jesteśmy zalogowani w przeglądarce do konta Google na którym znajdują się pliki do zaksięgowania.
-- Pole `Konto` > wybieramy konto Google z którego będziemy księgować pliki.
-- Przycisk `Odśwież` > klikamy wtedy gdy chcemy odświeżyć listę plików do zaksięgowania.
+    - `Pośredni` > podgląd pliku pochodzi z serwerów Weles 3, wybieramy tą opcję gdy nie mamy dostępu lub nie jesteśmy zalogowani w przeglądarce do konta Google na którym znajdują się pliki.
+- Przycisk `Odśwież` > klikamy gdy chcemy odświeżyć listę plików do zaksięgowania.
+- Pole `Zasób` > pozwala na odfiltrowanie faktur dla jednego zasobu.
+- Pole `Faktury` > pozwala na filtrowanie plików pod względem statusu.
+- Pole `Przypisanie` > pozwala na filtrowanie plików pod względem przypisanej osoby.
+- Przycisk `Następne` i `Poprzednie` > gdy plików/faktur jest bardzo dużo pozwala na przełączanie pomiędzy widocznymi pozycjami na liście.
 
 #### Księgowanie dokumentu — Krok 1
 
