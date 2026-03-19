@@ -24,7 +24,7 @@ Link: [https://ksef.podatki.gov.pl/informacje-ogolne-ksef-20/tryby-szczegolne-wy
 
 Plik: [Tryby wystawiania - tabela](tabela-tryby-wystawiania-faktur-24022026.pdf)
 
-#### Latania KSeF
+#### Latarnia KSeF
 
 Latarnia KSeF to system informowania o awariach i planowanych niedostępnościach Krajowego Systemu e-Faktur, uruchomiony przez Ministerstwo Finansów. Dostarcza publiczne API oraz komunikaty o statusie działania KSeF.
 
