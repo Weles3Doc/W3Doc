@@ -4,7 +4,7 @@ title: Wcześniejsze rozliczenie liczników
 
 # Wcześniejsze rozliczenie liczników
 
-Zdarza się, że podczas wykupu lokalu, właściciel chce otrzymać rozliczenie od razu, zamiast czekać na rozliczenie wszystkich właścicieli z końcem danego okresu. W takim wypadku wykup przeprowadzamy normalnie, a licznikom w lokalu dodajemy odczyty na dzień wykupu ze specjalną opcją. Instrukcja nie dotyczy tylko rozliczenia przy zamianach właścicieli, za pomocą tej procedury można też rozliczyć właściciela na jego żądanie lub też całą wspólnotę z inną datą niż koniec miesiąca. Przed rozpoczęciem rozliczenia uprawnij się, że jest ustawiony termin rozliczenia w:
+Zdarza się, że podczas wykupu lokalu, właściciel chce otrzymać rozliczenie od razu, zamiast czekać na rozliczenie wszystkich właścicieli z końcem danego okresu. W takim wypadku wykup przeprowadzamy normalnie, a licznikom w lokalu dodajemy odczyty na dzień wykupu ze specjalną opcją. Instrukcja nie dotyczy tylko rozliczenia przy zamianach właścicieli, za pomocą tej procedury można też rozliczyć właściciela na jego żądanie lub też całą wspólnotę z inną datą niż koniec miesiąca. Przed rozpoczęciem rozliczenia upewnij się, że jest ustawiony termin rozliczenia w:
 
 - Menu `Elementy` > `Terminy rozliczeń liczników`.
 
