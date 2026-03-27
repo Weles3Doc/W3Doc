@@ -6,6 +6,14 @@ title: 5. Zmiany pod KSeF
 
 W tej instrukcji opiszemy Państwu funkcje powiązane z wystawianiem faktur do KSeF, które należy wykonać przed pierwszym zaksięgowaniem obciążeń, a tym samym wysłaniem potencjalnych faktur do KSeF.
 
+#### Dane podatkowe
+
+Dla każdego zasobu należy uzupełnić `Dane podatkowe` - będą one używane jako dane sprzedawcy na fakturach `KSeF`.
+
+- Zakładka `Zasoby` > menu `Funkcje` > `Podatki` > zakładka `Dane podatkowe`.
+
+Zmianę danych opisuje instrukcja: **[Dane podatkowe](https://doc.weles3.pl/ksiegowe/eksportplikowpodatkowych/Dane-podatkowe.html)**.
+
 #### Edycja zasobów
 
 W oknie:
@@ -38,14 +46,6 @@ Można też zmienić nazwę dokumentu `Rachunek` z powrotem na `Rachunek` lub `N
 Prosimy pamiętać, że zmiana zachodzi z momentem kliknięcia `Zatwierdź` - każde ksiegowanie po tym, będzie już z nowym nazewnictwem, trzeba dobrze zaplanować moment zmiany.
 
 ![Nazwy dokumentów](ksef-nazwy-doku01.png)
-
-#### Dane podatkowe
-
-Dla każdego zasobu należy uzupełnić `Dane podatkowe` - będą one używane jako dane sprzedawcy na fakturach `KSeF`.
-
-- Zakładka `Zasoby` > menu `Funkcje` > `Podatki` > zakładka `Dane podatkowe`.
-
-Zmianę danych opisuje instrukcja: **[Dane podatkowe](https://doc.weles3.pl/ksiegowe/eksportplikowpodatkowych/Dane-podatkowe.html)**.
 
 #### Dane odbiorców
 
