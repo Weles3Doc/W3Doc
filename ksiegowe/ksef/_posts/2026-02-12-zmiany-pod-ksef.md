@@ -59,6 +59,9 @@ Należy dopilnować poprawności uzupełnienia danych odbiorców, którzy będą
 - Pole `Nazwa` > uzupełniamy nazwą odbiorcy (nabywcy), 
 - Pole `Adres` > uzupełniamy pełnym adresem odbiorcy (nabywcy) (nazwa, imiona i nazwiska; ulica/numer domu; kod pocztowy i miejscowość). Poprawa adresu na wystawionych już dokumentach nie będzie możliwa, zmiana jest możliwa tylko od przyszłych > pole `Sprawdzaj strukturę` > `Nie aktualizuj adresów w zaksięgowanych fakturach, Nie sprawdzaj struktury`.
 - Pole `Informacje do wydruku` > w tym polu można dodać informacje, które dołączą się na fakturze KSeFowej jako informacje dodatkowe, można tutaj na przykład zawrzeć numery umów lub inne informacje, których odbiorca domaga się umieszczenia na fakturze.
+    - Każda nowa linia w polu, to nowy wiersz w sekcji `Dodatkowy opis`.
+    - Do opisu są brane tylko pierwsze 256 znaków z danej lini.
+    - Puste linie są ignorowane.
 - Pole `KSeF adres` > uzupełniamy tylko wtedy, gdy adres na fakturach KSeFowych ma być inny niż w polu `Adres`.
 - Pole `KSeF kod kraju` > podajemy dwuliterowy kod kraju odbiorcy (np. DE, EN). Dla polskich NIPów pozostawiamy puste pole.
 - Pole `Rola podmiotu trzeciego` > stosujemy w przypadku wystawiania faktur jednocześnie na nabywcę i odbiorcę:
