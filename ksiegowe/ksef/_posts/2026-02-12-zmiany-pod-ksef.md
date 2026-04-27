@@ -64,6 +64,7 @@ Należy dopilnować poprawności uzupełnienia danych odbiorców, którzy będą
     - Puste linie są ignorowane.
 - Pole `KSeF adres` > uzupełniamy tylko wtedy, gdy adres na fakturach KSeFowych ma być inny niż w polu `Adres`.
 - Pole `KSeF kod kraju` > podajemy dwuliterowy kod kraju odbiorcy (np. DE, EN). Dla polskich NIPów pozostawiamy puste pole.
+- Pole `KSeF Warunki transakcji > Nr Umowy` > podajemy numer umowy powiązany z wystawianą fakturą lub pozostawiamy pole puste.
 - Pole `Rola podmiotu trzeciego` > stosujemy w przypadku wystawiania faktur jednocześnie na nabywcę i odbiorcę:
     - `Brak` > brak innego odbiorcy.
     - `Rola 8 - JST odbiorca` > wybieramy w przypadku jednostek samorządu terytorialnego (`JST`). W przypadkach gdy nabywcą jest Miasto/Gmina, a odbiorcą jednostka podległa obsługująca zasoby miasta/gminy. Przykład: nabywcą jest `Miasto Stołeczne Warszawa`, a odbiorcami są `Zakłady Gospodarowania Nieruchomościami` w poszczególnych dzielnicach.
