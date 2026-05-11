@@ -6,7 +6,7 @@ title: Łączenie rozrachunków
 
 Za pomocą opisywanej funkcji systemu można przypisać wpłatę do obciążenia. Pozwala ona też na przypisanie części wpłaty do części obciążenia. Łączenie rozrachunków jest bardzo pomocne w sprawach windykacyjnych/sądowych/komorniczych. Pozwala na stworzenie raportu, w którym wykazana jest wpłata, sparowane z nią obciążenia oraz ewentualne kwota nierozliczonego jeszcze obciążenia/wpłaty. Aby skorzystać z funkcji, należy przejść do:
 
-- Zakładka `Konta FK` > menu `Funkcje` > `Łączenie rozrachunków`.
+- Zakładka `Konta FK` > menu `Funkcje` > `Złącz rozrachunki`.
 - Pole `Konto` > wskazujemy konto, np. dłużnika.
 - Pole `Uznanie` > w tym polu zostaną wyświetlone uznania, wpłaty lub zwroty. W ostatniej kolumnie tego pola zostanie podana kwota uznania oraz kwota, jaka pozostała nierozliczona z danej wpłaty, tj. niesparowana z obciążeniem.
 - Pole `Obciążenie` > w tym polu zostaną wyświetlone obciążenia dłużnika. W ostatniej kolumnie tego pola zostanie podana kwota obciążenia oraz kwota, jaka pozostała nierozliczona z danego obciążenia, tj. niesparowana z wpłatą.
