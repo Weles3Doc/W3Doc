@@ -68,8 +68,8 @@ Na ekranie pojawi się pop-up, w którym:
     - `Nie` > wpłaty są zaliczane na najstarsze faktury i do zapłaty pokazują się najnowsze faktury kosztowe.
     - `Tak` > system uwzględnia `Łączenie rozrachunków` i dopiero pozostałe pozycje (obciążenia/wpłaty) zapisuje na najstarsze.
 - Pole `Wcześniej wyeksportowane` > decydujemy czy system:
-    - `Nie uwzględniaj` > pominie pozycje które były już wcześniej wyeksportowane.
-    - `Uwzględniaj` > uwzględni/pobierze pozycje które były już wcześniej wyeksportowane. 
+    - `Nie uwzględniaj` > uwzględni pozycje, które były już wcześniej wyeksportowane (wyeksportuje je jeszcze raz).
+    - `Uwzględniaj` > pominie pozycje, które były już wcześniej wyeksportowane . 
 - Klikamy: `Pobierz nieopłacone`.
 
 W głównym oknie pojawi się nam lista pozycji zapłat za poszczególne faktury kosztowe do eksportu. Sprawdzamy ją dokładnie.
