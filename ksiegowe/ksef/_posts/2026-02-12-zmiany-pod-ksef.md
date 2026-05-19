@@ -24,7 +24,8 @@ Krytyczną rolę odgrywa tutaj pole `NIP` zasobu - prosimy sprawdzić lub uzupe�
 
 Dodaliśmy dwie istotnie zmiany definiujące wysyłkę faktur do kSeF:
 
-- Pole `Opcje` > `Wyłączony KSeF` > zaznaczenie tej opcji powoduje wyłączenie wysyłki `Faktur VAT` do `KSeF`. Wyłączenie obostrzeń związanych z księgowaniem naliczeń w systemie powiązanych z `KSeF`. Nadal będzie można odbierać faktury kosztowe z KSeF.
+- Pole `Opcje` > `Wyłączenie wysyłki do KSeF` > zaznaczenie tej opcji powoduje wyłączenie wysyłki `Faktur VAT` do `KSeF`. Wyłączenie obostrzeń związanych z księgowaniem naliczeń w systemie powiązanych z `KSeF`. Nadal będzie można odbierać faktury kosztowe z KSeF.
+- Pole `Opcje` > `Wyłączenie odbioru KSeF` > wyłączenie pokazywania faktur kosztowych w systemie dla danego zasobu.
 - Pole `Miesiąc rozpoczęcia wysyłek do KSeF` > definiuje miesiąc od którego rozpocznie się wysyłka potencjalnych `Faktur VAT` do `KSeF`. Domyślnie jest od `2026-04`, można ją przesunąć maksymalnie do `2027-01`. Jeśli w KSeF znajdują się faktury elektroniczne sprzedażowe, to system `Weles 3` będzie wymuszał wysyłkę faktur do KSeF, niezależnie jaki miesiąc w tym polu ustawimy.
 
 ![Edytuj zasoby](ksef-edytuj-zasoby01.png)
