@@ -45,6 +45,7 @@ Opis tabelek:
   - `DATA` > data wymiany licznika **musi być taka sama** jak w tabelce zamykającej licznik.
   - `WAR` > odczyt początkowy.
   - `NEW` > dodajemy ją jako ostatnią, odpowiada za dodanie licznika, w jej komórkach wpisujemy 1.
+  - `LEG` > (opcjonalnie) dodajemy kolumnę w której umieszczamy datę następnej legalizacji liczników.
 
 - Tabelka przenosząca prognozy na nowe liczniki:
   - `MIE` > numer lokalu.
