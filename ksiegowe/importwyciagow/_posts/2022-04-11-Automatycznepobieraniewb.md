@@ -44,9 +44,11 @@ Usługa jest współrealizowana z naszym partnerem, firmą [Easy Check Sp. z o.o
 
 ***
 
-**Uwaga** — banki PKO BP oraz Millennium wymagają podjęcia dodatkowych kroków w celu autoryzacji dostępu. Należy je wykonać przed rozpoczęciem autoryzacji. Poniżej zamieszczamy instrukcje:
+**Uwaga** — banki PKO BP, Velo oraz Millennium wymagają podjęcia dodatkowych kroków w celu autoryzacji dostępu. Należy je wykonać przed rozpoczęciem autoryzacji. Poniżej zamieszczamy instrukcje:
+
 - [Bank PKO BP](Instr_w_banku_PKO_BP.pdf) 
 - [Bank Millennium](Instr_w_banku_Millennium.pdf)
+- [VeloBank](Instr_w_banku_velo.pdf)
 
 ***
 
