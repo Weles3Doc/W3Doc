@@ -48,7 +48,7 @@ Usługa jest współrealizowana z naszym partnerem, firmą [Easy Check Sp. z o.o
 
 - [Bank PKO BP](Instr_w_banku_PKO_BP.pdf) 
 - [Bank Millennium](Instr_w_banku_Millennium.pdf)
-- [VeloBank](Instr_w_banku_velo.pdf)
+- [VeloBank](instr_w_banku_velo.pdf)
 
 ***
 
