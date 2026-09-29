@@ -63,6 +63,7 @@ Należy dopilnować poprawności uzupełnienia danych odbiorców, którzy będą
     - Każda nowa linia w polu, to nowy wiersz w sekcji `Dodatkowy opis`.
     - Do opisu są brane tylko pierwsze 256 znaków z danej lini.
     - Puste linie są ignorowane.
+- Pole `KSeF nazwa` > uzupełniamy tylko wtedy, gdy nazwa odbiorcy na fakturach KSeFowych ma być inny niż w polu `Nazwa`.
 - Pole `KSeF adres` > uzupełniamy tylko wtedy, gdy adres na fakturach KSeFowych ma być inny niż w polu `Adres`.
 - Pole `KSeF kod kraju` > podajemy dwuliterowy kod kraju odbiorcy (np. DE, EN). Dla polskich NIPów pozostawiamy puste pole.
 - Pole `KSeF Warunki transakcji > Nr Umowy` > podajemy numer umowy powiązany z wystawianą fakturą lub pozostawiamy pole puste.
