@@ -15,6 +15,8 @@ Aby zablokować użytkownikowi dostęp do systemu Weles 3, należy nadać osobie
 - Pole `Uprawnienia` > **odznaczamy wszystkie uprawnienia (WAŻNE!).**
 - Klikamy: `Zapisz`.
 
+Długie, losowe hasło powinno mieć ponad 20 znaków. Można je wpisać z klawiatury, naciskając losowe klawisze lub skorzystać z zewnętrznych generatorów haseł. Do odznaczenia wszystkich uprawnień można wykorzystać skrót klawiszowy `-`. Do zaznaczenia wszystkich zasobów można wykorzystać skrót klawiszowy `+`.
+
 ![Blokowanie użytkownika](blockuser1.gif)
 
 Nie zamykamy okna, trzeba jeszcze odebrać uprawnienia do budynków.
@@ -29,9 +31,12 @@ Nie zamykamy okna, trzeba jeszcze odebrać uprawnienia do budynków.
 
 ![Blokowanie uprawnień](blockuser2.gif)
 
-### Uwagi:
+Nie zamykamy okna, definitywnie blokujemy użytkownika naciskając:
 
-- Długie, losowe hasło powinno mieć ponad 20 znaków. Można je wpisać z klawiatury, naciskając losowe klawisze lub skorzystać z zewnętrznych generatorów haseł.
-- Po odebraniu uprawnień mogą Państwo napisać wiadomość do działu wsparcia z prośbą o oznaczenie użytkownika jako zablokowanego.
-- Do odznaczenia wszystkich uprawnień można wykorzystać skrót klawiszowy `-`.
-- Do zaznaczenia wszystkich zasobów można wykorzystać skrót klawiszowy `+`.
+- Zakładka `Administratorzy`.
+- Z listy administratorów wybieramy żądaną osobę.
+- Kliknąć: `Blokada dostępu`.
+
+Zablokowany użytkownik zmieni ikonkę oraz nazwę, zostanie przeniesiony na koniec listy. Dostęp zablokowanemu użytkownikowi można przywrócić, zaznaczając go, następnie klikając `Edycja`, przywracając mu nazwę, hasło i uprawnienia.
+
+![Blokowanie uprawnień](blockuser3.png)
