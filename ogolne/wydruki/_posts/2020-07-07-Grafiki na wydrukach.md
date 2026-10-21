@@ -4,21 +4,16 @@ title: Grafiki na wydrukach
 
 # Grafiki na wydrukach
 
-Program pozwana na umieszczenie plików graficznych na systemowych wydrukach. Dzięki temu wydrukom można nadać profesjonalny wygląd — dodając nagłówek lub dodać skan pieczątki, lub podpisu na końcu dokumentu. Wszystko zaczyna się od stworzenia grafiki/skanu do umieszczenia w programie. W przypadku:
+Program pozwana na umieszczenie plików graficznych na systemowych wydrukach. Dzięki temu wydrukom można nadać profesjonalny wygląd — dodając nagłówek lub dodać skan pieczątki, lub podpisu na końcu dokumentu. Wszystko zaczyna się od stworzenia grafiki/skanu do umieszczenia w programie.
 
-- Nagłówka strony zalecamy rozmiar grafiki 2244 × 300 oraz ustawienie DPI na 300, co w konsekwencji da obraz rozmiaru 19,00 cm x 2,54 cm. Nagłówek dokumentu tworzymy w zewnętrznym programie. Przykład:
+W przypadku nagłówka strony zalecamy rozmiar grafiki `2244 × 300` oraz ustawienie DPI na `300`, co w konsekwencji da obraz rozmiaru 19,00 cm x 2,54 cm. Nagłówek dokumentu tworzymy w zewnętrznym programie. Przykład:
 
 ![Przykład nagłówka](przykladnaglowka.png)
 
-- Skan pieczątki/podpisu — tutaj rozmiar grafiki i DPI zależy od fizycznego rozmiaru pieczątki i opcji skanowania. Schemat postępowania jest tutaj następujący:
+W przypadku skanu pieczątki/podpisu — tutaj rozmiar grafiki i DPI zależy od fizycznego rozmiaru pieczątki i opcji skanowania. Schemat postępowania jest tutaj następujący:
+
 - Podczas skanowania, w opcjach ustawiamy obszar skanowania jak najbardziej dopasowany do rozmiaru pieczątki/podpisu.
 - Importujemy plik do systemu, DPI ustawiamy takie same jak użyte podczas skanowania.
-
-#### Skanowanie
-
-Proces skanowania przedstawiamy poniżej. Prosimy zapamiętać DPI skanowanych obrazków.
-
-![Skanowanie podpisu](skanowanie.gif)
 
 #### Dodanie obrazu do systemu
 
@@ -26,59 +21,70 @@ Po stworzeniu lub zeskanowaniu obrazu trzeba dodać go do systemu. Aby zaimporto
 
 - Menu `Funkcje` > `Wydruki`.
 - Menu `Funkcje` > `Obrazy dla wydruków`.
-- Zakładka `Dodawanie`.
+- Klikamy: `Utwórz`.
 - Pole `Plik` > wybieramy plik z dysku komputera.
-- Pole `DPI` > wpisujemy pożądane DPI.
-- Pole `Opis` > wpisujemy opis pliku.
-- Wpisujemy `Hasło`.
-- Klikamy: `Zatwierdź`.
+- Pole `Nazwa` > wpisujemy opis pliku.
+- Pole `DPI` > wpisujemy pożądane DPI (np. 300).
+- Pole `Użyj jako nagłowka` > `Tak` / `Nie` > decydujemy, czy obraz ma być nagłowkiem.
+- Pole `Nagłówek dla` > wyświetli się tylko wtedy, gdy w poprzednim polu wybraliśmy `Tak`.
+    - `Weles 3 FK` > wybieramy tę pozycję jeśli chcemy, aby dodawany plik był nagłowkiem dla wszystkich zasobów.
+    - Jeśli dodawany plik jest indywidualny, wybieramy konkretny zasób z listy.
+- Klikamy: `Utwórz`.
 
-Okno zamknie się, wczytana grafika jest od razu możliwa do użycia na wydrukach.
+Okno zamknie się, wczytana grafika jest od razu możliwa do użycia na wydrukach. W podobny sposób edytujemy ustawienia pliku graficznego, z tą różnicą że po wybraniu pliku, naciskamy `Edytuj`.
 
 ![Dodanie grafiki](dodanieobrazka.gif)
 
-#### Edycja obrazów
+#### Użycie nagłówka na wydrukach
 
-Jeśli importowaliśmy plik, który ma być użyty jako nagłówek, to trzeba ustawić ten parametr w systemie. Aby to zrobić, należy przejść do:
+Jeśli importowaliśmy plik, który ma być użyty jako nagłówek, to od razu będzie on używany przez system przy tworzeniu wydruków. Ustawienia dotyczące nagłówka znajdują się w:
 
 - Menu `Funkcje` > `Wydruki`.
-- Menu `Funkcje` > `Obrazy dla wydruków`.
-- Zakładka `Edycja`.
-- Pole `Obraz` > wybieramy plik z listy.
-- Pole `Nazwa` > pozostawiamy bez zmian lub ew. zmieniamy na inne.
-- Pole `DPI` > pozostawiamy bez zmian lub ew. zmieniamy na inne.
-- Pole `Użyj jako nagłówka` > wybieramy `Użyj`.
-- Pole `Nagłówek dla` > ustawiamy `Weles 3 FK`, jeśli ma być dostępny w każdym budynku.
-- Wpisujemy `Hasło`.
-- Klikamy: `Zatwierdź`.
 
-Od tego momentu można używać nagłówka na wydrukach. Powyższe czynności na ogół wykonujemy tylko raz.
+W każdej zakładce znajduje się pole `Użyj nagłówka`.
 
-![Ustawienie nagłówka](ustawienienaglowka.gif)
+![Ustawienie nagłówka](uzyjnaglowka.png)
+
+Można tutaj ustawić:
+
+- `Użyj i skaluj` > domyślny wybór, zazwyczaj nie trzeba zmieniać, nagłówek zostanie pokazany na wydruku, jego szerokość zostanie dostosowana do marginesów bocznych strony.
+- `Użyj` > nagłowek zostanie użyty, jego rozmiar będzie determinowany przez ustawione DPI podczas dodawania pliku.
+- `Nie używaj` > wyłącza pokazywanie nagłówka.
 
 #### Użycie obrazów na wydrukach
 
-Aby użyć dodanej grafiki na wydrukach, należy przejść do:
+Aby użyć grafiki na wydrukach, należy przejść do:
 
 - Menu `Funkcje` > `Wydruki`.
-- Pole `Użyj nagłówka` > można ustawić drukowanie się nagłówka strony.
-- Skomponować wydruk.
-- Za dodanie skanu pieczątki lub podpisu, lub innej grafiki, odpowiada wydruk: `Obraz`.
-- Pole `Obraz` > ustawiamy odpowiedni plik.
+
+Następnie należy skomponować wydruk z listy elementów dostępnych w środkowej części okna. W dowolnym momencie należy dodać element `Obraz`, a w opcjach ustawić:
+
+- Pole `Obraz` > wybieramy:
+    - `Obraz pobrany z dysku` > grafikę można dodać prosto z dysku komputera. Jeśli to wybierzemy, dodajemy plik w polu `Plik z dysku`.
+    - Jako kolejne pozycje w tym polu będą wyświetlane wcześniej dodane pliki graficzne do systemu, wybieramy jeden z nich.
 - Pole `Pozycja` > ustawiamy odległość, to pole jest zależne od pola `Justowanie`.
-- Pole `DPI` > ustawiamy DPI.
+- Pole `DPI` > ustawiamy DPI. Wpisując wartość możemy dostosować wielkość obrazka. Typowy zakres od 100 do 600 DPI. Pozostawiając te pole puste, zostanie użyte domyślne DPI określone przy dodawaniu pliku.
 - Pole `Justowanie` > ustawiamy justowanie.
+
+Na koniec sprawdzamy wygląd wydruku w PDF:
+
 - Klikamy: `Podgląd wydruku`.
 
-Aby nie powtarzać za każdym razem tych czynności, sugerujemy skorzystać ze Schematów wydruków.
+Zachęcamy do samodzielnego przetestowania różnych ustawień w elemencie `Obraz`.
 
 ![Użycie grafiki](uzyciegrafiki.gif)
 
 #### Przykładowy wydruk
 
-Poniżej przedstawiamy przykładowy wydruk z użytym nagłówkiem strony oraz skanem podpisu.
+Poniżej przedstawiamy przykładowy wydruk z użytym nagłówkiem strony oraz stopką graficzną.
 
 ![Użycie grafiki](przykladgrafikipdf.png)
+
+#### Skanowanie
+
+Proces skanowania przedstawiamy poniżej. Prosimy zapamiętać DPI skanowanych obrazków.
+
+![Skanowanie podpisu](skanowanie.gif)
 
 #### Uwagi:
 
